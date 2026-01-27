@@ -1,0 +1,335 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-27T11:29:12.084Z",
+  "template": {
+    "title": "instalar forro de gesso",
+    "description": "instalar forro de gesso na sala de estar e jantar, para instalar iluminação com pintura de parede e teto",
+    "language_code": "pt-BR",
+    "property_type": "casa_terrea",
+    "status": "ready"
+  },
+  "project": {
+    "name": "instalar forro de gesso",
+    "total_area": 30
+  },
+  "spaces": [
+    {
+      "space_id": "11f57bde-ff0e-415c-93cb-d71af5db0dfc",
+      "_name": "sala de jantar",
+      "area": 15,
+      "height": 2.7,
+      "services": [
+        {
+          "service_id": "forro_gesso",
+          "_name": "forro de gesso",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "forro_gesso",
+              "_name": "forro de gesso",
+              "base_qtd": 1,
+              "base_unit": "m",
+              "materials": [
+                {
+                  "material_id": "532947fe-0c4d-48bc-b5f7-c4d369806386",
+                  "_name": "forro de gesso"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "montador_dry-wall",
+              "_name": "montador",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": []
+            }
+          ]
+        },
+        {
+          "service_id": "ponto_luz_forro",
+          "_name": "ponto de luz no forro",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "cabo_eletrico",
+              "_name": "cabo eletrico",
+              "base_qtd": 1,
+              "base_unit": "m",
+              "materials": [
+                {
+                  "material_id": "1492653f-e573-4e15-8b01-980b9c34f6ad",
+                  "_name": "cabo_eletrico_2.5"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "eletricista",
+              "_name": "eletricista",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "f4d3532b-9f93-4367-b5a6-0fd3726781f0",
+                  "_name": "eletricista"
+                },
+                {
+                  "labor_id": "943fe5a9-0b31-4f77-a5de-eb4d5448842c",
+                  "_name": "eletricista"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura_teto_branco",
+          "_name": "pintura teto branco",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta-latex-branca",
+              "_name": "tinta latex branca",
+              "base_qtd": 0.4,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "42d12444-758d-4842-9458-3af05c8515cb",
+                  "_name": "tinta-latex-branca"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura-parede",
+          "_name": "pintura de parede",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta-latex-branca",
+              "_name": "tinta latex branca",
+              "base_qtd": 0.3,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "42d12444-758d-4842-9458-3af05c8515cb",
+                  "_name": "tinta-latex-branca"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "limpeza_obra",
+          "_name": "limpeza da obra",
+          "quantity": 1,
+          "material_categories": [],
+          "labor_categories": [
+            {
+              "labor_category_id": "servente",
+              "_name": "servente",
+              "base_qtd": 2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "a27fcd0c-493b-4d40-a26b-2055c57df710",
+                  "_name": "servente"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "space_id": "c3f4ab0e-df16-4386-8923-ccb7d1747b74",
+      "_name": "sala de estar",
+      "area": 15,
+      "height": 2.7,
+      "services": [
+        {
+          "service_id": "forro_gesso",
+          "_name": "forro de gesso",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "forro_gesso",
+              "_name": "forro de gesso",
+              "base_qtd": 1,
+              "base_unit": "m",
+              "materials": [
+                {
+                  "material_id": "532947fe-0c4d-48bc-b5f7-c4d369806386",
+                  "_name": "forro de gesso"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "montador_dry-wall",
+              "_name": "montador",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": []
+            }
+          ]
+        },
+        {
+          "service_id": "ponto_luz_forro",
+          "_name": "ponto de luz no forro",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "cabo_eletrico",
+              "_name": "cabo eletrico",
+              "base_qtd": 1,
+              "base_unit": "m",
+              "materials": [
+                {
+                  "material_id": "1492653f-e573-4e15-8b01-980b9c34f6ad",
+                  "_name": "cabo_eletrico_2.5"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "eletricista",
+              "_name": "eletricista",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "f4d3532b-9f93-4367-b5a6-0fd3726781f0",
+                  "_name": "eletricista"
+                },
+                {
+                  "labor_id": "943fe5a9-0b31-4f77-a5de-eb4d5448842c",
+                  "_name": "eletricista"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura_teto_branco",
+          "_name": "pintura teto branco",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta-latex-branca",
+              "_name": "tinta latex branca",
+              "base_qtd": 0.4,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "42d12444-758d-4842-9458-3af05c8515cb",
+                  "_name": "tinta-latex-branca"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura-parede",
+          "_name": "pintura de parede",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta-latex-branca",
+              "_name": "tinta latex branca",
+              "base_qtd": 0.3,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "42d12444-758d-4842-9458-3af05c8515cb",
+                  "_name": "tinta-latex-branca"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "limpeza_obra",
+          "_name": "limpeza da obra",
+          "quantity": 1,
+          "material_categories": [],
+          "labor_categories": [
+            {
+              "labor_category_id": "servente",
+              "_name": "servente",
+              "base_qtd": 2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "a27fcd0c-493b-4d40-a26b-2055c57df710",
+                  "_name": "servente"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
