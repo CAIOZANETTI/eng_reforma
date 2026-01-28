@@ -65,7 +65,8 @@ def extract_materials_from_json(project_data):
                     
                     # Calcular quantidade total
                     if base_unit == 'm2':
-                        total_qty = base_qtd * space_area * service_qty
+                        # base_qtd já é a quantidade total para o serviço (ex: 88m² de telha para 80m² de área)
+                        total_qty = base_qtd * service_qty
                     elif base_unit == 'm':
                         total_qty = base_qtd * service_qty
                     elif base_unit == 'kg':
