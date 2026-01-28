@@ -7,37 +7,37 @@ team:
     role: "Especialista em Projetos e Conformidade Municipal"
     goal: "Dimensionar espaços conforme normas de habitabilidade, definir estética por padrão de acabamento e garantir aprovação legal."
     skills:
-      - "./.agent/skills/regras_habitabilidade_conforto.md" # Iluminação, ventilação e áreas
-      - "./.agent/skills/matriz_acabamentos_popular_luxo.json" # Especificação de tipos
-      - "./.agent/skills/checklist_nbr9050_acessibilidade.md" # Acessibilidade
-      - "./.agent/skills/reforma_retrofit_apto.md" # Design de Interiores
-      - "./.agent/skills/reforma_locacao_airbnb.md" # Design de Interiores
-      - "./.agent/skills/reforma_retrofit_casa_terrea.md" # Resvestimentos e medidas
-      - "./.agent/skills/reforma_apto_integrar_ambientes.md" # Possibilidade de modernizar imovel
-      - "./.agent/skills/reforma_pinterest.md" # Ideias do momento segundo app
-      - "./.agent/skills/normas_arquitetura.md" # normas referentes a habitações
+      - "./.agent/skills/arquiteto/regras_habitabilidade_conforto.md" # Iluminação, ventilação e áreas
+      - "./.agent/skills/arquiteto/matriz_acabamentos_popular_luxo.json" # Especificação de tipos
+      - "./.agent/skills/arquiteto/checklist_nbr9050_acessibilidade.md" # Acessibilidade
+      - "./.agent/skills/arquiteto/reforma_retrofit_apto.md" # Design de Interiores
+      - "./.agent/skills/arquiteto/reforma_locacao_airbnb.md" # Design de Interiores
+      - "./.agent/skills/arquiteto/reforma_retrofit_casa_terrea.md" # Resvestimentos e medidas
+      - "./.agent/skills/arquiteto/reforma_apto_integrar_ambientes.md" # Possibilidade de modernizar imovel
+      - "./.agent/skills/arquiteto/reforma_pinterest.md" # Ideias do momento segundo app
+      - "./.agent/skills/arquiteto/normas_arquitetura.md" # normas referentes a habitações
 
   # --- O ENGENHEIRO (CUSTOS & EXECUÇÃO) ---
   - id: "eng_custos_execucao"
     role: "Engenheiro de Custos Sênior e Gestor de Obra"
     goal: "Transformar projeto em viabilidade financeira (SINAPI/BDI), organizar a execução (EAP) e garantir qualidade técnica (Metodologia)."
     skills:
-      - "./.agent/skills/orcamento_analitico_sinapi.py" # Consultas e Composições (CPU)
-      - "./.agent/skills/orcamento_sintetico_sinapi.py" # Consultas
-      - "./.agent/skills/montagem_eap_reforma.md" # Estrutura Analítica do Projeto
-      - "./.agent/skills/calculo_quantidades.md" # calcular quantidades de serviços e materiais
-      - "./.agent/skills/analise_curva_abc_insumos.py" # Priorização de custos
-      - "./.agent/skills/metodologia_executiva_servicos.md" # O "How-to" técnico
-      - "./.agent/skills/calculo_bdi_preco_venda.py" # Impostos e Preço de Venda
-      - "./.agent/skills/calculo_custo_mao_obra.py" # Impostos envolvidos no custo mão de obra
-      - "./.agent/skills/legislacao_trabalhista.py" # Leis que regulamentam o trabalho no brasil
+      - "./.agent/skills/engenheiro/orcamento_analitico_sinapi.py" # Consultas e Composições (CPU)
+      - "./.agent/skills/engenheiro/orcamento_sintetico_sinapi.py" # Consultas
+      - "./.agent/skills/engenheiro/montagem_eap_reforma.md" # Estrutura Analítica do Projeto
+      - "./.agent/skills/engenheiro/calculo_quantidades.md" # calcular quantidades de serviços e materiais
+      - "./.agent/skills/engenheiro/analise_curva_abc_insumos.py" # Priorização de custos
+      - "./.agent/skills/engenheiro/metodologia_executiva_servicos.md" # O "How-to" técnico
+      - "./.agent/skills/engenheiro/calculo_bdi_preco_venda.py" # Impostos e Preço de Venda
+      - "./.agent/skills/engenheiro/calculo_custo_mao_obra.py" # Impostos envolvidos no custo mão de obra
+      - "./.agent/skills/engenheiro/legislacao_trabalhista.py" # Leis que regulamentam o trabalho no brasil
       
   # --- O TECH DATA OPS (VALIDAÇÃO & ETL) ---
   - id: "tech_data_validator"
     role: "Arquiteto de Dados e Automação"
     goal: "Garantir integridade de dados entre Arquiteto e Engenheiro, validar schemas JSON/CSV e versionar orçamentos."
     skills:
-      - "./.agent/skills/validador_json_schema.py" # Impede erros de input
-      - "./.agent/skills/validador_csv_schema.py" # Impede erros de input
-      - "./.agent/skills/sanitizar_dataframe_reformas.py" # Sua skill de limpeza (Pandas)
-      - "./.agent/skills/versionador_revisoes.py" # Controle V1, V2, Final
+      - "./.agent/skills/tech_data_ops/validador_json_schema.py" # Impede erros de input
+      - "./.agent/skills/tech_data_ops/validador_csv_schema.py" # Impede erros de input
+      - "./.agent/skills/tech_data_ops/sanitizar_dataframe_reformas.py" # Sua skill de limpeza (Pandas)
+      - "./.agent/skills/tech_data_ops/versionador_revisoes.py" # Controle V1, V2, Final
