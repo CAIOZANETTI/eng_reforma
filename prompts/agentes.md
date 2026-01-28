@@ -10,7 +10,11 @@ team:
       - "./.agent/skills/regras_habitabilidade_conforto.md" # Iluminação, ventilação e áreas
       - "./.agent/skills/matriz_acabamentos_popular_luxo.json" # Especificação de tipos
       - "./.agent/skills/checklist_nbr9050_acessibilidade.md" # Acessibilidade
-      - "./.agent/skills/paleta_cores_psicologia.md" # Design de Interiores
+      - "./.agent/skills/reforma_retrofit_apto.md" # Design de Interiores
+      - "./.agent/skills/reforma_locacao_airbnb.md" # Design de Interiores
+      - "./.agent/skills/reforma_retrofit_casa_terrea.md" # Resvestimentos e medidas
+      - "./.agent/skills/reforma_apto_integrar_ambientes.md" # Possibilidade de modernizar imovel
+      - "./.agent/skills/reforma_pinterest.md" # Ideias do momento segundo app
       - "./.agent/skills/normas_arquitetura.md" # normas referentes a habitações
 
   # --- O ENGENHEIRO (CUSTOS & EXECUÇÃO) ---
