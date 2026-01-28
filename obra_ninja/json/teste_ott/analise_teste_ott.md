@@ -136,49 +136,6 @@
 **BDI (28%):** R$ 5.332,66  
 **PREÇO DE VENDA:** **R$ 24.377,86** (R$ 304,72/m²)
 
----
-
-## 📈 ANÁLISE TÉCNICA DOS AGENTES
-
-### 🏛️ AGENTE ARQUITETO - Análise de Adequação Técnica
-
-#### Conformidade NBR 15220 (Desempenho Térmico)
-
-| Projeto | Transmitância (U) | Zona Bioclimática 3 | Recomendação |
-|---------|------------------|---------------------|--------------|
-| Fibrocimento | 2,0 W/m²K | ⚠️ LIMITADA | Adicionar manta térmica (R$ 2.000) |
-| Cerâmica | 1,8 W/m²K | ✅ ADEQUADA | Aprovado sem restrições |
-| Concreto | 1,9 W/m²K | ✅ ADEQUADA | Aprovado sem restrições |
-
-**Recomendações por Skill `regras_habitabilidade_conforto.md`:**
-
-> **Fibrocimento:** Requer manta térmica aluminizada sob telha para atingir U ≤ 2,5 W/m²K (ZB3). Custo adicional: R$ 25/m² × 80m² = **+R$ 2.000**.
-
-> **Cerâmica Romana:** Excelente para clima brasileiro. Câmara de ar natural entre telhas proporciona isolamento térmico superior. Aprovado conforme NBR 15575.
-
-> **Concreto:** Alta inércia térmica. Recomendado para ZB1-ZB4 (clima temperado a quente). Estrutura reforçada corretamente dimensionada.
-
-#### Especificação de Acabamentos (`matriz_acabamentos_popular_luxo.json`)
-
-| Projeto | Padrão Identificado | Durabilidade | Manutenção |
-|---------|-------------------|--------------|------------|
-| Fibrocimento | POPULAR | 15-20 anos | ⚠️ Requer pintura a cada 5 anos |
-| Cerâmica | NORMAL ALTO | 30-50 anos | ✅ Baixa manutenção |
-| Concreto | ALTO | 40-60 anos | ✅ Muito baixa manutenção |
-
----
-
-### 🔧 AGENTE ENGENHEIRO - Análise de Custos e Viabilidade
-
-#### Composição de Custos (%)
-
-| Item | Fibrocimento | Cerâmica | Concreto |
-|------|--------------|----------|----------|
-| Materiais | 62% (R$ 7.768) | 65% (R$ 10.160) | 67% (R$ 12.771) |
-| Mão de Obra | 38% (R$ 4.761) | 35% (R$ 5.470) | 33% (R$ 6.274) |
-
-**Análise por Skill `orcamento_analitico_sinapi.py`:**
-
 ✅ **Quantitativos Validados:** Todos os coeficientes estão dentro da margem SINAPI (±10%)
 
 ✅ **Perda de Material Considerada:**
@@ -259,22 +216,7 @@
 > [!IMPORTANT]
 > **Conclusão:** Cerâmica tem o **menor custo de propriedade** em 20 anos, mesmo custando 25% mais que fibrocimento inicialmente.
 
----
 
-## 📊 INDICADORES TÉCNICOS COMPARADOS
-
-| Indicador | Fibrocimento | Cerâmica | Concreto | Melhor |
-|-----------|--------------|----------|----------|--------|
-| Custo/m² | R$ 200 | R$ 250 | R$ 305 | Fibrocimento |
-| Durabilidade (anos) | 15-20 | 30-50 | 40-60 | Concreto |
-| Isolamento Térmico | Regular | Bom | Bom | Cerâmica/Concreto |
-| Resistência Mecânica | Média | Alta | Muito Alta | Concreto |
-| Peso (kg/m²) | 30 | 38 | 45 | Fibrocimento |
-| Absorção de Água | Alta | Baixa | Muito Baixa | Concreto |
-| Resistência UV | Baixa | Alta | Muito Alta | Concreto |
-| Prazo de Instalação | 11 dias | 12 dias | 13 dias | Fibrocimento |
-
----
 
 ## ✅ CONCLUSÃO E PARECER TÉCNICO
 
