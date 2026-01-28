@@ -1,0 +1,412 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Matriz de Acabamentos - Popular ao Luxo",
+  "description": "Sistema de classificação e especificação de materiais e acabamentos por padrão construtivo brasileiro",
+  "version": "2.0",
+  
+  "definitions": {
+    "padrao_acabamento": {
+      "type": "string",
+      "enum": ["popular", "normal", "normal_alto", "alto", "luxo"]
+    },
+    "unidade_medida": {
+      "type": "string",
+      "enum": ["m²", "m", "un", "ml", "pç", "conjunto"]
+    }
+  },
+  
+  "acabamentos": {
+    
+    "pisos": {
+      "description": "Revestimentos de piso por padrão",
+      
+      "popular": {
+        "ambientes_secos": {
+          "material": "Cerâmica esmaltada",
+          "especificacao": "PEI 3, 45x45 cm, juntas 3mm",
+          "fornecedores": ["Cecrisa Básica", "Eliane Reali", "Portobello Shop"],
+          "preco_ref_m2": "R$ 25,00 - R$ 35,00",
+          "codigo_sinapi": "87267",
+          "rendimento_aplicacao": "12 m²/dia por pedreiro"
+        },
+        "ambientes_molhados": {
+          "material": "Cerâmica antiderrapante",
+          "especificacao": "PEI 4, 45x45 cm, coeficiente de atrito ≥ 0,4",
+          "fornecedores": ["Cecrisa Técnica", "Portinari Basic"],
+          "preco_ref_m2": "R$ 30,00 - R$ 40,00",
+          "codigo_sinapi": "87268"
+        },
+        "areas_externas": {
+          "material": "Cimento queimado ou cerâmica rústica",
+          "especificacao": "Desempenadeira lisa, juntas de dilatação 2x2m",
+          "preco_ref_m2": "R$ 45,00 - R$ 60,00",
+          "codigo_sinapi": "04003"
+        }
+      },
+      
+      "normal": {
+        "ambientes_secos": {
+          "material": "Porcelanato acetinado",
+          "especificacao": "60x60 cm, retificado, absorção < 0,5%, PEI 4",
+          "fornecedores": ["Portobello", "Eliane", "Incepa"],
+          "preco_ref_m2": "R$ 60,00 - R$ 90,00",
+          "codigo_sinapi": "98743",
+          "observacao": "Preferir porcelanato técnico para tráfego médio"
+        },
+        "ambientes_molhados": {
+          "material": "Porcelanato antiderrapante",
+          "especificacao": "60x60 cm, texturizado, R10 ou superior",
+          "fornecedores": ["Portobello", "Cecrisa"],
+          "preco_ref_m2": "R$ 70,00 - R$ 100,00"
+        },
+        "areas_externas": {
+          "material": "Porcelanato antiderrapante externo",
+          "especificacao": "60x60 cm, R11, absorção < 0,3%",
+          "preco_ref_m2": "R$ 80,00 - R$ 120,00"
+        }
+      },
+      
+      "normal_alto": {
+        "ambientes_secos": {
+          "material": "Porcelanato retificado grande formato",
+          "especificacao": "90x90 cm ou 1,20x1,20 m, polido ou acetinado",
+          "fornecedores": ["Portobello Premium", "Decortiles", "Biancogres"],
+          "preco_ref_m2": "R$ 120,00 - R$ 180,00",
+          "observacao": "Assentamento com argamassa AC-III obrigatória"
+        },
+        "ambientes_molhados": {
+          "material": "Porcelanato esmaltado antiderrapante",
+          "especificacao": "80x80 cm, efeito madeira ou mármore, R10",
+          "preco_ref_m2": "R$ 130,00 - R$ 200,00"
+        },
+        "dormitorios": {
+          "material": "Laminado de madeira ou vinílico premium",
+          "especificacao": "AC4, espessura 8mm, click, resistente à água",
+          "fornecedores": ["Durafloor", "Eucatex", "Quick Step"],
+          "preco_ref_m2": "R$ 90,00 - R$ 150,00"
+        }
+      },
+      
+      "alto": {
+        "ambientes_secos": {
+          "material": "Porcelanato extra grande formato",
+          "especificacao": "1,60x3,20 m, espessura 6mm, efeito mármore ou concreto",
+          "fornecedores": ["Decortiles Maxxi", "Portobello Unique", "Biancogres XL"],
+          "preco_ref_m2": "R$ 250,00 - R$ 400,00",
+          "observacao": "Requer equipamento especial de corte e aplicação"
+        },
+        "dormitorios": {
+          "material": "Piso de madeira engenheirada",
+          "especificacao": "Taco 7mm de madeira nobre sobre base compensado",
+          "fornecedores": ["Pau-Brasil", "Indusparquet", "Castelatto"],
+          "preco_ref_m2": "R$ 200,00 - R$ 350,00"
+        },
+        "banheiros": {
+          "material": "Mármore ou Quartzo",
+          "especificacao": "Mármore Branco Paraná polido, 2cm espessura",
+          "preco_ref_m2": "R$ 300,00 - R$ 500,00"
+        }
+      },
+      
+      "luxo": {
+        "ambientes_sociais": {
+          "material": "Mármore importado ou quartzo engineered",
+          "especificacao": "Carrara, Calacatta ou Statuario, placa 3cm",
+          "fornecedores": ["Vitoria Stone", "Guidoni", "Granifera"],
+          "preco_ref_m2": "R$ 800,00 - R$ 2.500,00",
+          "observacao": "Instalação com mastique branco e polimento in loco"
+        },
+        "dormitorios": {
+          "material": "Madeira maciça de lei",
+          "especificacao": "Taco Ipê, Cumaru ou Jatobá, 20mm, acabamento verniz fosco",
+          "preco_ref_m2": "R$ 450,00 - R$ 800,00",
+          "codigo_sinapi": "88512"
+        },
+        "banheiros": {
+          "material": "Pedra natural importada",
+          "especificacao": "Quartzito, Ônix ou Travertino, polido",
+          "preco_ref_m2": "R$ 600,00 - R$ 1.800,00"
+        }
+      }
+    },
+    
+    "revestimentos_paredes": {
+      
+      "popular": {
+        "areas_molhadas": {
+          "material": "Azulejo branco",
+          "especificacao": "20x20 cm ou 20x30 cm, esmaltado, juntas 2mm",
+          "altura_aplicacao": "Até 1,50m (box completo até teto)",
+          "preco_ref_m2": "R$ 20,00 - R$ 30,00",
+          "codigo_sinapi": "87401"
+        },
+        "areas_secas": {
+          "material": "Pintura látex PVA",
+          "especificacao": "Duas demãos sobre reboco paulista, branco neve",
+          "preco_ref_m2": "R$ 15,00 - R$ 25,00",
+          "codigo_sinapi": "88489"
+        }
+      },
+      
+      "normal": {
+        "areas_molhadas": {
+          "material": "Porcelanato ou cerâmica HD",
+          "especificacao": "30x60 cm ou 45x90 cm, retificado, junta 2mm",
+          "preco_ref_m2": "R$ 50,00 - R$ 80,00"
+        },
+        "areas_secas": {
+          "material": "Pintura acrílica premium",
+          "especificacao": "Coral ou Suvinil, acabamento fosco ou acetinado",
+          "preco_ref_m2": "R$ 30,00 - R$ 45,00"
+        },
+        "detalhes": {
+          "material": "Papel de parede vinílico",
+          "especificacao": "Lavável, padrões geométricos ou texturizados",
+          "preco_ref_m2": "R$ 80,00 - R$ 150,00"
+        }
+      },
+      
+      "normal_alto": {
+        "areas_molhadas": {
+          "material": "Porcelanato grande formato",
+          "especificacao": "60x120 cm, efeito mármore, instalação vertical",
+          "preco_ref_m2": "R$ 100,00 - R$ 180,00"
+        },
+        "areas_secas": {
+          "material": "Pintura texturizada ou efeito concreto",
+          "especificacao": "Suvinil Massa Corrida + Textura fosca",
+          "preco_ref_m2": "R$ 60,00 - R$ 100,00"
+        },
+        "detalhes": {
+          "material": "Lambri de madeira ou MDF",
+          "especificacao": "Réguas 10cm, instalação vertical ou horizontal",
+          "preco_ref_ml": "R$ 120,00 - R$ 200,00"
+        }
+      },
+      
+      "alto": {
+        "areas_molhadas": {
+          "material": "Pedra natural ou porcelanato premium",
+          "especificacao": "São Tomé, Travertino ou porcelanato 1,20x2,40m",
+          "preco_ref_m2": "R$ 250,00 - R$ 500,00"
+        },
+        "areas_secas": {
+          "material": "Revestimento 3D ou painéis decorativos",
+          "especificacao": "MDF resinado, Gesso 3D ou Cimentício",
+          "preco_ref_m2": "R$ 150,00 - R$ 350,00"
+        }
+      },
+      
+      "luxo": {
+        "areas_molhadas": {
+          "material": "Mármore importado placa inteira",
+          "especificacao": "Carrara, Calacatta ou Statuario, book match",
+          "preco_ref_m2": "R$ 800,00 - R$ 2.000,00"
+        },
+        "areas_secas": {
+          "material": "Boiserie, couro ou tecido estofado",
+          "especificacao": "Painéis de madeira nobre com detalhes em bronze",
+          "preco_ref_m2": "R$ 600,00 - R$ 1.500,00"
+        }
+      }
+    },
+    
+    "esquadrias": {
+      
+      "popular": {
+        "janelas": {
+          "material": "Alumínio branco linha 25",
+          "especificacao": "Correr, vidro liso 4mm, sem persiana",
+          "fornecedores": ["Sasazaki", "Lucasa", "Alumifort"],
+          "preco_ref_m2": "R$ 280,00 - R$ 380,00",
+          "codigo_sinapi": "94249"
+        },
+        "portas_internas": {
+          "material": "Madeira semi-oca",
+          "especificacao": "35mm, compensado, primer branco",
+          "preco_ref_un": "R$ 350,00 - R$ 500,00"
+        }
+      },
+      
+      "normal": {
+        "janelas": {
+          "material": "Alumínio branco linha 25 com persiana",
+          "especificacao": "Maxim-ar ou correr, vidro temperado 6mm",
+          "preco_ref_m2": "R$ 450,00 - R$ 650,00"
+        },
+        "portas_internas": {
+          "material": "Portas prontas laminadas",
+          "especificacao": "Miolo semi-oco, laminado melamínico",
+          "fornecedores": [" Evolution", "Madex", "Fort"],
+          "preco_ref_un": "R$ 480,00 - R$ 750,00"
+        }
+      },
+      
+      "normal_alto": {
+        "janelas": {
+          "material": "Alumínio anodizado ou PVC",
+          "especificacao": "Linha 30, vidro duplo acústico, persiana integrada",
+          "preco_ref_m2": "R$ 800,00 - R$ 1.200,00"
+        },
+        "portas_internas": {
+          "material": "Portas de madeira maciça ou laminada premium",
+          "especificacao": "Cedrinho, Pinus ou laminado alto brilho",
+          "preco_ref_un": "R$ 900,00 - R$ 1.500,00"
+        }
+      },
+      
+      "alto": {
+        "janelas": {
+          "material": "Esquadria de alumínio estrutural ou PVC premium",
+          "especificacao": "Linha 50, vidro laminado acústico, automation ready",
+          "preco_ref_m2": "R$ 1.500,00 - R$ 2.500,00"
+        },
+        "portas_internas": {
+          "material": "Portas de madeira nobre ou pivotantes",
+          "especificacao": "Imbuia, Freijó ou pivotante rente ao forro",
+          "preco_ref_un": "R$ 2.500,00 - R$ 5.000,00"
+        }
+      },
+      
+      "luxo": {
+        "janelas": {
+          "material": "Esquadria importada (Schüco, Technal)",
+          "especificacao": "Sistema minimalista, vidro triplo low-e, automação",
+          "preco_ref_m2": "R$ 3.500,00 - R$ 6.000,00"
+        },
+        "portas_internas": {
+          "material": "Portas de design exclusivo",
+          "especificacao": "Pivotante de madeira + metal, detalhes em couro",
+          "preco_ref_un": "R$ 8.000,00 - R$ 20.000,00"
+        }
+      }
+    },
+    
+    "metais_sanitarios": {
+      
+      "popular": {
+        "torneiras": {
+          "material": "Metal cromado básico",
+          "fornecedores": ["Deca", "Docol linha Start", "Fabrimar"],
+          "preco_medio_peca": "R$ 80,00 - R$ 150,00",
+          "garantia": "1 ano"
+        },
+        "chuveiro": {
+          "tipo": "Ducha higiênica plástica ou chuveiro simples",
+          "preco_medio": "R$ 60,00 - R$ 120,00"
+        }
+      },
+      
+      "normal": {
+        "torneiras": {
+          "material": "Metal cromado intermediário",
+          "fornecedores": ["Deca linha Padrão", "Docol", "Fabrimar Premium"],
+          "preco_medio_peca": "R$ 200,00 - R$ 400,00",
+          "garantia": "5 anos"
+        },
+        "chuveiro": {
+          "tipo": "Ducha de teto 20cm ou chuveiro de parede",
+          "preco_medio": "R$ 300,00 - R$ 600,00"
+        }
+      },
+      
+      "normal_alto": {
+        "torneiras": {
+          "material": "Monocomando premium",
+          "fornecedores": ["Deca linha Noir", "Docol Lift", "Tramontina"],
+          "preco_medio_peca": "R$ 600,00 - R$ 1.200,00"
+        },
+        "chuveiro": {
+          "tipo": "Ducha de teto quadrada 30cm com desviador",
+          "preco_medio": "R$ 800,00 - R$ 1.500,00"
+        }
+      },
+      
+      "alto": {
+        "torneiras": {
+          "material": "Monocomando importado ou black matte",
+          "fornecedores": ["Hansgrohe", "Grohe", "Dornbracht"],
+          "preco_medio_peca": "R$ 1.800,00 - R$ 3.500,00"
+        },
+        "chuveiro": {
+          "tipo": "Sistema de ducha com chuveir lateral e desviador",
+          "preco_medio": "R$ 3.000,00 - R$ 6.000,00"
+        }
+      },
+      
+      "luxo": {
+        "torneiras": {
+          "material": "Metais importados de grife",
+          "fornecedores": ["Axor (Hansgrohe)", "Grohe Spa", "Gessi"],
+          "preco_medio_peca": "R$ 5.000,00 - R$ 12.000,00"
+        },
+        "chuveiro": {
+          "tipo": "Sistema termoestático com múltiplas duchas",
+          "preco_medio": "R$ 8.000,00 - R$ 20.000,00"
+        }
+      }
+    },
+    
+    "bancadas_cozinha_banheiro": {
+      
+      "popular": {
+        "material": "Granito nacional básico",
+        "especificacao": "Cinza Corumbá, Preto São Gabriel, esp. 2cm",
+        "preco_ref_ml": "R$ 180,00 - R$ 250,00",
+        "observacao": "Inclui recorte para cuba e instalação"
+      },
+      
+      "normal": {
+        "material": "Granito premium ou Silestone básico",
+        "especificacao": "Branco Siena, Preto Absoluto, Silestone linha Alpha",
+        "preco_ref_ml": "R$ 350,00 - R$ 550,00"
+      },
+      
+      "normal_alto": {
+        "material": "Silestone ou Dekton",
+        "especificacao": "Linha Sunlit ou Dekton Cosentino, esp. 2cm",
+        "preco_ref_ml": "R$ 700,00 - R$ 1.200,00"
+      },
+      
+      "alto": {
+        "material": "Mármore ou quartzo engineered premium",
+        "especificacao": "Carrara, Travertino ou Caesarstone",
+        "preco_ref_ml": "R$ 1.200,00 - R$ 2.000,00"
+      },
+      
+      "luxo": {
+        "material": "Mármore importado ou Dekton premium",
+        "especificacao": "Calacatta Gold, Statuario ou Dekton XGloss",
+        "preco_ref_ml": "R$ 2.500,00 - R$ 5.000,00"
+      }
+    }
+    
+  },
+  
+  "observacoes_importantes": [
+    "Todos os preços são referencias de 2026 e podem variar por região",
+    "Códigos SINAPI quando informados seguem tabela oficial da Caixa",
+    "Sempre especificar acabamento conforme orçamento do cliente",
+    "Para padrão Alto e Luxo, consultar fornecedores especializados",
+    "Considerar custos de instalação especializada para materiais premium",
+    "Garantias variam por fabricante - sempre verificar documentação"
+  ],
+  
+  "metodologia_selecao": {
+    "criterios": [
+      "Orçamento total disponível (% para acabamentos: 25-35%)",
+      "Perfil do cliente (residência própria vs. investimento)",
+      "Localização do imóvel (valorização regional)",
+      "Prazo de execução (materiais importados = maior prazo)",
+      "Manutenção futura (alto padrão requer manutenção especializada)"
+    ],
+    
+    "percentual_acabamentos_orcamento": {
+      "popular": "20-25%",
+      "normal": "25-30%",
+      "normal_alto": "30-35%",
+      "alto": "35-40%",
+      "luxo": "40-50%"
+    }
+  }
+}
