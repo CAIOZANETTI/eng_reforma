@@ -25,6 +25,7 @@ team:
       - "./.agent/skills/orcamento_analitico_sinapi.py" # Consultas e Composições (CPU)
       - "./.agent/skills/orcamento_sintetico_sinapi.py" # Consultas
       - "./.agent/skills/montagem_eap_reforma.md" # Estrutura Analítica do Projeto
+      - "./.agent/skills/calculo_quantidades.md" # calcular quantidades de serviços e materiais
       - "./.agent/skills/analise_curva_abc_insumos.py" # Priorização de custos
       - "./.agent/skills/metodologia_executiva_servicos.md" # O "How-to" técnico
       - "./.agent/skills/calculo_bdi_preco_venda.py" # Impostos e Preço de Venda
