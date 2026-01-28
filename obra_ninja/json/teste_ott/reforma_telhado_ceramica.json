@@ -1,0 +1,232 @@
+{
+    "version": "1.0",
+    "exportedAt": "2026-01-28T23:07:00.000Z",
+    "template": {
+        "title": "Reforma Telhado - Telha Cerâmica Romana",
+        "description": "Troca completa de telhado com telha cerâmica romana, estrutura de madeira incluindo caibros, ripas e cumeeira. Área de 80m². Acabamento tradicional e durável.",
+        "language_code": "pt-BR",
+        "property_type": "casa",
+        "status": "ready"
+    },
+    "project": {
+        "name": "Reforma Telhado Cerâmica Romana",
+        "total_area": 80
+    },
+    "spaces": [
+        {
+            "space_id": "b2c3d4e5-6f7g-8h9i-0j1k-l2m3n4o5p6q7",
+            "_name": "cobertura",
+            "area": 80,
+            "height": 3.5,
+            "services": [
+                {
+                    "service_id": "retirada_telhado_antigo",
+                    "_name": "retirada de telhado antigo e estrutura",
+                    "quantity": 1,
+                    "material_categories": [
+                        {
+                            "material_category_id": "cacamba_entulho",
+                            "_name": "caçambas de entulho",
+                            "base_qtd": 2,
+                            "base_unit": "pack",
+                            "materials": [
+                                {
+                                    "material_id": "f9e12b81-be31-4b81-9a02-db0465e91c7e",
+                                    "_name": "cacamba_entulho_media"
+                                }
+                            ]
+                        }
+                    ],
+                    "labor_categories": [
+                        {
+                            "labor_category_id": "servente",
+                            "_name": "servente",
+                            "base_qtd": 16,
+                            "base_unit": "h",
+                            "labors": [
+                                {
+                                    "labor_id": "a27fcd0c-493b-4d40-a26b-2055c57df710",
+                                    "_name": "servente"
+                                }
+                            ]
+                        },
+                        {
+                            "labor_category_id": "carpinteiro",
+                            "_name": "carpinteiro",
+                            "base_qtd": 8,
+                            "base_unit": "h",
+                            "labors": [
+                                {
+                                    "labor_id": "084cb3f6-7a4f-4022-93ea-397051a22bd0",
+                                    "_name": "carpinteiro"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "service_id": "estrutura_madeira_telhado",
+                    "_name": "montagem de estrutura de madeira para telhado",
+                    "quantity": 1,
+                    "material_categories": [
+                        {
+                            "material_category_id": "viga_madeira",
+                            "_name": "viga de madeira",
+                            "base_qtd": 12,
+                            "base_unit": "m",
+                            "materials": [
+                                {
+                                    "material_id": "d706b066-54d7-4f34-98b6-da58b303ba3a",
+                                    "_name": "viga_madeira_serrada_6x12"
+                                }
+                            ]
+                        },
+                        {
+                            "material_category_id": "pontalete_madeira",
+                            "_name": "pontalete de madeira",
+                            "base_qtd": 24,
+                            "base_unit": "m",
+                            "materials": [
+                                {
+                                    "material_id": "820ba285-4762-4f4e-b862-0a87fbb25895",
+                                    "_name": "pontalete_madeira_serrada_7,5x7,5"
+                                }
+                            ]
+                        },
+                        {
+                            "material_category_id": "caibro_madeira",
+                            "_name": "caibro de madeira",
+                            "base_qtd": 40,
+                            "base_unit": "m",
+                            "materials": [
+                                {
+                                    "material_id": "debdddc6-03ad-4340-81f2-991f175449ae",
+                                    "_name": "caibro_madeira_serrada_6x6"
+                                }
+                            ]
+                        },
+                        {
+                            "material_category_id": "ripa_madeira",
+                            "_name": "ripa de madeira",
+                            "base_qtd": 160,
+                            "base_unit": "m",
+                            "materials": [
+                                {
+                                    "material_id": "86fcb904-e501-4630-bfc0-b736f37e99cf",
+                                    "_name": "ripa_madeira_serrada_1x2,5"
+                                }
+                            ]
+                        },
+                        {
+                            "material_category_id": "prego",
+                            "_name": "pregos",
+                            "base_qtd": 5,
+                            "base_unit": "kg",
+                            "materials": [
+                                {
+                                    "material_id": "0aa2a5e2-45ef-4cd9-9bb1-6f113220f404",
+                                    "_name": "prego_18x27"
+                                }
+                            ]
+                        },
+                        {
+                            "material_category_id": "parafuso",
+                            "_name": "parafusos",
+                            "base_qtd": 100,
+                            "base_unit": "pack",
+                            "materials": [
+                                {
+                                    "material_id": "a0eb26ef-2ad7-4f51-8bd9-c7c7ee0af519",
+                                    "_name": "parafuso_zincado_5/16\""
+                                }
+                            ]
+                        }
+                    ],
+                    "labor_categories": [
+                        {
+                            "labor_category_id": "carpinteiro",
+                            "_name": "carpinteiro",
+                            "base_qtd": 48,
+                            "base_unit": "h",
+                            "labors": [
+                                {
+                                    "labor_id": "084cb3f6-7a4f-4022-93ea-397051a22bd0",
+                                    "_name": "carpinteiro"
+                                }
+                            ]
+                        },
+                        {
+                            "labor_category_id": "servente",
+                            "_name": "servente",
+                            "base_qtd": 32,
+                            "base_unit": "h",
+                            "labors": [
+                                {
+                                    "labor_id": "a27fcd0c-493b-4d40-a26b-2055c57df710",
+                                    "_name": "servente"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "service_id": "instalacao_telha_ceramica",
+                    "_name": "instalação de telha cerâmica romana",
+                    "quantity": 1,
+                    "material_categories": [
+                        {
+                            "material_category_id": "telha_ceramica",
+                            "_name": "telha cerâmica romana",
+                            "base_qtd": 88,
+                            "base_unit": "m2",
+                            "materials": [
+                                {
+                                    "material_id": "d61d4b17-5840-4744-965a-977197119d27",
+                                    "_name": "telha_ceramica_romana"
+                                }
+                            ]
+                        },
+                        {
+                            "material_category_id": "cumeeira_ceramica",
+                            "_name": "cumeeira de cerâmica",
+                            "base_qtd": 12,
+                            "base_unit": "m",
+                            "materials": [
+                                {
+                                    "material_id": "172e6deb-09f1-4d90-a510-bbfc79ac792b",
+                                    "_name": "cumeeira_ceramica"
+                                }
+                            ]
+                        }
+                    ],
+                    "labor_categories": [
+                        {
+                            "labor_category_id": "carpinteiro",
+                            "_name": "carpinteiro",
+                            "base_qtd": 32,
+                            "base_unit": "h",
+                            "labors": [
+                                {
+                                    "labor_id": "084cb3f6-7a4f-4022-93ea-397051a22bd0",
+                                    "_name": "carpinteiro"
+                                }
+                            ]
+                        },
+                        {
+                            "labor_category_id": "servente",
+                            "_name": "servente",
+                            "base_qtd": 20,
+                            "base_unit": "h",
+                            "labors": [
+                                {
+                                    "labor_id": "a27fcd0c-493b-4d40-a26b-2055c57df710",
+                                    "_name": "servente"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
