@@ -8,7 +8,7 @@ team:
     goal: "Dimensionar espaços conforme normas de habitabilidade, definir estética por padrão de acabamento e garantir aprovação legal."
     skills:
       - "./.agent/skills/arquiteto/regras_habitabilidade_conforto.md" # Iluminação, ventilação e áreas
-      - "./.agent/skills/arquiteto/matriz_acabamentos_popular_luxo.json" # Especificação de tipos
+      - "./.agent/skills/arquiteto/matriz_acabamentos_popular_luxo.md" # Especificação de tipos
       - "./.agent/skills/arquiteto/checklist_nbr9050_acessibilidade.md" # Acessibilidade
       - "./.agent/skills/arquiteto/reforma_retrofit_apto.md" # Design de Interiores
       - "./.agent/skills/arquiteto/reforma_locacao_airbnb.md" # Design de Interiores
