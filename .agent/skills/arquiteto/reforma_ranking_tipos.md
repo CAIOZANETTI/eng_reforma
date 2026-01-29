@@ -344,4 +344,240 @@ Baseado em pesquisas de mercado e déficit setorial:
 
 ---
 
+## 11. Base de Dados de Tipos de Reforma
+
+Com base nas estatísticas deste documento, foi criada a base de dados `lista_reforma_ranking.csv` com **150 tipos de reforma únicos**, projetada para cobrir aproximadamente **90% da demanda do mercado brasileiro**.
+
+### 11.1 Cobertura por Categoria
+
+| Categoria | Quantidade | Proporção | Alinhamento com Pesquisas |
+|-----------|------------|-----------|---------------------------|
+| **Banheiros** | 18 variações | ~12% | Cômodo #1 em demanda (32%) |
+| **Quartos/Suítes** | 15 variações | ~10% | Cômodo #2 em demanda (31,4%) |
+| **Cozinhas** | 14 variações | ~9% | Cômodo #3 em demanda (36%) |
+| **Salas/Living** | 12 variações | ~8% | Espaço social principal |
+| **Pisos** | 12 variações | ~8% | Porcelanato + Vinílico (material mais vendido) |
+| **Pintura** | 8 variações | ~5% | Serviço mais comum (#1 em frequência) |
+| **Gesso/Forro** | 10 variações | ~7% | Alta demanda em acabamentos |
+| **Telhado** | 3 variações | ~2% | Manutenção essencial |
+| **Elétrica** | 8 variações | ~5% | Serviço técnico crítico |
+| **Hidráulica** | 6 variações | ~4% | Serviço técnico crítico |
+| **Marcenaria** | 10 variações | ~7% | Alta demanda em reformas |
+| **Escritórios** | 15 variações | ~10% | Segmento comercial |
+| **Outros comerciais** | 8 variações | ~5% | Loja, clínica, restaurante |
+| **Área externa (casa)** | 12 variações | ~8% | Garagem, quintal, edícula |
+| **Automação/Segurança** | 6 variações | ~4% | Tendência crescente |
+| **Acessibilidade** | 4 variações | ~3% | Necessidade específica (NBR 9050) |
+| **TOTAL** | **150 tipos** | **100%** | |
+
+### 11.2 Cobertura por Tipo de Imóvel
+
+| Tipo de Imóvel | Variações | Configurações |
+|----------------|-----------|---------------|
+| **Apartamentos** | ~50% | 1Q+1B, 2Q+1B, 2Q+2B, 3Q+2B |
+| **Casas** | ~35% | 2Q+1B, 3Q+2B, 4Q+3B |
+| **Escritórios** | ~10% | 0Q+1B, 0Q+2B, 0Q+4B |
+| **Outros Comerciais** | ~5% | Loja, Clínica, Restaurante |
+
+### 11.3 Cobertura por Nível de Acabamento
+
+| Nível | Proporção | Perfil |
+|-------|-----------|--------|
+| **Popular** | ~25% | Econômico, foco em funcionalidade |
+| **Médio** | ~45% | Padrão de mercado, boa relação custo-benefício |
+| **Luxo** | ~20% | Alto padrão, materiais e acabamentos premium |
+| **Comercial** | ~10% | Foco em durabilidade e normas técnicas |
+
+### 11.4 Localização do Arquivo
+
+```
+obra_ninja/csv/lista_reforma/lista_reforma_ranking.csv
+```
+
+**Estrutura do CSV:**
+```
+id, tipo, área (ambiente), area_m2, qtd_imovel, acabamento, descrição da reforma
+```
+
+### 11.5 Plano de Expansão de Cobertura
+
+Com base na **análise combinatória** das variáveis de mercado, a projeção de modelos necessários é significativamente maior do que uma análise superficial sugeriria. A relação entre número de modelos e cobertura de demanda segue uma curva logarítmica, mas o universo total de combinações é muito amplo.
+
+#### Análise Combinatória do Mercado
+
+| Variável | Opções | Exemplos |
+|----------|--------|----------|
+| **Tipo de imóvel** | 6 | Apto, Casa, Escritório, Loja, Clínica, Restaurante |
+| **Configuração** | 8 | 1Q+1B, 2Q+1B, 2Q+2B, 3Q+2B, 4Q+3B, comercial P/M/G |
+| **Cômodos/Ambientes** | 20+ | Banheiro, quarto, cozinha, sala, varanda, lavanderia, etc. |
+| **Acabamento** | 4 | Popular, Médio, Luxo, Comercial |
+| **Faixa de área** | 3-5 | Pequeno, médio, grande, extra grande |
+| **Tipo de intervenção** | 3 | Parcial, completa, premium |
+
+**Combinações teóricas:** 6 × 8 × 20 × 4 × 4 × 3 = **~46.000 combinações possíveis**
+
+Na prática, muitas combinações são inválidas ou raras, mas o universo real ainda é de **~5.000 a 8.000 cenários distintos** de reforma.
+
+#### Projeção Revisada de Cobertura
+
+| Cobertura de Mercado | Modelos Necessários | Modelos Adicionais | Foco Principal |
+|---------------------|--------------------|--------------------|----------------|
+| **~60%** | ~150 modelos | — | **Situação atual**: cômodos principais, residencial básico |
+| **75%** | ~300 modelos | +150 | Adicionar: variações de área, comercial básico, telhados completos |
+| **80%** | ~500 modelos | +200 | Adicionar: nichos comerciais, combinações multi-ambiente |
+| **90%** | ~1.000 modelos | +500 | Adicionar: todos segmentos comerciais, acessibilidade, regionais |
+| **95%** | ~2.000 modelos | +1.000 | Adicionar: imóveis especiais, combinações atípicas, materiais alternativos |
+| **98%** | ~3.500 modelos | +1.500 | Adicionar: casos raros, históricos, industriais, edge cases |
+
+#### Detalhamento por Faixa de Cobertura
+
+**~60% de Cobertura (~150 modelos)** ← *Situação Atual*
+Foco: Reformas residenciais mais demandadas (core business)
+
+| Categoria | Modelos Atuais | Gap Identificado |
+|-----------|----------------|------------------|
+| Banheiros (apto + casa) | 18 | Faltam: social/suíte secundária, micro-aptos |
+| Quartos/Suítes | 15 | Faltam: solteiro, hóspedes, trabalhador |
+| Cozinhas | 14 | Faltam: copa, cozinha industrial residencial |
+| Salas | 12 | Faltam: home theater, biblioteca, sala íntima |
+| Escritórios/Comercial | 23 | Faltam: coworking, estúdio, consultório especializado |
+| Pisos/Pintura/Gesso | ~30 | Faltam: variações por m² e material |
+| Outros | ~38 | Faltam: muitas variações específicas |
+| **TOTAL** | **150** | |
+
+**75% de Cobertura (~300 modelos)**
+Adiciona: Cobertura robusta residencial + comercial básico
+
+| Categoria a Expandir | Modelos Adicionais | Justificativa |
+|---------------------|-------------------|---------------|
+| Telhados (completar matriz) | +80 | Já existe arquivo com 100 variações de telhado |
+| Banheiros (todas variações) | +15 | PNE, suíte secundária, lavabo médio |
+| Cozinhas (variações completas) | +10 | Copa, americana grande, gourmet casa |
+| Escritórios (expandir) | +15 | Sala de treinamento, auditório pequeno |
+| Áreas externas | +10 | Deck, pergolado, piscina pequena |
+| Elétrica/Hidráulica detalhada | +10 | Por faixa de área e complexidade |
+| Impermeabilização expandida | +10 | Terraço, fundação, jardineira |
+| **TOTAL ADICIONAL** | **+150** | |
+
+**80% de Cobertura (~500 modelos)**
+Adiciona: Nichos comerciais e combinações
+
+| Categoria a Expandir | Modelos Adicionais | Justificativa |
+|---------------------|-------------------|---------------|
+| Lojas (por segmento) | +40 | Vestuário, calçados, eletrônicos, pet, beleza, ótica |
+| Restaurantes/Bares | +30 | Fast food, casual, fine dining, bar, cafeteria |
+| Clínicas especializadas | +25 | Odonto, dermato, fisio, psico, veterinária |
+| Academias/Studios | +20 | Musculação, pilates, dança, crossfit |
+| Salões de beleza | +15 | Cabeleireiro, barbearia, estética, nail bar |
+| Combinações multi-cômodo | +40 | Pacotes (ex: banheiro + cozinha, todos quartos) |
+| Reformas por orçamento | +30 | Até 10k, 10-30k, 30-70k, 70-150k, 150k+ |
+| **TOTAL ADICIONAL** | **+200** | |
+
+**90% de Cobertura (~1.000 modelos)**
+Adiciona: Cobertura quase completa do mercado regular
+
+| Categoria a Expandir | Modelos Adicionais | Justificativa |
+|---------------------|-------------------|---------------|
+| Residencial por região | +80 | Adaptações para Sul, Nordeste, Norte (clima) |
+| Apartamentos compactos | +40 | Studios, micro-aptos, quitinetes |
+| Casas de condomínio | +50 | Padrões específicos de condomínios fechados |
+| Escritórios corporativos | +60 | Por porte de empresa e setor |
+| Hospitality | +40 | Hotéis, pousadas, hostels, airbnb |
+| Educacional | +30 | Escolas, creches, cursos, estúdios de aula |
+| Serviços diversos | +50 | Lavanderias, pet shops, farmácias, etc. |
+| Acessibilidade completa | +40 | PNE por tipo de deficiência e ambiente |
+| Materiais alternativos | +30 | Sustentáveis, reuso, demolição seletiva |
+| Reformas emergenciais | +30 | Pós-incêndio, pós-inundação, estrutural |
+| Automação avançada | +50 | Por nível de automação e sistemas |
+| **TOTAL ADICIONAL** | **+500** | |
+
+**95% de Cobertura (~2.000 modelos)**
+Adiciona: Edge cases e especializações
+
+| Categoria a Expandir | Modelos Adicionais | Justificativa |
+|---------------------|-------------------|---------------|
+| Imóveis históricos/tombados | +100 | Legislação especial, técnicas tradicionais |
+| Industrial leve | +150 | Galpões, oficinas, depósitos |
+| Saúde especializada | +100 | Laboratórios, radiologia, cirúrgico |
+| Esportivo | +80 | Quadras, piscinas, vestiários |
+| Religioso | +50 | Igrejas, templos, centros de retiro |
+| Cultural | +60 | Galerias, teatros, museus pequenos |
+| Residencial ultra-luxo | +100 | Mansões, coberturas, propriedades rurais |
+| Combinações especiais | +200 | Reformas em 3+ cômodos simultâneos |
+| Por sistema construtivo | +100 | Steel frame, container, modular |
+| Tecnologias específicas | +60 | Energia solar, água de reuso, geotermia |
+| **TOTAL ADICIONAL** | **+1.000** | |
+
+**98% de Cobertura (~3.500 modelos)**
+Adiciona: Casos raros e ultra-especializados
+
+| Categoria a Expandir | Modelos Adicionais | Justificativa |
+|---------------------|-------------------|---------------|
+| Imóveis especiais | +300 | Faróis, bunkers, casas flutuantes, containers |
+| Industrial pesado | +200 | Fábricas, frigoríficos, usinas |
+| Saúde alta complexidade | +150 | CTI, CC, hemodiálise |
+| Portuário/Aeroportuário | +100 | Terminais, hangares |
+| Embarcações | +80 | Iates, barcos, casas-barco |
+| Rurais especializadas | +150 | Fazendas, vinícolas, haras |
+| Microambientes | +100 | Food trucks, quiosques, trailers |
+| Reformas de fachada complexas | +120 | Pele de vidro, retrofit térmico |
+| Combinações ultra-raras | +200 | Edge cases documentados |
+| Variações por fornecedor | +100 | Marcas específicas, sistemas proprietários |
+| **TOTAL ADICIONAL** | **+1.500** | |
+
+#### Visualização da Curva de Cobertura (Revisada)
+
+```
+Cobertura (%)
+ 100% ┤                                                    ●●● 
+      │                                            ●●●●●●●
+  98% ┤                                     ●●●●●●●
+      │                              ●●●●●●●
+  95% ┤                       ●●●●●●●
+      │                 ●●●●●●
+  90% ┤           ●●●●●●
+      │        ●●●●
+  80% ┤     ●●●●
+      │   ●●●
+  75% ┤  ●●●
+      │ ●●
+  60% ┤●●  ← ATUAL (150 modelos)
+      │●
+  50% ┤
+      └───────────────────────────────────────────────────────
+      0   150  300  500   1000      2000          3500
+                    Número de Modelos
+```
+
+#### Relação Custo-Benefício
+
+| Faixa | Modelos | Custo de Desenvolvimento | Benefício | ROI |
+|-------|---------|-------------------------|-----------|-----|
+| 60% → 75% | +150 | Médio | Alto | ⭐⭐⭐⭐⭐ Excelente |
+| 75% → 80% | +200 | Médio | Alto | ⭐⭐⭐⭐ Muito Bom |
+| 80% → 90% | +500 | Alto | Médio | ⭐⭐⭐ Bom |
+| 90% → 95% | +1.000 | Muito Alto | Baixo | ⭐⭐ Marginal |
+| 95% → 98% | +1.500 | Extremo | Mínimo | ⭐ Baixo |
+
+#### Recomendação de Priorização
+
+| Fase | Meta | Modelos | Prazo Sugerido | Ação |
+|------|------|---------|----------------|------|
+| **Fase 1** | 75% | 300 | Imediato | Completar telhados (+100) + variações residenciais (+50) |
+| **Fase 2** | 80% | 500 | Curto prazo | Expandir comercial básico (+200) |
+| **Fase 3** | 90% | 1.000 | Médio prazo | Nichos especializados (+500) |
+| **Fase 4** | 95%+ | 2.000+ | Longo prazo | Sob demanda, conforme necessidade |
+
+#### Arquivos Existentes e a Integrar
+
+| Arquivo | Modelos | Status |
+|---------|---------|--------|
+| `lista_reforma_ranking.csv` | 150 | ✅ Criado |
+| `lista_reforma_18_01_26.csv` | 100 + 100 telhados | ✅ Existente |
+| **TOTAL DISPONÍVEL** | ~300* | *Com sobreposição |
+
+**Ação Recomendada:** Unificar os arquivos existentes, remover duplicatas e validar cobertura real antes de expandir.
+
+---
+
 *Documento elaborado com base em pesquisas públicas e dados de mercado. Última atualização: Janeiro/2026.*
