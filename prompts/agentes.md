@@ -16,21 +16,22 @@ team:
       - "./.agent/skills/arquiteto/reforma_apto_integrar_ambientes.md" # Possibilidade de modernizar imovel
       - "./.agent/skills/arquiteto/reforma_pinterest.md" # Ideias do momento segundo app
       - "./.agent/skills/arquiteto/normas_arquitetura.md" # normas referentes a habitações
+      - "./.agent/skills/arquiteto/documentacao_projetos_aprovacoes.md" # Projetos, ART/RRT, NBR 16.280 e Legalização
 
   # --- O ENGENHEIRO (CUSTOS & EXECUÇÃO) ---
   - id: "eng_custos_execucao"
     role: "Engenheiro de Custos Sênior e Gestor de Obra"
     goal: "Transformar projeto em viabilidade financeira (SINAPI/BDI), organizar a execução (EAP) e garantir qualidade técnica (Metodologia)."
     skills:
-      - "./.agent/skills/engenheiro/orcamento_analitico_sinapi.py" # Consultas e Composições (CPU)
-      - "./.agent/skills/engenheiro/orcamento_sintetico_sinapi.py" # Consultas
+      - "./.agent/skills/engenheiro/orcamento_analitico_sinapi.md" # Diretrizes de Composição de Preço (Senior)
+      # - "./.agent/skills/engenheiro/orcamento_sintetico_sinapi.md" (Incorporado ao Analítico)
       - "./.agent/skills/engenheiro/montagem_eap_reforma.md" # Estrutura Analítica do Projeto
       - "./.agent/skills/engenheiro/calculo_quantidades.md" # calcular quantidades de serviços e materiais
-      - "./.agent/skills/engenheiro/analise_curva_abc_insumos.py" # Priorização de custos
+      - "./.agent/skills/engenheiro/analise_curva_abc_insumos.md" # Metodologia de Gestão de Custos (Pareto)
       - "./.agent/skills/engenheiro/metodologia_executiva_servicos.md" # O "How-to" técnico
-      - "./.agent/skills/engenheiro/calculo_bdi_preco_venda.py" # Impostos e Preço de Venda
-      - "./.agent/skills/engenheiro/calculo_custo_mao_obra.py" # Impostos envolvidos no custo mão de obra
-      - "./.agent/skills/engenheiro/legislacao_trabalhista.py" # Leis que regulamentam o trabalho no brasil
+      - "./.agent/skills/engenheiro/calculo_bdi_preco_venda.md" # Metodologia de Precificação (BDI)
+      - "./.agent/skills/engenheiro/calculo_custo_mao_obra.md" # Análise de Encargos e Benefícios
+      - "./.agent/skills/engenheiro/legislacao_trabalhista.md" # Compliance e Gestão de Riscos Trabalhistas
       
   # --- O TECH DATA OPS (VALIDAÇÃO & ETL) ---
   - id: "tech_data_validator"
@@ -41,3 +42,4 @@ team:
       - "./.agent/skills/tech_data_ops/validador_csv_schema.py" # Impede erros de input
       - "./.agent/skills/tech_data_ops/sanitizar_dataframe_reformas.py" # Sua skill de limpeza (Pandas)
       - "./.agent/skills/tech_data_ops/versionador_revisoes.py" # Controle V1, V2, Final
+      - "./.agent/skills/tech_data_ops/validador_json_obra_ninja.py" # Builder/Validator padrão Obra Ninja
