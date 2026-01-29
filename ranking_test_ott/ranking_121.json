@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.963114Z",
+  "template": {
+    "title": "Reforma 121 - Apto - Pintura completa",
+    "description": "Pintura padrão alto: preparo completo, massa corrida em todas as superfícies, selador, tinta premium, paredes de destaque e recortes perfeitos | Acabamento: Médio | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 121 - Apto - Pintura completa",
+    "total_area": 70.0
+  },
+  "spaces": [
+    {
+      "space_id": "3524f08d-3b9d-4870-9e45-f6f41a90d8bc",
+      "_name": "Pintura completa",
+      "area": 70.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

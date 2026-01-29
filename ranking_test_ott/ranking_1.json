@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.921084Z",
+  "template": {
+    "title": "Reforma 1 - Apto - Banheiro",
+    "description": "Reforma básica de banheiro: demolição de revestimentos antigos, impermeabilização do piso e box, contrapiso novo, revestimento cerâmico padrão, rejunte, louças/metais econômicos e pintura de teto | Acabamento: Popular | Imóvel: 1Q+1B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 1 - Apto - Banheiro",
+    "total_area": 4.0
+  },
+  "spaces": [
+    {
+      "space_id": "0b361241-7be0-40ea-88aa-993807e6ff2e",
+      "_name": "Banheiro",
+      "area": 4.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

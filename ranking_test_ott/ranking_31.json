@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.931751Z",
+  "template": {
+    "title": "Reforma 31 - Apto - Geral",
+    "description": "Reforma completa alto padrão: demolição e reconstrução de acabamentos, novo projeto de iluminação, marcenaria integrada, automação básica (iluminação e persianas) e materiais premium | Acabamento: Luxo | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 31 - Apto - Geral",
+    "total_area": 70.0
+  },
+  "spaces": [
+    {
+      "space_id": "fd6b9b97-b98c-406b-bc97-97a10da1ce5f",
+      "_name": "Geral",
+      "area": 70.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.975226Z",
+  "template": {
+    "title": "Reforma 154 - Casa - Impermeabilização",
+    "description": "Impermeabilização completa: laje, varandas, áreas molhadas, manta premium com garantia, detalhamento em ralos e testes rigorosos | Acabamento: Luxo | Imóvel: 4Q+3B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 154 - Casa - Impermeabilização",
+    "total_area": 50.0
+  },
+  "spaces": [
+    {
+      "space_id": "6b547b8a-f331-47f3-b5bc-57b79de993a6",
+      "_name": "Impermeabilização",
+      "area": 50.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.947619Z",
+  "template": {
+    "title": "Reforma 79 - Casa - Geral",
+    "description": "Reforma casa simples: pintura, revisão elétrica básica, troca de luminárias e pequenos reparos | Acabamento: Popular | Imóvel: 2Q+1B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 79 - Casa - Geral",
+    "total_area": 70.0
+  },
+  "spaces": [
+    {
+      "space_id": "a3530eb0-046b-495f-8954-02f2031e0bb4",
+      "_name": "Geral",
+      "area": 70.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

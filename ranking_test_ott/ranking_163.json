@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.978591Z",
+  "template": {
+    "title": "Reforma 163 - Casa - Esquadrias",
+    "description": "Esquadrias novas: janelas e portas externas em alumínio, vidros de segurança, fechaduras e telas mosquiteiras | Acabamento: Médio | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 163 - Casa - Esquadrias",
+    "total_area": 60.0
+  },
+  "spaces": [
+    {
+      "space_id": "49fa1f18-4596-4025-bd62-396c21cbe08f",
+      "_name": "Esquadrias",
+      "area": 60.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

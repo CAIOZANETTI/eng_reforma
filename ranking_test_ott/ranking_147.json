@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.971974Z",
+  "template": {
+    "title": "Reforma 147 - Apto - Adequação acessibilidade",
+    "description": "Acessibilidade residencial: barras em banheiro, portas alargadas (se possível), rampas internas, pisos antiderrapantes e iluminação reforçada | Acabamento: Comercial | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 147 - Apto - Adequação acessibilidade",
+    "total_area": 40.0
+  },
+  "spaces": [
+    {
+      "space_id": "9a250486-7681-4e5d-9baf-0eeb87588aa7",
+      "_name": "Adequação acessibilidade",
+      "area": 40.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

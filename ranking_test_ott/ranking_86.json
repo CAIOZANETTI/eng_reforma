@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.949676Z",
+  "template": {
+    "title": "Reforma 86 - Escritório - Recepção",
+    "description": "Recepção premium: balcão em MDF laqueado, parede de destaque com logo retroiluminado, sofás de espera, piso porcelanato polido e iluminação arquitetural | Acabamento: Comercial | Imóvel: 0Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "escritório",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 86 - Escritório - Recepção",
+    "total_area": 40.0
+  },
+  "spaces": [
+    {
+      "space_id": "0448ef8a-f4fa-42a1-9cbb-d8c7f6808f86",
+      "_name": "Recepção",
+      "area": 40.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

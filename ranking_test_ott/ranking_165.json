@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.979854Z",
+  "template": {
+    "title": "Reforma 165 - Apto - Box de vidro",
+    "description": "Box de banheiro: vidro temperado 8mm, ferragens em aço inox, porta de correr ou abrir, silicone e ajustes | Acabamento: Médio | Imóvel: 2Q+1B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 165 - Apto - Box de vidro",
+    "total_area": 4.0
+  },
+  "spaces": [
+    {
+      "space_id": "96765f78-29ad-4cd5-b18d-2ec31b1ee02a",
+      "_name": "Box de vidro",
+      "area": 4.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

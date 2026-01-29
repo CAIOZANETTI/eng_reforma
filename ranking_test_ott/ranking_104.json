@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.955775Z",
+  "template": {
+    "title": "Reforma 104 - Clínica - Consultório",
+    "description": "Consultório: pintura lavável, piso vinílico clínico, iluminação de tarefa, bancada, pia e armários para materiais | Acabamento: Comercial | Imóvel: 0Q+1B",
+    "language_code": "pt-BR",
+    "property_type": "clínica",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 104 - Clínica - Consultório",
+    "total_area": 12.0
+  },
+  "spaces": [
+    {
+      "space_id": "93677240-466a-42b0-ace6-379a7a88c75a",
+      "_name": "Consultório",
+      "area": 12.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

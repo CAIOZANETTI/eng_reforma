@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.983901Z",
+  "template": {
+    "title": "Reforma 175 - Casa - Fossa séptica",
+    "description": "Instalação de fossa séptica: escavação, conjunto fossa + sumidouro, tubulação e tampas de inspeção | Acabamento: Popular | Imóvel: 2Q+1B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 175 - Casa - Fossa séptica",
+    "total_area": 12.0
+  },
+  "spaces": [
+    {
+      "space_id": "1ec7e5f4-cc01-403f-afa5-3ba6f772b064",
+      "_name": "Fossa séptica",
+      "area": 12.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

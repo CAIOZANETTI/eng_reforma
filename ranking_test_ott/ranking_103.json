@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.955494Z",
+  "template": {
+    "title": "Reforma 103 - Clínica - Recepção",
+    "description": "Recepção clínica: balcão, cadeiras de espera, TV, piso lavável, pintura clara, iluminação adequada e sinalização | Acabamento: Comercial | Imóvel: 0Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "clínica",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 103 - Clínica - Recepção",
+    "total_area": 20.0
+  },
+  "spaces": [
+    {
+      "space_id": "dbf1182e-af22-4a01-9e66-432683f398af",
+      "_name": "Recepção",
+      "area": 20.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

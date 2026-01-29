@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.950329Z",
+  "template": {
+    "title": "Reforma 88 - Escritório - Open space",
+    "description": "Open office completo: piso carpete modular, divisórias baixas, iluminação LED linear, infraestrutura elétrica/dados, sala de descompressão e copa integrada | Acabamento: Comercial | Imóvel: 0Q+4B",
+    "language_code": "pt-BR",
+    "property_type": "escritório",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 88 - Escritório - Open space",
+    "total_area": 150.0
+  },
+  "spaces": [
+    {
+      "space_id": "c489371b-4068-49ff-8f40-878e0d5cdc6f",
+      "_name": "Open space",
+      "area": 150.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

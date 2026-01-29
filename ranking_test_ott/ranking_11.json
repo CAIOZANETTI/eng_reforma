@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.924831Z",
+  "template": {
+    "title": "Reforma 11 - Apto - Quarto solteiro",
+    "description": "Quarto solteiro funcional: pintura, piso vinílico básico, luminárias LED, tomadas para computador e organização de cabos | Acabamento: Popular | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 11 - Apto - Quarto solteiro",
+    "total_area": 9.0
+  },
+  "spaces": [
+    {
+      "space_id": "9ff5e8e7-9799-4749-872f-c4eecc2e8297",
+      "_name": "Quarto solteiro",
+      "area": 9.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.966124Z",
+  "template": {
+    "title": "Reforma 131 - Casa - Troca de pisos",
+    "description": "Piso madeira maciça ou engenheirada: preparação de base, instalação flutuante ou colada, acabamento e manutenção | Acabamento: Luxo | Imóvel: 4Q+3B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 131 - Casa - Troca de pisos",
+    "total_area": 200.0
+  },
+  "spaces": [
+    {
+      "space_id": "e8f1b3b9-ff63-4d84-a2c0-8b5870aab760",
+      "_name": "Troca de pisos",
+      "area": 200.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

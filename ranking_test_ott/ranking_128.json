@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.965199Z",
+  "template": {
+    "title": "Reforma 128 - Apto - Troca de pisos",
+    "description": "Piso porcelanato grande formato: demolição, nivelamento, porcelanato 1,20x2,40m com paginação, rejunte mínimo e rodapé embutido | Acabamento: Luxo | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 128 - Apto - Troca de pisos",
+    "total_area": 70.0
+  },
+  "spaces": [
+    {
+      "space_id": "eb3c2c94-4aff-461a-ba12-29f31676a8bb",
+      "_name": "Troca de pisos",
+      "area": 70.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.939161Z",
+  "template": {
+    "title": "Reforma 53 - Casa - Living integrado",
+    "description": "Living completo: porcelanato grande formato, pé-direito duplo (se existente) com luminária pendente, lareira ecológica, automação completa e marcenaria de TV premium | Acabamento: Luxo | Imóvel: 4Q+3B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 53 - Casa - Living integrado",
+    "total_area": 50.0
+  },
+  "spaces": [
+    {
+      "space_id": "a66f6f77-e540-416b-aa90-73d6a7f68788",
+      "_name": "Living integrado",
+      "area": 50.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

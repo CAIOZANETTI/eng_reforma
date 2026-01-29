@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.936576Z",
+  "template": {
+    "title": "Reforma 45 - Casa - Quarto hóspedes",
+    "description": "Quarto de hóspedes casa: pintura neutra, piso laminado, ar-condicionado, iluminação agradável e armário embutido | Acabamento: Médio | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 45 - Casa - Quarto hóspedes",
+    "total_area": 14.0
+  },
+  "spaces": [
+    {
+      "space_id": "d1574615-fe36-4bee-9721-74239b453917",
+      "_name": "Quarto hóspedes",
+      "area": 14.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

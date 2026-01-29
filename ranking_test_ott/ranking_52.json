@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.938885Z",
+  "template": {
+    "title": "Reforma 52 - Casa - Sala",
+    "description": "Sala de estar/jantar: porcelanato, forro de gesso acartonado, iluminação setorizada, painel de TV integrado e cortineiro embutido | Acabamento: Médio | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 52 - Casa - Sala",
+    "total_area": 35.0
+  },
+  "spaces": [
+    {
+      "space_id": "cc3ca49d-6ac0-44fc-8a7e-c57071a0ad54",
+      "_name": "Sala",
+      "area": 35.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

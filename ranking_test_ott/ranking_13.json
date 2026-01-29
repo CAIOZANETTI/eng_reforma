@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.925583Z",
+  "template": {
+    "title": "Reforma 13 - Apto - Cozinha",
+    "description": "Cozinha funcional: pintura lavável, troca de revestimento da faixa molhada (1,50m), bancada granito cinza, cuba inox, torneira básica e revisão de pontos elétricos para eletros | Acabamento: Popular | Imóvel: 1Q+1B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 13 - Apto - Cozinha",
+    "total_area": 8.0
+  },
+  "spaces": [
+    {
+      "space_id": "c672afe3-0ccd-414b-a537-7a91bf14935a",
+      "_name": "Cozinha",
+      "area": 8.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

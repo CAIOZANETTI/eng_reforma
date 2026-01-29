@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.932856Z",
+  "template": {
+    "title": "Reforma 34 - Apto - Hidráulica geral",
+    "description": "Revisão hidráulica: troca de registros gerais e de pressão, flexíveis novos, sifões, válvulas de descarga e testes de estanqueidade sem quebra de paredes | Acabamento: Médio | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 34 - Apto - Hidráulica geral",
+    "total_area": 55.0
+  },
+  "spaces": [
+    {
+      "space_id": "312b64e9-b55c-4042-9172-0bc3d00326f1",
+      "_name": "Hidráulica geral",
+      "area": 55.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

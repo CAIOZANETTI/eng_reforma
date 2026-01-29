@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.950022Z",
+  "template": {
+    "title": "Reforma 87 - Escritório - Open space",
+    "description": "Escritório aberto: reorganização de layout, estações de trabalho, cabeamento estruturado, iluminação setorizada e tratamento acústico básico | Acabamento: Comercial | Imóvel: 0Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "escritório",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 87 - Escritório - Open space",
+    "total_area": 80.0
+  },
+  "spaces": [
+    {
+      "space_id": "b907c39c-04cf-4cc1-9411-cec6ae39fc97",
+      "_name": "Open space",
+      "area": 80.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

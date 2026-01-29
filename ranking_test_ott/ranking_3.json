@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.921832Z",
+  "template": {
+    "title": "Reforma 3 - Apto - Banheiro",
+    "description": "Banheiro premium: demolição total, impermeabilização premium, porcelanato grande formato (90x90 ou 1,20x2,40m), nicho iluminado, metais de design, box até o teto com ferragens especiais e ducha higiênica | Acabamento: Luxo | Imóvel: 2Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 3 - Apto - Banheiro",
+    "total_area": 6.0
+  },
+  "spaces": [
+    {
+      "space_id": "3a942823-5938-4cb6-9b46-a3287d1fd2ee",
+      "_name": "Banheiro",
+      "area": 6.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.941005Z",
+  "template": {
+    "title": "Reforma 58 - Casa - Área gourmet",
+    "description": "Área gourmet premium: churrasqueira argentina, forno de pizza (se viável), bancada em granito, geladeira embutida, iluminação cênica e pergolado decorativo | Acabamento: Luxo | Imóvel: 4Q+3B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 58 - Casa - Área gourmet",
+    "total_area": 30.0
+  },
+  "spaces": [
+    {
+      "space_id": "16dec104-28a6-4426-9ba6-847cee00c0cc",
+      "_name": "Área gourmet",
+      "area": 30.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

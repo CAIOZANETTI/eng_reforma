@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.966995Z",
+  "template": {
+    "title": "Reforma 134 - Apto - Forro de gesso",
+    "description": "Forro decorativo: molduras clássicas ou design contemporâneo, iluminação em múltiplas camadas, cortineiros motorizados e acabamento premium | Acabamento: Luxo | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 134 - Apto - Forro de gesso",
+    "total_area": 70.0
+  },
+  "spaces": [
+    {
+      "space_id": "066a4e9d-7a29-430c-b89d-854f311e6dd0",
+      "_name": "Forro de gesso",
+      "area": 70.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

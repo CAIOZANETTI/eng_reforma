@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.936857Z",
+  "template": {
+    "title": "Reforma 46 - Casa - Quarto empregada",
+    "description": "Dependência de empregada: pintura, piso cerâmico, iluminação básica, tomadas e revisão de banheiro anexo | Acabamento: Popular | Imóvel: 4Q+3B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 46 - Casa - Quarto empregada",
+    "total_area": 8.0
+  },
+  "spaces": [
+    {
+      "space_id": "f6ea608b-c82c-4d3f-ad22-ecc7d8acab50",
+      "_name": "Quarto empregada",
+      "area": 8.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

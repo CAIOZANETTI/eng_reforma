@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.980375Z",
+  "template": {
+    "title": "Reforma 166 - Apto - Box de vidro",
+    "description": "Box premium: vidro 10mm até o teto, ferragens especiais, roldanas silenciosas, perfis em alumínio preto e vedação total | Acabamento: Luxo | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 166 - Apto - Box de vidro",
+    "total_area": 6.0
+  },
+  "spaces": [
+    {
+      "space_id": "ae60da23-1149-4af5-b972-ed0cf2408ead",
+      "_name": "Box de vidro",
+      "area": 6.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.928081Z",
+  "template": {
+    "title": "Reforma 20 - Apto - Sala",
+    "description": "Living premium: porcelanato grande formato, sanca em gesso com iluminação indireta, painel ripado para TV com automação, cortineiro motorizado e infraestrutura para home theater | Acabamento: Luxo | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 20 - Apto - Sala",
+    "total_area": 30.0
+  },
+  "spaces": [
+    {
+      "space_id": "24a7249b-e5eb-4409-9f03-67e115ded62a",
+      "_name": "Sala",
+      "area": 30.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

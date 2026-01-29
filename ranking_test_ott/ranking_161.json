@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.977743Z",
+  "template": {
+    "title": "Reforma 161 - Casa - Central de gás",
+    "description": "Instalação de gás: central de P45 ou natural, tubulação em cobre, registros, detectores e teste de estanqueidade | Acabamento: Médio | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 161 - Casa - Central de gás",
+    "total_area": 15.0
+  },
+  "spaces": [
+    {
+      "space_id": "4b46d249-4a81-42e9-b9d2-57c40a32f3e8",
+      "_name": "Central de gás",
+      "area": 15.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

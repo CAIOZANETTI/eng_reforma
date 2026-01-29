@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.947046Z",
+  "template": {
+    "title": "Reforma 77 - Casa - Geral",
+    "description": "Reforma completa casa: pintura, troca de pisos áreas sociais, reforma de banheiros, atualização elétrica, marcenaria de cozinha e iluminação | Acabamento: Médio | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 77 - Casa - Geral",
+    "total_area": 150.0
+  },
+  "spaces": [
+    {
+      "space_id": "803edad4-2bcd-4165-8c8a-60a6a727f782",
+      "_name": "Geral",
+      "area": 150.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

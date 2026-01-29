@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.931414Z",
+  "template": {
+    "title": "Reforma 30 - Apto - Geral",
+    "description": "Reforma pré-entrega: pintura completa, troca de pisos áreas sociais, revisão elétrica, silicones/rejuntes novos, louças sanitárias e pequenos reparos de acabamento | Acabamento: Médio | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 30 - Apto - Geral",
+    "total_area": 55.0
+  },
+  "spaces": [
+    {
+      "space_id": "96cec812-885d-4afd-be8d-daa231ced996",
+      "_name": "Geral",
+      "area": 55.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

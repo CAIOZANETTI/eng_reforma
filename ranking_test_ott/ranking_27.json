@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.930460Z",
+  "template": {
+    "title": "Reforma 27 - Apto - Home office",
+    "description": "Escritório em casa: bancada longa, iluminação de tarefa, tomadas múltiplas, cabeamento organizado, tratamento acústico leve e pintura neutra focada em produtividade | Acabamento: Médio | Imóvel: 2Q+1B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 27 - Apto - Home office",
+    "total_area": 9.0
+  },
+  "spaces": [
+    {
+      "space_id": "06a012d0-5cd5-4b87-a810-eb1cc81bb22f",
+      "_name": "Home office",
+      "area": 9.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

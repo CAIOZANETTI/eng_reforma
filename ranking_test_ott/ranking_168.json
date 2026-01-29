@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.981318Z",
+  "template": {
+    "title": "Reforma 168 - Casa - Troca de portas",
+    "description": "Portas casa: internas e externas, batentes, guarnições, fechaduras, dobradiças e acabamento em pintura ou verniz | Acabamento: Médio | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 168 - Casa - Troca de portas",
+    "total_area": 60.0
+  },
+  "spaces": [
+    {
+      "space_id": "6ba1019c-a89c-4d74-9305-e8cbdccc6cf8",
+      "_name": "Troca de portas",
+      "area": 60.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

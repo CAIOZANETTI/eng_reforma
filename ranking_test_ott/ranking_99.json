@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.954264Z",
+  "template": {
+    "title": "Reforma 99 - Escritório - Geral",
+    "description": "Reforma corporativa completa: layout novo, mobiliário, iluminação LED, climatização revisada, tratamento acústico, banheiros e copa | Acabamento: Comercial | Imóvel: 0Q+4B",
+    "language_code": "pt-BR",
+    "property_type": "escritório",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 99 - Escritório - Geral",
+    "total_area": 180.0
+  },
+  "spaces": [
+    {
+      "space_id": "624cd576-d75a-4710-86e2-195b196cde98",
+      "_name": "Geral",
+      "area": 180.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

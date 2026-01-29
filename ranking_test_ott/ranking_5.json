@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.922445Z",
+  "template": {
+    "title": "Reforma 5 - Apto - Lavabo",
+    "description": "Lavabo de impacto: bancada esculpida em pedra natural, cuba de apoio designer, torneira de parede, revestimento decorativo (porcelanato 3D ou cimento queimado), espelho retroiluminado e iluminação cênica | Acabamento: Luxo | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 5 - Apto - Lavabo",
+    "total_area": 2.0
+  },
+  "spaces": [
+    {
+      "space_id": "edaeb10a-4e07-44b8-938e-4bf01cd4a8d9",
+      "_name": "Lavabo",
+      "area": 2.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

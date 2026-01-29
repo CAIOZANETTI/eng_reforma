@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.966418Z",
+  "template": {
+    "title": "Reforma 132 - Apto - Forro de gesso",
+    "description": "Forro simples: rebaixo em gesso acartonado, tabicas, pontos de iluminação e pintura | Acabamento: Popular | Imóvel: 2Q+1B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 132 - Apto - Forro de gesso",
+    "total_area": 35.0
+  },
+  "spaces": [
+    {
+      "space_id": "b7e3173a-0aff-4fb2-b9a6-e1d3b3bbe400",
+      "_name": "Forro de gesso",
+      "area": 35.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

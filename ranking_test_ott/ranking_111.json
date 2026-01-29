@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.958715Z",
+  "template": {
+    "title": "Reforma 111 - Casa - Piscina",
+    "description": "Reforma de piscina: troca de revestimento (pastilha ou vinil), revisão de bombas/filtros, iluminação subaquática, deck perimetral e paisagismo | Acabamento: Luxo | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 111 - Casa - Piscina",
+    "total_area": 25.0
+  },
+  "spaces": [
+    {
+      "space_id": "dd1ab495-a82e-4ce6-b5fa-b38d896982d8",
+      "_name": "Piscina",
+      "area": 25.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

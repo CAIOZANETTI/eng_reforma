@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.970213Z",
+  "template": {
+    "title": "Reforma 143 - Apto - Marcenaria cozinha",
+    "description": "Cozinha premium: MDF laqueado ou nesting, ferragens Blum/Hettich, iluminação em perfis, gavetas com divisórias e sistema push-to-open | Acabamento: Luxo | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 143 - Apto - Marcenaria cozinha",
+    "total_area": 16.0
+  },
+  "spaces": [
+    {
+      "space_id": "df03200e-6d5f-4336-a517-da7d2f0edded",
+      "_name": "Marcenaria cozinha",
+      "area": 16.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

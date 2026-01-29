@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.970757Z",
+  "template": {
+    "title": "Reforma 144 - Apto - Marcenaria quarto",
+    "description": "Closet planejado: módulos internos, cabideiros, gaveteiros, iluminação LED e portas de correr com espelho | Acabamento: Médio | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 144 - Apto - Marcenaria quarto",
+    "total_area": 14.0
+  },
+  "spaces": [
+    {
+      "space_id": "ef75012c-2d03-4c23-8337-d8c5de852829",
+      "_name": "Marcenaria quarto",
+      "area": 14.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

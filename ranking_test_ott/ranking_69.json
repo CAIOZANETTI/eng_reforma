@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.944334Z",
+  "template": {
+    "title": "Reforma 69 - Casa - Escada",
+    "description": "Escada interna: revestimento de degraus (porcelanato ou madeira), corrimão novo, iluminação de balizamento e pintura de paredes | Acabamento: Médio | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 69 - Casa - Escada",
+    "total_area": 10.0
+  },
+  "spaces": [
+    {
+      "space_id": "e56a9ae7-c7f1-4ed1-b60d-5f6b1e9e73a0",
+      "_name": "Escada",
+      "area": 10.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

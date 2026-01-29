@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.935984Z",
+  "template": {
+    "title": "Reforma 43 - Casa - Suíte master",
+    "description": "Suíte completa: piso de madeira maciça, painel ripado, closet iluminado com espelho, automação de cortinas/iluminação e integração com banheiro premium | Acabamento: Luxo | Imóvel: 4Q+3B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 43 - Casa - Suíte master",
+    "total_area": 20.0
+  },
+  "spaces": [
+    {
+      "space_id": "be9bd7d1-bb28-4ed6-88dd-f451285b78e3",
+      "_name": "Suíte master",
+      "area": 20.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

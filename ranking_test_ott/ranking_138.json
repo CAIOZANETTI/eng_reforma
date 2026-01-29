@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.968671Z",
+  "template": {
+    "title": "Reforma 138 - Apto - Iluminação",
+    "description": "Projeto de iluminação: LED embutido, trilhos e spots, setorização por ambientes, dimmers e cenas básicas | Acabamento: Médio | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 138 - Apto - Iluminação",
+    "total_area": 65.0
+  },
+  "spaces": [
+    {
+      "space_id": "551da0d7-ec90-42f2-b31d-f640db87388b",
+      "_name": "Iluminação",
+      "area": 65.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

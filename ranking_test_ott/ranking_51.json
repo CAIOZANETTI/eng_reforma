@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.938601Z",
+  "template": {
+    "title": "Reforma 51 - Casa - Sala",
+    "description": "Sala casa: pintura, piso laminado, luminárias básicas e organização de cabos TV/internet | Acabamento: Popular | Imóvel: 2Q+1B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 51 - Casa - Sala",
+    "total_area": 25.0
+  },
+  "spaces": [
+    {
+      "space_id": "1b7b83e5-6163-452e-98d6-a52e78ae6446",
+      "_name": "Sala",
+      "area": 25.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

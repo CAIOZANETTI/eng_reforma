@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.945816Z",
+  "template": {
+    "title": "Reforma 73 - Casa - Telhado",
+    "description": "Cobertura nova: troca total de telhas e madeiramento, tratamento anti-cupim, subcobertura térmica, calhas e condutores dimensionados e teste de estanqueidade | Acabamento: Luxo | Imóvel: 4Q+3B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 73 - Casa - Telhado",
+    "total_area": 150.0
+  },
+  "spaces": [
+    {
+      "space_id": "d31e77de-ef7d-4173-9401-8ef2d94d7171",
+      "_name": "Telhado",
+      "area": 150.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.940702Z",
+  "template": {
+    "title": "Reforma 57 - Casa - Área gourmet",
+    "description": "Espaço gourmet: churrasqueira em alvenaria ou pré-moldada, bancada, cuba, armários, revestimento resistente, iluminação e piso antiderrapante | Acabamento: Médio | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 57 - Casa - Área gourmet",
+    "total_area": 20.0
+  },
+  "spaces": [
+    {
+      "space_id": "6c4bcc50-b7dd-4d41-a640-76ec2bab36e8",
+      "_name": "Área gourmet",
+      "area": 20.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

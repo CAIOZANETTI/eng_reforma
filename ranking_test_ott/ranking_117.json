@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.961135Z",
+  "template": {
+    "title": "Reforma 117 - Casa - Despensa/adega",
+    "description": "Adega climatizada: ar-condicionado de adega, prateleiras para garrafas, iluminação LED fria, piso antiderrapante e porta com vedação | Acabamento: Luxo | Imóvel: 4Q+3B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 117 - Casa - Despensa/adega",
+    "total_area": 8.0
+  },
+  "spaces": [
+    {
+      "space_id": "3410121c-6754-4bea-a129-a94b380360c6",
+      "_name": "Despensa/adega",
+      "area": 8.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

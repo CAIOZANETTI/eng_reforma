@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.982454Z",
+  "template": {
+    "title": "Reforma 171 - Apto - Tratamento acústico",
+    "description": "Isolamento básico: borrachas de vedação em portas, calafetagem de frestas e cortinas blackout pesadas | Acabamento: Médio | Imóvel: 2Q+1B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 171 - Apto - Tratamento acústico",
+    "total_area": 30.0
+  },
+  "spaces": [
+    {
+      "space_id": "66c56505-4bf1-45a8-b5d2-1dc556fdb675",
+      "_name": "Tratamento acústico",
+      "area": 30.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

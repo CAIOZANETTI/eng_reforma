@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.927436Z",
+  "template": {
+    "title": "Reforma 18 - Apto - Sala",
+    "description": "Sala renovada: pintura completa, troca de piso por vinílico, rodapé, luminárias novas e organização de pontos elétricos para TV/internet | Acabamento: Popular | Imóvel: 1Q+1B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 18 - Apto - Sala",
+    "total_area": 18.0
+  },
+  "spaces": [
+    {
+      "space_id": "7b30b6a9-f87e-4254-b129-c0f0beebdf8d",
+      "_name": "Sala",
+      "area": 18.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

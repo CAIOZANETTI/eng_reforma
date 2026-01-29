@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.956120Z",
+  "template": {
+    "title": "Reforma 105 - Clínica - Banheiro PNE",
+    "description": "Banheiro acessível: dimensões NBR 9050, barras de apoio, bacia elevada, lavatório adequado, piso antiderrapante e sinalização | Acabamento: Comercial | Imóvel: 0Q+1B",
+    "language_code": "pt-BR",
+    "property_type": "clínica",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 105 - Clínica - Banheiro PNE",
+    "total_area": 5.0
+  },
+  "spaces": [
+    {
+      "space_id": "9c8bf5b8-667b-4b20-b2e1-452dfc37e764",
+      "_name": "Banheiro PNE",
+      "area": 5.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

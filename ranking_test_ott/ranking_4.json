@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.922129Z",
+  "template": {
+    "title": "Reforma 4 - Apto - Banheiro social",
+    "description": "Troca de revestimentos apenas do box (área molhada), impermeabilização localizada, novo piso/parede cerâmica, rejunte epóxi anti-mofo e troca de metais mantendo louças existentes | Acabamento: Médio | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 4 - Apto - Banheiro social",
+    "total_area": 4.0
+  },
+  "spaces": [
+    {
+      "space_id": "60f718fc-5a10-427e-a533-2082ec142ede",
+      "_name": "Banheiro social",
+      "area": 4.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

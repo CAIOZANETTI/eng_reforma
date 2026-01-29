@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.939471Z",
+  "template": {
+    "title": "Reforma 54 - Casa - Sala",
+    "description": "Sala família: pintura, piso cerâmico, luminárias LED e organização de móveis | Acabamento: Popular | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 54 - Casa - Sala",
+    "total_area": 20.0
+  },
+  "spaces": [
+    {
+      "space_id": "a0d77f1c-2c9f-4ca7-802b-754596c2a3f3",
+      "_name": "Sala",
+      "area": 20.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

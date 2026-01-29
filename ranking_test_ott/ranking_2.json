@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.921495Z",
+  "template": {
+    "title": "Reforma 2 - Apto - Banheiro",
+    "description": "Reforma completa de banheiro mantendo layout: demolição, impermeabilização com manta, contrapiso com caimento, porcelanato 60x60, box de vidro temperado, louças/metais de linha média e iluminação LED | Acabamento: Médio | Imóvel: 2Q+1B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 2 - Apto - Banheiro",
+    "total_area": 5.0
+  },
+  "spaces": [
+    {
+      "space_id": "e9b16f4e-43f1-4a5b-8d09-507d485f51ba",
+      "_name": "Banheiro",
+      "area": 5.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

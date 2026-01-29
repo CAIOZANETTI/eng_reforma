@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.938308Z",
+  "template": {
+    "title": "Reforma 50 - Casa - Copa",
+    "description": "Copa separada: bancada de apoio, armários, mesa pequena para refeições rápidas, iluminação e piso cerâmico | Acabamento: Médio | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 50 - Casa - Copa",
+    "total_area": 8.0
+  },
+  "spaces": [
+    {
+      "space_id": "9071f91b-26f9-4bfc-bb96-65a14f97c9e3",
+      "_name": "Copa",
+      "area": 8.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.947335Z",
+  "template": {
+    "title": "Reforma 78 - Casa - Geral",
+    "description": "Retrofit completo: demolição de acabamentos, novo projeto de interiores, materiais premium, automação residencial, paisagismo e iluminação cênica | Acabamento: Luxo | Imóvel: 4Q+3B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 78 - Casa - Geral",
+    "total_area": 200.0
+  },
+  "spaces": [
+    {
+      "space_id": "854bffb2-0de7-4607-956b-9d2076574a2d",
+      "_name": "Geral",
+      "area": 200.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

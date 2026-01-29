@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.937386Z",
+  "template": {
+    "title": "Reforma 47 - Casa - Cozinha",
+    "description": "Cozinha casa: pintura lavável, revestimento cerâmico, bancada granito, cuba inox simples, torneira funcional e armários básicos | Acabamento: Popular | Imóvel: 2Q+1B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 47 - Casa - Cozinha",
+    "total_area": 12.0
+  },
+  "spaces": [
+    {
+      "space_id": "5f4a4d9d-d315-4d00-86f8-4e06726957bd",
+      "_name": "Cozinha",
+      "area": 12.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.973323Z",
+  "template": {
+    "title": "Reforma 150 - Casa - Banheiro PNE",
+    "description": "Banheiro PNE casa: dimensões adequadas, barras em inox, bacia elevada, lavatório sem coluna e box sem desnível | Acabamento: Comercial | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 150 - Casa - Banheiro PNE",
+    "total_area": 6.0
+  },
+  "spaces": [
+    {
+      "space_id": "d5b97f15-44d5-4100-b2ed-34c4955cde89",
+      "_name": "Banheiro PNE",
+      "area": 6.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

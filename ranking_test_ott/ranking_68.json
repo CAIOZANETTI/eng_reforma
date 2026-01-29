@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.944027Z",
+  "template": {
+    "title": "Reforma 68 - Casa - Muros e portão",
+    "description": "Entrada valorizada: revestimento de muro (cerâmica ou pedra), portão automatizado, iluminação de balizamento, câmeras e paisagismo | Acabamento: Médio | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 68 - Casa - Muros e portão",
+    "total_area": 60.0
+  },
+  "spaces": [
+    {
+      "space_id": "4a76edeb-ca93-4f85-a12f-4bf2a3665adc",
+      "_name": "Muros e portão",
+      "area": 60.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

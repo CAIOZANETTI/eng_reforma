@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.941587Z",
+  "template": {
+    "title": "Reforma 60 - Casa - Varanda",
+    "description": "Varanda simples: pintura, piso cerâmico externo, iluminação básica e guarda-corpo revisado | Acabamento: Popular | Imóvel: 2Q+1B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 60 - Casa - Varanda",
+    "total_area": 10.0
+  },
+  "spaces": [
+    {
+      "space_id": "c3dea94b-65e7-4a18-9e59-91b422596ff7",
+      "_name": "Varanda",
+      "area": 10.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.927739Z",
+  "template": {
+    "title": "Reforma 19 - Apto - Sala",
+    "description": "Sala de estar: piso laminado ou porcelanato, forro de gesso com iluminação embutida, painel de TV com passa-cabos, tomadas estratégicas e pintura com parede de destaque | Acabamento: Médio | Imóvel: 2Q+1B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 19 - Apto - Sala",
+    "total_area": 22.0
+  },
+  "spaces": [
+    {
+      "space_id": "f589f453-5523-4f3f-93b1-46b0e12d55e8",
+      "_name": "Sala",
+      "area": 22.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.928712Z",
+  "template": {
+    "title": "Reforma 22 - Apto - Sala",
+    "description": "Sala simples: pintura, piso vinílico econômico, luminárias básicas LED e organização de cabos TV | Acabamento: Popular | Imóvel: 2Q+1B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 22 - Apto - Sala",
+    "total_area": 16.0
+  },
+  "spaces": [
+    {
+      "space_id": "cdccc3dc-52e1-4348-826f-a3a21600b2c8",
+      "_name": "Sala",
+      "area": 16.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.948205Z",
+  "template": {
+    "title": "Reforma 81 - Casa - Elétrica geral",
+    "description": "Adequação elétrica completa: novo quadro bifásico/trifásico, circuitos separados, aterramento, tomadas novas e iluminação LED | Acabamento: Médio | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 81 - Casa - Elétrica geral",
+    "total_area": 120.0
+  },
+  "spaces": [
+    {
+      "space_id": "3de69cd5-e0dc-4bb9-9438-e65bb4720dc1",
+      "_name": "Elétrica geral",
+      "area": 120.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.923702Z",
+  "template": {
+    "title": "Reforma 8 - Apto - Quarto",
+    "description": "Quarto renovado: pintura, piso laminado de qualidade, rodapé alto, cabeceira estofada com iluminação de leitura, tomadas USB, cortineiro embutido em gesso e iluminação setorizada | Acabamento: Médio | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 8 - Apto - Quarto",
+    "total_area": 14.0
+  },
+  "spaces": [
+    {
+      "space_id": "a8b472bf-4902-4e37-925c-220867c102f2",
+      "_name": "Quarto",
+      "area": 14.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

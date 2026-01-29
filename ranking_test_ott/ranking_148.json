@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.972364Z",
+  "template": {
+    "title": "Reforma 148 - Casa - Adequação acessibilidade",
+    "description": "Casa acessível: rampa de acesso, banheiro PNE, portas largas, pisos nivelados, corrimãos e sinalização tátil | Acabamento: Comercial | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 148 - Casa - Adequação acessibilidade",
+    "total_area": 80.0
+  },
+  "spaces": [
+    {
+      "space_id": "4069e2db-efe3-4ead-817f-fcbec23a850b",
+      "_name": "Adequação acessibilidade",
+      "area": 80.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

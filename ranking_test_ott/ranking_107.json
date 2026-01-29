@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.956913Z",
+  "template": {
+    "title": "Reforma 107 - Restaurante - Cozinha industrial",
+    "description": "Cozinha comercial: piso antiderrapante, revestimento lavável até o teto, bancadas inox, exaustão, pontos de água/gás e iluminação forte | Acabamento: Comercial | Imóvel: 0Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "restaurante",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 107 - Restaurante - Cozinha industrial",
+    "total_area": 40.0
+  },
+  "spaces": [
+    {
+      "space_id": "cc0fe6dc-200c-477b-b338-f0af2a217f40",
+      "_name": "Cozinha industrial",
+      "area": 40.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

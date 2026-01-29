@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.967892Z",
+  "template": {
+    "title": "Reforma 136 - Casa - Forro de gesso",
+    "description": "Forro integral casa: gesso em todos os ambientes, iluminação projetada, nichos em gesso e acabamento perfeito | Acabamento: Luxo | Imóvel: 4Q+3B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 136 - Casa - Forro de gesso",
+    "total_area": 150.0
+  },
+  "spaces": [
+    {
+      "space_id": "3b39daee-d90a-408d-8272-9947faf5df8a",
+      "_name": "Forro de gesso",
+      "area": 150.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

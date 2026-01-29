@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.940089Z",
+  "template": {
+    "title": "Reforma 55 - Casa - Lavanderia",
+    "description": "Área de serviço casa: piso cerâmico, tanque, bancada simples, prateleiras e varal | Acabamento: Popular | Imóvel: 2Q+1B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 55 - Casa - Lavanderia",
+    "total_area": 8.0
+  },
+  "spaces": [
+    {
+      "space_id": "be48bf38-ad2f-4572-9421-5ca4248db1b6",
+      "_name": "Lavanderia",
+      "area": 8.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

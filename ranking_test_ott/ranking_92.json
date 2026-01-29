@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.951927Z",
+  "template": {
+    "title": "Reforma 92 - Escritório - Copa",
+    "description": "Copa funcional: bancada, armários, cuba, micro-ondas e geladeira embutidos, revestimento lavável, ventilação/exaustão e mesa de apoio | Acabamento: Comercial | Imóvel: 0Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "escritório",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 92 - Escritório - Copa",
+    "total_area": 15.0
+  },
+  "spaces": [
+    {
+      "space_id": "2b23d81d-c735-443a-849e-387dcfe38a62",
+      "_name": "Copa",
+      "area": 15.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

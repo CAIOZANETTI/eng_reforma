@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.954562Z",
+  "template": {
+    "title": "Reforma 100 - Loja - Salão de vendas",
+    "description": "Loja básica: pintura, piso vinílico comercial, iluminação de destaque, provadores (se aplicável), balcão de caixa e vitrine | Acabamento: Comercial | Imóvel: 0Q+1B",
+    "language_code": "pt-BR",
+    "property_type": "loja",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 100 - Loja - Salão de vendas",
+    "total_area": 60.0
+  },
+  "spaces": [
+    {
+      "space_id": "9372d9cc-2b31-45b9-bae6-7e4beea98420",
+      "_name": "Salão de vendas",
+      "area": 60.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

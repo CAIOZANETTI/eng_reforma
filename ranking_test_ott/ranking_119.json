@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.962513Z",
+  "template": {
+    "title": "Reforma 119 - Casa - Casa de máquinas",
+    "description": "Casa de máquinas de piscina: organização, revisão de bombas, troca de selos, iluminação, ventilação e piso resistente | Acabamento: Médio | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 119 - Casa - Casa de máquinas",
+    "total_area": 6.0
+  },
+  "spaces": [
+    {
+      "space_id": "cf12c2ac-3de1-474d-ad79-15c7c953f7af",
+      "_name": "Casa de máquinas",
+      "area": 6.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

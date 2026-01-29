@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.966711Z",
+  "template": {
+    "title": "Reforma 133 - Apto - Forro de gesso",
+    "description": "Forro com iluminação: gesso acartonado com rasgos para LED, sancas, cortineiros e pintura | Acabamento: Médio | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 133 - Apto - Forro de gesso",
+    "total_area": 50.0
+  },
+  "spaces": [
+    {
+      "space_id": "a60cde6e-4f24-4110-99b4-eb90d72887fd",
+      "_name": "Forro de gesso",
+      "area": 50.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

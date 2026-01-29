@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.941305Z",
+  "template": {
+    "title": "Reforma 59 - Casa - Varanda",
+    "description": "Varanda casa: piso externo, guarda-corpo novo, iluminação, tomadas e pintura de paredes/teto | Acabamento: Médio | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 59 - Casa - Varanda",
+    "total_area": 15.0
+  },
+  "spaces": [
+    {
+      "space_id": "61fa1ac1-f4f9-40ed-81f3-c5f71816bdf0",
+      "_name": "Varanda",
+      "area": 15.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

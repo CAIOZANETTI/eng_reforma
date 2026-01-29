@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.957795Z",
+  "template": {
+    "title": "Reforma 109 - Apto - Dormitório + closet",
+    "description": "Quarto com closet aberto: piso único, nichos em drywall, iluminação setorizada por zonas, espelho de parede e cortineiro motorizado | Acabamento: Luxo | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 109 - Apto - Dormitório + closet",
+    "total_area": 18.0
+  },
+  "spaces": [
+    {
+      "space_id": "15dc155c-4430-463c-8149-7092dcc63794",
+      "_name": "Dormitório + closet",
+      "area": 18.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

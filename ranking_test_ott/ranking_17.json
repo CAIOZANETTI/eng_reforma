@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.927142Z",
+  "template": {
+    "title": "Reforma 17 - Apto - Cozinha",
+    "description": "Cozinha compacta: pintura, revestimento cerâmico básico na área molhada, bancada granito pequena, cuba simples e organização de pontos elétricos | Acabamento: Popular | Imóvel: 1Q+1B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 17 - Apto - Cozinha",
+    "total_area": 6.0
+  },
+  "spaces": [
+    {
+      "space_id": "bdadcb86-6df7-4688-a446-643e80a1c371",
+      "_name": "Cozinha",
+      "area": 6.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

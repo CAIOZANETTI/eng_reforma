@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.982087Z",
+  "template": {
+    "title": "Reforma 170 - Casa - Segurança",
+    "description": "Sistema de segurança: câmeras externas, gravador (NVR), cerca elétrica, iluminação com sensor e alarme monitorado | Acabamento: Médio | Imóvel: 3Q+2B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 170 - Casa - Segurança",
+    "total_area": 80.0
+  },
+  "spaces": [
+    {
+      "space_id": "7293424b-89ba-4415-974b-86068580682d",
+      "_name": "Segurança",
+      "area": 80.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

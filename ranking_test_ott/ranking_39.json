@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.934787Z",
+  "template": {
+    "title": "Reforma 39 - Casa - Banheiro",
+    "description": "Banheiro econômico casa: pintura de azulejos, troca de louças básicas, rejunte novo, torneira econômica e box simples | Acabamento: Popular | Imóvel: 2Q+1B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 39 - Casa - Banheiro",
+    "total_area": 4.0
+  },
+  "spaces": [
+    {
+      "space_id": "c72bd842-cb40-41f0-b0be-6f94f35692f9",
+      "_name": "Banheiro",
+      "area": 4.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.964609Z",
+  "template": {
+    "title": "Reforma 126 - Apto - Troca de pisos",
+    "description": "Piso sobreposto: laminado ou vinílico clicado sobre piso existente (se nivelado), rodapé e perfis de transição | Acabamento: Popular | Imóvel: 2Q+1B",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 126 - Apto - Troca de pisos",
+    "total_area": 40.0
+  },
+  "spaces": [
+    {
+      "space_id": "138c2df2-e8c4-4550-befd-f79c036f6b37",
+      "_name": "Troca de pisos",
+      "area": 40.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}

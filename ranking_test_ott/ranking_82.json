@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T10:11:38.948489Z",
+  "template": {
+    "title": "Reforma 82 - Casa - Elétrica geral",
+    "description": "Revisão elétrica básica: troca de disjuntores, revisão de fiação, tomadas e interruptores novos | Acabamento: Popular | Imóvel: 2Q+1B",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma 82 - Casa - Elétrica geral",
+    "total_area": 80.0
+  },
+  "spaces": [
+    {
+      "space_id": "3f2c0728-f30b-419b-a083-62c0c5dc4055",
+      "_name": "Elétrica geral",
+      "area": 80.0,
+      "height": 2.6,
+      "services": []
+    }
+  ]
+}
