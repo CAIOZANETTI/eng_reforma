@@ -1,0 +1,23 @@
+item,ambiente,servico,descricao,unidade,quantidade
+1,Banheiro,Demolição de revestimentos,Demolição de revestimentos - Banheiro,m²,26.7
+2,Banheiro,Impermeabilização,Impermeabilização - Banheiro,m²,6.5
+3,Banheiro,Contrapiso,Contrapiso - Banheiro,m²,5.0
+4,Banheiro,Revestimento piso,Revestimento piso - Banheiro,m²,5.5
+5,Banheiro,Revestimento parede,Revestimento parede - Banheiro,m²,23.87
+6,Banheiro,Rejunte,Rejunte - Banheiro,m²,26.7
+7,Banheiro,Vaso sanitário,Vaso sanitário - Banheiro,un,1
+8,Banheiro,Cuba,Cuba - Banheiro,un,1
+9,Banheiro,Torneira,Torneira - Banheiro,un,1
+10,Banheiro,Chuveiro/Ducha,Chuveiro/Ducha - Banheiro,un,1
+11,Banheiro,Box de vidro,Box de vidro - Banheiro,m²,2.5
+12,Banheiro,Pintura de teto,Pintura de teto - Banheiro,m²,5.0
+13,Cozinha,Demolição de revestimentos,Demolição de revestimentos - Cozinha,m²,23.59
+14,Cozinha,Contrapiso,Contrapiso - Cozinha,m²,9.0
+15,Cozinha,Revestimento piso,Revestimento piso - Cozinha,m²,9.9
+16,Cozinha,Revestimento parede,Revestimento parede - Cozinha,m²,32.09
+17,Cozinha,Rejunte,Rejunte - Cozinha,m²,38.17
+18,Cozinha,Bancada quartzo,Bancada quartzo - Cozinha,m,4.9
+19,Cozinha,Cuba dupla,Cuba dupla - Cozinha,un,1
+20,Cozinha,Torneira gourmet,Torneira gourmet - Cozinha,un,1
+21,Cozinha,Marcenaria sob medida,Marcenaria sob medida - Cozinha,m,7.35
+22,Cozinha,Iluminação de bancada,Iluminação de bancada - Cozinha,m,4.9

@@ -1,0 +1,24 @@
+item,ambiente,servico,descricao,codigo_sinapi,unidade,quantidade,preco_unitario,preco_parcial
+1,Banheiro,Demolição de revestimentos,Demolição de revestimentos - Banheiro,97622,m²,26.7,44.75,1194.83
+2,Banheiro,Impermeabilização,Impermeabilização - Banheiro,98546,m²,6.5,108.75,706.88
+3,Banheiro,Contrapiso,Contrapiso - Banheiro,94990,m²,5.0,62.5,312.5
+4,Banheiro,Revestimento piso,Revestimento piso - Banheiro,87878,m²,5.5,178.75,983.12
+5,Banheiro,Revestimento parede,Revestimento parede - Banheiro,87878,m²,23.87,178.75,4266.76
+6,Banheiro,Rejunte,Rejunte - Banheiro,88485,m²,26.7,16.62,443.75
+7,Banheiro,Vaso sanitário,Vaso sanitário - Banheiro,86891,un,1.0,456.25,456.25
+8,Banheiro,Cuba,Cuba - Banheiro,86900,un,1.0,481.25,481.25
+9,Banheiro,Torneira,Torneira - Banheiro,86940,un,1.0,162.5,162.5
+10,Banheiro,Chuveiro/Ducha,Chuveiro/Ducha - Banheiro,86951,un,1.0,218.75,218.75
+11,Banheiro,Box de vidro,Box de vidro - Banheiro,89366,m²,2.5,668.75,1671.88
+12,Banheiro,Pintura de teto,Pintura de teto - Banheiro,88625,m²,5.0,38.12,190.6
+13,Cozinha,Demolição de revestimentos,Demolição de revestimentos - Cozinha,97622,m²,23.59,44.75,1055.65
+14,Cozinha,Contrapiso,Contrapiso - Cozinha,94990,m²,9.0,62.5,562.5
+15,Cozinha,Revestimento piso,Revestimento piso - Cozinha,87878,m²,9.9,178.75,1769.62
+16,Cozinha,Revestimento parede,Revestimento parede - Cozinha,87878,m²,32.09,178.75,5736.09
+17,Cozinha,Rejunte,Rejunte - Cozinha,88485,m²,38.17,16.62,634.39
+18,Cozinha,Bancada quartzo,Bancada quartzo - Cozinha,89357,m,4.9,1212.5,5941.25
+19,Cozinha,Cuba dupla,Cuba dupla - Cozinha,86911,un,1.0,656.25,656.25
+20,Cozinha,Torneira gourmet,Torneira gourmet - Cozinha,86942,un,1.0,781.25,781.25
+21,Cozinha,Marcenaria sob medida,Marcenaria sob medida - Cozinha,87878,m,7.35,178.75,1313.81
+22,Cozinha,Iluminação de bancada,Iluminação de bancada - Cozinha,93281,m,4.9,137.5,673.75
+,,TOTAL GERAL,,,,,,30213.63
