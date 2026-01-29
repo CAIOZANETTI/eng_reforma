@@ -28,14 +28,17 @@ Apenas dois arquivos são gerados como output final:
         └── escopo_custeado.csv
 ```
 
-## Skills Utilizadas
+## Skills Utilizadas (em ordem)
 
-| Skill | Diretório | Função |
-|-------|-----------|--------|
-| Quantificar | `.agent/skills/quantificar` | Calcular áreas e quantidades |
-| Escopo | `.agent/skills/escopo` | Gerar escopo detalhado |
-| Custo Reforma | `.agent/skills/custo_reforma` | Custear com SINAPI |
-| JSON | `.agent/skills/json` | Converter para Obra Ninja |
+| # | Skill | Diretório | Função |
+|---|-------|-----------|--------|
+| 1 | Empreiteiro | `.agent/skills/01_empreiteiro` | Interpretar prompt do cliente |
+| 2 | IBGE | `.agent/skills/02_ibge` | Validar dados e referências |
+| 3 | Projeto | `.agent/skills/03_projeto` | Sugerir opções de reforma |
+| 4 | Quantificar | `.agent/skills/04_quantificar` | Calcular áreas e quantidades |
+| 5 | Escopo | `.agent/skills/05_escopo` | Gerar escopo detalhado |
+| 6 | Custo | `.agent/skills/06_custo` | Custear com SINAPI |
+| 7 | JSON | `.agent/skills/07_json` | Converter para Obra Ninja |
 
 ## Pré-requisitos
 - Dados do imóvel (tipo, área, acabamento)
@@ -50,61 +53,77 @@ Apenas dois arquivos são gerados como output final:
 New-Item -ItemType Directory -Force -Path ".agent/.temp/{uuid}"
 ```
 
-### 2. Validar Entrada
+### 2. Executar Skill: Empreiteiro (interpretar prompt)
+```bash
+python .agent/skills/01_empreiteiro/scripts/prompt_tabela.py \
+  --prompt "{texto do cliente}" \
+  --output .agent/.temp/{uuid}/imovel_input.json
+```
+
+### 3. Validar Entrada com IBGE
 ```python
 # Verificar se o tipo de imóvel está na lista válida
 tipos_validos = ["apto", "casa", "escritório", "loja", "clínica", "restaurante"]
+# Consultar dados de referência do IBGE
 ```
 
-### 3. Executar Skill: Quantificar
+### 4. Executar Skill: Projeto (sugerir opções)
+```python
+# Baseado no tipo de imóvel e área, sugerir:
+# - Materiais adequados ao padrão (Popular/Médio/Luxo)
+# - Acabamentos recomendados
+# - Tendências de mercado
+```
+
+### 5. Executar Skill: Quantificar
 // turbo
 ```bash
-python .agent/skills/quantificar/scripts/quantificar.py \
+python .agent/skills/04_quantificar/scripts/quantificar.py \
   --input .agent/.temp/{uuid}/imovel_input.json \
   --output .agent/.temp/{uuid}/quantidades.csv
 ```
 
-### 4. Executar Skill: Escopo
+### 6. Executar Skill: Escopo
 // turbo
 ```bash
-python .agent/skills/escopo/scripts/gerar_escopo.py \
+python .agent/skills/05_escopo/scripts/gerar_escopo.py \
   --input .agent/.temp/{uuid}/quantidades.csv \
   --output .agent/.temp/{uuid}/escopo.csv
 ```
 
-### 5. Executar Skill: Custo Reforma
+### 7. Executar Skill: Custo
 // turbo
 ```bash
-python .agent/skills/custo_reforma/scripts/custear_reforma.py \
+python .agent/skills/06_custo/scripts/custear_reforma.py \
   --input .agent/.temp/{uuid}/escopo.csv \
   --output .agent/.temp/{uuid}/escopo_custeado.csv \
   --sintetico .agent/output/{nome_projeto}.md
 ```
 
-### 6. Executar Skill: JSON
+### 8. Executar Skill: JSON
 // turbo
 ```bash
-python .agent/skills/json/scripts/converte_escopo_to_obra_ninja_json.py \
+python .agent/skills/07_json/scripts/converte_escopo_to_obra_ninja_json.py \
   --input .agent/.temp/{uuid}/escopo_custeado.csv \
   --output .agent/output/{nome_projeto}.json \
   --nome "{Título do Projeto}" \
   --descricao "{Descrição}"
 ```
 
-### 7. Validar JSON
+### 9. Validar JSON
 // turbo
 ```bash
-python .agent/skills/json/scripts/validar_json.py \
+python .agent/skills/07_json/scripts/validar_json.py \
   --input .agent/output/{nome_projeto}.json
 ```
 
-### 8. Limpar arquivos temporários (opcional)
+### 10. Limpar arquivos temporários (opcional)
 // turbo
 ```bash
 Remove-Item -Recurse -Force ".agent/.temp/{uuid}"
 ```
 
-### 9. Retornar Resultado
+### 11. Retornar Resultado
 - Se válido: 
   - `.agent/output/{nome_projeto}.json`
   - `.agent/output/{nome_projeto}.md`
@@ -116,22 +135,6 @@ Remove-Item -Recurse -Force ".agent/.temp/{uuid}"
 .agent/output/
 ├── {nome_projeto}.json    ← JSON Obra Ninja válido
 └── {nome_projeto}.md      ← Orçamento sintético
-```
-
-Exemplo:
-```json
-{
-  "status": "success",
-  "files": {
-    "json": ".agent/output/reforma_banheiro.json",
-    "md": ".agent/output/reforma_banheiro.md"
-  },
-  "validation": {
-    "is_valid": true,
-    "errors": [],
-    "warnings": 0
-  }
-}
 ```
 
 ## Tratamento de Erros
