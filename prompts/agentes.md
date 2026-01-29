@@ -17,6 +17,7 @@ team:
       - "./.agent/skills/arquiteto/reforma_pinterest.md" # Ideias do momento segundo app
       - "./.agent/skills/arquiteto/normas_arquitetura.md" # normas referentes a habitações
       - "./.agent/skills/arquiteto/documentacao_projetos_aprovacoes.md" # Projetos, ART/RRT, NBR 16.280 e Legalização
+      - "./.agent/skills/arquiteto/reforma_ranking_tipos.md" # Panorama estatístico de reformas no Brasil
 
   # --- O ENGENHEIRO (CUSTOS & EXECUÇÃO) ---
   - id: "eng_custos_execucao"
