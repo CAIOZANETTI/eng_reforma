@@ -1,119 +1,324 @@
 ---
-name: Montagem EAP Reforma
-description: Estrutura Analítica de Projeto (EAP) padronizada para obras de reforma residencial, organizando serviços em pacotes de trabalho lógicos e sequenciais.
+name: Estrutura Analítica do Projeto (EAP) para Reformas
+description: Metodologia de decomposição hierárquica de projetos de reforma residencial, incluindo organização por macro-fases, sequenciamento lógico, dependências e critérios de encerramento de etapas.
 ---
 
-# Montagem da EAP - Reforma Residencial
+# Estrutura Analítica do Projeto (EAP) para Reformas
 
-Esta skill fornece o modelo padronizado de **Estrutura Analítica do Projeto (EAP)** para o Agente Engenheiro organizar o cronograma e o orçamento.
+> *"Dividir para conquistar. Uma reforma bem planejada é uma soma de etapas simples."*  
+> — Engenheiro Gestor de Obra
 
-## 1. Estrutura de Nível 1 - Fases Macro
+---
 
-A EAP deve seguir a cronologia física da obra:
+## 1. Conceito da EAP
 
-| ID | Fase Macro | Descrição |
-|----|------------|-----------|
-| **1.0** | **SERVIÇOS PRELIMINARES** | Preparação do ambiente, proteção e mobilização. |
-| **2.0** | **DEMOLIÇÕES E RETIRADAS** | Remoção de revestimentos, alvenarias e sistemas antigos. |
-| **3.0** | **ESTRUTURA E INFRAESTRUTURA** | Construção bruta, reforços e passagens de instalações. |
-| **4.0** | **INSTALAÇÕES PREDIAIS** | Elétrica, Hidráulica, Ar Condicionado, Gás e Automação. |
-| **5.0** | **VEDAÇÕES E FORROS** | Paredes de Drywall, forros de gesso e fechamentos. |
-| **6.0** | **REVESTIMENTOS E ACABAMENTOS** | Pisos, azulejos, bancadas, pintura e marcenaria. |
-| **7.0** | **ENTREGA E PÓS-OBRA** | Limpeza fina, testes finais e desmobilização. |
+### 1.1 Definição
 
-## 2. Detalhamento (Nível 2 e 3)
+A **EAP (Estrutura Analítica do Projeto)** — em inglês, *WBS (Work Breakdown Structure)* — é a decomposição hierárquica do projeto em entregas menores e gerenciáveis.
 
-### 1.0 SERVIÇOS PRELIMINARES
-*   **1.1 Mobilização:**
-    *   1.1.1 Transporte de ferramental e equipe.
-    *   1.1.2 Instalação de banheiro químico (se necessário).
-    *   1.1.3 Ligação provisória de água e luz.
-*   **1.2 Proteções:**
-    *   1.2.1 Proteção de piso existente (salva-piso ou madeirite).
-    *   1.2.2 Proteção de elevadores e áreas comuns (condomínios).
-    *   1.2.3 Tapumes e isolamento de áreas habitadas.
+### 1.2 Níveis da Hierarquia
 
-### 2.0 DEMOLIÇÕES E RETIRADAS
-*   **2.1 Remoção de Revestimentos:**
-    *   2.1.1 Retirada de piso cerâmico/madeira.
-    *   2.1.2 Picotamento de reboco (se necessário).
-    *   2.1.3 Remoção de azulejos de parede.
-*   **2.2 Demolição de Alvenaria:**
-    *   2.2.1 Demolição de paredes de tijolo/bloco.
-    *   2.2.2 Abertura de vãos para portas/janelas.
-*   **2.3 Retirada de Esquadrias e Louças:**
-    *   2.3.1 Retirada de portas e batentes.
-    *   2.3.2 Retirada de vasos, pias e metais.
-*   **2.4 Bota-Fora:**
-    *   2.4.1 Ensacamento de entulho.
-    *   2.4.2 Transporte vertical (elevador/escada).
-    *   2.4.3 Caçamba estacionária (carga e transporte).
+```
+NÍVEL 0: Projeto (Reforma Completa)
+├── NÍVEL 1: Macro-Fase (Demolição, Instalações, Acabamentos...)
+│   ├── NÍVEL 2: Pacote de Trabalho (Demolição de Piso, Demolição de Parede...)
+│   │   └── NÍVEL 3: Atividade (Quebrar piso sala, Remover entulho sala...)
+```
 
-### 3.0 ESTRUTURA E INFRAESTRUTURA
-*   **3.1 Alvenaria de Vedação:**
-    *   3.1.1 Levantamento de paredes novas (tijolo/bloco).
-    *   3.1.2 Vergas e contravergas.
-    *   3.1.3 Chapisco e Reboco.
-*   **3.2 Contrapiso:**
-    *   3.2.1 Execução de contrapiso autonivelante ou tradicional.
-    *   3.2.2 Impermeabilização de áreas molhadas (banheiros/cozinha).
+**Regra dos 100%:** A soma de todos os pacotes filhos deve representar 100% do pacote pai.
 
-### 4.0 INSTALAÇÕES PREDIAIS
-*   **4.1 Instalação Elétrica:**
-    *   4.1.1 Rasgo em alvenaria para eletrodutos.
-    *   4.1.2 Chumbamento de caixinhas (4x2, 4x4).
-    *   4.1.3 Passagem de cabos (fiação).
-    *   4.1.4 Montagem de Quadro de Distribuição (QDC).
-*   **4.2 Instalação Hidráulica:**
-    *   4.2.1 Rede de água fria/quente (PVC/CPVC/PEX).
-    *   4.2.2 Rede de esgoto e ralos.
-    *   4.2.3 Teste de estanqueidade (pressurização).
-*   **4.3 Climatização:**
-    *   4.3.1 Infraestrutura frigorígena (tubos de cobre).
-    *   4.3.2 Dreno de ar condicionado.
+### 1.3 Benefícios
 
-### 5.0 VEDAÇÕES E FORROS (DRYWALL/GESSO)
-*   **5.1 Paredes de Drywall:**
-    *   5.1.1 Estrutura (guias e montantes).
-    *   5.1.2 Chapeamento (ST/RU) e isolamento acústico (Lã).
-    *   5.1.3 Tratamento de juntas.
-*   **5.2 Forros:**
-    *   5.2.1 Tabica e estrutura de aço.
-    *   5.2.2 Fechamento em placas de gesso acartonado.
-    *   5.2.3 Cortineiros e sancas.
+| Benefício | Descrição |
+|-----------|-----------|
+| **Clareza de escopo** | Tudo que está na EAP será feito; o que não está, não será |
+| **Base para cronograma** | Cada pacote vira uma linha no cronograma |
+| **Base para orçamento** | Cada pacote tem custo associado |
+| **Controle de progresso** | % concluído por pacote |
+| **Gestão de mudanças** | Adição = novo pacote = aditivo |
 
-### 6.0 REVESTIMENTOS E ACABAMENTOS
-*   **6.1 Revestimentos Cerâmicos/Porcelanatos:**
-    *   6.1.1 Assentamento de piso e rodapé.
-    *   6.1.2 Assentamento de revestimento de parede.
-    *   6.1.3 Rejuntamento.
-*   **6.2 Pintura:**
-    *   6.2.1 Lixamento e preparação (massa corrida).
-    *   6.2.2 Pintura de teto e paredes (látex/acrílica).
-    *   6.2.3 Pintura de portas e rodapés (esmalte).
-*   **6.3 Montagem Final:**
-    *   6.3.1 Instalação de luminárias e tomadas (acabamentos elétricos).
-    *   6.3.2 Instalação de louças (vaso, cuba) e metais (torneiras).
-    *   6.3.3 Instalação de bancadas de pedra.
+---
 
-### 7.0 ENTREGA E PÓS-OBRA
-*   **7.1 Limpeza:**
-    *   7.1.1 Limpeza grossa pós-obra.
-    *   7.1.2 Limpeza fina para entrega.
-*   **7.2 Vistoria:**
-    *   7.2.1 Checklist de funcionamento.
-    *   7.2.2 Retoques finais.
+## 2. Macro-Fases de uma Reforma Residencial
 
-## 3. Regras de Precedência (Lógica de Execução)
+### 2.1 Sequência Padrão
 
-1.  **Demolição antes de Construir:** Nunca inicie alvenaria nova sem limpar a área de demolição.
-2.  **Infra antes do Acabamento:** Toda tubulação (água, luz, ar) deve ser passada e testada *antes* de fechar forros ou rebocar paredes.
-3.  **Gesso antes do Piso:** O gesso gera muita sujeira. Executar forro e primeira de mão de massa antes de assentar pisos sensíveis (porcelanatos polidos, madeira).
-4.  **Pintura final por último:** A última demão de tinta deve ser a última atividade antes da limpeza fina, para evitar sujeira e riscos.
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ 1. PRELIMINARES                                                             │
+│    Mobilização, proteções, canteiro                                         │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ 2. DEMOLIÇÃO E REMOÇÃO                                                      │
+│    Demolição de revestimentos, paredes, forros, remoção de entulho          │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ 3. ESTRUTURA E VEDAÇÃO                                                      │
+│    Reforços estruturais, novas alvenarias, dry wall                         │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ 4. INSTALAÇÕES HIDRÁULICAS                                                  │
+│    Água fria, água quente, esgoto, gás                                      │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ 5. INSTALAÇÕES ELÉTRICAS                                                    │
+│    Infraestrutura, cabeamento, quadro, automação                            │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ 6. IMPERMEABILIZAÇÃO                                                        │
+│    Áreas molhadas, varandas, floreiras                                      │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ 7. CONTRAPISO E REGULARIZAÇÃO                                               │
+│    Contrapiso, nivelamento, caimento para ralos                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ 8. REVESTIMENTOS                                                            │
+│    Pisos, paredes, rodapés, soleiras                                        │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ 9. FORRO E GESSO                                                            │
+│    Forro de gesso, sancas, tabicas, cortineiros                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ 10. ESQUADRIAS                                                              │
+│    Portas, janelas, vidros, ferragens                                       │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ 11. PINTURA                                                                 │
+│    Preparação, massa, fundo, acabamento                                     │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ 12. LOUÇAS E METAIS                                                         │
+│    Vasos, cubas, torneiras, acessórios                                      │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ 13. MARCENARIA E MOBILIÁRIO                                                 │
+│    Armários, bancadas, painéis                                              │
+├─────────────────────────────────────────────────────────────────────────────┤
+│ 14. LIMPEZA E DESMOBILIZAÇÃO                                                │
+│    Limpeza fina, retirada de proteções, entrega                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
-## 4. Uso no Agente Engenheiro
+### 2.2 Dependências Críticas (Predecessoras)
 
-Ao montar o cronograma ou orçamento:
-1.  Verifique quais itens da EAP se aplicam ao projeto específico.
-2.  Use os IDs (ex: 2.1.1) para codificar as tarefas.
-3.  Estime a duração de cada pacote de trabalho baseado na produtividade da equipe (m²/dia).
+| Macro-Fase | Predecessora Obrigatória | Justificativa |
+|------------|-------------------------|---------------|
+| 4. Hidráulica | 2. Demolição concluída | Acessar tubulações existentes |
+| 5. Elétrica | 3. Vedação iniciada | Passar eletrodutos nas paredes |
+| 6. Impermeabilização | 4. Hidráulica concluída (esse ambiente) | Testar pontos antes de impermeabilizar |
+| 7. Contrapiso | 4 e 5 concluídas (esse ambiente) | Instalações embutidas prontas |
+| 8. Revestimentos | 6 e 7 concluídas | Substrato pronto |
+| 9. Forro | 5. Elétrica no teto concluída | Fechar infraestrutura |
+| 11. Pintura | 9 e 10 concluídas | Paredes, forros e portas instalados |
+| 12. Louças | 8. Revestimentos concluídos | Furação em revestimento finalizado |
+| 13. Marcenaria | 11. Pintura concluída | Evitar danos à marcenaria |
+
+---
+
+## 3. EAP Detalhada — Modelo para Reforma de Banheiro
+
+### 3.1 Decomposição Completa
+
+```
+1.0 REFORMA BANHEIRO
+│
+├── 1.1 PRELIMINARES
+│   ├── 1.1.1 Proteção de áreas adjacentes (plástico, papelão)
+│   ├── 1.1.2 Instalação de caixa d'água provisória (se necessário)
+│   └── 1.1.3 Desligar água e eletricidade do ambiente
+│
+├── 1.2 DEMOLIÇÃO
+│   ├── 1.2.1 Remoção de louças e metais existentes
+│   ├── 1.2.2 Demolição de revestimento de parede
+│   ├── 1.2.3 Demolição de piso cerâmico
+│   ├── 1.2.4 Demolição de contrapiso (se necessário)
+│   ├── 1.2.5 Demolição de forro de gesso (se existente)
+│   ├── 1.2.6 Remoção e transporte de entulho
+│   └── 1.2.7 Caçamba de entulho (1 a 2 unidades)
+│
+├── 1.3 INSTALAÇÕES HIDRÁULICAS
+│   ├── 1.3.1 Reposicionamento de pontos de água fria
+│   ├── 1.3.2 Instalação de ponto de água quente (se novo)
+│   ├── 1.3.3 Reposicionamento de esgoto (vaso, ralo, lavatório)
+│   ├── 1.3.4 Instalação de registros (pressão e gaveta)
+│   └── 1.3.5 Teste de estanqueidade
+│
+├── 1.4 INSTALAÇÕES ELÉTRICAS
+│   ├── 1.4.1 Novo ponto de iluminação (se alterar posição)
+│   ├── 1.4.2 Novos pontos de tomada
+│   ├── 1.4.3 Ponto de ducha higiênica
+│   └── 1.4.4 Ponto de chuveiro (circuito exclusivo)
+│
+├── 1.5 IMPERMEABILIZAÇÃO
+│   ├── 1.5.1 Regularização de piso (caimento para ralo)
+│   ├── 1.5.2 Aplicação de manta asfáltica ou membrana
+│   ├── 1.5.3 Subida nas paredes (mínimo 30cm, box integral)
+│   └── 1.5.4 Teste de estanqueidade (48h)
+│
+├── 1.6 REVESTIMENTOS
+│   ├── 1.6.1 Contrapiso (5cm, sarrafeado)
+│   ├── 1.6.2 Assentamento de piso
+│   ├── 1.6.3 Assentamento de revestimento de parede
+│   ├── 1.6.4 Rejuntamento
+│   └── 1.6.5 Aplicação de soleira (box, porta)
+│
+├── 1.7 FORRO
+│   ├── 1.7.1 Estrutura de forro de gesso acartonado
+│   ├── 1.7.2 Passagem de pontos elétricos no forro
+│   └── 1.7.3 Fechamento e acabamento (tabica ou moldura)
+│
+├── 1.8 ESQUADRIAS
+│   ├── 1.8.1 Instalação de porta (se nova)
+│   ├── 1.8.2 Instalação de box de vidro temperado
+│   └── 1.8.3 Ajuste de batentes e guarnições
+│
+├── 1.9 PINTURA
+│   ├── 1.9.1 Fundo preparador (parede e teto não revestidos)
+│   ├── 1.9.2 Massa corrida (se aplicável)
+│   └── 1.9.3 Pintura de acabamento (teto)
+│
+├── 1.10 LOUÇAS E METAIS
+│   ├── 1.10.1 Instalação de vaso sanitário
+│   ├── 1.10.2 Instalação de lavatório/cuba
+│   ├── 1.10.3 Instalação de torneiras e misturadores
+│   ├── 1.10.4 Instalação de chuveiro/ducha
+│   ├── 1.10.5 Instalação de acessórios (papeleira, saboneteira, espelho)
+│   └── 1.10.6 Teste final de funcionamento
+│
+└── 1.11 LIMPEZA E ENTREGA
+    ├── 1.11.1 Limpeza grossa (remoção de resíduos)
+    ├── 1.11.2 Limpeza fina (rejunte, vidros, metais)
+    └── 1.11.3 Retirada de proteções e entrega ao cliente
+```
+
+### 3.2 Pacotes de Trabalho para Orçamento
+
+| Código | Pacote | Unidade | Quantidade |
+|--------|--------|---------|------------|
+| 1.2 | Demolição completa | vb | 1 |
+| 1.3 | Instalações hidráulicas | pt | 5 |
+| 1.4 | Instalações elétricas | pt | 4 |
+| 1.5 | Impermeabilização | m² | 5 |
+| 1.6.1 | Contrapiso | m² | 4 |
+| 1.6.2-4 | Piso cerâmico | m² | 4,5 |
+| 1.6.3 | Revestimento parede | m² | 16 |
+| 1.7 | Forro de gesso | m² | 4 |
+| 1.8.2 | Box vidro | m² | 2 |
+| 1.10 | Louças e metais (instalação) | cj | 1 |
+
+---
+
+## 4. Critérios de Encerramento de Etapa
+
+### 4.1 Checklists por Macro-Fase
+
+**2. DEMOLIÇÃO — Critérios de Aceite:**
+- [ ] Todas as superfícies especificadas foram removidas
+- [ ] Entulho foi retirado (caçamba liberada)
+- [ ] Instalações existentes estão expostas e identificadas
+- [ ] Área limpa e pronta para próxima etapa
+- [ ] Fotos de registro (antes/durante/depois)
+
+**4. INSTALAÇÕES HIDRÁULICAS — Critérios de Aceite:**
+- [ ] Todos os pontos de água conforme projeto
+- [ ] Todos os pontos de esgoto conforme projeto
+- [ ] Registros instalados e funcionando
+- [ ] Teste de pressão realizado (sem vazamentos)
+- [ ] Teste de caimento de esgoto (vazão livre)
+- [ ] Projeto as-built atualizado
+
+**6. IMPERMEABILIZAÇÃO — Critérios de Aceite:**
+- [ ] Superfície regularizada com caimento
+- [ ] Manta/membrana aplicada conforme especificação
+- [ ] Subida nas paredes conforme altura especificada
+- [ ] Teste de lâmina d'água 48h sem infiltração
+- [ ] Laudo ou registro fotográfico do teste
+
+**8. REVESTIMENTOS — Critérios de Aceite:**
+- [ ] Alinhamento e prumo conferidos
+- [ ] Juntas uniformes
+- [ ] Sem peças trincadas ou soltas
+- [ ] Rejunte aplicado e limpo
+- [ ] Soleiras e acabamentos de borda instalados
+
+---
+
+## 5. Gestão de Mudanças na EAP
+
+### 5.1 Processo de Controle de Mudança
+
+```
+┌─────────────┐     ┌─────────────┐     ┌─────────────┐     ┌─────────────┐
+│  Solicitação│ ──► │   Análise   │ ──► │  Aprovação  │ ──► │ Incorporação│
+│  de Mudança │     │ de Impacto  │     │   Cliente   │     │   na EAP    │
+└─────────────┘     └─────────────┘     └─────────────┘     └─────────────┘
+                          │
+                          ▼
+                    ┌─────────────┐
+                    │  Impacto em │
+                    │ Custo/Prazo │
+                    └─────────────┘
+```
+
+### 5.2 Registro de Aditivo
+
+| Campo | Descrição |
+|-------|-----------|
+| **Nº da Mudança** | Sequencial (M-001, M-002...) |
+| **Data** | Data da solicitação |
+| **Descrição** | O que será alterado |
+| **Justificativa** | Por que é necessário |
+| **Impacto em Custo** | R$ adicional ou (economia) |
+| **Impacto em Prazo** | Dias adicionais ou (redução) |
+| **Aprovação** | Assinatura do cliente |
+
+---
+
+## 6. Cronograma Derivado da EAP
+
+### 6.1 Estimativa de Duração
+
+| Macro-Fase | Duração Típica (Banheiro 4m²) |
+|------------|------------------------------|
+| 1. Preliminares | 0,5 dia |
+| 2. Demolição | 1 a 2 dias |
+| 3. Estrutura/Vedação | N/A (sem nova alvenaria) |
+| 4. Hidráulica | 2 dias |
+| 5. Elétrica | 1 dia |
+| 6. Impermeabilização | 1 dia (+ 2 dias cura/teste) |
+| 7. Contrapiso | 1 dia (+ 3 dias cura) |
+| 8. Revestimentos | 3 a 4 dias |
+| 9. Forro | 1 dia |
+| 10. Esquadrias | 0,5 dia |
+| 11. Pintura | 1 dia |
+| 12. Louças e Metais | 1 dia |
+| 14. Limpeza | 0,5 dia |
+| **TOTAL** | **15 a 20 dias úteis** |
+
+### 6.2 Caminho Crítico
+
+O **caminho crítico** é a sequência mais longa de atividades dependentes:
+
+```
+Demolição → Hidráulica → Impermeabilização → (Cura) → Contrapiso → (Cura) → Revestimentos → Louças
+```
+
+**Qualquer atraso nessa cadeia atrasa a obra inteira.**
+
+---
+
+## 7. Ferramentas Recomendadas
+
+| Ferramenta | Uso | Custo |
+|------------|-----|-------|
+| **Excel** | EAP simples, orçamento | Gratuito/Office |
+| **MS Project** | Cronograma com dependências | Pago |
+| **Monday/Trello** | Gestão visual de tarefas | Freemium |
+| **ProjectLibre** | Alternativa gratuita ao MS Project | Gratuito |
+| **Power BI** | Dashboard de progresso | Freemium |
+
+---
+
+## 8. Checklist de Validação da EAP
+
+- [ ] A EAP cobre 100% do escopo contratado?
+- [ ] Cada pacote de trabalho tem um responsável claro?
+- [ ] As dependências estão mapeadas corretamente?
+- [ ] Há critérios de aceite definidos para cada macro-fase?
+- [ ] A estrutura permite rastrear custo e cronograma por pacote?
+- [ ] Há processo definido para mudanças de escopo?
+- [ ] O cliente validou e aprovou a EAP?
+
+---
+
+*Metodologia baseada no PMBOK (PMI) e práticas do mercado de reformas residenciais.*
