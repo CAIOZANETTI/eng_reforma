@@ -1,0 +1,122 @@
+tipo,ambiente,valido,peso_frequencia
+Apto,Banheiro,1,18
+Apto,Banheiro social,1,8
+Apto,Lavabo,1,5
+Apto,Quarto,1,12
+Apto,Quarto solteiro,1,6
+Apto,Quarto hóspedes,1,3
+Apto,Quarto infantil,1,5
+Apto,Suíte,1,10
+Apto,Cozinha,1,15
+Apto,Cozinha americana,1,8
+Apto,Sala,1,12
+Apto,Sala + cozinha integradas,1,6
+Apto,Lavanderia,1,5
+Apto,Varanda,1,6
+Apto,Varanda gourmet,1,4
+Apto,Home office,1,7
+Apto,Corredor + hall,1,3
+Apto,Despensa,1,2
+Apto,Área técnica,1,1
+Apto,Geral,1,15
+Apto,Elétrica geral,1,8
+Apto,Hidráulica geral,1,6
+Apto,Pintura completa,1,12
+Apto,Troca de pisos,1,10
+Apto,Forro de gesso,1,8
+Apto,Iluminação,1,7
+Apto,Automação,1,3
+Apto,Marcenaria cozinha,1,10
+Apto,Marcenaria quarto,1,6
+Apto,Impermeabilização,1,5
+Apto,Instalações elétricas,1,5
+Apto,Instalações hidráulicas,1,4
+Apto,Ar-condicionado,1,5
+Apto,Esquadrias,1,4
+Apto,Box de vidro,1,6
+Apto,Troca de portas,1,5
+Apto,Segurança,1,3
+Apto,Tratamento acústico,1,2
+Apto,Integração ambientes,1,4
+Apto,Dormitório + closet,1,3
+Apto,Banheiro + closet,1,2
+Apto,Adequação acessibilidade,1,1
+Apto,Banheiro PNE,1,1
+Casa,Banheiro,1,15
+Casa,Banheiro social,1,5
+Casa,Banheiro suíte,1,6
+Casa,Lavabo,1,4
+Casa,Quarto,1,10
+Casa,Quarto solteiro,1,5
+Casa,Quarto hóspedes,1,3
+Casa,Quarto infantil,1,4
+Casa,Quarto empregada,1,2
+Casa,Suíte,1,6
+Casa,Suíte master,1,4
+Casa,Cozinha,1,12
+Casa,Copa,1,3
+Casa,Sala,1,10
+Casa,Living integrado,1,3
+Casa,Lavanderia,1,6
+Casa,Área gourmet,1,8
+Casa,Varanda,1,5
+Casa,Garagem,1,6
+Casa,Quintal,1,4
+Casa,Quintal/jardim,1,3
+Casa,Fachada,1,8
+Casa,Muros e portão,1,6
+Casa,Escada,1,3
+Casa,Telhado,1,10
+Casa,Telhado manta,1,4
+Casa,Piscina,1,3
+Casa,Edícula,1,3
+Casa,Corredor + hall,1,2
+Casa,Despensa/adega,1,2
+Casa,Casa de máquinas,1,1
+Casa,Geral,1,12
+Casa,Elétrica geral,1,7
+Casa,Hidráulica geral,1,6
+Casa,Aquecimento,1,3
+Casa,Aquecimento solar,1,2
+Casa,Pintura interna,1,10
+Casa,Pintura interna + externa,1,8
+Casa,Troca de pisos,1,8
+Casa,Forro de gesso,1,6
+Casa,Automação,1,2
+Casa,Marcenaria geral,1,5
+Casa,Adequação acessibilidade,1,1
+Casa,Banheiro PNE,1,1
+Casa,Impermeabilização,1,4
+Casa,Instalações elétricas,1,5
+Casa,Instalações hidráulicas,1,4
+Casa,Ar-condicionado,1,4
+Casa,Central de gás,1,2
+Casa,Esquadrias,1,4
+Casa,Portão,1,4
+Casa,Troca de portas,1,4
+Casa,Segurança,1,5
+Casa,Tratamento acústico,1,2
+Casa,Cisterna,1,1
+Casa,Fossa séptica,1,1
+Escritório,Recepção,1,15
+Escritório,Open space,1,20
+Escritório,Sala de reunião,1,12
+Escritório,Sala de diretoria,1,6
+Escritório,Copa,1,8
+Escritório,Banheiros,1,10
+Escritório,Área técnica,1,4
+Escritório,Infra elétrica/dados,1,8
+Escritório,Geral,1,15
+Loja,Salão de vendas,1,25
+Loja,Fachada comercial,1,20
+Loja,Banheiros,1,8
+Loja,Geral,1,15
+Clínica,Recepção,1,20
+Clínica,Consultório,1,25
+Clínica,Banheiro PNE,1,15
+Clínica,Banheiros,1,10
+Clínica,Geral,1,12
+Restaurante,Salão,1,30
+Restaurante,Cozinha industrial,1,25
+Restaurante,Banheiros,1,12
+Restaurante,Geral,1,15

@@ -1,0 +1,402 @@
+{
+    "Banheiro": {
+        "min": 2.5,
+        "max": 12,
+        "default": 5
+    },
+    "Banheiro social": {
+        "min": 3,
+        "max": 8,
+        "default": 4
+    },
+    "Lavabo": {
+        "min": 1.5,
+        "max": 4,
+        "default": 2.5
+    },
+    "Quarto": {
+        "min": 8,
+        "max": 25,
+        "default": 12
+    },
+    "Quarto solteiro": {
+        "min": 6,
+        "max": 15,
+        "default": 9
+    },
+    "Quarto hóspedes": {
+        "min": 8,
+        "max": 18,
+        "default": 12
+    },
+    "Quarto infantil": {
+        "min": 8,
+        "max": 18,
+        "default": 10
+    },
+    "Quarto empregada": {
+        "min": 6,
+        "max": 12,
+        "default": 8
+    },
+    "Suíte": {
+        "min": 12,
+        "max": 30,
+        "default": 16
+    },
+    "Suíte master": {
+        "min": 16,
+        "max": 50,
+        "default": 25
+    },
+    "Cozinha": {
+        "min": 4,
+        "max": 30,
+        "default": 10
+    },
+    "Cozinha americana": {
+        "min": 10,
+        "max": 25,
+        "default": 16
+    },
+    "Copa": {
+        "min": 6,
+        "max": 15,
+        "default": 8
+    },
+    "Sala": {
+        "min": 12,
+        "max": 80,
+        "default": 22
+    },
+    "Sala + cozinha integradas": {
+        "min": 25,
+        "max": 60,
+        "default": 35
+    },
+    "Living integrado": {
+        "min": 40,
+        "max": 100,
+        "default": 50
+    },
+    "Lavanderia": {
+        "min": 2,
+        "max": 15,
+        "default": 6
+    },
+    "Varanda": {
+        "min": 4,
+        "max": 20,
+        "default": 8
+    },
+    "Varanda gourmet": {
+        "min": 8,
+        "max": 25,
+        "default": 12
+    },
+    "Home office": {
+        "min": 4,
+        "max": 20,
+        "default": 8
+    },
+    "Área gourmet": {
+        "min": 15,
+        "max": 50,
+        "default": 25
+    },
+    "Garagem": {
+        "min": 20,
+        "max": 60,
+        "default": 35
+    },
+    "Quintal": {
+        "min": 20,
+        "max": 200,
+        "default": 50
+    },
+    "Quintal/jardim": {
+        "min": 30,
+        "max": 300,
+        "default": 80
+    },
+    "Fachada": {
+        "min": 30,
+        "max": 150,
+        "default": 70
+    },
+    "Muros e portão": {
+        "min": 20,
+        "max": 100,
+        "default": 50
+    },
+    "Escada": {
+        "min": 6,
+        "max": 20,
+        "default": 12
+    },
+    "Telhado": {
+        "min": 50,
+        "max": 300,
+        "default": 120
+    },
+    "Telhado manta": {
+        "min": 50,
+        "max": 200,
+        "default": 90
+    },
+    "Piscina": {
+        "min": 15,
+        "max": 80,
+        "default": 30
+    },
+    "Edícula": {
+        "min": 15,
+        "max": 50,
+        "default": 25
+    },
+    "Corredor + hall": {
+        "min": 6,
+        "max": 25,
+        "default": 12
+    },
+    "Despensa": {
+        "min": 2,
+        "max": 10,
+        "default": 4
+    },
+    "Despensa/adega": {
+        "min": 4,
+        "max": 15,
+        "default": 8
+    },
+    "Área técnica": {
+        "min": 2,
+        "max": 8,
+        "default": 4
+    },
+    "Casa de máquinas": {
+        "min": 4,
+        "max": 12,
+        "default": 6
+    },
+    "Geral": {
+        "min": 30,
+        "max": 300,
+        "default": 80
+    },
+    "Elétrica geral": {
+        "min": 30,
+        "max": 200,
+        "default": 80
+    },
+    "Hidráulica geral": {
+        "min": 30,
+        "max": 200,
+        "default": 80
+    },
+    "Aquecimento": {
+        "min": 0,
+        "max": 0,
+        "default": 10
+    },
+    "Aquecimento solar": {
+        "min": 0,
+        "max": 0,
+        "default": 15
+    },
+    "Pintura completa": {
+        "min": 30,
+        "max": 200,
+        "default": 60
+    },
+    "Pintura interna": {
+        "min": 30,
+        "max": 200,
+        "default": 100
+    },
+    "Pintura interna + externa": {
+        "min": 60,
+        "max": 300,
+        "default": 150
+    },
+    "Troca de pisos": {
+        "min": 30,
+        "max": 200,
+        "default": 80
+    },
+    "Forro de gesso": {
+        "min": 30,
+        "max": 200,
+        "default": 60
+    },
+    "Iluminação": {
+        "min": 30,
+        "max": 150,
+        "default": 55
+    },
+    "Automação": {
+        "min": 30,
+        "max": 200,
+        "default": 80
+    },
+    "Marcenaria cozinha": {
+        "min": 6,
+        "max": 25,
+        "default": 12
+    },
+    "Marcenaria quarto": {
+        "min": 10,
+        "max": 25,
+        "default": 14
+    },
+    "Marcenaria geral": {
+        "min": 30,
+        "max": 150,
+        "default": 60
+    },
+    "Adequação acessibilidade": {
+        "min": 30,
+        "max": 150,
+        "default": 60
+    },
+    "Banheiro PNE": {
+        "min": 4,
+        "max": 8,
+        "default": 5.5
+    },
+    "Impermeabilização": {
+        "min": 3,
+        "max": 100,
+        "default": 15
+    },
+    "Instalações elétricas": {
+        "min": 20,
+        "max": 150,
+        "default": 60
+    },
+    "Instalações hidráulicas": {
+        "min": 5,
+        "max": 50,
+        "default": 15
+    },
+    "Ar-condicionado": {
+        "min": 20,
+        "max": 150,
+        "default": 50
+    },
+    "Central de gás": {
+        "min": 0,
+        "max": 0,
+        "default": 15
+    },
+    "Esquadrias": {
+        "min": 20,
+        "max": 100,
+        "default": 45
+    },
+    "Portão": {
+        "min": 0,
+        "max": 0,
+        "default": 20
+    },
+    "Box de vidro": {
+        "min": 3,
+        "max": 10,
+        "default": 5
+    },
+    "Troca de portas": {
+        "min": 20,
+        "max": 100,
+        "default": 45
+    },
+    "Segurança": {
+        "min": 20,
+        "max": 150,
+        "default": 60
+    },
+    "Tratamento acústico": {
+        "min": 20,
+        "max": 150,
+        "default": 50
+    },
+    "Cisterna": {
+        "min": 0,
+        "max": 0,
+        "default": 8
+    },
+    "Fossa séptica": {
+        "min": 0,
+        "max": 0,
+        "default": 12
+    },
+    "Recepção": {
+        "min": 15,
+        "max": 60,
+        "default": 30
+    },
+    "Open space": {
+        "min": 50,
+        "max": 300,
+        "default": 100
+    },
+    "Sala de reunião": {
+        "min": 12,
+        "max": 50,
+        "default": 25
+    },
+    "Sala de diretoria": {
+        "min": 15,
+        "max": 40,
+        "default": 25
+    },
+    "Banheiros": {
+        "min": 8,
+        "max": 30,
+        "default": 15
+    },
+    "Infra elétrica/dados": {
+        "min": 50,
+        "max": 200,
+        "default": 100
+    },
+    "Consultório": {
+        "min": 10,
+        "max": 25,
+        "default": 15
+    },
+    "Salão de vendas": {
+        "min": 40,
+        "max": 200,
+        "default": 80
+    },
+    "Fachada comercial": {
+        "min": 10,
+        "max": 50,
+        "default": 30
+    },
+    "Salão": {
+        "min": 50,
+        "max": 200,
+        "default": 80
+    },
+    "Cozinha industrial": {
+        "min": 20,
+        "max": 100,
+        "default": 45
+    },
+    "Integração ambientes": {
+        "min": 25,
+        "max": 60,
+        "default": 40
+    },
+    "Dormitório + closet": {
+        "min": 14,
+        "max": 30,
+        "default": 18
+    },
+    "Banheiro + closet": {
+        "min": 10,
+        "max": 25,
+        "default": 14
+    }
+}

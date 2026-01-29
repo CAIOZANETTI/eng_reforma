@@ -1,0 +1,816 @@
+id,tipo,ambiente,area_m2,configuracao,acabamento,descricao,origem
+1,Apto,Banheiro,3.0,1Q+1B,Popular,"Reforma básica de banheiro: demolição de revestimentos antigos, impermeabilização do piso e box, contrapiso novo, revestimento cerâmico padrão, rejunte, louças/metais econômicos e pintura de teto",expandido
+2,Apto,Banheiro,4.0,1Q+1B,Popular,"Reforma básica de banheiro: demolição de revestimentos antigos, impermeabilização do piso e box, contrapiso novo, revestimento cerâmico padrão, rejunte, louças/metais econômicos e pintura de teto",base
+3,Apto,Banheiro,6.0,1Q+1B,Popular,"Reforma básica de banheiro: demolição de revestimentos antigos, impermeabilização do piso e box, contrapiso novo, revestimento cerâmico padrão, rejunte, louças/metais econômicos e pintura de teto",expandido
+4,Apto,Banheiro,4.0,2Q+1B,Popular,"Reforma completa de banheiro mantendo layout: demolição, impermeabilização com manta, contrapiso com caimento, porcelanato 60x60, box de vidro temperado, louças/metais de linha média e iluminação LED",expandido
+5,Apto,Banheiro,4.0,2Q+1B,Médio,"Reforma completa de banheiro mantendo layout: demolição, impermeabilização com manta, contrapiso com caimento, porcelanato 60x60, box de vidro temperado, louças/metais de linha média e iluminação LED",expandido
+6,Apto,Banheiro,5.0,2Q+1B,Popular,"Reforma completa de banheiro mantendo layout: demolição, impermeabilização com manta, contrapiso com caimento, porcelanato 60x60, box de vidro temperado, louças/metais de linha média e iluminação LED",expandido
+7,Apto,Banheiro,5.0,2Q+1B,Médio,"Reforma completa de banheiro mantendo layout: demolição, impermeabilização com manta, contrapiso com caimento, porcelanato 60x60, box de vidro temperado, louças/metais de linha média e iluminação LED",base
+8,Apto,Banheiro,7.0,2Q+1B,Popular,"Reforma completa de banheiro mantendo layout: demolição, impermeabilização com manta, contrapiso com caimento, porcelanato 60x60, box de vidro temperado, louças/metais de linha média e iluminação LED",expandido
+9,Apto,Banheiro,7.0,2Q+1B,Médio,"Reforma completa de banheiro mantendo layout: demolição, impermeabilização com manta, contrapiso com caimento, porcelanato 60x60, box de vidro temperado, louças/metais de linha média e iluminação LED",expandido
+10,Apto,Banheiro,8.0,2Q+2B,Médio,"Banheiro premium: demolição total, impermeabilização premium, porcelanato grande formato (90x90 ou 1,20x2,40m), nicho iluminado, metais de design, box até o teto com ferragens especiais e ducha higiênica",expandido
+11,Apto,Banheiro,8.0,2Q+2B,Luxo,"Banheiro premium: demolição total, impermeabilização premium, porcelanato grande formato (90x90 ou 1,20x2,40m), nicho iluminado, metais de design, box até o teto com ferragens especiais e ducha higiênica",expandido
+12,Apto,Banheiro,4.0,2Q+2B,Médio,"Banheiro premium: demolição total, impermeabilização premium, porcelanato grande formato (90x90 ou 1,20x2,40m), nicho iluminado, metais de design, box até o teto com ferragens especiais e ducha higiênica",expandido
+13,Apto,Banheiro,4.0,2Q+2B,Luxo,"Banheiro premium: demolição total, impermeabilização premium, porcelanato grande formato (90x90 ou 1,20x2,40m), nicho iluminado, metais de design, box até o teto com ferragens especiais e ducha higiênica",expandido
+14,Apto,Banheiro,6.0,2Q+2B,Médio,"Banheiro premium: demolição total, impermeabilização premium, porcelanato grande formato (90x90 ou 1,20x2,40m), nicho iluminado, metais de design, box até o teto com ferragens especiais e ducha higiênica",expandido
+15,Apto,Banheiro,6.0,2Q+2B,Luxo,"Banheiro premium: demolição total, impermeabilização premium, porcelanato grande formato (90x90 ou 1,20x2,40m), nicho iluminado, metais de design, box até o teto com ferragens especiais e ducha higiênica",base
+16,Apto,Banheiro social,3,3Q+2B,Popular,"Troca de revestimentos apenas do box (área molhada), impermeabilização localizada, novo piso/parede cerâmica, rejunte epóxi anti-mofo e troca de metais mantendo louças existentes",expandido
+17,Apto,Banheiro social,3,3Q+2B,Médio,"Troca de revestimentos apenas do box (área molhada), impermeabilização localizada, novo piso/parede cerâmica, rejunte epóxi anti-mofo e troca de metais mantendo louças existentes",expandido
+18,Apto,Banheiro social,4.0,3Q+2B,Popular,"Troca de revestimentos apenas do box (área molhada), impermeabilização localizada, novo piso/parede cerâmica, rejunte epóxi anti-mofo e troca de metais mantendo louças existentes",expandido
+19,Apto,Banheiro social,4.0,3Q+2B,Médio,"Troca de revestimentos apenas do box (área molhada), impermeabilização localizada, novo piso/parede cerâmica, rejunte epóxi anti-mofo e troca de metais mantendo louças existentes",base
+20,Apto,Banheiro social,6.0,3Q+2B,Popular,"Troca de revestimentos apenas do box (área molhada), impermeabilização localizada, novo piso/parede cerâmica, rejunte epóxi anti-mofo e troca de metais mantendo louças existentes",expandido
+21,Apto,Banheiro social,6.0,3Q+2B,Médio,"Troca de revestimentos apenas do box (área molhada), impermeabilização localizada, novo piso/parede cerâmica, rejunte epóxi anti-mofo e troca de metais mantendo louças existentes",expandido
+22,Apto,Lavabo,2.0,3Q+2B,Médio,"Lavabo de impacto: bancada esculpida em pedra natural, cuba de apoio designer, torneira de parede, revestimento decorativo (porcelanato 3D ou cimento queimado), espelho retroiluminado e iluminação cênica",expandido
+23,Apto,Lavabo,2.0,3Q+2B,Luxo,"Lavabo de impacto: bancada esculpida em pedra natural, cuba de apoio designer, torneira de parede, revestimento decorativo (porcelanato 3D ou cimento queimado), espelho retroiluminado e iluminação cênica",base
+24,Apto,Lavabo,3.0,3Q+2B,Médio,"Lavabo de impacto: bancada esculpida em pedra natural, cuba de apoio designer, torneira de parede, revestimento decorativo (porcelanato 3D ou cimento queimado), espelho retroiluminado e iluminação cênica",expandido
+25,Apto,Lavabo,3.0,3Q+2B,Luxo,"Lavabo de impacto: bancada esculpida em pedra natural, cuba de apoio designer, torneira de parede, revestimento decorativo (porcelanato 3D ou cimento queimado), espelho retroiluminado e iluminação cênica",expandido
+26,Apto,Banheiro,3.0,2Q+1B,Popular,"Banheiro econômico: pintura de azulejos existentes, troca de louças/metais por modelos básicos, novo vaso sanitário, box acrílico e revisão de sifões/flexíveis",expandido
+27,Apto,Banheiro,6.0,2Q+1B,Popular,"Banheiro econômico: pintura de azulejos existentes, troca de louças/metais por modelos básicos, novo vaso sanitário, box acrílico e revisão de sifões/flexíveis",expandido
+28,Apto,Quarto,8.0,2Q+1B,Popular,"Reforma de quarto: pintura completa (parede e teto), troca de piso por vinílico clicado sobre existente, rodapé novo, tomadas e interruptores novos e ajuste de porta/guarnição",expandido
+29,Apto,Quarto,17.0,2Q+1B,Popular,"Reforma de quarto: pintura completa (parede e teto), troca de piso por vinílico clicado sobre existente, rodapé novo, tomadas e interruptores novos e ajuste de porta/guarnição",expandido
+30,Apto,Quarto,12.0,2Q+1B,Popular,"Reforma de quarto: pintura completa (parede e teto), troca de piso por vinílico clicado sobre existente, rodapé novo, tomadas e interruptores novos e ajuste de porta/guarnição",base
+31,Apto,Quarto,10.0,3Q+2B,Popular,"Quarto renovado: pintura, piso laminado de qualidade, rodapé alto, cabeceira estofada com iluminação de leitura, tomadas USB, cortineiro embutido em gesso e iluminação setorizada",expandido
+32,Apto,Quarto,10.0,3Q+2B,Médio,"Quarto renovado: pintura, piso laminado de qualidade, rodapé alto, cabeceira estofada com iluminação de leitura, tomadas USB, cortineiro embutido em gesso e iluminação setorizada",expandido
+33,Apto,Quarto,20.0,3Q+2B,Popular,"Quarto renovado: pintura, piso laminado de qualidade, rodapé alto, cabeceira estofada com iluminação de leitura, tomadas USB, cortineiro embutido em gesso e iluminação setorizada",expandido
+34,Apto,Quarto,20.0,3Q+2B,Médio,"Quarto renovado: pintura, piso laminado de qualidade, rodapé alto, cabeceira estofada com iluminação de leitura, tomadas USB, cortineiro embutido em gesso e iluminação setorizada",expandido
+35,Apto,Quarto,14.0,3Q+2B,Popular,"Quarto renovado: pintura, piso laminado de qualidade, rodapé alto, cabeceira estofada com iluminação de leitura, tomadas USB, cortineiro embutido em gesso e iluminação setorizada",expandido
+36,Apto,Quarto,14.0,3Q+2B,Médio,"Quarto renovado: pintura, piso laminado de qualidade, rodapé alto, cabeceira estofada com iluminação de leitura, tomadas USB, cortineiro embutido em gesso e iluminação setorizada",base
+37,Apto,Suíte,16.0,3Q+2B,Médio,"Suíte integrada: piso de madeira ou porcelanato madeirado, painel ripado para cabeceira, closet aberto com iluminação LED, automação de persianas e iluminação cênica com dimmers",expandido
+38,Apto,Suíte,16.0,3Q+2B,Luxo,"Suíte integrada: piso de madeira ou porcelanato madeirado, painel ripado para cabeceira, closet aberto com iluminação LED, automação de persianas e iluminação cênica com dimmers",base
+39,Apto,Suíte,12,3Q+2B,Médio,"Suíte integrada: piso de madeira ou porcelanato madeirado, painel ripado para cabeceira, closet aberto com iluminação LED, automação de persianas e iluminação cênica com dimmers",expandido
+40,Apto,Suíte,12,3Q+2B,Luxo,"Suíte integrada: piso de madeira ou porcelanato madeirado, painel ripado para cabeceira, closet aberto com iluminação LED, automação de persianas e iluminação cênica com dimmers",expandido
+41,Apto,Suíte,22.0,3Q+2B,Médio,"Suíte integrada: piso de madeira ou porcelanato madeirado, painel ripado para cabeceira, closet aberto com iluminação LED, automação de persianas e iluminação cênica com dimmers",expandido
+42,Apto,Suíte,22.0,3Q+2B,Luxo,"Suíte integrada: piso de madeira ou porcelanato madeirado, painel ripado para cabeceira, closet aberto com iluminação LED, automação de persianas e iluminação cênica com dimmers",expandido
+43,Apto,Quarto infantil,8,3Q+2B,Popular,"Quarto temático: pintura com cores específicas, piso vinílico colorido, iluminação lúdica, tomadas em altura segura, proteção de quinas e móveis planejados integrados",expandido
+44,Apto,Quarto infantil,8,3Q+2B,Médio,"Quarto temático: pintura com cores específicas, piso vinílico colorido, iluminação lúdica, tomadas em altura segura, proteção de quinas e móveis planejados integrados",expandido
+45,Apto,Quarto infantil,10.0,3Q+2B,Popular,"Quarto temático: pintura com cores específicas, piso vinílico colorido, iluminação lúdica, tomadas em altura segura, proteção de quinas e móveis planejados integrados",expandido
+46,Apto,Quarto infantil,10.0,3Q+2B,Médio,"Quarto temático: pintura com cores específicas, piso vinílico colorido, iluminação lúdica, tomadas em altura segura, proteção de quinas e móveis planejados integrados",base
+47,Apto,Quarto infantil,14.0,3Q+2B,Popular,"Quarto temático: pintura com cores específicas, piso vinílico colorido, iluminação lúdica, tomadas em altura segura, proteção de quinas e móveis planejados integrados",expandido
+48,Apto,Quarto infantil,14.0,3Q+2B,Médio,"Quarto temático: pintura com cores específicas, piso vinílico colorido, iluminação lúdica, tomadas em altura segura, proteção de quinas e móveis planejados integrados",expandido
+49,Apto,Quarto solteiro,9.0,3Q+2B,Popular,"Quarto solteiro funcional: pintura, piso vinílico básico, luminárias LED, tomadas para computador e organização de cabos",base
+50,Apto,Quarto solteiro,13.0,3Q+2B,Popular,"Quarto solteiro funcional: pintura, piso vinílico básico, luminárias LED, tomadas para computador e organização de cabos",expandido
+51,Apto,Quarto solteiro,6.0,3Q+2B,Popular,"Quarto solteiro funcional: pintura, piso vinílico básico, luminárias LED, tomadas para computador e organização de cabos",expandido
+52,Apto,Quarto hóspedes,8,3Q+2B,Popular,"Quarto de hóspedes: pintura neutra, piso laminado, iluminação agradável, tomadas estratégicas e armário compacto embutido",expandido
+53,Apto,Quarto hóspedes,8,3Q+2B,Médio,"Quarto de hóspedes: pintura neutra, piso laminado, iluminação agradável, tomadas estratégicas e armário compacto embutido",expandido
+54,Apto,Quarto hóspedes,10.0,3Q+2B,Popular,"Quarto de hóspedes: pintura neutra, piso laminado, iluminação agradável, tomadas estratégicas e armário compacto embutido",expandido
+55,Apto,Quarto hóspedes,10.0,3Q+2B,Médio,"Quarto de hóspedes: pintura neutra, piso laminado, iluminação agradável, tomadas estratégicas e armário compacto embutido",base
+56,Apto,Quarto hóspedes,14.0,3Q+2B,Popular,"Quarto de hóspedes: pintura neutra, piso laminado, iluminação agradável, tomadas estratégicas e armário compacto embutido",expandido
+57,Apto,Quarto hóspedes,14.0,3Q+2B,Médio,"Quarto de hóspedes: pintura neutra, piso laminado, iluminação agradável, tomadas estratégicas e armário compacto embutido",expandido
+58,Apto,Cozinha,8.0,1Q+1B,Popular,"Cozinha funcional: pintura lavável, troca de revestimento da faixa molhada (1,50m), bancada granito cinza, cuba inox, torneira básica e revisão de pontos elétricos para eletros",base
+59,Apto,Cozinha,11.0,1Q+1B,Popular,"Cozinha funcional: pintura lavável, troca de revestimento da faixa molhada (1,50m), bancada granito cinza, cuba inox, torneira básica e revisão de pontos elétricos para eletros",expandido
+60,Apto,Cozinha,6.0,1Q+1B,Popular,"Cozinha funcional: pintura lavável, troca de revestimento da faixa molhada (1,50m), bancada granito cinza, cuba inox, torneira básica e revisão de pontos elétricos para eletros",expandido
+61,Apto,Cozinha,10.0,2Q+1B,Popular,"Cozinha completa mantendo layout: demolição de revestimentos, novo piso/parede, bancada quartzo, cuba dupla, torneira gourmet com filtro, marcenaria sob medida e iluminação de bancada",expandido
+62,Apto,Cozinha,10.0,2Q+1B,Médio,"Cozinha completa mantendo layout: demolição de revestimentos, novo piso/parede, bancada quartzo, cuba dupla, torneira gourmet com filtro, marcenaria sob medida e iluminação de bancada",base
+63,Apto,Cozinha,14.0,2Q+1B,Popular,"Cozinha completa mantendo layout: demolição de revestimentos, novo piso/parede, bancada quartzo, cuba dupla, torneira gourmet com filtro, marcenaria sob medida e iluminação de bancada",expandido
+64,Apto,Cozinha,14.0,2Q+1B,Médio,"Cozinha completa mantendo layout: demolição de revestimentos, novo piso/parede, bancada quartzo, cuba dupla, torneira gourmet com filtro, marcenaria sob medida e iluminação de bancada",expandido
+65,Apto,Cozinha,7.0,2Q+1B,Popular,"Cozinha completa mantendo layout: demolição de revestimentos, novo piso/parede, bancada quartzo, cuba dupla, torneira gourmet com filtro, marcenaria sob medida e iluminação de bancada",expandido
+66,Apto,Cozinha,7.0,2Q+1B,Médio,"Cozinha completa mantendo layout: demolição de revestimentos, novo piso/parede, bancada quartzo, cuba dupla, torneira gourmet com filtro, marcenaria sob medida e iluminação de bancada",expandido
+67,Apto,Cozinha,10.0,3Q+2B,Médio,"Cozinha gourmet: porcelanato retificado, bancada ilha em quartzo, cooktop e coifa, marcenaria premium com ferragens Blum, iluminação em perfis LED e tomadas retráteis",expandido
+68,Apto,Cozinha,10.0,3Q+2B,Luxo,"Cozinha gourmet: porcelanato retificado, bancada ilha em quartzo, cooktop e coifa, marcenaria premium com ferragens Blum, iluminação em perfis LED e tomadas retráteis",expandido
+69,Apto,Cozinha,20.0,3Q+2B,Médio,"Cozinha gourmet: porcelanato retificado, bancada ilha em quartzo, cooktop e coifa, marcenaria premium com ferragens Blum, iluminação em perfis LED e tomadas retráteis",expandido
+70,Apto,Cozinha,20.0,3Q+2B,Luxo,"Cozinha gourmet: porcelanato retificado, bancada ilha em quartzo, cooktop e coifa, marcenaria premium com ferragens Blum, iluminação em perfis LED e tomadas retráteis",expandido
+71,Apto,Cozinha,14.0,3Q+2B,Médio,"Cozinha gourmet: porcelanato retificado, bancada ilha em quartzo, cooktop e coifa, marcenaria premium com ferragens Blum, iluminação em perfis LED e tomadas retráteis",expandido
+72,Apto,Cozinha,14.0,3Q+2B,Luxo,"Cozinha gourmet: porcelanato retificado, bancada ilha em quartzo, cooktop e coifa, marcenaria premium com ferragens Blum, iluminação em perfis LED e tomadas retráteis",base
+73,Apto,Cozinha americana,25,3Q+2B,Popular,"Integração cozinha-sala: demolição de meia-parede (se não estrutural), bancada de passagem, revestimento único nos dois ambientes, iluminação integrada e marcenaria de transição",expandido
+74,Apto,Cozinha americana,25,3Q+2B,Médio,"Integração cozinha-sala: demolição de meia-parede (se não estrutural), bancada de passagem, revestimento único nos dois ambientes, iluminação integrada e marcenaria de transição",expandido
+75,Apto,Cozinha americana,18.0,3Q+2B,Popular,"Integração cozinha-sala: demolição de meia-parede (se não estrutural), bancada de passagem, revestimento único nos dois ambientes, iluminação integrada e marcenaria de transição",expandido
+76,Apto,Cozinha americana,18.0,3Q+2B,Médio,"Integração cozinha-sala: demolição de meia-parede (se não estrutural), bancada de passagem, revestimento único nos dois ambientes, iluminação integrada e marcenaria de transição",base
+77,Apto,Cozinha americana,13.0,3Q+2B,Popular,"Integração cozinha-sala: demolição de meia-parede (se não estrutural), bancada de passagem, revestimento único nos dois ambientes, iluminação integrada e marcenaria de transição",expandido
+78,Apto,Cozinha americana,13.0,3Q+2B,Médio,"Integração cozinha-sala: demolição de meia-parede (se não estrutural), bancada de passagem, revestimento único nos dois ambientes, iluminação integrada e marcenaria de transição",expandido
+79,Apto,Cozinha,4.0,1Q+1B,Popular,"Cozinha compacta: pintura, revestimento cerâmico básico na área molhada, bancada granito pequena, cuba simples e organização de pontos elétricos",expandido
+80,Apto,Sala,25.0,1Q+1B,Popular,"Sala renovada: pintura completa, troca de piso por vinílico, rodapé, luminárias novas e organização de pontos elétricos para TV/internet",expandido
+81,Apto,Sala,18.0,1Q+1B,Popular,"Sala renovada: pintura completa, troca de piso por vinílico, rodapé, luminárias novas e organização de pontos elétricos para TV/internet",base
+82,Apto,Sala,13.0,1Q+1B,Popular,"Sala renovada: pintura completa, troca de piso por vinílico, rodapé, luminárias novas e organização de pontos elétricos para TV/internet",expandido
+83,Apto,Sala,31.0,2Q+1B,Popular,"Sala de estar: piso laminado ou porcelanato, forro de gesso com iluminação embutida, painel de TV com passa-cabos, tomadas estratégicas e pintura com parede de destaque",expandido
+84,Apto,Sala,31.0,2Q+1B,Médio,"Sala de estar: piso laminado ou porcelanato, forro de gesso com iluminação embutida, painel de TV com passa-cabos, tomadas estratégicas e pintura com parede de destaque",expandido
+85,Apto,Sala,22.0,2Q+1B,Popular,"Sala de estar: piso laminado ou porcelanato, forro de gesso com iluminação embutida, painel de TV com passa-cabos, tomadas estratégicas e pintura com parede de destaque",expandido
+86,Apto,Sala,22.0,2Q+1B,Médio,"Sala de estar: piso laminado ou porcelanato, forro de gesso com iluminação embutida, painel de TV com passa-cabos, tomadas estratégicas e pintura com parede de destaque",base
+87,Apto,Sala,15.0,2Q+1B,Popular,"Sala de estar: piso laminado ou porcelanato, forro de gesso com iluminação embutida, painel de TV com passa-cabos, tomadas estratégicas e pintura com parede de destaque",expandido
+88,Apto,Sala,15.0,2Q+1B,Médio,"Sala de estar: piso laminado ou porcelanato, forro de gesso com iluminação embutida, painel de TV com passa-cabos, tomadas estratégicas e pintura com parede de destaque",expandido
+89,Apto,Sala,42.0,3Q+2B,Médio,"Living premium: porcelanato grande formato, sanca em gesso com iluminação indireta, painel ripado para TV com automação, cortineiro motorizado e infraestrutura para home theater",expandido
+90,Apto,Sala,42.0,3Q+2B,Luxo,"Living premium: porcelanato grande formato, sanca em gesso com iluminação indireta, painel ripado para TV com automação, cortineiro motorizado e infraestrutura para home theater",expandido
+91,Apto,Sala,21.0,3Q+2B,Médio,"Living premium: porcelanato grande formato, sanca em gesso com iluminação indireta, painel ripado para TV com automação, cortineiro motorizado e infraestrutura para home theater",expandido
+92,Apto,Sala,21.0,3Q+2B,Luxo,"Living premium: porcelanato grande formato, sanca em gesso com iluminação indireta, painel ripado para TV com automação, cortineiro motorizado e infraestrutura para home theater",expandido
+93,Apto,Sala,30.0,3Q+2B,Médio,"Living premium: porcelanato grande formato, sanca em gesso com iluminação indireta, painel ripado para TV com automação, cortineiro motorizado e infraestrutura para home theater",expandido
+94,Apto,Sala,30.0,3Q+2B,Luxo,"Living premium: porcelanato grande formato, sanca em gesso com iluminação indireta, painel ripado para TV com automação, cortineiro motorizado e infraestrutura para home theater",base
+95,Apto,Sala + cozinha integradas,32.0,3Q+2B,Popular,"Open concept: demolição de divisória, unificação de pisos, bancada americana, marcenaria integrada, iluminação setorizada e pintura uniforme para ampliar visualmente",expandido
+96,Apto,Sala + cozinha integradas,32.0,3Q+2B,Médio,"Open concept: demolição de divisória, unificação de pisos, bancada americana, marcenaria integrada, iluminação setorizada e pintura uniforme para ampliar visualmente",base
+97,Apto,Sala + cozinha integradas,25,3Q+2B,Popular,"Open concept: demolição de divisória, unificação de pisos, bancada americana, marcenaria integrada, iluminação setorizada e pintura uniforme para ampliar visualmente",expandido
+98,Apto,Sala + cozinha integradas,25,3Q+2B,Médio,"Open concept: demolição de divisória, unificação de pisos, bancada americana, marcenaria integrada, iluminação setorizada e pintura uniforme para ampliar visualmente",expandido
+99,Apto,Sala + cozinha integradas,45.0,3Q+2B,Popular,"Open concept: demolição de divisória, unificação de pisos, bancada americana, marcenaria integrada, iluminação setorizada e pintura uniforme para ampliar visualmente",expandido
+100,Apto,Sala + cozinha integradas,45.0,3Q+2B,Médio,"Open concept: demolição de divisória, unificação de pisos, bancada americana, marcenaria integrada, iluminação setorizada e pintura uniforme para ampliar visualmente",expandido
+101,Apto,Sala,16.0,2Q+1B,Popular,"Sala simples: pintura, piso vinílico econômico, luminárias básicas LED e organização de cabos TV",base
+102,Apto,Sala,12,2Q+1B,Popular,"Sala simples: pintura, piso vinílico econômico, luminárias básicas LED e organização de cabos TV",expandido
+103,Apto,Lavanderia,4.0,2Q+1B,Popular,"Lavanderia compacta: revestimento lavável, bancada simples com tanque, armário aéreo, varal retrátil, tomada para máquina e revisão de pontos hidráulicos",expandido
+104,Apto,Lavanderia,5.0,2Q+1B,Popular,"Lavanderia compacta: revestimento lavável, bancada simples com tanque, armário aéreo, varal retrátil, tomada para máquina e revisão de pontos hidráulicos",base
+105,Apto,Lavanderia,7.0,2Q+1B,Popular,"Lavanderia compacta: revestimento lavável, bancada simples com tanque, armário aéreo, varal retrátil, tomada para máquina e revisão de pontos hidráulicos",expandido
+106,Apto,Lavanderia,10.0,3Q+2B,Popular,"Área de serviço funcional: armários planejados, bancada ampla, tanque embutido, iluminação adequada, tomadas dedicadas (lava-seca) e ventilação/exaustão",expandido
+107,Apto,Lavanderia,10.0,3Q+2B,Médio,"Área de serviço funcional: armários planejados, bancada ampla, tanque embutido, iluminação adequada, tomadas dedicadas (lava-seca) e ventilação/exaustão",expandido
+108,Apto,Lavanderia,5.0,3Q+2B,Popular,"Área de serviço funcional: armários planejados, bancada ampla, tanque embutido, iluminação adequada, tomadas dedicadas (lava-seca) e ventilação/exaustão",expandido
+109,Apto,Lavanderia,5.0,3Q+2B,Médio,"Área de serviço funcional: armários planejados, bancada ampla, tanque embutido, iluminação adequada, tomadas dedicadas (lava-seca) e ventilação/exaustão",expandido
+110,Apto,Lavanderia,7.0,3Q+2B,Popular,"Área de serviço funcional: armários planejados, bancada ampla, tanque embutido, iluminação adequada, tomadas dedicadas (lava-seca) e ventilação/exaustão",expandido
+111,Apto,Lavanderia,7.0,3Q+2B,Médio,"Área de serviço funcional: armários planejados, bancada ampla, tanque embutido, iluminação adequada, tomadas dedicadas (lava-seca) e ventilação/exaustão",base
+112,Apto,Varanda,8.0,2Q+1B,Popular,"Varanda living: fechamento com cortina de vidro (se permitido), piso porcelanato externo, iluminação pendente, tomadas para churrasqueira elétrica e bancada de apoio",expandido
+113,Apto,Varanda,8.0,2Q+1B,Médio,"Varanda living: fechamento com cortina de vidro (se permitido), piso porcelanato externo, iluminação pendente, tomadas para churrasqueira elétrica e bancada de apoio",expandido
+114,Apto,Varanda,4.0,2Q+1B,Popular,"Varanda living: fechamento com cortina de vidro (se permitido), piso porcelanato externo, iluminação pendente, tomadas para churrasqueira elétrica e bancada de apoio",expandido
+115,Apto,Varanda,4.0,2Q+1B,Médio,"Varanda living: fechamento com cortina de vidro (se permitido), piso porcelanato externo, iluminação pendente, tomadas para churrasqueira elétrica e bancada de apoio",expandido
+116,Apto,Varanda,6.0,2Q+1B,Popular,"Varanda living: fechamento com cortina de vidro (se permitido), piso porcelanato externo, iluminação pendente, tomadas para churrasqueira elétrica e bancada de apoio",expandido
+117,Apto,Varanda,6.0,2Q+1B,Médio,"Varanda living: fechamento com cortina de vidro (se permitido), piso porcelanato externo, iluminação pendente, tomadas para churrasqueira elétrica e bancada de apoio",base
+118,Apto,Varanda gourmet,8,3Q+2B,Médio,"Espaço gourmet: churrasqueira a gás ou elétrica, bancada em granito, cuba, armários, revestimento diferenciado, iluminação cênica e teto rebaixado com gesso",expandido
+119,Apto,Varanda gourmet,8,3Q+2B,Luxo,"Espaço gourmet: churrasqueira a gás ou elétrica, bancada em granito, cuba, armários, revestimento diferenciado, iluminação cênica e teto rebaixado com gesso",expandido
+120,Apto,Varanda gourmet,10.0,3Q+2B,Médio,"Espaço gourmet: churrasqueira a gás ou elétrica, bancada em granito, cuba, armários, revestimento diferenciado, iluminação cênica e teto rebaixado com gesso",expandido
+121,Apto,Varanda gourmet,10.0,3Q+2B,Luxo,"Espaço gourmet: churrasqueira a gás ou elétrica, bancada em granito, cuba, armários, revestimento diferenciado, iluminação cênica e teto rebaixado com gesso",base
+122,Apto,Varanda gourmet,14.0,3Q+2B,Médio,"Espaço gourmet: churrasqueira a gás ou elétrica, bancada em granito, cuba, armários, revestimento diferenciado, iluminação cênica e teto rebaixado com gesso",expandido
+123,Apto,Varanda gourmet,14.0,3Q+2B,Luxo,"Espaço gourmet: churrasqueira a gás ou elétrica, bancada em granito, cuba, armários, revestimento diferenciado, iluminação cênica e teto rebaixado com gesso",expandido
+124,Apto,Home office,9.0,2Q+1B,Popular,"Escritório em casa: bancada longa, iluminação de tarefa, tomadas múltiplas, cabeamento organizado, tratamento acústico leve e pintura neutra focada em produtividade",expandido
+125,Apto,Home office,9.0,2Q+1B,Médio,"Escritório em casa: bancada longa, iluminação de tarefa, tomadas múltiplas, cabeamento organizado, tratamento acústico leve e pintura neutra focada em produtividade",base
+126,Apto,Home office,13.0,2Q+1B,Popular,"Escritório em casa: bancada longa, iluminação de tarefa, tomadas múltiplas, cabeamento organizado, tratamento acústico leve e pintura neutra focada em produtividade",expandido
+127,Apto,Home office,13.0,2Q+1B,Médio,"Escritório em casa: bancada longa, iluminação de tarefa, tomadas múltiplas, cabeamento organizado, tratamento acústico leve e pintura neutra focada em produtividade",expandido
+128,Apto,Home office,6.0,2Q+1B,Popular,"Escritório em casa: bancada longa, iluminação de tarefa, tomadas múltiplas, cabeamento organizado, tratamento acústico leve e pintura neutra focada em produtividade",expandido
+129,Apto,Home office,6.0,2Q+1B,Médio,"Escritório em casa: bancada longa, iluminação de tarefa, tomadas múltiplas, cabeamento organizado, tratamento acústico leve e pintura neutra focada em produtividade",expandido
+130,Apto,Home office,8.0,1Q+1B,Popular,"Cantinho de trabalho: bancada simples, iluminação de mesa, tomadas para computador e cadeira ergonômica básica",expandido
+131,Apto,Home office,4.0,1Q+1B,Popular,"Cantinho de trabalho: bancada simples, iluminação de mesa, tomadas para computador e cadeira ergonômica básica",expandido
+132,Apto,Home office,6.0,1Q+1B,Popular,"Cantinho de trabalho: bancada simples, iluminação de mesa, tomadas para computador e cadeira ergonômica básica",base
+133,Apto,Geral,63.0,2Q+1B,Popular,"Reforma rápida apartamento: pintura geral (paredes e tetos), troca de luminárias por LED, revisão de tomadas/interruptores, rejuntes novos e pequenos reparos",expandido
+134,Apto,Geral,45.0,2Q+1B,Popular,"Reforma rápida apartamento: pintura geral (paredes e tetos), troca de luminárias por LED, revisão de tomadas/interruptores, rejuntes novos e pequenos reparos",base
+135,Apto,Geral,31.0,2Q+1B,Popular,"Reforma rápida apartamento: pintura geral (paredes e tetos), troca de luminárias por LED, revisão de tomadas/interruptores, rejuntes novos e pequenos reparos",expandido
+136,Apto,Geral,77.0,3Q+2B,Popular,"Reforma pré-entrega: pintura completa, troca de pisos áreas sociais, revisão elétrica, silicones/rejuntes novos, louças sanitárias e pequenos reparos de acabamento",expandido
+137,Apto,Geral,77.0,3Q+2B,Médio,"Reforma pré-entrega: pintura completa, troca de pisos áreas sociais, revisão elétrica, silicones/rejuntes novos, louças sanitárias e pequenos reparos de acabamento",expandido
+138,Apto,Geral,38.0,3Q+2B,Popular,"Reforma pré-entrega: pintura completa, troca de pisos áreas sociais, revisão elétrica, silicones/rejuntes novos, louças sanitárias e pequenos reparos de acabamento",expandido
+139,Apto,Geral,38.0,3Q+2B,Médio,"Reforma pré-entrega: pintura completa, troca de pisos áreas sociais, revisão elétrica, silicones/rejuntes novos, louças sanitárias e pequenos reparos de acabamento",expandido
+140,Apto,Geral,55.0,3Q+2B,Popular,"Reforma pré-entrega: pintura completa, troca de pisos áreas sociais, revisão elétrica, silicones/rejuntes novos, louças sanitárias e pequenos reparos de acabamento",expandido
+141,Apto,Geral,55.0,3Q+2B,Médio,"Reforma pré-entrega: pintura completa, troca de pisos áreas sociais, revisão elétrica, silicones/rejuntes novos, louças sanitárias e pequenos reparos de acabamento",base
+142,Apto,Geral,49.0,3Q+2B,Médio,"Reforma completa alto padrão: demolição e reconstrução de acabamentos, novo projeto de iluminação, marcenaria integrada, automação básica (iluminação e persianas) e materiais premium",expandido
+143,Apto,Geral,49.0,3Q+2B,Luxo,"Reforma completa alto padrão: demolição e reconstrução de acabamentos, novo projeto de iluminação, marcenaria integrada, automação básica (iluminação e persianas) e materiais premium",expandido
+144,Apto,Geral,98.0,3Q+2B,Médio,"Reforma completa alto padrão: demolição e reconstrução de acabamentos, novo projeto de iluminação, marcenaria integrada, automação básica (iluminação e persianas) e materiais premium",expandido
+145,Apto,Geral,98.0,3Q+2B,Luxo,"Reforma completa alto padrão: demolição e reconstrução de acabamentos, novo projeto de iluminação, marcenaria integrada, automação básica (iluminação e persianas) e materiais premium",expandido
+146,Apto,Geral,70.0,3Q+2B,Médio,"Reforma completa alto padrão: demolição e reconstrução de acabamentos, novo projeto de iluminação, marcenaria integrada, automação básica (iluminação e persianas) e materiais premium",expandido
+147,Apto,Geral,70.0,3Q+2B,Luxo,"Reforma completa alto padrão: demolição e reconstrução de acabamentos, novo projeto de iluminação, marcenaria integrada, automação básica (iluminação e persianas) e materiais premium",base
+148,Apto,Geral,49.0,1Q+1B,Popular,"Reforma studio: pintura, piso único, iluminação integrada, cozinha compacta e banheiro funcional",expandido
+149,Apto,Geral,35.0,1Q+1B,Popular,"Reforma studio: pintura, piso único, iluminação integrada, cozinha compacta e banheiro funcional",base
+150,Apto,Geral,30,1Q+1B,Popular,"Reforma studio: pintura, piso único, iluminação integrada, cozinha compacta e banheiro funcional",expandido
+151,Apto,Elétrica geral,42.0,3Q+2B,Popular,"Adequação elétrica: troca de quadro, disjuntores novos, DR e DPS, identificação de circuitos, novos pontos de tomada/iluminação e aterramento conforme norma",expandido
+152,Apto,Elétrica geral,42.0,3Q+2B,Médio,"Adequação elétrica: troca de quadro, disjuntores novos, DR e DPS, identificação de circuitos, novos pontos de tomada/iluminação e aterramento conforme norma",expandido
+153,Apto,Elétrica geral,60.0,3Q+2B,Popular,"Adequação elétrica: troca de quadro, disjuntores novos, DR e DPS, identificação de circuitos, novos pontos de tomada/iluminação e aterramento conforme norma",expandido
+154,Apto,Elétrica geral,60.0,3Q+2B,Médio,"Adequação elétrica: troca de quadro, disjuntores novos, DR e DPS, identificação de circuitos, novos pontos de tomada/iluminação e aterramento conforme norma",base
+155,Apto,Elétrica geral,84.0,3Q+2B,Popular,"Adequação elétrica: troca de quadro, disjuntores novos, DR e DPS, identificação de circuitos, novos pontos de tomada/iluminação e aterramento conforme norma",expandido
+156,Apto,Elétrica geral,84.0,3Q+2B,Médio,"Adequação elétrica: troca de quadro, disjuntores novos, DR e DPS, identificação de circuitos, novos pontos de tomada/iluminação e aterramento conforme norma",expandido
+157,Apto,Hidráulica geral,77.0,3Q+2B,Popular,"Revisão hidráulica: troca de registros gerais e de pressão, flexíveis novos, sifões, válvulas de descarga e testes de estanqueidade sem quebra de paredes",expandido
+158,Apto,Hidráulica geral,77.0,3Q+2B,Médio,"Revisão hidráulica: troca de registros gerais e de pressão, flexíveis novos, sifões, válvulas de descarga e testes de estanqueidade sem quebra de paredes",expandido
+159,Apto,Hidráulica geral,38.0,3Q+2B,Popular,"Revisão hidráulica: troca de registros gerais e de pressão, flexíveis novos, sifões, válvulas de descarga e testes de estanqueidade sem quebra de paredes",expandido
+160,Apto,Hidráulica geral,38.0,3Q+2B,Médio,"Revisão hidráulica: troca de registros gerais e de pressão, flexíveis novos, sifões, válvulas de descarga e testes de estanqueidade sem quebra de paredes",expandido
+161,Apto,Hidráulica geral,55.0,3Q+2B,Popular,"Revisão hidráulica: troca de registros gerais e de pressão, flexíveis novos, sifões, válvulas de descarga e testes de estanqueidade sem quebra de paredes",expandido
+162,Apto,Hidráulica geral,55.0,3Q+2B,Médio,"Revisão hidráulica: troca de registros gerais e de pressão, flexíveis novos, sifões, válvulas de descarga e testes de estanqueidade sem quebra de paredes",base
+163,Casa,Banheiro,4.0,2Q+1B,Popular,"Banheiro simples: demolição, impermeabilização básica, cerâmica padrão, louças/metais econômicos, box acrílico e pintura de teto",expandido
+164,Casa,Banheiro,5.0,2Q+1B,Popular,"Banheiro simples: demolição, impermeabilização básica, cerâmica padrão, louças/metais econômicos, box acrílico e pintura de teto",base
+165,Casa,Banheiro,7.0,2Q+1B,Popular,"Banheiro simples: demolição, impermeabilização básica, cerâmica padrão, louças/metais econômicos, box acrílico e pintura de teto",expandido
+166,Casa,Banheiro,8.0,3Q+2B,Popular,"Banheiro completo casa: demolição, impermeabilização com manta, porcelanato, nicho em alvenaria, metais de qualidade, box de vidro 8mm e exaustor",expandido
+167,Casa,Banheiro,8.0,3Q+2B,Médio,"Banheiro completo casa: demolição, impermeabilização com manta, porcelanato, nicho em alvenaria, metais de qualidade, box de vidro 8mm e exaustor",expandido
+168,Casa,Banheiro,4.0,3Q+2B,Popular,"Banheiro completo casa: demolição, impermeabilização com manta, porcelanato, nicho em alvenaria, metais de qualidade, box de vidro 8mm e exaustor",expandido
+169,Casa,Banheiro,4.0,3Q+2B,Médio,"Banheiro completo casa: demolição, impermeabilização com manta, porcelanato, nicho em alvenaria, metais de qualidade, box de vidro 8mm e exaustor",expandido
+170,Casa,Banheiro,6.0,3Q+2B,Popular,"Banheiro completo casa: demolição, impermeabilização com manta, porcelanato, nicho em alvenaria, metais de qualidade, box de vidro 8mm e exaustor",expandido
+171,Casa,Banheiro,6.0,3Q+2B,Médio,"Banheiro completo casa: demolição, impermeabilização com manta, porcelanato, nicho em alvenaria, metais de qualidade, box de vidro 8mm e exaustor",base
+172,Casa,Banheiro suíte,8.0,4Q+3B,Médio,"Suíte master spa: banheira de imersão (se layout permitir), ducha com cromoterapia, bancada dupla, espelho de parede inteira, iluminação cênica e aquecimento de piso",expandido
+173,Casa,Banheiro suíte,8.0,4Q+3B,Luxo,"Suíte master spa: banheira de imersão (se layout permitir), ducha com cromoterapia, bancada dupla, espelho de parede inteira, iluminação cênica e aquecimento de piso",base
+174,Casa,Lavabo,2.0,3Q+2B,Médio,"Lavabo social: bancada diferenciada, cuba artesanal, torneira de design, revestimento 3D ou papel de parede especial, espelho decorativo e iluminação pontual",expandido
+175,Casa,Lavabo,2.0,3Q+2B,Luxo,"Lavabo social: bancada diferenciada, cuba artesanal, torneira de design, revestimento 3D ou papel de parede especial, espelho decorativo e iluminação pontual",expandido
+176,Casa,Lavabo,3.0,3Q+2B,Médio,"Lavabo social: bancada diferenciada, cuba artesanal, torneira de design, revestimento 3D ou papel de parede especial, espelho decorativo e iluminação pontual",expandido
+177,Casa,Lavabo,3.0,3Q+2B,Luxo,"Lavabo social: bancada diferenciada, cuba artesanal, torneira de design, revestimento 3D ou papel de parede especial, espelho decorativo e iluminação pontual",base
+178,Casa,Lavabo,4,3Q+2B,Médio,"Lavabo social: bancada diferenciada, cuba artesanal, torneira de design, revestimento 3D ou papel de parede especial, espelho decorativo e iluminação pontual",expandido
+179,Casa,Lavabo,4,3Q+2B,Luxo,"Lavabo social: bancada diferenciada, cuba artesanal, torneira de design, revestimento 3D ou papel de parede especial, espelho decorativo e iluminação pontual",expandido
+180,Casa,Banheiro,3.0,2Q+1B,Popular,"Banheiro econômico casa: pintura de azulejos, troca de louças básicas, rejunte novo, torneira econômica e box simples",expandido
+181,Casa,Banheiro,6.0,2Q+1B,Popular,"Banheiro econômico casa: pintura de azulejos, troca de louças básicas, rejunte novo, torneira econômica e box simples",expandido
+182,Casa,Banheiro social,4.0,3Q+2B,Popular,"Banheiro de visitas: revestimento cerâmico, louças padrão, espelho com moldura, iluminação adequada e ventilação",expandido
+183,Casa,Banheiro social,4.0,3Q+2B,Médio,"Banheiro de visitas: revestimento cerâmico, louças padrão, espelho com moldura, iluminação adequada e ventilação",expandido
+184,Casa,Banheiro social,5.0,3Q+2B,Popular,"Banheiro de visitas: revestimento cerâmico, louças padrão, espelho com moldura, iluminação adequada e ventilação",expandido
+185,Casa,Banheiro social,5.0,3Q+2B,Médio,"Banheiro de visitas: revestimento cerâmico, louças padrão, espelho com moldura, iluminação adequada e ventilação",base
+186,Casa,Banheiro social,7.0,3Q+2B,Popular,"Banheiro de visitas: revestimento cerâmico, louças padrão, espelho com moldura, iluminação adequada e ventilação",expandido
+187,Casa,Banheiro social,7.0,3Q+2B,Médio,"Banheiro de visitas: revestimento cerâmico, louças padrão, espelho com moldura, iluminação adequada e ventilação",expandido
+188,Casa,Quarto,10.0,2Q+1B,Popular,"Quarto casa: pintura, piso laminado econômico, rodapé, luminárias novas e revisão de tomadas",expandido
+189,Casa,Quarto,20.0,2Q+1B,Popular,"Quarto casa: pintura, piso laminado econômico, rodapé, luminárias novas e revisão de tomadas",expandido
+190,Casa,Quarto,14.0,2Q+1B,Popular,"Quarto casa: pintura, piso laminado econômico, rodapé, luminárias novas e revisão de tomadas",base
+191,Casa,Quarto,16.0,3Q+2B,Popular,"Quarto completo: piso vinílico premium, pintura especial, iluminação com dimmer, cabeceira estofada e closet linear com portas de correr",expandido
+192,Casa,Quarto,16.0,3Q+2B,Médio,"Quarto completo: piso vinílico premium, pintura especial, iluminação com dimmer, cabeceira estofada e closet linear com portas de correr",base
+193,Casa,Quarto,11.0,3Q+2B,Popular,"Quarto completo: piso vinílico premium, pintura especial, iluminação com dimmer, cabeceira estofada e closet linear com portas de correr",expandido
+194,Casa,Quarto,11.0,3Q+2B,Médio,"Quarto completo: piso vinílico premium, pintura especial, iluminação com dimmer, cabeceira estofada e closet linear com portas de correr",expandido
+195,Casa,Quarto,22.0,3Q+2B,Popular,"Quarto completo: piso vinílico premium, pintura especial, iluminação com dimmer, cabeceira estofada e closet linear com portas de correr",expandido
+196,Casa,Quarto,22.0,3Q+2B,Médio,"Quarto completo: piso vinílico premium, pintura especial, iluminação com dimmer, cabeceira estofada e closet linear com portas de correr",expandido
+197,Casa,Suíte master,16,4Q+3B,Médio,"Suíte completa: piso de madeira maciça, painel ripado, closet iluminado com espelho, automação de cortinas/iluminação e integração com banheiro premium",expandido
+198,Casa,Suíte master,16,4Q+3B,Luxo,"Suíte completa: piso de madeira maciça, painel ripado, closet iluminado com espelho, automação de cortinas/iluminação e integração com banheiro premium",expandido
+199,Casa,Suíte master,20.0,4Q+3B,Médio,"Suíte completa: piso de madeira maciça, painel ripado, closet iluminado com espelho, automação de cortinas/iluminação e integração com banheiro premium",expandido
+200,Casa,Suíte master,20.0,4Q+3B,Luxo,"Suíte completa: piso de madeira maciça, painel ripado, closet iluminado com espelho, automação de cortinas/iluminação e integração com banheiro premium",base
+201,Casa,Suíte master,28.0,4Q+3B,Médio,"Suíte completa: piso de madeira maciça, painel ripado, closet iluminado com espelho, automação de cortinas/iluminação e integração com banheiro premium",expandido
+202,Casa,Suíte master,28.0,4Q+3B,Luxo,"Suíte completa: piso de madeira maciça, painel ripado, closet iluminado com espelho, automação de cortinas/iluminação e integração com banheiro premium",expandido
+203,Casa,Quarto solteiro,8.0,3Q+2B,Popular,"Quarto de solteiro: pintura, piso vinílico básico, luminárias LED, tomadas para computador e móveis modulados simples",expandido
+204,Casa,Quarto solteiro,12.0,3Q+2B,Popular,"Quarto de solteiro: pintura, piso vinílico básico, luminárias LED, tomadas para computador e móveis modulados simples",base
+205,Casa,Quarto solteiro,15,3Q+2B,Popular,"Quarto de solteiro: pintura, piso vinílico básico, luminárias LED, tomadas para computador e móveis modulados simples",expandido
+206,Casa,Quarto hóspedes,10.0,3Q+2B,Popular,"Quarto de hóspedes casa: pintura neutra, piso laminado, ar-condicionado, iluminação agradável e armário embutido",expandido
+207,Casa,Quarto hóspedes,10.0,3Q+2B,Médio,"Quarto de hóspedes casa: pintura neutra, piso laminado, ar-condicionado, iluminação agradável e armário embutido",expandido
+208,Casa,Quarto hóspedes,18,3Q+2B,Popular,"Quarto de hóspedes casa: pintura neutra, piso laminado, ar-condicionado, iluminação agradável e armário embutido",expandido
+209,Casa,Quarto hóspedes,18,3Q+2B,Médio,"Quarto de hóspedes casa: pintura neutra, piso laminado, ar-condicionado, iluminação agradável e armário embutido",expandido
+210,Casa,Quarto hóspedes,14.0,3Q+2B,Popular,"Quarto de hóspedes casa: pintura neutra, piso laminado, ar-condicionado, iluminação agradável e armário embutido",expandido
+211,Casa,Quarto hóspedes,14.0,3Q+2B,Médio,"Quarto de hóspedes casa: pintura neutra, piso laminado, ar-condicionado, iluminação agradável e armário embutido",base
+212,Casa,Quarto empregada,8.0,4Q+3B,Popular,"Dependência de empregada: pintura, piso cerâmico, iluminação básica, tomadas e revisão de banheiro anexo",base
+213,Casa,Quarto empregada,11.0,4Q+3B,Popular,"Dependência de empregada: pintura, piso cerâmico, iluminação básica, tomadas e revisão de banheiro anexo",expandido
+214,Casa,Quarto empregada,6,4Q+3B,Popular,"Dependência de empregada: pintura, piso cerâmico, iluminação básica, tomadas e revisão de banheiro anexo",expandido
+215,Casa,Cozinha,8.0,2Q+1B,Popular,"Cozinha casa: pintura lavável, revestimento cerâmico, bancada granito, cuba inox simples, torneira funcional e armários básicos",expandido
+216,Casa,Cozinha,17.0,2Q+1B,Popular,"Cozinha casa: pintura lavável, revestimento cerâmico, bancada granito, cuba inox simples, torneira funcional e armários básicos",expandido
+217,Casa,Cozinha,12.0,2Q+1B,Popular,"Cozinha casa: pintura lavável, revestimento cerâmico, bancada granito, cuba inox simples, torneira funcional e armários básicos",base
+218,Casa,Cozinha,16.0,3Q+2B,Popular,"Cozinha família: porcelanato, bancada quartzo em L, marcenaria com despensa, torre quente, iluminação de tarefa e coifa",expandido
+219,Casa,Cozinha,16.0,3Q+2B,Médio,"Cozinha família: porcelanato, bancada quartzo em L, marcenaria com despensa, torre quente, iluminação de tarefa e coifa",base
+220,Casa,Cozinha,11.0,3Q+2B,Popular,"Cozinha família: porcelanato, bancada quartzo em L, marcenaria com despensa, torre quente, iluminação de tarefa e coifa",expandido
+221,Casa,Cozinha,11.0,3Q+2B,Médio,"Cozinha família: porcelanato, bancada quartzo em L, marcenaria com despensa, torre quente, iluminação de tarefa e coifa",expandido
+222,Casa,Cozinha,22.0,3Q+2B,Popular,"Cozinha família: porcelanato, bancada quartzo em L, marcenaria com despensa, torre quente, iluminação de tarefa e coifa",expandido
+223,Casa,Cozinha,22.0,3Q+2B,Médio,"Cozinha família: porcelanato, bancada quartzo em L, marcenaria com despensa, torre quente, iluminação de tarefa e coifa",expandido
+224,Casa,Cozinha,30,4Q+3B,Médio,"Cozinha gourmet casa: ilha central com cooktop, bancada quartzo ou granito premium, marcenaria com sistema de organização, iluminação em perfis, eletros embutidos de alto padrão",expandido
+225,Casa,Cozinha,30,4Q+3B,Luxo,"Cozinha gourmet casa: ilha central com cooktop, bancada quartzo ou granito premium, marcenaria com sistema de organização, iluminação em perfis, eletros embutidos de alto padrão",expandido
+226,Casa,Cozinha,22.0,4Q+3B,Médio,"Cozinha gourmet casa: ilha central com cooktop, bancada quartzo ou granito premium, marcenaria com sistema de organização, iluminação em perfis, eletros embutidos de alto padrão",expandido
+227,Casa,Cozinha,22.0,4Q+3B,Luxo,"Cozinha gourmet casa: ilha central com cooktop, bancada quartzo ou granito premium, marcenaria com sistema de organização, iluminação em perfis, eletros embutidos de alto padrão",base
+228,Casa,Cozinha,15.0,4Q+3B,Médio,"Cozinha gourmet casa: ilha central com cooktop, bancada quartzo ou granito premium, marcenaria com sistema de organização, iluminação em perfis, eletros embutidos de alto padrão",expandido
+229,Casa,Cozinha,15.0,4Q+3B,Luxo,"Cozinha gourmet casa: ilha central com cooktop, bancada quartzo ou granito premium, marcenaria com sistema de organização, iluminação em perfis, eletros embutidos de alto padrão",expandido
+230,Casa,Copa,8.0,3Q+2B,Popular,"Copa separada: bancada de apoio, armários, mesa pequena para refeições rápidas, iluminação e piso cerâmico",expandido
+231,Casa,Copa,8.0,3Q+2B,Médio,"Copa separada: bancada de apoio, armários, mesa pequena para refeições rápidas, iluminação e piso cerâmico",base
+232,Casa,Copa,11.0,3Q+2B,Popular,"Copa separada: bancada de apoio, armários, mesa pequena para refeições rápidas, iluminação e piso cerâmico",expandido
+233,Casa,Copa,11.0,3Q+2B,Médio,"Copa separada: bancada de apoio, armários, mesa pequena para refeições rápidas, iluminação e piso cerâmico",expandido
+234,Casa,Copa,6,3Q+2B,Popular,"Copa separada: bancada de apoio, armários, mesa pequena para refeições rápidas, iluminação e piso cerâmico",expandido
+235,Casa,Copa,6,3Q+2B,Médio,"Copa separada: bancada de apoio, armários, mesa pequena para refeições rápidas, iluminação e piso cerâmico",expandido
+236,Casa,Sala,25.0,2Q+1B,Popular,"Sala casa: pintura, piso laminado, luminárias básicas e organização de cabos TV/internet",base
+237,Casa,Sala,18.0,2Q+1B,Popular,"Sala casa: pintura, piso laminado, luminárias básicas e organização de cabos TV/internet",expandido
+238,Casa,Sala,35.0,2Q+1B,Popular,"Sala casa: pintura, piso laminado, luminárias básicas e organização de cabos TV/internet",expandido
+239,Casa,Sala,24.0,3Q+2B,Popular,"Sala de estar/jantar: porcelanato, forro de gesso acartonado, iluminação setorizada, painel de TV integrado e cortineiro embutido",expandido
+240,Casa,Sala,24.0,3Q+2B,Médio,"Sala de estar/jantar: porcelanato, forro de gesso acartonado, iluminação setorizada, painel de TV integrado e cortineiro embutido",expandido
+241,Casa,Sala,49.0,3Q+2B,Popular,"Sala de estar/jantar: porcelanato, forro de gesso acartonado, iluminação setorizada, painel de TV integrado e cortineiro embutido",expandido
+242,Casa,Sala,49.0,3Q+2B,Médio,"Sala de estar/jantar: porcelanato, forro de gesso acartonado, iluminação setorizada, painel de TV integrado e cortineiro embutido",expandido
+243,Casa,Sala,35.0,3Q+2B,Popular,"Sala de estar/jantar: porcelanato, forro de gesso acartonado, iluminação setorizada, painel de TV integrado e cortineiro embutido",expandido
+244,Casa,Sala,35.0,3Q+2B,Médio,"Sala de estar/jantar: porcelanato, forro de gesso acartonado, iluminação setorizada, painel de TV integrado e cortineiro embutido",base
+245,Casa,Living integrado,40,4Q+3B,Médio,"Living completo: porcelanato grande formato, pé-direito duplo (se existente) com luminária pendente, lareira ecológica, automação completa e marcenaria de TV premium",expandido
+246,Casa,Living integrado,40,4Q+3B,Luxo,"Living completo: porcelanato grande formato, pé-direito duplo (se existente) com luminária pendente, lareira ecológica, automação completa e marcenaria de TV premium",expandido
+247,Casa,Living integrado,50.0,4Q+3B,Médio,"Living completo: porcelanato grande formato, pé-direito duplo (se existente) com luminária pendente, lareira ecológica, automação completa e marcenaria de TV premium",expandido
+248,Casa,Living integrado,50.0,4Q+3B,Luxo,"Living completo: porcelanato grande formato, pé-direito duplo (se existente) com luminária pendente, lareira ecológica, automação completa e marcenaria de TV premium",base
+249,Casa,Living integrado,70.0,4Q+3B,Médio,"Living completo: porcelanato grande formato, pé-direito duplo (se existente) com luminária pendente, lareira ecológica, automação completa e marcenaria de TV premium",expandido
+250,Casa,Living integrado,70.0,4Q+3B,Luxo,"Living completo: porcelanato grande formato, pé-direito duplo (se existente) com luminária pendente, lareira ecológica, automação completa e marcenaria de TV premium",expandido
+251,Casa,Sala,20.0,3Q+2B,Popular,"Sala família: pintura, piso cerâmico, luminárias LED e organização de móveis",base
+252,Casa,Sala,28.0,3Q+2B,Popular,"Sala família: pintura, piso cerâmico, luminárias LED e organização de móveis",expandido
+253,Casa,Sala,14.0,3Q+2B,Popular,"Sala família: pintura, piso cerâmico, luminárias LED e organização de móveis",expandido
+254,Casa,Lavanderia,8.0,2Q+1B,Popular,"Área de serviço casa: piso cerâmico, tanque, bancada simples, prateleiras e varal",base
+255,Casa,Lavanderia,11.0,2Q+1B,Popular,"Área de serviço casa: piso cerâmico, tanque, bancada simples, prateleiras e varal",expandido
+256,Casa,Lavanderia,6.0,2Q+1B,Popular,"Área de serviço casa: piso cerâmico, tanque, bancada simples, prateleiras e varal",expandido
+257,Casa,Lavanderia,8.0,3Q+2B,Popular,"Lavanderia completa: piso porcelanato, armários planejados, bancada com cuba, espaço para lava e seca, iluminação adequada e ventilação natural ou mecânica",expandido
+258,Casa,Lavanderia,8.0,3Q+2B,Médio,"Lavanderia completa: piso porcelanato, armários planejados, bancada com cuba, espaço para lava e seca, iluminação adequada e ventilação natural ou mecânica",expandido
+259,Casa,Lavanderia,12.0,3Q+2B,Popular,"Lavanderia completa: piso porcelanato, armários planejados, bancada com cuba, espaço para lava e seca, iluminação adequada e ventilação natural ou mecânica",expandido
+260,Casa,Lavanderia,12.0,3Q+2B,Médio,"Lavanderia completa: piso porcelanato, armários planejados, bancada com cuba, espaço para lava e seca, iluminação adequada e ventilação natural ou mecânica",base
+261,Casa,Lavanderia,15,3Q+2B,Popular,"Lavanderia completa: piso porcelanato, armários planejados, bancada com cuba, espaço para lava e seca, iluminação adequada e ventilação natural ou mecânica",expandido
+262,Casa,Lavanderia,15,3Q+2B,Médio,"Lavanderia completa: piso porcelanato, armários planejados, bancada com cuba, espaço para lava e seca, iluminação adequada e ventilação natural ou mecânica",expandido
+263,Casa,Área gourmet,20.0,3Q+2B,Popular,"Espaço gourmet: churrasqueira em alvenaria ou pré-moldada, bancada, cuba, armários, revestimento resistente, iluminação e piso antiderrapante",expandido
+264,Casa,Área gourmet,20.0,3Q+2B,Médio,"Espaço gourmet: churrasqueira em alvenaria ou pré-moldada, bancada, cuba, armários, revestimento resistente, iluminação e piso antiderrapante",base
+265,Casa,Área gourmet,28.0,3Q+2B,Popular,"Espaço gourmet: churrasqueira em alvenaria ou pré-moldada, bancada, cuba, armários, revestimento resistente, iluminação e piso antiderrapante",expandido
+266,Casa,Área gourmet,28.0,3Q+2B,Médio,"Espaço gourmet: churrasqueira em alvenaria ou pré-moldada, bancada, cuba, armários, revestimento resistente, iluminação e piso antiderrapante",expandido
+267,Casa,Área gourmet,15,3Q+2B,Popular,"Espaço gourmet: churrasqueira em alvenaria ou pré-moldada, bancada, cuba, armários, revestimento resistente, iluminação e piso antiderrapante",expandido
+268,Casa,Área gourmet,15,3Q+2B,Médio,"Espaço gourmet: churrasqueira em alvenaria ou pré-moldada, bancada, cuba, armários, revestimento resistente, iluminação e piso antiderrapante",expandido
+269,Casa,Área gourmet,42.0,4Q+3B,Médio,"Área gourmet premium: churrasqueira argentina, forno de pizza (se viável), bancada em granito, geladeira embutida, iluminação cênica e pergolado decorativo",expandido
+270,Casa,Área gourmet,42.0,4Q+3B,Luxo,"Área gourmet premium: churrasqueira argentina, forno de pizza (se viável), bancada em granito, geladeira embutida, iluminação cênica e pergolado decorativo",expandido
+271,Casa,Área gourmet,21.0,4Q+3B,Médio,"Área gourmet premium: churrasqueira argentina, forno de pizza (se viável), bancada em granito, geladeira embutida, iluminação cênica e pergolado decorativo",expandido
+272,Casa,Área gourmet,21.0,4Q+3B,Luxo,"Área gourmet premium: churrasqueira argentina, forno de pizza (se viável), bancada em granito, geladeira embutida, iluminação cênica e pergolado decorativo",expandido
+273,Casa,Área gourmet,30.0,4Q+3B,Médio,"Área gourmet premium: churrasqueira argentina, forno de pizza (se viável), bancada em granito, geladeira embutida, iluminação cênica e pergolado decorativo",expandido
+274,Casa,Área gourmet,30.0,4Q+3B,Luxo,"Área gourmet premium: churrasqueira argentina, forno de pizza (se viável), bancada em granito, geladeira embutida, iluminação cênica e pergolado decorativo",base
+275,Casa,Varanda,10.0,3Q+2B,Popular,"Varanda casa: piso externo, guarda-corpo novo, iluminação, tomadas e pintura de paredes/teto",expandido
+276,Casa,Varanda,10.0,3Q+2B,Médio,"Varanda casa: piso externo, guarda-corpo novo, iluminação, tomadas e pintura de paredes/teto",expandido
+277,Casa,Varanda,20,3Q+2B,Popular,"Varanda casa: piso externo, guarda-corpo novo, iluminação, tomadas e pintura de paredes/teto",expandido
+278,Casa,Varanda,20,3Q+2B,Médio,"Varanda casa: piso externo, guarda-corpo novo, iluminação, tomadas e pintura de paredes/teto",expandido
+279,Casa,Varanda,15.0,3Q+2B,Popular,"Varanda casa: piso externo, guarda-corpo novo, iluminação, tomadas e pintura de paredes/teto",expandido
+280,Casa,Varanda,15.0,3Q+2B,Médio,"Varanda casa: piso externo, guarda-corpo novo, iluminação, tomadas e pintura de paredes/teto",base
+281,Casa,Varanda,10.0,2Q+1B,Popular,"Varanda simples: pintura, piso cerâmico externo, iluminação básica e guarda-corpo revisado",base
+282,Casa,Varanda,14.0,2Q+1B,Popular,"Varanda simples: pintura, piso cerâmico externo, iluminação básica e guarda-corpo revisado",expandido
+283,Casa,Varanda,7.0,2Q+1B,Popular,"Varanda simples: pintura, piso cerâmico externo, iluminação básica e guarda-corpo revisado",expandido
+284,Casa,Garagem,42.0,2Q+1B,Popular,"Garagem organizada: pintura de piso (tinta específica), demarcações, prateleiras metálicas e iluminação funcional",expandido
+285,Casa,Garagem,21.0,2Q+1B,Popular,"Garagem organizada: pintura de piso (tinta específica), demarcações, prateleiras metálicas e iluminação funcional",expandido
+286,Casa,Garagem,30.0,2Q+1B,Popular,"Garagem organizada: pintura de piso (tinta específica), demarcações, prateleiras metálicas e iluminação funcional",base
+287,Casa,Garagem,40.0,3Q+2B,Popular,"Garagem funcional: pintura epóxi, armários de parede, bancada de trabalho, iluminação LED e tomadas para ferramentas",expandido
+288,Casa,Garagem,40.0,3Q+2B,Médio,"Garagem funcional: pintura epóxi, armários de parede, bancada de trabalho, iluminação LED e tomadas para ferramentas",base
+289,Casa,Garagem,56.0,3Q+2B,Popular,"Garagem funcional: pintura epóxi, armários de parede, bancada de trabalho, iluminação LED e tomadas para ferramentas",expandido
+290,Casa,Garagem,56.0,3Q+2B,Médio,"Garagem funcional: pintura epóxi, armários de parede, bancada de trabalho, iluminação LED e tomadas para ferramentas",expandido
+291,Casa,Garagem,28.0,3Q+2B,Popular,"Garagem funcional: pintura epóxi, armários de parede, bancada de trabalho, iluminação LED e tomadas para ferramentas",expandido
+292,Casa,Garagem,28.0,3Q+2B,Médio,"Garagem funcional: pintura epóxi, armários de parede, bancada de trabalho, iluminação LED e tomadas para ferramentas",expandido
+293,Casa,Quintal,50.0,2Q+1B,Popular,"Quintal básico: nivelamento, grama ou piso intertravado, drenagem superficial e iluminação de segurança",base
+294,Casa,Quintal,35.0,2Q+1B,Popular,"Quintal básico: nivelamento, grama ou piso intertravado, drenagem superficial e iluminação de segurança",expandido
+295,Casa,Quintal,70.0,2Q+1B,Popular,"Quintal básico: nivelamento, grama ou piso intertravado, drenagem superficial e iluminação de segurança",expandido
+296,Casa,Quintal/jardim,56.0,3Q+2B,Popular,"Paisagismo leve: canteiros, plantio, irrigação básica, iluminação de jardim, deck de madeira ou WPC e mobiliário externo",expandido
+297,Casa,Quintal/jardim,56.0,3Q+2B,Médio,"Paisagismo leve: canteiros, plantio, irrigação básica, iluminação de jardim, deck de madeira ou WPC e mobiliário externo",expandido
+298,Casa,Quintal/jardim,80.0,3Q+2B,Popular,"Paisagismo leve: canteiros, plantio, irrigação básica, iluminação de jardim, deck de madeira ou WPC e mobiliário externo",expandido
+299,Casa,Quintal/jardim,80.0,3Q+2B,Médio,"Paisagismo leve: canteiros, plantio, irrigação básica, iluminação de jardim, deck de madeira ou WPC e mobiliário externo",base
+300,Casa,Quintal/jardim,112.0,3Q+2B,Popular,"Paisagismo leve: canteiros, plantio, irrigação básica, iluminação de jardim, deck de madeira ou WPC e mobiliário externo",expandido
+301,Casa,Quintal/jardim,112.0,3Q+2B,Médio,"Paisagismo leve: canteiros, plantio, irrigação básica, iluminação de jardim, deck de madeira ou WPC e mobiliário externo",expandido
+302,Casa,Fachada,42.0,2Q+1B,Popular,"Fachada casa: pintura externa com tratamento de fissuras, selagem de esquadrias, limpeza de telhado e revisão de calhas",expandido
+303,Casa,Fachada,60.0,2Q+1B,Popular,"Fachada casa: pintura externa com tratamento de fissuras, selagem de esquadrias, limpeza de telhado e revisão de calhas",base
+304,Casa,Fachada,84.0,2Q+1B,Popular,"Fachada casa: pintura externa com tratamento de fissuras, selagem de esquadrias, limpeza de telhado e revisão de calhas",expandido
+305,Casa,Fachada,56.0,3Q+2B,Popular,"Renovação de fachada: pintura texturizada, troca de esquadrias por alumínio, revestimento de muro, iluminação de destaque e paisagismo frontal",expandido
+306,Casa,Fachada,56.0,3Q+2B,Médio,"Renovação de fachada: pintura texturizada, troca de esquadrias por alumínio, revestimento de muro, iluminação de destaque e paisagismo frontal",expandido
+307,Casa,Fachada,80.0,3Q+2B,Popular,"Renovação de fachada: pintura texturizada, troca de esquadrias por alumínio, revestimento de muro, iluminação de destaque e paisagismo frontal",expandido
+308,Casa,Fachada,80.0,3Q+2B,Médio,"Renovação de fachada: pintura texturizada, troca de esquadrias por alumínio, revestimento de muro, iluminação de destaque e paisagismo frontal",base
+309,Casa,Fachada,112.0,3Q+2B,Popular,"Renovação de fachada: pintura texturizada, troca de esquadrias por alumínio, revestimento de muro, iluminação de destaque e paisagismo frontal",expandido
+310,Casa,Fachada,112.0,3Q+2B,Médio,"Renovação de fachada: pintura texturizada, troca de esquadrias por alumínio, revestimento de muro, iluminação de destaque e paisagismo frontal",expandido
+311,Casa,Muros e portão,40.0,2Q+1B,Popular,"Muros externos: pintura, correção de ferrugem em grades/portão, instalação de motor de portão e iluminação de entrada",base
+312,Casa,Muros e portão,56.0,2Q+1B,Popular,"Muros externos: pintura, correção de ferrugem em grades/portão, instalação de motor de portão e iluminação de entrada",expandido
+313,Casa,Muros e portão,28.0,2Q+1B,Popular,"Muros externos: pintura, correção de ferrugem em grades/portão, instalação de motor de portão e iluminação de entrada",expandido
+314,Casa,Muros e portão,42.0,3Q+2B,Popular,"Entrada valorizada: revestimento de muro (cerâmica ou pedra), portão automatizado, iluminação de balizamento, câmeras e paisagismo",expandido
+315,Casa,Muros e portão,42.0,3Q+2B,Médio,"Entrada valorizada: revestimento de muro (cerâmica ou pedra), portão automatizado, iluminação de balizamento, câmeras e paisagismo",expandido
+316,Casa,Muros e portão,60.0,3Q+2B,Popular,"Entrada valorizada: revestimento de muro (cerâmica ou pedra), portão automatizado, iluminação de balizamento, câmeras e paisagismo",expandido
+317,Casa,Muros e portão,60.0,3Q+2B,Médio,"Entrada valorizada: revestimento de muro (cerâmica ou pedra), portão automatizado, iluminação de balizamento, câmeras e paisagismo",base
+318,Casa,Muros e portão,84.0,3Q+2B,Popular,"Entrada valorizada: revestimento de muro (cerâmica ou pedra), portão automatizado, iluminação de balizamento, câmeras e paisagismo",expandido
+319,Casa,Muros e portão,84.0,3Q+2B,Médio,"Entrada valorizada: revestimento de muro (cerâmica ou pedra), portão automatizado, iluminação de balizamento, câmeras e paisagismo",expandido
+320,Casa,Escada,10.0,3Q+2B,Popular,"Escada interna: revestimento de degraus (porcelanato ou madeira), corrimão novo, iluminação de balizamento e pintura de paredes",expandido
+321,Casa,Escada,10.0,3Q+2B,Médio,"Escada interna: revestimento de degraus (porcelanato ou madeira), corrimão novo, iluminação de balizamento e pintura de paredes",base
+322,Casa,Escada,14.0,3Q+2B,Popular,"Escada interna: revestimento de degraus (porcelanato ou madeira), corrimão novo, iluminação de balizamento e pintura de paredes",expandido
+323,Casa,Escada,14.0,3Q+2B,Médio,"Escada interna: revestimento de degraus (porcelanato ou madeira), corrimão novo, iluminação de balizamento e pintura de paredes",expandido
+324,Casa,Escada,7.0,3Q+2B,Popular,"Escada interna: revestimento de degraus (porcelanato ou madeira), corrimão novo, iluminação de balizamento e pintura de paredes",expandido
+325,Casa,Escada,7.0,3Q+2B,Médio,"Escada interna: revestimento de degraus (porcelanato ou madeira), corrimão novo, iluminação de balizamento e pintura de paredes",expandido
+326,Casa,Escada,10.0,4Q+3B,Médio,"Escada premium: degraus em mármore ou granito, guarda-corpo em vidro/inox, iluminação embutida nos degraus e pintura de parede lateral",expandido
+327,Casa,Escada,10.0,4Q+3B,Luxo,"Escada premium: degraus em mármore ou granito, guarda-corpo em vidro/inox, iluminação embutida nos degraus e pintura de parede lateral",expandido
+328,Casa,Escada,20,4Q+3B,Médio,"Escada premium: degraus em mármore ou granito, guarda-corpo em vidro/inox, iluminação embutida nos degraus e pintura de parede lateral",expandido
+329,Casa,Escada,20,4Q+3B,Luxo,"Escada premium: degraus em mármore ou granito, guarda-corpo em vidro/inox, iluminação embutida nos degraus e pintura de parede lateral",expandido
+330,Casa,Escada,15.0,4Q+3B,Médio,"Escada premium: degraus em mármore ou granito, guarda-corpo em vidro/inox, iluminação embutida nos degraus e pintura de parede lateral",expandido
+331,Casa,Escada,15.0,4Q+3B,Luxo,"Escada premium: degraus em mármore ou granito, guarda-corpo em vidro/inox, iluminação embutida nos degraus e pintura de parede lateral",base
+332,Casa,Telhado,140.0,2Q+1B,Popular,"Manutenção de telhado: troca de telhas quebradas, revisão de cumeeiras, limpeza de calhas, vedação de rufos sem troca de estrutura",expandido
+333,Casa,Telhado,100.0,2Q+1B,Popular,"Manutenção de telhado: troca de telhas quebradas, revisão de cumeeiras, limpeza de calhas, vedação de rufos sem troca de estrutura",base
+334,Casa,Telhado,70.0,2Q+1B,Popular,"Manutenção de telhado: troca de telhas quebradas, revisão de cumeeiras, limpeza de calhas, vedação de rufos sem troca de estrutura",expandido
+335,Casa,Telhado,120.0,3Q+2B,Popular,"Reforma de cobertura: troca de telhas, revisão de madeiramento, subcobertura básica, troca de calhas/condutores e rufos novos",expandido
+336,Casa,Telhado,120.0,3Q+2B,Médio,"Reforma de cobertura: troca de telhas, revisão de madeiramento, subcobertura básica, troca de calhas/condutores e rufos novos",base
+337,Casa,Telhado,84.0,3Q+2B,Popular,"Reforma de cobertura: troca de telhas, revisão de madeiramento, subcobertura básica, troca de calhas/condutores e rufos novos",expandido
+338,Casa,Telhado,84.0,3Q+2B,Médio,"Reforma de cobertura: troca de telhas, revisão de madeiramento, subcobertura básica, troca de calhas/condutores e rufos novos",expandido
+339,Casa,Telhado,168.0,3Q+2B,Popular,"Reforma de cobertura: troca de telhas, revisão de madeiramento, subcobertura básica, troca de calhas/condutores e rufos novos",expandido
+340,Casa,Telhado,168.0,3Q+2B,Médio,"Reforma de cobertura: troca de telhas, revisão de madeiramento, subcobertura básica, troca de calhas/condutores e rufos novos",expandido
+341,Casa,Telhado,105.0,4Q+3B,Médio,"Cobertura nova: troca total de telhas e madeiramento, tratamento anti-cupim, subcobertura térmica, calhas e condutores dimensionados e teste de estanqueidade",expandido
+342,Casa,Telhado,105.0,4Q+3B,Luxo,"Cobertura nova: troca total de telhas e madeiramento, tratamento anti-cupim, subcobertura térmica, calhas e condutores dimensionados e teste de estanqueidade",expandido
+343,Casa,Telhado,210.0,4Q+3B,Médio,"Cobertura nova: troca total de telhas e madeiramento, tratamento anti-cupim, subcobertura térmica, calhas e condutores dimensionados e teste de estanqueidade",expandido
+344,Casa,Telhado,210.0,4Q+3B,Luxo,"Cobertura nova: troca total de telhas e madeiramento, tratamento anti-cupim, subcobertura térmica, calhas e condutores dimensionados e teste de estanqueidade",expandido
+345,Casa,Telhado,150.0,4Q+3B,Médio,"Cobertura nova: troca total de telhas e madeiramento, tratamento anti-cupim, subcobertura térmica, calhas e condutores dimensionados e teste de estanqueidade",expandido
+346,Casa,Telhado,150.0,4Q+3B,Luxo,"Cobertura nova: troca total de telhas e madeiramento, tratamento anti-cupim, subcobertura térmica, calhas e condutores dimensionados e teste de estanqueidade",base
+347,Casa,Telhado,56.0,2Q+1B,Popular,"Telhado manutenção emergencial: conserto de vazamentos, troca pontual de telhas, vedação de rufos e limpeza de calhas",expandido
+348,Casa,Telhado,80.0,2Q+1B,Popular,"Telhado manutenção emergencial: conserto de vazamentos, troca pontual de telhas, vedação de rufos e limpeza de calhas",base
+349,Casa,Telhado,112.0,2Q+1B,Popular,"Telhado manutenção emergencial: conserto de vazamentos, troca pontual de telhas, vedação de rufos e limpeza de calhas",expandido
+350,Casa,Telhado manta,90.0,3Q+2B,Popular,"Telhado com manta: colocação de manta asfáltica, proteção mecânica e revisão de escoamento",expandido
+351,Casa,Telhado manta,90.0,3Q+2B,Médio,"Telhado com manta: colocação de manta asfáltica, proteção mecânica e revisão de escoamento",base
+352,Casa,Telhado manta,126.0,3Q+2B,Popular,"Telhado com manta: colocação de manta asfáltica, proteção mecânica e revisão de escoamento",expandido
+353,Casa,Telhado manta,126.0,3Q+2B,Médio,"Telhado com manta: colocação de manta asfáltica, proteção mecânica e revisão de escoamento",expandido
+354,Casa,Telhado manta,63.0,3Q+2B,Popular,"Telhado com manta: colocação de manta asfáltica, proteção mecânica e revisão de escoamento",expandido
+355,Casa,Telhado manta,63.0,3Q+2B,Médio,"Telhado com manta: colocação de manta asfáltica, proteção mecânica e revisão de escoamento",expandido
+356,Casa,Geral,140.0,2Q+1B,Popular,"Reforma geral casa popular: pintura interna/externa, revisão elétrica, pequenos reparos hidráulicos, troca de luminárias e ajustes de portas/janelas",expandido
+357,Casa,Geral,100.0,2Q+1B,Popular,"Reforma geral casa popular: pintura interna/externa, revisão elétrica, pequenos reparos hidráulicos, troca de luminárias e ajustes de portas/janelas",base
+358,Casa,Geral,70.0,2Q+1B,Popular,"Reforma geral casa popular: pintura interna/externa, revisão elétrica, pequenos reparos hidráulicos, troca de luminárias e ajustes de portas/janelas",expandido
+359,Casa,Geral,105.0,3Q+2B,Popular,"Reforma completa casa: pintura, troca de pisos áreas sociais, reforma de banheiros, atualização elétrica, marcenaria de cozinha e iluminação",expandido
+360,Casa,Geral,105.0,3Q+2B,Médio,"Reforma completa casa: pintura, troca de pisos áreas sociais, reforma de banheiros, atualização elétrica, marcenaria de cozinha e iluminação",expandido
+361,Casa,Geral,210.0,3Q+2B,Popular,"Reforma completa casa: pintura, troca de pisos áreas sociais, reforma de banheiros, atualização elétrica, marcenaria de cozinha e iluminação",expandido
+362,Casa,Geral,210.0,3Q+2B,Médio,"Reforma completa casa: pintura, troca de pisos áreas sociais, reforma de banheiros, atualização elétrica, marcenaria de cozinha e iluminação",expandido
+363,Casa,Geral,150.0,3Q+2B,Popular,"Reforma completa casa: pintura, troca de pisos áreas sociais, reforma de banheiros, atualização elétrica, marcenaria de cozinha e iluminação",expandido
+364,Casa,Geral,150.0,3Q+2B,Médio,"Reforma completa casa: pintura, troca de pisos áreas sociais, reforma de banheiros, atualização elétrica, marcenaria de cozinha e iluminação",base
+365,Casa,Geral,200.0,4Q+3B,Médio,"Retrofit completo: demolição de acabamentos, novo projeto de interiores, materiais premium, automação residencial, paisagismo e iluminação cênica",expandido
+366,Casa,Geral,200.0,4Q+3B,Luxo,"Retrofit completo: demolição de acabamentos, novo projeto de interiores, materiais premium, automação residencial, paisagismo e iluminação cênica",base
+367,Casa,Geral,280.0,4Q+3B,Médio,"Retrofit completo: demolição de acabamentos, novo projeto de interiores, materiais premium, automação residencial, paisagismo e iluminação cênica",expandido
+368,Casa,Geral,280.0,4Q+3B,Luxo,"Retrofit completo: demolição de acabamentos, novo projeto de interiores, materiais premium, automação residencial, paisagismo e iluminação cênica",expandido
+369,Casa,Geral,140.0,4Q+3B,Médio,"Retrofit completo: demolição de acabamentos, novo projeto de interiores, materiais premium, automação residencial, paisagismo e iluminação cênica",expandido
+370,Casa,Geral,140.0,4Q+3B,Luxo,"Retrofit completo: demolição de acabamentos, novo projeto de interiores, materiais premium, automação residencial, paisagismo e iluminação cênica",expandido
+371,Casa,Geral,49.0,2Q+1B,Popular,"Reforma casa simples: pintura, revisão elétrica básica, troca de luminárias e pequenos reparos",expandido
+372,Casa,Geral,98.0,2Q+1B,Popular,"Reforma casa simples: pintura, revisão elétrica básica, troca de luminárias e pequenos reparos",expandido
+373,Casa,Hidráulica geral,120.0,3Q+2B,Popular,"Adequação hidráulica: troca de registros, colunas de água fria (se acessível), caixa d'água nova, pressurização e testes",expandido
+374,Casa,Hidráulica geral,120.0,3Q+2B,Médio,"Adequação hidráulica: troca de registros, colunas de água fria (se acessível), caixa d'água nova, pressurização e testes",base
+375,Casa,Hidráulica geral,84.0,3Q+2B,Popular,"Adequação hidráulica: troca de registros, colunas de água fria (se acessível), caixa d'água nova, pressurização e testes",expandido
+376,Casa,Hidráulica geral,84.0,3Q+2B,Médio,"Adequação hidráulica: troca de registros, colunas de água fria (se acessível), caixa d'água nova, pressurização e testes",expandido
+377,Casa,Hidráulica geral,168.0,3Q+2B,Popular,"Adequação hidráulica: troca de registros, colunas de água fria (se acessível), caixa d'água nova, pressurização e testes",expandido
+378,Casa,Hidráulica geral,168.0,3Q+2B,Médio,"Adequação hidráulica: troca de registros, colunas de água fria (se acessível), caixa d'água nova, pressurização e testes",expandido
+379,Casa,Elétrica geral,120.0,3Q+2B,Popular,"Adequação elétrica completa: novo quadro bifásico/trifásico, circuitos separados, aterramento, tomadas novas e iluminação LED",expandido
+380,Casa,Elétrica geral,120.0,3Q+2B,Médio,"Adequação elétrica completa: novo quadro bifásico/trifásico, circuitos separados, aterramento, tomadas novas e iluminação LED",base
+381,Casa,Elétrica geral,84.0,3Q+2B,Popular,"Adequação elétrica completa: novo quadro bifásico/trifásico, circuitos separados, aterramento, tomadas novas e iluminação LED",expandido
+382,Casa,Elétrica geral,84.0,3Q+2B,Médio,"Adequação elétrica completa: novo quadro bifásico/trifásico, circuitos separados, aterramento, tomadas novas e iluminação LED",expandido
+383,Casa,Elétrica geral,168.0,3Q+2B,Popular,"Adequação elétrica completa: novo quadro bifásico/trifásico, circuitos separados, aterramento, tomadas novas e iluminação LED",expandido
+384,Casa,Elétrica geral,168.0,3Q+2B,Médio,"Adequação elétrica completa: novo quadro bifásico/trifásico, circuitos separados, aterramento, tomadas novas e iluminação LED",expandido
+385,Casa,Elétrica geral,56.0,2Q+1B,Popular,"Revisão elétrica básica: troca de disjuntores, revisão de fiação, tomadas e interruptores novos",expandido
+386,Casa,Elétrica geral,80.0,2Q+1B,Popular,"Revisão elétrica básica: troca de disjuntores, revisão de fiação, tomadas e interruptores novos",base
+387,Casa,Elétrica geral,112.0,2Q+1B,Popular,"Revisão elétrica básica: troca de disjuntores, revisão de fiação, tomadas e interruptores novos",expandido
+388,Casa,Aquecimento,10.0,3Q+2B,Popular,"Sistema de água quente: instalação de aquecedor a gás de passagem, adequação de pontos, ventilação e testes de segurança",expandido
+389,Casa,Aquecimento,10.0,3Q+2B,Médio,"Sistema de água quente: instalação de aquecedor a gás de passagem, adequação de pontos, ventilação e testes de segurança",base
+390,Casa,Aquecimento,14.0,3Q+2B,Popular,"Sistema de água quente: instalação de aquecedor a gás de passagem, adequação de pontos, ventilação e testes de segurança",expandido
+391,Casa,Aquecimento,14.0,3Q+2B,Médio,"Sistema de água quente: instalação de aquecedor a gás de passagem, adequação de pontos, ventilação e testes de segurança",expandido
+392,Casa,Aquecimento,7.0,3Q+2B,Popular,"Sistema de água quente: instalação de aquecedor a gás de passagem, adequação de pontos, ventilação e testes de segurança",expandido
+393,Casa,Aquecimento,7.0,3Q+2B,Médio,"Sistema de água quente: instalação de aquecedor a gás de passagem, adequação de pontos, ventilação e testes de segurança",expandido
+394,Casa,Aquecimento solar,10.0,3Q+2B,Médio,"Aquecimento solar: instalação de placas coletoras, boiler, tubulação de cobre isolada e integração com backup elétrico/gás",expandido
+395,Casa,Aquecimento solar,10.0,3Q+2B,Luxo,"Aquecimento solar: instalação de placas coletoras, boiler, tubulação de cobre isolada e integração com backup elétrico/gás",expandido
+396,Casa,Aquecimento solar,21.0,3Q+2B,Médio,"Aquecimento solar: instalação de placas coletoras, boiler, tubulação de cobre isolada e integração com backup elétrico/gás",expandido
+397,Casa,Aquecimento solar,21.0,3Q+2B,Luxo,"Aquecimento solar: instalação de placas coletoras, boiler, tubulação de cobre isolada e integração com backup elétrico/gás",expandido
+398,Casa,Aquecimento solar,15.0,3Q+2B,Médio,"Aquecimento solar: instalação de placas coletoras, boiler, tubulação de cobre isolada e integração com backup elétrico/gás",expandido
+399,Casa,Aquecimento solar,15.0,3Q+2B,Luxo,"Aquecimento solar: instalação de placas coletoras, boiler, tubulação de cobre isolada e integração com backup elétrico/gás",base
+400,Escritório,Recepção,25.0,0Q+1B,Comercial,"Recepção corporativa: balcão novo, painel de marca, iluminação de destaque, piso vinílico de alto tráfego, pintura e sinalização",base
+401,Escritório,Recepção,18.0,0Q+1B,Comercial,"Recepção corporativa: balcão novo, painel de marca, iluminação de destaque, piso vinílico de alto tráfego, pintura e sinalização",expandido
+402,Escritório,Recepção,35.0,0Q+1B,Comercial,"Recepção corporativa: balcão novo, painel de marca, iluminação de destaque, piso vinílico de alto tráfego, pintura e sinalização",expandido
+403,Escritório,Recepção,40.0,0Q+2B,Comercial,"Recepção premium: balcão em MDF laqueado, parede de destaque com logo retroiluminado, sofás de espera, piso porcelanato polido e iluminação arquitetural",base
+404,Escritório,Recepção,56.0,0Q+2B,Comercial,"Recepção premium: balcão em MDF laqueado, parede de destaque com logo retroiluminado, sofás de espera, piso porcelanato polido e iluminação arquitetural",expandido
+405,Escritório,Recepção,28.0,0Q+2B,Comercial,"Recepção premium: balcão em MDF laqueado, parede de destaque com logo retroiluminado, sofás de espera, piso porcelanato polido e iluminação arquitetural",expandido
+406,Escritório,Open space,56.0,0Q+2B,Comercial,"Escritório aberto: reorganização de layout, estações de trabalho, cabeamento estruturado, iluminação setorizada e tratamento acústico básico",expandido
+407,Escritório,Open space,80.0,0Q+2B,Comercial,"Escritório aberto: reorganização de layout, estações de trabalho, cabeamento estruturado, iluminação setorizada e tratamento acústico básico",base
+408,Escritório,Open space,112.0,0Q+2B,Comercial,"Escritório aberto: reorganização de layout, estações de trabalho, cabeamento estruturado, iluminação setorizada e tratamento acústico básico",expandido
+409,Escritório,Open space,105.0,0Q+4B,Comercial,"Open office completo: piso carpete modular, divisórias baixas, iluminação LED linear, infraestrutura elétrica/dados, sala de descompressão e copa integrada",expandido
+410,Escritório,Open space,210.0,0Q+4B,Comercial,"Open office completo: piso carpete modular, divisórias baixas, iluminação LED linear, infraestrutura elétrica/dados, sala de descompressão e copa integrada",expandido
+411,Escritório,Open space,150.0,0Q+4B,Comercial,"Open office completo: piso carpete modular, divisórias baixas, iluminação LED linear, infraestrutura elétrica/dados, sala de descompressão e copa integrada",base
+412,Escritório,Sala de reunião,20.0,0Q+1B,Comercial,"Sala de reunião: mesa para 8, iluminação adequada, TV/projetor, passa-cabos na mesa, tratamento acústico leve e pintura neutra",base
+413,Escritório,Sala de reunião,28.0,0Q+1B,Comercial,"Sala de reunião: mesa para 8, iluminação adequada, TV/projetor, passa-cabos na mesa, tratamento acústico leve e pintura neutra",expandido
+414,Escritório,Sala de reunião,14.0,0Q+1B,Comercial,"Sala de reunião: mesa para 8, iluminação adequada, TV/projetor, passa-cabos na mesa, tratamento acústico leve e pintura neutra",expandido
+415,Escritório,Sala de reunião,24.0,0Q+2B,Comercial,"Sala de reunião premium: mesa para 12-14, sistema de videoconferência, iluminação para câmera, tratamento acústico completo, vidro divisório e persiana motorizada",expandido
+416,Escritório,Sala de reunião,49.0,0Q+2B,Comercial,"Sala de reunião premium: mesa para 12-14, sistema de videoconferência, iluminação para câmera, tratamento acústico completo, vidro divisório e persiana motorizada",expandido
+417,Escritório,Sala de reunião,35.0,0Q+2B,Comercial,"Sala de reunião premium: mesa para 12-14, sistema de videoconferência, iluminação para câmera, tratamento acústico completo, vidro divisório e persiana motorizada",base
+418,Escritório,Sala de diretoria,25.0,0Q+1B,Comercial,"Diretoria: piso diferenciado (laminado ou porcelanato), iluminação de destaque, mobiliário executivo, armário integrado e pintura elegante",base
+419,Escritório,Sala de diretoria,18.0,0Q+1B,Comercial,"Diretoria: piso diferenciado (laminado ou porcelanato), iluminação de destaque, mobiliário executivo, armário integrado e pintura elegante",expandido
+420,Escritório,Sala de diretoria,35.0,0Q+1B,Comercial,"Diretoria: piso diferenciado (laminado ou porcelanato), iluminação de destaque, mobiliário executivo, armário integrado e pintura elegante",expandido
+421,Escritório,Copa,10.0,0Q+2B,Comercial,"Copa funcional: bancada, armários, cuba, micro-ondas e geladeira embutidos, revestimento lavável, ventilação/exaustão e mesa de apoio",expandido
+422,Escritório,Copa,15.0,0Q+2B,Comercial,"Copa funcional: bancada, armários, cuba, micro-ondas e geladeira embutidos, revestimento lavável, ventilação/exaustão e mesa de apoio",base
+423,Escritório,Copa,21.0,0Q+4B,Comercial,"Copa/refeitório: bancada ampla, armários múltiplos, equipamentos integrados, mesas para refeição, ventilação reforçada e lixeiras seletivas",expandido
+424,Escritório,Copa,15,0Q+4B,Comercial,"Copa/refeitório: bancada ampla, armários múltiplos, equipamentos integrados, mesas para refeição, ventilação reforçada e lixeiras seletivas",expandido
+425,Escritório,Banheiros,8.0,0Q+2B,Comercial,"Banheiros corporativos: louças resistentes, torneiras temporizadas, revestimento durável, acessórios antivandalismo e iluminação reforçada",expandido
+426,Escritório,Banheiros,17.0,0Q+2B,Comercial,"Banheiros corporativos: louças resistentes, torneiras temporizadas, revestimento durável, acessórios antivandalismo e iluminação reforçada",expandido
+427,Escritório,Banheiros,12.0,0Q+2B,Comercial,"Banheiros corporativos: louças resistentes, torneiras temporizadas, revestimento durável, acessórios antivandalismo e iluminação reforçada",base
+428,Escritório,Banheiros,20.0,0Q+4B,Comercial,"Banheiros PNE: adequação de acessibilidade conforme NBR 9050, barras de apoio, espaços de manobra, espelhos inclinados e sinalização tátil",base
+429,Escritório,Banheiros,28.0,0Q+4B,Comercial,"Banheiros PNE: adequação de acessibilidade conforme NBR 9050, barras de apoio, espaços de manobra, espelhos inclinados e sinalização tátil",expandido
+430,Escritório,Banheiros,14.0,0Q+4B,Comercial,"Banheiros PNE: adequação de acessibilidade conforme NBR 9050, barras de apoio, espaços de manobra, espelhos inclinados e sinalização tátil",expandido
+431,Escritório,Área técnica,8,0Q+1B,Comercial,"Sala de servidores: piso elevado, ar-condicionado dedicado, controle de acesso, iluminação adequada e organização de racks",expandido
+432,Escritório,Infra elétrica/dados,140.0,0Q+2B,Comercial,"Infraestrutura de TI: cabeamento categoria 6, rack organizado, patch panels, eletrocalhas, tomadas dedicadas e identificação de pontos",expandido
+433,Escritório,Infra elétrica/dados,100.0,0Q+2B,Comercial,"Infraestrutura de TI: cabeamento categoria 6, rack organizado, patch panels, eletrocalhas, tomadas dedicadas e identificação de pontos",base
+434,Escritório,Infra elétrica/dados,70.0,0Q+2B,Comercial,"Infraestrutura de TI: cabeamento categoria 6, rack organizado, patch panels, eletrocalhas, tomadas dedicadas e identificação de pontos",expandido
+435,Escritório,Geral,120.0,0Q+2B,Comercial,"Pintura e identidade visual: pintura geral, parede de marca, adesivagem de ambientes, sinalização e pequenos reparos",base
+436,Escritório,Geral,84.0,0Q+2B,Comercial,"Pintura e identidade visual: pintura geral, parede de marca, adesivagem de ambientes, sinalização e pequenos reparos",expandido
+437,Escritório,Geral,168.0,0Q+2B,Comercial,"Pintura e identidade visual: pintura geral, parede de marca, adesivagem de ambientes, sinalização e pequenos reparos",expandido
+438,Escritório,Geral,180.0,0Q+4B,Comercial,"Reforma corporativa completa: layout novo, mobiliário, iluminação LED, climatização revisada, tratamento acústico, banheiros e copa",base
+439,Escritório,Geral,252.0,0Q+4B,Comercial,"Reforma corporativa completa: layout novo, mobiliário, iluminação LED, climatização revisada, tratamento acústico, banheiros e copa",expandido
+440,Escritório,Geral,126.0,0Q+4B,Comercial,"Reforma corporativa completa: layout novo, mobiliário, iluminação LED, climatização revisada, tratamento acústico, banheiros e copa",expandido
+441,Loja,Salão de vendas,42.0,0Q+1B,Comercial,"Loja básica: pintura, piso vinílico comercial, iluminação de destaque, provadores (se aplicável), balcão de caixa e vitrine",expandido
+442,Loja,Salão de vendas,60.0,0Q+1B,Comercial,"Loja básica: pintura, piso vinílico comercial, iluminação de destaque, provadores (se aplicável), balcão de caixa e vitrine",base
+443,Loja,Salão de vendas,84.0,0Q+1B,Comercial,"Loja básica: pintura, piso vinílico comercial, iluminação de destaque, provadores (se aplicável), balcão de caixa e vitrine",expandido
+444,Loja,Salão de vendas,140.0,0Q+2B,Comercial,"Loja completa: piso porcelanato, iluminação projetada para produtos, gesso com rasgos de luz, provadores amplos, depósito organizado e fachada renovada",expandido
+445,Loja,Salão de vendas,100.0,0Q+2B,Comercial,"Loja completa: piso porcelanato, iluminação projetada para produtos, gesso com rasgos de luz, provadores amplos, depósito organizado e fachada renovada",base
+446,Loja,Salão de vendas,70.0,0Q+2B,Comercial,"Loja completa: piso porcelanato, iluminação projetada para produtos, gesso com rasgos de luz, provadores amplos, depósito organizado e fachada renovada",expandido
+447,Loja,Fachada comercial,42.0,0Q+1B,Comercial,"Fachada de loja: letreiro luminoso, pintura, revestimento de ACM ou similar, vitrine com iluminação e porta automática",expandido
+448,Loja,Fachada comercial,21.0,0Q+1B,Comercial,"Fachada de loja: letreiro luminoso, pintura, revestimento de ACM ou similar, vitrine com iluminação e porta automática",expandido
+449,Loja,Fachada comercial,30.0,0Q+1B,Comercial,"Fachada de loja: letreiro luminoso, pintura, revestimento de ACM ou similar, vitrine com iluminação e porta automática",base
+450,Clínica,Recepção,20.0,0Q+2B,Comercial,"Recepção clínica: balcão, cadeiras de espera, TV, piso lavável, pintura clara, iluminação adequada e sinalização",base
+451,Clínica,Recepção,28.0,0Q+2B,Comercial,"Recepção clínica: balcão, cadeiras de espera, TV, piso lavável, pintura clara, iluminação adequada e sinalização",expandido
+452,Clínica,Recepção,15,0Q+2B,Comercial,"Recepção clínica: balcão, cadeiras de espera, TV, piso lavável, pintura clara, iluminação adequada e sinalização",expandido
+453,Clínica,Consultório,17.0,0Q+1B,Comercial,"Consultório: pintura lavável, piso vinílico clínico, iluminação de tarefa, bancada, pia e armários para materiais",expandido
+454,Clínica,Consultório,10,0Q+1B,Comercial,"Consultório: pintura lavável, piso vinílico clínico, iluminação de tarefa, bancada, pia e armários para materiais",expandido
+455,Clínica,Consultório,12.0,0Q+1B,Comercial,"Consultório: pintura lavável, piso vinílico clínico, iluminação de tarefa, bancada, pia e armários para materiais",base
+456,Clínica,Banheiro PNE,4,0Q+1B,Comercial,"Banheiro acessível: dimensões NBR 9050, barras de apoio, bacia elevada, lavatório adequado, piso antiderrapante e sinalização",expandido
+457,Clínica,Banheiro PNE,5.0,0Q+1B,Comercial,"Banheiro acessível: dimensões NBR 9050, barras de apoio, bacia elevada, lavatório adequado, piso antiderrapante e sinalização",base
+458,Clínica,Banheiro PNE,7.0,0Q+1B,Comercial,"Banheiro acessível: dimensões NBR 9050, barras de apoio, bacia elevada, lavatório adequado, piso antiderrapante e sinalização",expandido
+459,Restaurante,Salão,56.0,0Q+2B,Comercial,"Salão de restaurante: piso porcelanato, iluminação de ambiente, forro acústico, climatização, pintura e mobiliário",expandido
+460,Restaurante,Salão,80.0,0Q+2B,Comercial,"Salão de restaurante: piso porcelanato, iluminação de ambiente, forro acústico, climatização, pintura e mobiliário",base
+461,Restaurante,Salão,112.0,0Q+2B,Comercial,"Salão de restaurante: piso porcelanato, iluminação de ambiente, forro acústico, climatização, pintura e mobiliário",expandido
+462,Restaurante,Cozinha industrial,40.0,0Q+2B,Comercial,"Cozinha comercial: piso antiderrapante, revestimento lavável até o teto, bancadas inox, exaustão, pontos de água/gás e iluminação forte",base
+463,Restaurante,Cozinha industrial,56.0,0Q+2B,Comercial,"Cozinha comercial: piso antiderrapante, revestimento lavável até o teto, bancadas inox, exaustão, pontos de água/gás e iluminação forte",expandido
+464,Restaurante,Cozinha industrial,28.0,0Q+2B,Comercial,"Cozinha comercial: piso antiderrapante, revestimento lavável até o teto, bancadas inox, exaustão, pontos de água/gás e iluminação forte",expandido
+465,Apto,Integração ambientes,40.0,3Q+2B,Médio,"Demolição de parede divisória (com ART), unificação de pisos, recomposição de instalações, forro e iluminação integrada",expandido
+466,Apto,Integração ambientes,40.0,3Q+2B,Luxo,"Demolição de parede divisória (com ART), unificação de pisos, recomposição de instalações, forro e iluminação integrada",base
+467,Apto,Integração ambientes,56.0,3Q+2B,Médio,"Demolição de parede divisória (com ART), unificação de pisos, recomposição de instalações, forro e iluminação integrada",expandido
+468,Apto,Integração ambientes,56.0,3Q+2B,Luxo,"Demolição de parede divisória (com ART), unificação de pisos, recomposição de instalações, forro e iluminação integrada",expandido
+469,Apto,Integração ambientes,28.0,3Q+2B,Médio,"Demolição de parede divisória (com ART), unificação de pisos, recomposição de instalações, forro e iluminação integrada",expandido
+470,Apto,Integração ambientes,28.0,3Q+2B,Luxo,"Demolição de parede divisória (com ART), unificação de pisos, recomposição de instalações, forro e iluminação integrada",expandido
+471,Apto,Dormitório + closet,25.0,3Q+2B,Médio,"Quarto com closet aberto: piso único, nichos em drywall, iluminação setorizada por zonas, espelho de parede e cortineiro motorizado",expandido
+472,Apto,Dormitório + closet,25.0,3Q+2B,Luxo,"Quarto com closet aberto: piso único, nichos em drywall, iluminação setorizada por zonas, espelho de parede e cortineiro motorizado",expandido
+473,Apto,Dormitório + closet,18.0,3Q+2B,Médio,"Quarto com closet aberto: piso único, nichos em drywall, iluminação setorizada por zonas, espelho de parede e cortineiro motorizado",expandido
+474,Apto,Dormitório + closet,18.0,3Q+2B,Luxo,"Quarto com closet aberto: piso único, nichos em drywall, iluminação setorizada por zonas, espelho de parede e cortineiro motorizado",base
+475,Apto,Dormitório + closet,14,3Q+2B,Médio,"Quarto com closet aberto: piso único, nichos em drywall, iluminação setorizada por zonas, espelho de parede e cortineiro motorizado",expandido
+476,Apto,Dormitório + closet,14,3Q+2B,Luxo,"Quarto com closet aberto: piso único, nichos em drywall, iluminação setorizada por zonas, espelho de parede e cortineiro motorizado",expandido
+477,Apto,Banheiro + closet,10,3Q+2B,Médio,"Suíte integrada: banheiro visible (bancada dentro do quarto), box de vidro, iluminação cênica e armários como divisória",expandido
+478,Apto,Banheiro + closet,10,3Q+2B,Luxo,"Suíte integrada: banheiro visible (bancada dentro do quarto), box de vidro, iluminação cênica e armários como divisória",expandido
+479,Apto,Banheiro + closet,20.0,3Q+2B,Médio,"Suíte integrada: banheiro visible (bancada dentro do quarto), box de vidro, iluminação cênica e armários como divisória",expandido
+480,Apto,Banheiro + closet,20.0,3Q+2B,Luxo,"Suíte integrada: banheiro visible (bancada dentro do quarto), box de vidro, iluminação cênica e armários como divisória",expandido
+481,Apto,Banheiro + closet,14.0,3Q+2B,Médio,"Suíte integrada: banheiro visible (bancada dentro do quarto), box de vidro, iluminação cênica e armários como divisória",expandido
+482,Apto,Banheiro + closet,14.0,3Q+2B,Luxo,"Suíte integrada: banheiro visible (bancada dentro do quarto), box de vidro, iluminação cênica e armários como divisória",base
+483,Casa,Piscina,25.0,3Q+2B,Médio,"Reforma de piscina: troca de revestimento (pastilha ou vinil), revisão de bombas/filtros, iluminação subaquática, deck perimetral e paisagismo",expandido
+484,Casa,Piscina,25.0,3Q+2B,Luxo,"Reforma de piscina: troca de revestimento (pastilha ou vinil), revisão de bombas/filtros, iluminação subaquática, deck perimetral e paisagismo",base
+485,Casa,Piscina,18.0,3Q+2B,Médio,"Reforma de piscina: troca de revestimento (pastilha ou vinil), revisão de bombas/filtros, iluminação subaquática, deck perimetral e paisagismo",expandido
+486,Casa,Piscina,18.0,3Q+2B,Luxo,"Reforma de piscina: troca de revestimento (pastilha ou vinil), revisão de bombas/filtros, iluminação subaquática, deck perimetral e paisagismo",expandido
+487,Casa,Piscina,35.0,3Q+2B,Médio,"Reforma de piscina: troca de revestimento (pastilha ou vinil), revisão de bombas/filtros, iluminação subaquática, deck perimetral e paisagismo",expandido
+488,Casa,Piscina,35.0,3Q+2B,Luxo,"Reforma de piscina: troca de revestimento (pastilha ou vinil), revisão de bombas/filtros, iluminação subaquática, deck perimetral e paisagismo",expandido
+489,Casa,Edícula,20.0,3Q+2B,Popular,"Edícula multiuso: pintura, piso, pontos elétricos, banheiro externo simples, bancada de apoio e iluminação",expandido
+490,Casa,Edícula,20.0,3Q+2B,Médio,"Edícula multiuso: pintura, piso, pontos elétricos, banheiro externo simples, bancada de apoio e iluminação",base
+491,Casa,Edícula,28.0,3Q+2B,Popular,"Edícula multiuso: pintura, piso, pontos elétricos, banheiro externo simples, bancada de apoio e iluminação",expandido
+492,Casa,Edícula,28.0,3Q+2B,Médio,"Edícula multiuso: pintura, piso, pontos elétricos, banheiro externo simples, bancada de apoio e iluminação",expandido
+493,Casa,Edícula,15,3Q+2B,Popular,"Edícula multiuso: pintura, piso, pontos elétricos, banheiro externo simples, bancada de apoio e iluminação",expandido
+494,Casa,Edícula,15,3Q+2B,Médio,"Edícula multiuso: pintura, piso, pontos elétricos, banheiro externo simples, bancada de apoio e iluminação",expandido
+495,Casa,Edícula,42.0,4Q+3B,Médio,"Edícula premium: banheiro completo, mini cozinha, espaço de estar, ar-condicionado e acabamento similar à casa principal",expandido
+496,Casa,Edícula,42.0,4Q+3B,Luxo,"Edícula premium: banheiro completo, mini cozinha, espaço de estar, ar-condicionado e acabamento similar à casa principal",expandido
+497,Casa,Edícula,21.0,4Q+3B,Médio,"Edícula premium: banheiro completo, mini cozinha, espaço de estar, ar-condicionado e acabamento similar à casa principal",expandido
+498,Casa,Edícula,21.0,4Q+3B,Luxo,"Edícula premium: banheiro completo, mini cozinha, espaço de estar, ar-condicionado e acabamento similar à casa principal",expandido
+499,Casa,Edícula,30.0,4Q+3B,Médio,"Edícula premium: banheiro completo, mini cozinha, espaço de estar, ar-condicionado e acabamento similar à casa principal",expandido
+500,Casa,Edícula,30.0,4Q+3B,Luxo,"Edícula premium: banheiro completo, mini cozinha, espaço de estar, ar-condicionado e acabamento similar à casa principal",base
+501,Apto,Corredor + hall,8.0,3Q+2B,Popular,"Hall de entrada: piso diferenciado, iluminação de recepção, espelho, painel decorativo e ponto de ar-condicionado (se entrada grande)",expandido
+502,Apto,Corredor + hall,8.0,3Q+2B,Médio,"Hall de entrada: piso diferenciado, iluminação de recepção, espelho, painel decorativo e ponto de ar-condicionado (se entrada grande)",expandido
+503,Apto,Corredor + hall,17.0,3Q+2B,Popular,"Hall de entrada: piso diferenciado, iluminação de recepção, espelho, painel decorativo e ponto de ar-condicionado (se entrada grande)",expandido
+504,Apto,Corredor + hall,17.0,3Q+2B,Médio,"Hall de entrada: piso diferenciado, iluminação de recepção, espelho, painel decorativo e ponto de ar-condicionado (se entrada grande)",expandido
+505,Apto,Corredor + hall,12.0,3Q+2B,Popular,"Hall de entrada: piso diferenciado, iluminação de recepção, espelho, painel decorativo e ponto de ar-condicionado (se entrada grande)",expandido
+506,Apto,Corredor + hall,12.0,3Q+2B,Médio,"Hall de entrada: piso diferenciado, iluminação de recepção, espelho, painel decorativo e ponto de ar-condicionado (se entrada grande)",base
+507,Casa,Corredor + hall,25,4Q+3B,Médio,"Hall de entrada duplo: piso em mármore ou porcelanato diferenciado, lustre ou pendente, nichos, painel e iluminação de destaque",expandido
+508,Casa,Corredor + hall,25,4Q+3B,Luxo,"Hall de entrada duplo: piso em mármore ou porcelanato diferenciado, lustre ou pendente, nichos, painel e iluminação de destaque",expandido
+509,Casa,Corredor + hall,18.0,4Q+3B,Médio,"Hall de entrada duplo: piso em mármore ou porcelanato diferenciado, lustre ou pendente, nichos, painel e iluminação de destaque",expandido
+510,Casa,Corredor + hall,18.0,4Q+3B,Luxo,"Hall de entrada duplo: piso em mármore ou porcelanato diferenciado, lustre ou pendente, nichos, painel e iluminação de destaque",base
+511,Casa,Corredor + hall,13.0,4Q+3B,Médio,"Hall de entrada duplo: piso em mármore ou porcelanato diferenciado, lustre ou pendente, nichos, painel e iluminação de destaque",expandido
+512,Casa,Corredor + hall,13.0,4Q+3B,Luxo,"Hall de entrada duplo: piso em mármore ou porcelanato diferenciado, lustre ou pendente, nichos, painel e iluminação de destaque",expandido
+513,Apto,Despensa,3.0,3Q+2B,Popular,"Despensa organizada: prateleiras reguláveis em aço, iluminação interna, piso lavável e ventilação básica",expandido
+514,Apto,Despensa,3.0,3Q+2B,Médio,"Despensa organizada: prateleiras reguláveis em aço, iluminação interna, piso lavável e ventilação básica",expandido
+515,Apto,Despensa,4.0,3Q+2B,Popular,"Despensa organizada: prateleiras reguláveis em aço, iluminação interna, piso lavável e ventilação básica",expandido
+516,Apto,Despensa,4.0,3Q+2B,Médio,"Despensa organizada: prateleiras reguláveis em aço, iluminação interna, piso lavável e ventilação básica",base
+517,Apto,Despensa,6.0,3Q+2B,Popular,"Despensa organizada: prateleiras reguláveis em aço, iluminação interna, piso lavável e ventilação básica",expandido
+518,Apto,Despensa,6.0,3Q+2B,Médio,"Despensa organizada: prateleiras reguláveis em aço, iluminação interna, piso lavável e ventilação básica",expandido
+519,Casa,Despensa/adega,8.0,4Q+3B,Médio,"Adega climatizada: ar-condicionado de adega, prateleiras para garrafas, iluminação LED fria, piso antiderrapante e porta com vedação",expandido
+520,Casa,Despensa/adega,8.0,4Q+3B,Luxo,"Adega climatizada: ar-condicionado de adega, prateleiras para garrafas, iluminação LED fria, piso antiderrapante e porta com vedação",base
+521,Casa,Despensa/adega,11.0,4Q+3B,Médio,"Adega climatizada: ar-condicionado de adega, prateleiras para garrafas, iluminação LED fria, piso antiderrapante e porta com vedação",expandido
+522,Casa,Despensa/adega,11.0,4Q+3B,Luxo,"Adega climatizada: ar-condicionado de adega, prateleiras para garrafas, iluminação LED fria, piso antiderrapante e porta com vedação",expandido
+523,Casa,Despensa/adega,6.0,4Q+3B,Médio,"Adega climatizada: ar-condicionado de adega, prateleiras para garrafas, iluminação LED fria, piso antiderrapante e porta com vedação",expandido
+524,Casa,Despensa/adega,6.0,4Q+3B,Luxo,"Adega climatizada: ar-condicionado de adega, prateleiras para garrafas, iluminação LED fria, piso antiderrapante e porta com vedação",expandido
+525,Apto,Área técnica,2.0,3Q+2B,Popular,"Shaft organizado: acesso facilitado, identificação de registros, tubulação aparente revisada e pequenos reparos",expandido
+526,Apto,Área técnica,2.0,3Q+2B,Médio,"Shaft organizado: acesso facilitado, identificação de registros, tubulação aparente revisada e pequenos reparos",expandido
+527,Apto,Área técnica,3.0,3Q+2B,Popular,"Shaft organizado: acesso facilitado, identificação de registros, tubulação aparente revisada e pequenos reparos",expandido
+528,Apto,Área técnica,3.0,3Q+2B,Médio,"Shaft organizado: acesso facilitado, identificação de registros, tubulação aparente revisada e pequenos reparos",base
+529,Apto,Área técnica,4.0,3Q+2B,Popular,"Shaft organizado: acesso facilitado, identificação de registros, tubulação aparente revisada e pequenos reparos",expandido
+530,Apto,Área técnica,4.0,3Q+2B,Médio,"Shaft organizado: acesso facilitado, identificação de registros, tubulação aparente revisada e pequenos reparos",expandido
+531,Casa,Casa de máquinas,8.0,3Q+2B,Popular,"Casa de máquinas de piscina: organização, revisão de bombas, troca de selos, iluminação, ventilação e piso resistente",expandido
+532,Casa,Casa de máquinas,8.0,3Q+2B,Médio,"Casa de máquinas de piscina: organização, revisão de bombas, troca de selos, iluminação, ventilação e piso resistente",expandido
+533,Casa,Casa de máquinas,4.0,3Q+2B,Popular,"Casa de máquinas de piscina: organização, revisão de bombas, troca de selos, iluminação, ventilação e piso resistente",expandido
+534,Casa,Casa de máquinas,4.0,3Q+2B,Médio,"Casa de máquinas de piscina: organização, revisão de bombas, troca de selos, iluminação, ventilação e piso resistente",expandido
+535,Casa,Casa de máquinas,6.0,3Q+2B,Popular,"Casa de máquinas de piscina: organização, revisão de bombas, troca de selos, iluminação, ventilação e piso resistente",expandido
+536,Casa,Casa de máquinas,6.0,3Q+2B,Médio,"Casa de máquinas de piscina: organização, revisão de bombas, troca de selos, iluminação, ventilação e piso resistente",base
+537,Apto,Pintura completa,50.0,2Q+1B,Popular,"Pintura profissional: proteção, preparo de superfícies, massa corrida, selador, 2-3 demãos de tinta acrílica, portas e guarnições",base
+538,Apto,Pintura completa,35.0,2Q+1B,Popular,"Pintura profissional: proteção, preparo de superfícies, massa corrida, selador, 2-3 demãos de tinta acrílica, portas e guarnições",expandido
+539,Apto,Pintura completa,70.0,2Q+1B,Popular,"Pintura profissional: proteção, preparo de superfícies, massa corrida, selador, 2-3 demãos de tinta acrílica, portas e guarnições",expandido
+540,Apto,Pintura completa,49.0,3Q+2B,Popular,"Pintura padrão alto: preparo completo, massa corrida em todas as superfícies, selador, tinta premium, paredes de destaque e recortes perfeitos",expandido
+541,Apto,Pintura completa,49.0,3Q+2B,Médio,"Pintura padrão alto: preparo completo, massa corrida em todas as superfícies, selador, tinta premium, paredes de destaque e recortes perfeitos",expandido
+542,Apto,Pintura completa,98.0,3Q+2B,Popular,"Pintura padrão alto: preparo completo, massa corrida em todas as superfícies, selador, tinta premium, paredes de destaque e recortes perfeitos",expandido
+543,Apto,Pintura completa,98.0,3Q+2B,Médio,"Pintura padrão alto: preparo completo, massa corrida em todas as superfícies, selador, tinta premium, paredes de destaque e recortes perfeitos",expandido
+544,Apto,Pintura completa,70.0,3Q+2B,Popular,"Pintura padrão alto: preparo completo, massa corrida em todas as superfícies, selador, tinta premium, paredes de destaque e recortes perfeitos",expandido
+545,Apto,Pintura completa,70.0,3Q+2B,Médio,"Pintura padrão alto: preparo completo, massa corrida em todas as superfícies, selador, tinta premium, paredes de destaque e recortes perfeitos",base
+546,Apto,Pintura completa,40.0,1Q+1B,Popular,"Pintura studio/kitnet: paredes e teto, preparo básico, tinta acrílica e acabamento em portas",base
+547,Apto,Pintura completa,56.0,1Q+1B,Popular,"Pintura studio/kitnet: paredes e teto, preparo básico, tinta acrílica e acabamento em portas",expandido
+548,Apto,Pintura completa,30,1Q+1B,Popular,"Pintura studio/kitnet: paredes e teto, preparo básico, tinta acrílica e acabamento em portas",expandido
+549,Casa,Pintura interna,120.0,3Q+2B,Popular,"Pintura interna casa: paredes e tetos, preparo básico, tinta acrílica standard e acabamento de portas/guarnições",base
+550,Casa,Pintura interna,84.0,3Q+2B,Popular,"Pintura interna casa: paredes e tetos, preparo básico, tinta acrílica standard e acabamento de portas/guarnições",expandido
+551,Casa,Pintura interna,168.0,3Q+2B,Popular,"Pintura interna casa: paredes e tetos, preparo básico, tinta acrílica standard e acabamento de portas/guarnições",expandido
+552,Casa,Pintura interna + externa,180.0,3Q+2B,Popular,"Pintura geral casa: tratamento de fissuras, impermeabilização de fachada, pintura interna/externa, portas, grades e muros",expandido
+553,Casa,Pintura interna + externa,180.0,3Q+2B,Médio,"Pintura geral casa: tratamento de fissuras, impermeabilização de fachada, pintura interna/externa, portas, grades e muros",base
+554,Casa,Pintura interna + externa,252.0,3Q+2B,Popular,"Pintura geral casa: tratamento de fissuras, impermeabilização de fachada, pintura interna/externa, portas, grades e muros",expandido
+555,Casa,Pintura interna + externa,252.0,3Q+2B,Médio,"Pintura geral casa: tratamento de fissuras, impermeabilização de fachada, pintura interna/externa, portas, grades e muros",expandido
+556,Casa,Pintura interna + externa,126.0,3Q+2B,Popular,"Pintura geral casa: tratamento de fissuras, impermeabilização de fachada, pintura interna/externa, portas, grades e muros",expandido
+557,Casa,Pintura interna + externa,126.0,3Q+2B,Médio,"Pintura geral casa: tratamento de fissuras, impermeabilização de fachada, pintura interna/externa, portas, grades e muros",expandido
+558,Casa,Pintura interna,56.0,2Q+1B,Popular,"Pintura casa simples: paredes e tetos internos, preparo básico e acabamento",expandido
+559,Casa,Pintura interna,80.0,2Q+1B,Popular,"Pintura casa simples: paredes e tetos internos, preparo básico e acabamento",base
+560,Casa,Pintura interna,112.0,2Q+1B,Popular,"Pintura casa simples: paredes e tetos internos, preparo básico e acabamento",expandido
+561,Apto,Troca de pisos,40.0,2Q+1B,Popular,"Piso sobreposto: laminado ou vinílico clicado sobre piso existente (se nivelado), rodapé e perfis de transição",base
+562,Apto,Troca de pisos,56.0,2Q+1B,Popular,"Piso sobreposto: laminado ou vinílico clicado sobre piso existente (se nivelado), rodapé e perfis de transição",expandido
+563,Apto,Troca de pisos,30,2Q+1B,Popular,"Piso sobreposto: laminado ou vinílico clicado sobre piso existente (se nivelado), rodapé e perfis de transição",expandido
+564,Apto,Troca de pisos,77.0,3Q+2B,Popular,"Piso com demolição: retirada do piso antigo, regularização/contrapiso, assentamento de porcelanato 60x60, rejunte e rodapé",expandido
+565,Apto,Troca de pisos,77.0,3Q+2B,Médio,"Piso com demolição: retirada do piso antigo, regularização/contrapiso, assentamento de porcelanato 60x60, rejunte e rodapé",expandido
+566,Apto,Troca de pisos,38.0,3Q+2B,Popular,"Piso com demolição: retirada do piso antigo, regularização/contrapiso, assentamento de porcelanato 60x60, rejunte e rodapé",expandido
+567,Apto,Troca de pisos,38.0,3Q+2B,Médio,"Piso com demolição: retirada do piso antigo, regularização/contrapiso, assentamento de porcelanato 60x60, rejunte e rodapé",expandido
+568,Apto,Troca de pisos,55.0,3Q+2B,Popular,"Piso com demolição: retirada do piso antigo, regularização/contrapiso, assentamento de porcelanato 60x60, rejunte e rodapé",expandido
+569,Apto,Troca de pisos,55.0,3Q+2B,Médio,"Piso com demolição: retirada do piso antigo, regularização/contrapiso, assentamento de porcelanato 60x60, rejunte e rodapé",base
+570,Apto,Troca de pisos,49.0,3Q+2B,Médio,"Piso porcelanato grande formato: demolição, nivelamento, porcelanato 1,20x2,40m com paginação, rejunte mínimo e rodapé embutido",expandido
+571,Apto,Troca de pisos,49.0,3Q+2B,Luxo,"Piso porcelanato grande formato: demolição, nivelamento, porcelanato 1,20x2,40m com paginação, rejunte mínimo e rodapé embutido",expandido
+572,Apto,Troca de pisos,98.0,3Q+2B,Médio,"Piso porcelanato grande formato: demolição, nivelamento, porcelanato 1,20x2,40m com paginação, rejunte mínimo e rodapé embutido",expandido
+573,Apto,Troca de pisos,98.0,3Q+2B,Luxo,"Piso porcelanato grande formato: demolição, nivelamento, porcelanato 1,20x2,40m com paginação, rejunte mínimo e rodapé embutido",expandido
+574,Apto,Troca de pisos,70.0,3Q+2B,Médio,"Piso porcelanato grande formato: demolição, nivelamento, porcelanato 1,20x2,40m com paginação, rejunte mínimo e rodapé embutido",expandido
+575,Apto,Troca de pisos,70.0,3Q+2B,Luxo,"Piso porcelanato grande formato: demolição, nivelamento, porcelanato 1,20x2,40m com paginação, rejunte mínimo e rodapé embutido",base
+576,Casa,Troca de pisos,140.0,2Q+1B,Popular,"Piso cerâmico padrão: demolição, contrapiso, cerâmica 45x45, rejunte e rodapés simples",expandido
+577,Casa,Troca de pisos,100.0,2Q+1B,Popular,"Piso cerâmico padrão: demolição, contrapiso, cerâmica 45x45, rejunte e rodapés simples",base
+578,Casa,Troca de pisos,70.0,2Q+1B,Popular,"Piso cerâmico padrão: demolição, contrapiso, cerâmica 45x45, rejunte e rodapés simples",expandido
+579,Casa,Troca de pisos,200,3Q+2B,Popular,"Piso porcelanato casa: demolição, contrapiso, porcelanato 60x60 ou 80x80, rejunte, soleiras e rodapés",expandido
+580,Casa,Troca de pisos,200,3Q+2B,Médio,"Piso porcelanato casa: demolição, contrapiso, porcelanato 60x60 ou 80x80, rejunte, soleiras e rodapés",expandido
+581,Casa,Troca de pisos,105.0,3Q+2B,Popular,"Piso porcelanato casa: demolição, contrapiso, porcelanato 60x60 ou 80x80, rejunte, soleiras e rodapés",expandido
+582,Casa,Troca de pisos,105.0,3Q+2B,Médio,"Piso porcelanato casa: demolição, contrapiso, porcelanato 60x60 ou 80x80, rejunte, soleiras e rodapés",expandido
+583,Casa,Troca de pisos,150.0,3Q+2B,Popular,"Piso porcelanato casa: demolição, contrapiso, porcelanato 60x60 ou 80x80, rejunte, soleiras e rodapés",expandido
+584,Casa,Troca de pisos,150.0,3Q+2B,Médio,"Piso porcelanato casa: demolição, contrapiso, porcelanato 60x60 ou 80x80, rejunte, soleiras e rodapés",base
+585,Casa,Troca de pisos,200.0,4Q+3B,Médio,"Piso madeira maciça ou engenheirada: preparação de base, instalação flutuante ou colada, acabamento e manutenção",expandido
+586,Casa,Troca de pisos,200.0,4Q+3B,Luxo,"Piso madeira maciça ou engenheirada: preparação de base, instalação flutuante ou colada, acabamento e manutenção",base
+587,Casa,Troca de pisos,140.0,4Q+3B,Médio,"Piso madeira maciça ou engenheirada: preparação de base, instalação flutuante ou colada, acabamento e manutenção",expandido
+588,Casa,Troca de pisos,140.0,4Q+3B,Luxo,"Piso madeira maciça ou engenheirada: preparação de base, instalação flutuante ou colada, acabamento e manutenção",expandido
+589,Apto,Forro de gesso,49.0,2Q+1B,Popular,"Forro simples: rebaixo em gesso acartonado, tabicas, pontos de iluminação e pintura",expandido
+590,Apto,Forro de gesso,35.0,2Q+1B,Popular,"Forro simples: rebaixo em gesso acartonado, tabicas, pontos de iluminação e pintura",base
+591,Apto,Forro de gesso,30,2Q+1B,Popular,"Forro simples: rebaixo em gesso acartonado, tabicas, pontos de iluminação e pintura",expandido
+592,Apto,Forro de gesso,50.0,3Q+2B,Popular,"Forro com iluminação: gesso acartonado com rasgos para LED, sancas, cortineiros e pintura",expandido
+593,Apto,Forro de gesso,50.0,3Q+2B,Médio,"Forro com iluminação: gesso acartonado com rasgos para LED, sancas, cortineiros e pintura",base
+594,Apto,Forro de gesso,35.0,3Q+2B,Popular,"Forro com iluminação: gesso acartonado com rasgos para LED, sancas, cortineiros e pintura",expandido
+595,Apto,Forro de gesso,35.0,3Q+2B,Médio,"Forro com iluminação: gesso acartonado com rasgos para LED, sancas, cortineiros e pintura",expandido
+596,Apto,Forro de gesso,70.0,3Q+2B,Popular,"Forro com iluminação: gesso acartonado com rasgos para LED, sancas, cortineiros e pintura",expandido
+597,Apto,Forro de gesso,70.0,3Q+2B,Médio,"Forro com iluminação: gesso acartonado com rasgos para LED, sancas, cortineiros e pintura",expandido
+598,Apto,Forro de gesso,49.0,3Q+2B,Médio,"Forro decorativo: molduras clássicas ou design contemporâneo, iluminação em múltiplas camadas, cortineiros motorizados e acabamento premium",expandido
+599,Apto,Forro de gesso,49.0,3Q+2B,Luxo,"Forro decorativo: molduras clássicas ou design contemporâneo, iluminação em múltiplas camadas, cortineiros motorizados e acabamento premium",expandido
+600,Apto,Forro de gesso,98.0,3Q+2B,Médio,"Forro decorativo: molduras clássicas ou design contemporâneo, iluminação em múltiplas camadas, cortineiros motorizados e acabamento premium",expandido
+601,Apto,Forro de gesso,98.0,3Q+2B,Luxo,"Forro decorativo: molduras clássicas ou design contemporâneo, iluminação em múltiplas camadas, cortineiros motorizados e acabamento premium",expandido
+602,Apto,Forro de gesso,70.0,3Q+2B,Luxo,"Forro decorativo: molduras clássicas ou design contemporâneo, iluminação em múltiplas camadas, cortineiros motorizados e acabamento premium",base
+603,Casa,Forro de gesso,140.0,3Q+2B,Popular,"Forro áreas sociais: gesso acartonado em sala/cozinha, iluminação embutida, sancas e tabicas",expandido
+604,Casa,Forro de gesso,140.0,3Q+2B,Médio,"Forro áreas sociais: gesso acartonado em sala/cozinha, iluminação embutida, sancas e tabicas",expandido
+605,Casa,Forro de gesso,100.0,3Q+2B,Popular,"Forro áreas sociais: gesso acartonado em sala/cozinha, iluminação embutida, sancas e tabicas",expandido
+606,Casa,Forro de gesso,100.0,3Q+2B,Médio,"Forro áreas sociais: gesso acartonado em sala/cozinha, iluminação embutida, sancas e tabicas",base
+607,Casa,Forro de gesso,70.0,3Q+2B,Popular,"Forro áreas sociais: gesso acartonado em sala/cozinha, iluminação embutida, sancas e tabicas",expandido
+608,Casa,Forro de gesso,70.0,3Q+2B,Médio,"Forro áreas sociais: gesso acartonado em sala/cozinha, iluminação embutida, sancas e tabicas",expandido
+609,Casa,Forro de gesso,200,4Q+3B,Médio,"Forro integral casa: gesso em todos os ambientes, iluminação projetada, nichos em gesso e acabamento perfeito",expandido
+610,Casa,Forro de gesso,200,4Q+3B,Luxo,"Forro integral casa: gesso em todos os ambientes, iluminação projetada, nichos em gesso e acabamento perfeito",expandido
+611,Casa,Forro de gesso,105.0,4Q+3B,Médio,"Forro integral casa: gesso em todos os ambientes, iluminação projetada, nichos em gesso e acabamento perfeito",expandido
+612,Casa,Forro de gesso,105.0,4Q+3B,Luxo,"Forro integral casa: gesso em todos os ambientes, iluminação projetada, nichos em gesso e acabamento perfeito",expandido
+613,Casa,Forro de gesso,150.0,4Q+3B,Médio,"Forro integral casa: gesso em todos os ambientes, iluminação projetada, nichos em gesso e acabamento perfeito",expandido
+614,Casa,Forro de gesso,150.0,4Q+3B,Luxo,"Forro integral casa: gesso em todos os ambientes, iluminação projetada, nichos em gesso e acabamento perfeito",base
+615,Apto,Iluminação,50.0,2Q+1B,Popular,"Troca de luminárias: substituição por LED, revisão de pontos e revisão de circuitos de iluminação",base
+616,Apto,Iluminação,35.0,2Q+1B,Popular,"Troca de luminárias: substituição por LED, revisão de pontos e revisão de circuitos de iluminação",expandido
+617,Apto,Iluminação,70.0,2Q+1B,Popular,"Troca de luminárias: substituição por LED, revisão de pontos e revisão de circuitos de iluminação",expandido
+618,Apto,Iluminação,65.0,3Q+2B,Popular,"Projeto de iluminação: LED embutido, trilhos e spots, setorização por ambientes, dimmers e cenas básicas",expandido
+619,Apto,Iluminação,65.0,3Q+2B,Médio,"Projeto de iluminação: LED embutido, trilhos e spots, setorização por ambientes, dimmers e cenas básicas",base
+620,Apto,Iluminação,91.0,3Q+2B,Popular,"Projeto de iluminação: LED embutido, trilhos e spots, setorização por ambientes, dimmers e cenas básicas",expandido
+621,Apto,Iluminação,91.0,3Q+2B,Médio,"Projeto de iluminação: LED embutido, trilhos e spots, setorização por ambientes, dimmers e cenas básicas",expandido
+622,Apto,Iluminação,46.0,3Q+2B,Popular,"Projeto de iluminação: LED embutido, trilhos e spots, setorização por ambientes, dimmers e cenas básicas",expandido
+623,Apto,Iluminação,46.0,3Q+2B,Médio,"Projeto de iluminação: LED embutido, trilhos e spots, setorização por ambientes, dimmers e cenas básicas",expandido
+624,Apto,Automação,42.0,3Q+2B,Médio,"Automação básica: interruptores inteligentes, controle de iluminação por app, persianas motorizadas e integração com assistente de voz",expandido
+625,Apto,Automação,42.0,3Q+2B,Luxo,"Automação básica: interruptores inteligentes, controle de iluminação por app, persianas motorizadas e integração com assistente de voz",expandido
+626,Apto,Automação,60.0,3Q+2B,Médio,"Automação básica: interruptores inteligentes, controle de iluminação por app, persianas motorizadas e integração com assistente de voz",expandido
+627,Apto,Automação,60.0,3Q+2B,Luxo,"Automação básica: interruptores inteligentes, controle de iluminação por app, persianas motorizadas e integração com assistente de voz",base
+628,Apto,Automação,84.0,3Q+2B,Médio,"Automação básica: interruptores inteligentes, controle de iluminação por app, persianas motorizadas e integração com assistente de voz",expandido
+629,Apto,Automação,84.0,3Q+2B,Luxo,"Automação básica: interruptores inteligentes, controle de iluminação por app, persianas motorizadas e integração com assistente de voz",expandido
+630,Casa,Automação,120.0,4Q+3B,Médio,"Automação completa: iluminação, cortinas, ar-condicionado, fechadura digital, câmeras, cenas e painel de controle central",expandido
+631,Casa,Automação,120.0,4Q+3B,Luxo,"Automação completa: iluminação, cortinas, ar-condicionado, fechadura digital, câmeras, cenas e painel de controle central",base
+632,Casa,Automação,84.0,4Q+3B,Médio,"Automação completa: iluminação, cortinas, ar-condicionado, fechadura digital, câmeras, cenas e painel de controle central",expandido
+633,Casa,Automação,84.0,4Q+3B,Luxo,"Automação completa: iluminação, cortinas, ar-condicionado, fechadura digital, câmeras, cenas e painel de controle central",expandido
+634,Casa,Automação,168.0,4Q+3B,Médio,"Automação completa: iluminação, cortinas, ar-condicionado, fechadura digital, câmeras, cenas e painel de controle central",expandido
+635,Casa,Automação,168.0,4Q+3B,Luxo,"Automação completa: iluminação, cortinas, ar-condicionado, fechadura digital, câmeras, cenas e painel de controle central",expandido
+636,Apto,Marcenaria cozinha,10.0,2Q+1B,Popular,"Armários de cozinha: modulados em MDP, puxadores simples, acabamento melamínico e instalação básica",base
+637,Apto,Marcenaria cozinha,14.0,2Q+1B,Popular,"Armários de cozinha: modulados em MDP, puxadores simples, acabamento melamínico e instalação básica",expandido
+638,Apto,Marcenaria cozinha,7.0,2Q+1B,Popular,"Armários de cozinha: modulados em MDP, puxadores simples, acabamento melamínico e instalação básica",expandido
+639,Apto,Marcenaria cozinha,8.0,3Q+2B,Popular,"Cozinha planejada: MDF com acabamento laqueado ou melamínico premium, ferragens de qualidade, iluminação interna e organização",expandido
+640,Apto,Marcenaria cozinha,8.0,3Q+2B,Médio,"Cozinha planejada: MDF com acabamento laqueado ou melamínico premium, ferragens de qualidade, iluminação interna e organização",expandido
+641,Apto,Marcenaria cozinha,17.0,3Q+2B,Popular,"Cozinha planejada: MDF com acabamento laqueado ou melamínico premium, ferragens de qualidade, iluminação interna e organização",expandido
+642,Apto,Marcenaria cozinha,17.0,3Q+2B,Médio,"Cozinha planejada: MDF com acabamento laqueado ou melamínico premium, ferragens de qualidade, iluminação interna e organização",expandido
+643,Apto,Marcenaria cozinha,12.0,3Q+2B,Popular,"Cozinha planejada: MDF com acabamento laqueado ou melamínico premium, ferragens de qualidade, iluminação interna e organização",expandido
+644,Apto,Marcenaria cozinha,12.0,3Q+2B,Médio,"Cozinha planejada: MDF com acabamento laqueado ou melamínico premium, ferragens de qualidade, iluminação interna e organização",base
+645,Apto,Marcenaria cozinha,16.0,3Q+2B,Médio,"Cozinha premium: MDF laqueado ou nesting, ferragens Blum/Hettich, iluminação em perfis, gavetas com divisórias e sistema push-to-open",expandido
+646,Apto,Marcenaria cozinha,16.0,3Q+2B,Luxo,"Cozinha premium: MDF laqueado ou nesting, ferragens Blum/Hettich, iluminação em perfis, gavetas com divisórias e sistema push-to-open",base
+647,Apto,Marcenaria cozinha,11.0,3Q+2B,Médio,"Cozinha premium: MDF laqueado ou nesting, ferragens Blum/Hettich, iluminação em perfis, gavetas com divisórias e sistema push-to-open",expandido
+648,Apto,Marcenaria cozinha,11.0,3Q+2B,Luxo,"Cozinha premium: MDF laqueado ou nesting, ferragens Blum/Hettich, iluminação em perfis, gavetas com divisórias e sistema push-to-open",expandido
+649,Apto,Marcenaria cozinha,22.0,3Q+2B,Médio,"Cozinha premium: MDF laqueado ou nesting, ferragens Blum/Hettich, iluminação em perfis, gavetas com divisórias e sistema push-to-open",expandido
+650,Apto,Marcenaria cozinha,22.0,3Q+2B,Luxo,"Cozinha premium: MDF laqueado ou nesting, ferragens Blum/Hettich, iluminação em perfis, gavetas com divisórias e sistema push-to-open",expandido
+651,Apto,Marcenaria quarto,10,3Q+2B,Popular,"Closet planejado: módulos internos, cabideiros, gaveteiros, iluminação LED e portas de correr com espelho",expandido
+652,Apto,Marcenaria quarto,10,3Q+2B,Médio,"Closet planejado: módulos internos, cabideiros, gaveteiros, iluminação LED e portas de correr com espelho",expandido
+653,Apto,Marcenaria quarto,20.0,3Q+2B,Popular,"Closet planejado: módulos internos, cabideiros, gaveteiros, iluminação LED e portas de correr com espelho",expandido
+654,Apto,Marcenaria quarto,20.0,3Q+2B,Médio,"Closet planejado: módulos internos, cabideiros, gaveteiros, iluminação LED e portas de correr com espelho",expandido
+655,Apto,Marcenaria quarto,14.0,3Q+2B,Popular,"Closet planejado: módulos internos, cabideiros, gaveteiros, iluminação LED e portas de correr com espelho",expandido
+656,Apto,Marcenaria quarto,14.0,3Q+2B,Médio,"Closet planejado: módulos internos, cabideiros, gaveteiros, iluminação LED e portas de correr com espelho",base
+657,Casa,Marcenaria geral,50.0,3Q+2B,Popular,"Marcenaria sob medida: cozinha, área de serviço, closets e painéis de TV em MDF com acabamento unificado",expandido
+658,Casa,Marcenaria geral,50.0,3Q+2B,Médio,"Marcenaria sob medida: cozinha, área de serviço, closets e painéis de TV em MDF com acabamento unificado",base
+659,Casa,Marcenaria geral,35.0,3Q+2B,Popular,"Marcenaria sob medida: cozinha, área de serviço, closets e painéis de TV em MDF com acabamento unificado",expandido
+660,Casa,Marcenaria geral,35.0,3Q+2B,Médio,"Marcenaria sob medida: cozinha, área de serviço, closets e painéis de TV em MDF com acabamento unificado",expandido
+661,Casa,Marcenaria geral,70.0,3Q+2B,Popular,"Marcenaria sob medida: cozinha, área de serviço, closets e painéis de TV em MDF com acabamento unificado",expandido
+662,Casa,Marcenaria geral,70.0,3Q+2B,Médio,"Marcenaria sob medida: cozinha, área de serviço, closets e painéis de TV em MDF com acabamento unificado",expandido
+663,Casa,Marcenaria geral,56.0,4Q+3B,Médio,"Marcenaria premium: projeto de interiores completo, materiais premium, ferragens importadas e acabamentos especiais",expandido
+664,Casa,Marcenaria geral,56.0,4Q+3B,Luxo,"Marcenaria premium: projeto de interiores completo, materiais premium, ferragens importadas e acabamentos especiais",expandido
+665,Casa,Marcenaria geral,80.0,4Q+3B,Médio,"Marcenaria premium: projeto de interiores completo, materiais premium, ferragens importadas e acabamentos especiais",expandido
+666,Casa,Marcenaria geral,80.0,4Q+3B,Luxo,"Marcenaria premium: projeto de interiores completo, materiais premium, ferragens importadas e acabamentos especiais",base
+667,Casa,Marcenaria geral,112.0,4Q+3B,Médio,"Marcenaria premium: projeto de interiores completo, materiais premium, ferragens importadas e acabamentos especiais",expandido
+668,Casa,Marcenaria geral,112.0,4Q+3B,Luxo,"Marcenaria premium: projeto de interiores completo, materiais premium, ferragens importadas e acabamentos especiais",expandido
+669,Apto,Impermeabilização,4.0,2Q+1B,Popular,"Impermeabilização de banheiro: demolição de piso, aplicação de manta ou membrana, proteção mecânica e novo revestimento",expandido
+670,Apto,Impermeabilização,4.0,2Q+1B,Médio,"Impermeabilização de banheiro: demolição de piso, aplicação de manta ou membrana, proteção mecânica e novo revestimento",expandido
+671,Apto,Impermeabilização,5.0,2Q+1B,Popular,"Impermeabilização de banheiro: demolição de piso, aplicação de manta ou membrana, proteção mecânica e novo revestimento",expandido
+672,Apto,Impermeabilização,5.0,2Q+1B,Médio,"Impermeabilização de banheiro: demolição de piso, aplicação de manta ou membrana, proteção mecânica e novo revestimento",base
+673,Apto,Impermeabilização,7.0,2Q+1B,Popular,"Impermeabilização de banheiro: demolição de piso, aplicação de manta ou membrana, proteção mecânica e novo revestimento",expandido
+674,Apto,Impermeabilização,7.0,2Q+1B,Médio,"Impermeabilização de banheiro: demolição de piso, aplicação de manta ou membrana, proteção mecânica e novo revestimento",expandido
+675,Apto,Impermeabilização,8.0,3Q+2B,Popular,"Impermeabilização área molhada: banheiro(s) e lavanderia, manta asfáltica, teste de 48h e recomposição de pisos",expandido
+676,Apto,Impermeabilização,8.0,3Q+2B,Médio,"Impermeabilização área molhada: banheiro(s) e lavanderia, manta asfáltica, teste de 48h e recomposição de pisos",base
+677,Apto,Impermeabilização,11.0,3Q+2B,Popular,"Impermeabilização área molhada: banheiro(s) e lavanderia, manta asfáltica, teste de 48h e recomposição de pisos",expandido
+678,Apto,Impermeabilização,11.0,3Q+2B,Médio,"Impermeabilização área molhada: banheiro(s) e lavanderia, manta asfáltica, teste de 48h e recomposição de pisos",expandido
+679,Apto,Impermeabilização,6.0,3Q+2B,Popular,"Impermeabilização área molhada: banheiro(s) e lavanderia, manta asfáltica, teste de 48h e recomposição de pisos",expandido
+680,Apto,Impermeabilização,6.0,3Q+2B,Médio,"Impermeabilização área molhada: banheiro(s) e lavanderia, manta asfáltica, teste de 48h e recomposição de pisos",expandido
+681,Casa,Impermeabilização,42.0,3Q+2B,Popular,"Impermeabilização de laje: limpeza, regularização, manta aluminizada ou membrana, proteção mecânica e teste",expandido
+682,Casa,Impermeabilização,42.0,3Q+2B,Médio,"Impermeabilização de laje: limpeza, regularização, manta aluminizada ou membrana, proteção mecânica e teste",expandido
+683,Casa,Impermeabilização,21.0,3Q+2B,Popular,"Impermeabilização de laje: limpeza, regularização, manta aluminizada ou membrana, proteção mecânica e teste",expandido
+684,Casa,Impermeabilização,21.0,3Q+2B,Médio,"Impermeabilização de laje: limpeza, regularização, manta aluminizada ou membrana, proteção mecânica e teste",expandido
+685,Casa,Impermeabilização,30.0,3Q+2B,Popular,"Impermeabilização de laje: limpeza, regularização, manta aluminizada ou membrana, proteção mecânica e teste",expandido
+686,Casa,Impermeabilização,30.0,3Q+2B,Médio,"Impermeabilização de laje: limpeza, regularização, manta aluminizada ou membrana, proteção mecânica e teste",base
+687,Casa,Impermeabilização,50.0,4Q+3B,Médio,"Impermeabilização completa: laje, varandas, áreas molhadas, manta premium com garantia, detalhamento em ralos e testes rigorosos",expandido
+688,Casa,Impermeabilização,50.0,4Q+3B,Luxo,"Impermeabilização completa: laje, varandas, áreas molhadas, manta premium com garantia, detalhamento em ralos e testes rigorosos",base
+689,Casa,Impermeabilização,35.0,4Q+3B,Médio,"Impermeabilização completa: laje, varandas, áreas molhadas, manta premium com garantia, detalhamento em ralos e testes rigorosos",expandido
+690,Casa,Impermeabilização,35.0,4Q+3B,Luxo,"Impermeabilização completa: laje, varandas, áreas molhadas, manta premium com garantia, detalhamento em ralos e testes rigorosos",expandido
+691,Casa,Impermeabilização,70.0,4Q+3B,Médio,"Impermeabilização completa: laje, varandas, áreas molhadas, manta premium com garantia, detalhamento em ralos e testes rigorosos",expandido
+692,Casa,Impermeabilização,70.0,4Q+3B,Luxo,"Impermeabilização completa: laje, varandas, áreas molhadas, manta premium com garantia, detalhamento em ralos e testes rigorosos",expandido
+693,Apto,Instalações elétricas,63.0,3Q+2B,Popular,"Pontos elétricos novos: abertura de rasgos, eletrodutos, fiação, caixas e acabamento; inclui novos pontos de tomada e iluminação",expandido
+694,Apto,Instalações elétricas,63.0,3Q+2B,Médio,"Pontos elétricos novos: abertura de rasgos, eletrodutos, fiação, caixas e acabamento; inclui novos pontos de tomada e iluminação",expandido
+695,Apto,Instalações elétricas,45.0,3Q+2B,Popular,"Pontos elétricos novos: abertura de rasgos, eletrodutos, fiação, caixas e acabamento; inclui novos pontos de tomada e iluminação",expandido
+696,Apto,Instalações elétricas,45.0,3Q+2B,Médio,"Pontos elétricos novos: abertura de rasgos, eletrodutos, fiação, caixas e acabamento; inclui novos pontos de tomada e iluminação",base
+697,Apto,Instalações elétricas,31.0,3Q+2B,Popular,"Pontos elétricos novos: abertura de rasgos, eletrodutos, fiação, caixas e acabamento; inclui novos pontos de tomada e iluminação",expandido
+698,Apto,Instalações elétricas,31.0,3Q+2B,Médio,"Pontos elétricos novos: abertura de rasgos, eletrodutos, fiação, caixas e acabamento; inclui novos pontos de tomada e iluminação",expandido
+699,Casa,Instalações elétricas,140.0,3Q+2B,Popular,"Elétrica casa nova: quadro dimensionado, circuitos separados, fiação em cobre, tomadas, interruptores modernos e aterramento",expandido
+700,Casa,Instalações elétricas,140.0,3Q+2B,Médio,"Elétrica casa nova: quadro dimensionado, circuitos separados, fiação em cobre, tomadas, interruptores modernos e aterramento",expandido
+701,Casa,Instalações elétricas,100.0,3Q+2B,Popular,"Elétrica casa nova: quadro dimensionado, circuitos separados, fiação em cobre, tomadas, interruptores modernos e aterramento",expandido
+702,Casa,Instalações elétricas,100.0,3Q+2B,Médio,"Elétrica casa nova: quadro dimensionado, circuitos separados, fiação em cobre, tomadas, interruptores modernos e aterramento",base
+703,Casa,Instalações elétricas,70.0,3Q+2B,Popular,"Elétrica casa nova: quadro dimensionado, circuitos separados, fiação em cobre, tomadas, interruptores modernos e aterramento",expandido
+704,Casa,Instalações elétricas,70.0,3Q+2B,Médio,"Elétrica casa nova: quadro dimensionado, circuitos separados, fiação em cobre, tomadas, interruptores modernos e aterramento",expandido
+705,Apto,Instalações hidráulicas,8.0,3Q+2B,Popular,"Pontos hidráulicos: novos pontos de água fria/quente, ramais em PPR ou PEX, conexões e testes de pressão",expandido
+706,Apto,Instalações hidráulicas,8.0,3Q+2B,Médio,"Pontos hidráulicos: novos pontos de água fria/quente, ramais em PPR ou PEX, conexões e testes de pressão",base
+707,Apto,Instalações hidráulicas,11.0,3Q+2B,Popular,"Pontos hidráulicos: novos pontos de água fria/quente, ramais em PPR ou PEX, conexões e testes de pressão",expandido
+708,Apto,Instalações hidráulicas,11.0,3Q+2B,Médio,"Pontos hidráulicos: novos pontos de água fria/quente, ramais em PPR ou PEX, conexões e testes de pressão",expandido
+709,Apto,Instalações hidráulicas,6.0,3Q+2B,Popular,"Pontos hidráulicos: novos pontos de água fria/quente, ramais em PPR ou PEX, conexões e testes de pressão",expandido
+710,Apto,Instalações hidráulicas,6.0,3Q+2B,Médio,"Pontos hidráulicos: novos pontos de água fria/quente, ramais em PPR ou PEX, conexões e testes de pressão",expandido
+711,Casa,Instalações hidráulicas,25.0,3Q+2B,Popular,"Hidráulica casa: ramais novos em PPR, registros de pressão e gaveta, colunas de água fria e testes de estanqueidade",expandido
+712,Casa,Instalações hidráulicas,25.0,3Q+2B,Médio,"Hidráulica casa: ramais novos em PPR, registros de pressão e gaveta, colunas de água fria e testes de estanqueidade",base
+713,Casa,Instalações hidráulicas,18.0,3Q+2B,Popular,"Hidráulica casa: ramais novos em PPR, registros de pressão e gaveta, colunas de água fria e testes de estanqueidade",expandido
+714,Casa,Instalações hidráulicas,18.0,3Q+2B,Médio,"Hidráulica casa: ramais novos em PPR, registros de pressão e gaveta, colunas de água fria e testes de estanqueidade",expandido
+715,Casa,Instalações hidráulicas,35.0,3Q+2B,Popular,"Hidráulica casa: ramais novos em PPR, registros de pressão e gaveta, colunas de água fria e testes de estanqueidade",expandido
+716,Casa,Instalações hidráulicas,35.0,3Q+2B,Médio,"Hidráulica casa: ramais novos em PPR, registros de pressão e gaveta, colunas de água fria e testes de estanqueidade",expandido
+717,Apto,Ar-condicionado,40.0,2Q+1B,Popular,"Instalação de splits: 2-3 aparelhos, elétrica dedicada, drenos e tubulação embutida ou aparente organizada",expandido
+718,Apto,Ar-condicionado,40.0,2Q+1B,Médio,"Instalação de splits: 2-3 aparelhos, elétrica dedicada, drenos e tubulação embutida ou aparente organizada",base
+719,Apto,Ar-condicionado,56.0,2Q+1B,Popular,"Instalação de splits: 2-3 aparelhos, elétrica dedicada, drenos e tubulação embutida ou aparente organizada",expandido
+720,Apto,Ar-condicionado,56.0,2Q+1B,Médio,"Instalação de splits: 2-3 aparelhos, elétrica dedicada, drenos e tubulação embutida ou aparente organizada",expandido
+721,Apto,Ar-condicionado,28.0,2Q+1B,Popular,"Instalação de splits: 2-3 aparelhos, elétrica dedicada, drenos e tubulação embutida ou aparente organizada",expandido
+722,Apto,Ar-condicionado,28.0,2Q+1B,Médio,"Instalação de splits: 2-3 aparelhos, elétrica dedicada, drenos e tubulação embutida ou aparente organizada",expandido
+723,Casa,Ar-condicionado,56.0,3Q+2B,Popular,"Climatização residencial: splits nos quartos e estar, infraestrutura embutida, drenos encaminhados e acabamento",expandido
+724,Casa,Ar-condicionado,56.0,3Q+2B,Médio,"Climatização residencial: splits nos quartos e estar, infraestrutura embutida, drenos encaminhados e acabamento",expandido
+725,Casa,Ar-condicionado,80.0,3Q+2B,Popular,"Climatização residencial: splits nos quartos e estar, infraestrutura embutida, drenos encaminhados e acabamento",expandido
+726,Casa,Ar-condicionado,80.0,3Q+2B,Médio,"Climatização residencial: splits nos quartos e estar, infraestrutura embutida, drenos encaminhados e acabamento",base
+727,Casa,Ar-condicionado,112.0,3Q+2B,Popular,"Climatização residencial: splits nos quartos e estar, infraestrutura embutida, drenos encaminhados e acabamento",expandido
+728,Casa,Ar-condicionado,112.0,3Q+2B,Médio,"Climatização residencial: splits nos quartos e estar, infraestrutura embutida, drenos encaminhados e acabamento",expandido
+729,Casa,Central de gás,10.0,3Q+2B,Popular,"Instalação de gás: central de P45 ou natural, tubulação em cobre, registros, detectores e teste de estanqueidade",expandido
+730,Casa,Central de gás,10.0,3Q+2B,Médio,"Instalação de gás: central de P45 ou natural, tubulação em cobre, registros, detectores e teste de estanqueidade",expandido
+731,Casa,Central de gás,21.0,3Q+2B,Popular,"Instalação de gás: central de P45 ou natural, tubulação em cobre, registros, detectores e teste de estanqueidade",expandido
+732,Casa,Central de gás,21.0,3Q+2B,Médio,"Instalação de gás: central de P45 ou natural, tubulação em cobre, registros, detectores e teste de estanqueidade",expandido
+733,Casa,Central de gás,15.0,3Q+2B,Popular,"Instalação de gás: central de P45 ou natural, tubulação em cobre, registros, detectores e teste de estanqueidade",expandido
+734,Casa,Central de gás,15.0,3Q+2B,Médio,"Instalação de gás: central de P45 ou natural, tubulação em cobre, registros, detectores e teste de estanqueidade",base
+735,Apto,Esquadrias,42.0,2Q+1B,Popular,"Troca de janelas: esquadrias de alumínio com vidro duplo ou laminado, vedação perimetral e ajuste de contramarcos",expandido
+736,Apto,Esquadrias,42.0,2Q+1B,Médio,"Troca de janelas: esquadrias de alumínio com vidro duplo ou laminado, vedação perimetral e ajuste de contramarcos",expandido
+737,Apto,Esquadrias,21.0,2Q+1B,Popular,"Troca de janelas: esquadrias de alumínio com vidro duplo ou laminado, vedação perimetral e ajuste de contramarcos",expandido
+738,Apto,Esquadrias,21.0,2Q+1B,Médio,"Troca de janelas: esquadrias de alumínio com vidro duplo ou laminado, vedação perimetral e ajuste de contramarcos",expandido
+739,Apto,Esquadrias,30.0,2Q+1B,Popular,"Troca de janelas: esquadrias de alumínio com vidro duplo ou laminado, vedação perimetral e ajuste de contramarcos",expandido
+740,Apto,Esquadrias,30.0,2Q+1B,Médio,"Troca de janelas: esquadrias de alumínio com vidro duplo ou laminado, vedação perimetral e ajuste de contramarcos",base
+741,Casa,Esquadrias,42.0,3Q+2B,Popular,"Esquadrias novas: janelas e portas externas em alumínio, vidros de segurança, fechaduras e telas mosquiteiras",expandido
+742,Casa,Esquadrias,42.0,3Q+2B,Médio,"Esquadrias novas: janelas e portas externas em alumínio, vidros de segurança, fechaduras e telas mosquiteiras",expandido
+743,Casa,Esquadrias,60.0,3Q+2B,Popular,"Esquadrias novas: janelas e portas externas em alumínio, vidros de segurança, fechaduras e telas mosquiteiras",expandido
+744,Casa,Esquadrias,60.0,3Q+2B,Médio,"Esquadrias novas: janelas e portas externas em alumínio, vidros de segurança, fechaduras e telas mosquiteiras",base
+745,Casa,Esquadrias,84.0,3Q+2B,Popular,"Esquadrias novas: janelas e portas externas em alumínio, vidros de segurança, fechaduras e telas mosquiteiras",expandido
+746,Casa,Esquadrias,84.0,3Q+2B,Médio,"Esquadrias novas: janelas e portas externas em alumínio, vidros de segurança, fechaduras e telas mosquiteiras",expandido
+747,Casa,Portão,20.0,2Q+1B,Popular,"Portão automatizado: motor de corrente, baterias, controles, fotocélulas e teste de segurança",expandido
+748,Casa,Portão,20.0,2Q+1B,Médio,"Portão automatizado: motor de corrente, baterias, controles, fotocélulas e teste de segurança",base
+749,Casa,Portão,28.0,2Q+1B,Popular,"Portão automatizado: motor de corrente, baterias, controles, fotocélulas e teste de segurança",expandido
+750,Casa,Portão,28.0,2Q+1B,Médio,"Portão automatizado: motor de corrente, baterias, controles, fotocélulas e teste de segurança",expandido
+751,Casa,Portão,14.0,2Q+1B,Popular,"Portão automatizado: motor de corrente, baterias, controles, fotocélulas e teste de segurança",expandido
+752,Casa,Portão,14.0,2Q+1B,Médio,"Portão automatizado: motor de corrente, baterias, controles, fotocélulas e teste de segurança",expandido
+753,Apto,Box de vidro,3,2Q+1B,Popular,"Box de banheiro: vidro temperado 8mm, ferragens em aço inox, porta de correr ou abrir, silicone e ajustes",expandido
+754,Apto,Box de vidro,3,2Q+1B,Médio,"Box de banheiro: vidro temperado 8mm, ferragens em aço inox, porta de correr ou abrir, silicone e ajustes",expandido
+755,Apto,Box de vidro,4.0,2Q+1B,Popular,"Box de banheiro: vidro temperado 8mm, ferragens em aço inox, porta de correr ou abrir, silicone e ajustes",expandido
+756,Apto,Box de vidro,4.0,2Q+1B,Médio,"Box de banheiro: vidro temperado 8mm, ferragens em aço inox, porta de correr ou abrir, silicone e ajustes",base
+757,Apto,Box de vidro,6.0,2Q+1B,Popular,"Box de banheiro: vidro temperado 8mm, ferragens em aço inox, porta de correr ou abrir, silicone e ajustes",expandido
+758,Apto,Box de vidro,6.0,2Q+1B,Médio,"Box de banheiro: vidro temperado 8mm, ferragens em aço inox, porta de correr ou abrir, silicone e ajustes",expandido
+759,Apto,Box de vidro,8.0,3Q+2B,Médio,"Box premium: vidro 10mm até o teto, ferragens especiais, roldanas silenciosas, perfis em alumínio preto e vedação total",expandido
+760,Apto,Box de vidro,8.0,3Q+2B,Luxo,"Box premium: vidro 10mm até o teto, ferragens especiais, roldanas silenciosas, perfis em alumínio preto e vedação total",expandido
+761,Apto,Box de vidro,4.0,3Q+2B,Médio,"Box premium: vidro 10mm até o teto, ferragens especiais, roldanas silenciosas, perfis em alumínio preto e vedação total",expandido
+762,Apto,Box de vidro,4.0,3Q+2B,Luxo,"Box premium: vidro 10mm até o teto, ferragens especiais, roldanas silenciosas, perfis em alumínio preto e vedação total",expandido
+763,Apto,Box de vidro,6.0,3Q+2B,Médio,"Box premium: vidro 10mm até o teto, ferragens especiais, roldanas silenciosas, perfis em alumínio preto e vedação total",expandido
+764,Apto,Box de vidro,6.0,3Q+2B,Luxo,"Box premium: vidro 10mm até o teto, ferragens especiais, roldanas silenciosas, perfis em alumínio preto e vedação total",base
+765,Apto,Troca de portas,24.0,2Q+1B,Popular,"Portas internas: portas semi-ocas ou maciças, batentes novos ou reaproveitados, guarnições, ferragens e pintura",expandido
+766,Apto,Troca de portas,24.0,2Q+1B,Médio,"Portas internas: portas semi-ocas ou maciças, batentes novos ou reaproveitados, guarnições, ferragens e pintura",expandido
+767,Apto,Troca de portas,49.0,2Q+1B,Popular,"Portas internas: portas semi-ocas ou maciças, batentes novos ou reaproveitados, guarnições, ferragens e pintura",expandido
+768,Apto,Troca de portas,49.0,2Q+1B,Médio,"Portas internas: portas semi-ocas ou maciças, batentes novos ou reaproveitados, guarnições, ferragens e pintura",expandido
+769,Apto,Troca de portas,35.0,2Q+1B,Popular,"Portas internas: portas semi-ocas ou maciças, batentes novos ou reaproveitados, guarnições, ferragens e pintura",expandido
+770,Apto,Troca de portas,35.0,2Q+1B,Médio,"Portas internas: portas semi-ocas ou maciças, batentes novos ou reaproveitados, guarnições, ferragens e pintura",base
+771,Casa,Troca de portas,42.0,3Q+2B,Popular,"Portas casa: internas e externas, batentes, guarnições, fechaduras, dobradiças e acabamento em pintura ou verniz",expandido
+772,Casa,Troca de portas,42.0,3Q+2B,Médio,"Portas casa: internas e externas, batentes, guarnições, fechaduras, dobradiças e acabamento em pintura ou verniz",expandido
+773,Casa,Troca de portas,60.0,3Q+2B,Popular,"Portas casa: internas e externas, batentes, guarnições, fechaduras, dobradiças e acabamento em pintura ou verniz",expandido
+774,Casa,Troca de portas,60.0,3Q+2B,Médio,"Portas casa: internas e externas, batentes, guarnições, fechaduras, dobradiças e acabamento em pintura ou verniz",base
+775,Casa,Troca de portas,84.0,3Q+2B,Popular,"Portas casa: internas e externas, batentes, guarnições, fechaduras, dobradiças e acabamento em pintura ou verniz",expandido
+776,Casa,Troca de portas,84.0,3Q+2B,Médio,"Portas casa: internas e externas, batentes, guarnições, fechaduras, dobradiças e acabamento em pintura ou verniz",expandido
+777,Apto,Segurança,40.0,2Q+1B,Popular,"Segurança residencial: fechadura digital, olho mágico eletrônico, sensor de abertura e câmera interna wi-fi",expandido
+778,Apto,Segurança,40.0,2Q+1B,Médio,"Segurança residencial: fechadura digital, olho mágico eletrônico, sensor de abertura e câmera interna wi-fi",base
+779,Apto,Segurança,56.0,2Q+1B,Popular,"Segurança residencial: fechadura digital, olho mágico eletrônico, sensor de abertura e câmera interna wi-fi",expandido
+780,Apto,Segurança,56.0,2Q+1B,Médio,"Segurança residencial: fechadura digital, olho mágico eletrônico, sensor de abertura e câmera interna wi-fi",expandido
+781,Apto,Segurança,28.0,2Q+1B,Popular,"Segurança residencial: fechadura digital, olho mágico eletrônico, sensor de abertura e câmera interna wi-fi",expandido
+782,Apto,Segurança,28.0,2Q+1B,Médio,"Segurança residencial: fechadura digital, olho mágico eletrônico, sensor de abertura e câmera interna wi-fi",expandido
+783,Casa,Segurança,56.0,3Q+2B,Popular,"Sistema de segurança: câmeras externas, gravador (NVR), cerca elétrica, iluminação com sensor e alarme monitorado",expandido
+784,Casa,Segurança,56.0,3Q+2B,Médio,"Sistema de segurança: câmeras externas, gravador (NVR), cerca elétrica, iluminação com sensor e alarme monitorado",expandido
+785,Casa,Segurança,80.0,3Q+2B,Popular,"Sistema de segurança: câmeras externas, gravador (NVR), cerca elétrica, iluminação com sensor e alarme monitorado",expandido
+786,Casa,Segurança,80.0,3Q+2B,Médio,"Sistema de segurança: câmeras externas, gravador (NVR), cerca elétrica, iluminação com sensor e alarme monitorado",base
+787,Casa,Segurança,112.0,3Q+2B,Popular,"Sistema de segurança: câmeras externas, gravador (NVR), cerca elétrica, iluminação com sensor e alarme monitorado",expandido
+788,Casa,Segurança,112.0,3Q+2B,Médio,"Sistema de segurança: câmeras externas, gravador (NVR), cerca elétrica, iluminação com sensor e alarme monitorado",expandido
+789,Apto,Tratamento acústico,42.0,2Q+1B,Popular,"Isolamento básico: borrachas de vedação em portas, calafetagem de frestas e cortinas blackout pesadas",expandido
+790,Apto,Tratamento acústico,42.0,2Q+1B,Médio,"Isolamento básico: borrachas de vedação em portas, calafetagem de frestas e cortinas blackout pesadas",expandido
+791,Apto,Tratamento acústico,21.0,2Q+1B,Popular,"Isolamento básico: borrachas de vedação em portas, calafetagem de frestas e cortinas blackout pesadas",expandido
+792,Apto,Tratamento acústico,21.0,2Q+1B,Médio,"Isolamento básico: borrachas de vedação em portas, calafetagem de frestas e cortinas blackout pesadas",expandido
+793,Apto,Tratamento acústico,30.0,2Q+1B,Popular,"Isolamento básico: borrachas de vedação em portas, calafetagem de frestas e cortinas blackout pesadas",expandido
+794,Apto,Tratamento acústico,30.0,2Q+1B,Médio,"Isolamento básico: borrachas de vedação em portas, calafetagem de frestas e cortinas blackout pesadas",base
+795,Apto,Tratamento acústico,50.0,3Q+2B,Médio,"Tratamento acústico: paredes com drywall duplo, lã mineral, portas acústicas e janelas com vidro laminado",expandido
+796,Apto,Tratamento acústico,50.0,3Q+2B,Luxo,"Tratamento acústico: paredes com drywall duplo, lã mineral, portas acústicas e janelas com vidro laminado",base
+797,Apto,Tratamento acústico,35.0,3Q+2B,Médio,"Tratamento acústico: paredes com drywall duplo, lã mineral, portas acústicas e janelas com vidro laminado",expandido
+798,Apto,Tratamento acústico,35.0,3Q+2B,Luxo,"Tratamento acústico: paredes com drywall duplo, lã mineral, portas acústicas e janelas com vidro laminado",expandido
+799,Apto,Tratamento acústico,70.0,3Q+2B,Médio,"Tratamento acústico: paredes com drywall duplo, lã mineral, portas acústicas e janelas com vidro laminado",expandido
+800,Apto,Tratamento acústico,70.0,3Q+2B,Luxo,"Tratamento acústico: paredes com drywall duplo, lã mineral, portas acústicas e janelas com vidro laminado",expandido
+801,Casa,Tratamento acústico,56.0,3Q+2B,Médio,"Isolamento completo: paredes, pisos flutuantes, forro independente e esquadrias acústicas certificadas",expandido
+802,Casa,Tratamento acústico,56.0,3Q+2B,Luxo,"Isolamento completo: paredes, pisos flutuantes, forro independente e esquadrias acústicas certificadas",expandido
+803,Casa,Tratamento acústico,80.0,3Q+2B,Médio,"Isolamento completo: paredes, pisos flutuantes, forro independente e esquadrias acústicas certificadas",expandido
+804,Casa,Tratamento acústico,80.0,3Q+2B,Luxo,"Isolamento completo: paredes, pisos flutuantes, forro independente e esquadrias acústicas certificadas",base
+805,Casa,Tratamento acústico,112.0,3Q+2B,Médio,"Isolamento completo: paredes, pisos flutuantes, forro independente e esquadrias acústicas certificadas",expandido
+806,Casa,Tratamento acústico,112.0,3Q+2B,Luxo,"Isolamento completo: paredes, pisos flutuantes, forro independente e esquadrias acústicas certificadas",expandido
+807,Casa,Cisterna,8.0,3Q+2B,Popular,"Instalação de cisterna: escavação, cisterna de concreto ou fibra, bomba de recalque e tubulação para reuso",expandido
+808,Casa,Cisterna,8.0,3Q+2B,Médio,"Instalação de cisterna: escavação, cisterna de concreto ou fibra, bomba de recalque e tubulação para reuso",base
+809,Casa,Cisterna,11.0,3Q+2B,Popular,"Instalação de cisterna: escavação, cisterna de concreto ou fibra, bomba de recalque e tubulação para reuso",expandido
+810,Casa,Cisterna,11.0,3Q+2B,Médio,"Instalação de cisterna: escavação, cisterna de concreto ou fibra, bomba de recalque e tubulação para reuso",expandido
+811,Casa,Cisterna,6.0,3Q+2B,Popular,"Instalação de cisterna: escavação, cisterna de concreto ou fibra, bomba de recalque e tubulação para reuso",expandido
+812,Casa,Cisterna,6.0,3Q+2B,Médio,"Instalação de cisterna: escavação, cisterna de concreto ou fibra, bomba de recalque e tubulação para reuso",expandido
+813,Casa,Fossa séptica,8.0,2Q+1B,Popular,"Instalação de fossa séptica: escavação, conjunto fossa + sumidouro, tubulação e tampas de inspeção",expandido
+814,Casa,Fossa séptica,17.0,2Q+1B,Popular,"Instalação de fossa séptica: escavação, conjunto fossa + sumidouro, tubulação e tampas de inspeção",expandido
+815,Casa,Fossa séptica,12.0,2Q+1B,Popular,"Instalação de fossa séptica: escavação, conjunto fossa + sumidouro, tubulação e tampas de inspeção",base
