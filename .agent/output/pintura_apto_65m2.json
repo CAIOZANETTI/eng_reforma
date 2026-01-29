@@ -1,0 +1,656 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T23:08:11.801561Z",
+  "template": {
+    "title": "Pintura Completa Apartamento 65m2",
+    "description": "Pintura completa de apartamento 2 quartos",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Pintura Completa Apartamento 65m2",
+    "total_area": 75.36
+  },
+  "spaces": [
+    {
+      "space_id": "f6257f28-7da1-4d71-94d8-e087393fc183",
+      "_name": "Sala",
+      "area": 16.36,
+      "height": 2.6,
+      "services": [
+        {
+          "service_id": "protecao_de_pisos_e_moveis",
+          "_name": "Proteção de pisos e móveis",
+          "quantity": 18.0,
+          "material_categories": [],
+          "labor_categories": [
+            {
+              "labor_category_id": "pedreiro",
+              "_name": "Pedreiro",
+              "base_qtd": 10.8,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "e6381d6b-7259-4fcc-b00a-cbc94aca8aa3",
+                  "_name": "Pedreiro"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "lixamento_de_paredes",
+          "_name": "Lixamento de paredes",
+          "quantity": 45.6,
+          "material_categories": [],
+          "labor_categories": []
+        },
+        {
+          "service_id": "massa_corrida_pva",
+          "_name": "Massa corrida PVA",
+          "quantity": 45.6,
+          "material_categories": [
+            {
+              "material_category_id": "pintura",
+              "_name": "Pintura",
+              "base_qtd": 45.6,
+              "base_unit": "m²",
+              "materials": [
+                {
+                  "material_id": "dd2de67f-1ff1-42e0-8d6e-8bbe27043b92",
+                  "_name": "Massa corrida PVA"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "Pintor",
+              "base_qtd": 9.12,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "32fc5a55-f1e3-46ba-b68b-822bfdd31a20",
+                  "_name": "Pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "selador_acrilico",
+          "_name": "Selador acrílico",
+          "quantity": 45.6,
+          "material_categories": [],
+          "labor_categories": []
+        },
+        {
+          "service_id": "pintura_latex_2_demaos_parede",
+          "_name": "Pintura látex 2 demãos parede",
+          "quantity": 45.6,
+          "material_categories": [
+            {
+              "material_category_id": "pintura",
+              "_name": "Pintura",
+              "base_qtd": 45.6,
+              "base_unit": "m²",
+              "materials": [
+                {
+                  "material_id": "55d35935-f459-4dbe-9f7c-6732a543baf0",
+                  "_name": "Tinta acrílica premium"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "Pintor",
+              "base_qtd": 13.68,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "ecd53d6b-7d3e-489d-be17-723e83a6e17f",
+                  "_name": "Pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura_latex_teto",
+          "_name": "Pintura látex teto",
+          "quantity": 18.0,
+          "material_categories": [
+            {
+              "material_category_id": "pintura",
+              "_name": "Pintura",
+              "base_qtd": 18.0,
+              "base_unit": "m²",
+              "materials": [
+                {
+                  "material_id": "5ebda970-6bc7-4a3a-8550-af6f9d234340",
+                  "_name": "Tinta acrílica premium"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "Pintor",
+              "base_qtd": 5.4,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "281331d9-7885-4b2f-9eaa-172f696da03d",
+                  "_name": "Pintor"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "space_id": "50072e0d-50c7-4616-bbdf-fcfec9aabbbf",
+      "_name": "Quarto 1",
+      "area": 12,
+      "height": 2.6,
+      "services": [
+        {
+          "service_id": "lixamento_de_paredes",
+          "_name": "Lixamento de paredes",
+          "quantity": 35.2,
+          "material_categories": [],
+          "labor_categories": []
+        },
+        {
+          "service_id": "massa_corrida_pva",
+          "_name": "Massa corrida PVA",
+          "quantity": 35.2,
+          "material_categories": [
+            {
+              "material_category_id": "pintura",
+              "_name": "Pintura",
+              "base_qtd": 35.2,
+              "base_unit": "m²",
+              "materials": [
+                {
+                  "material_id": "3c94b1a2-e0c4-436e-aee5-dc1f4fbc610d",
+                  "_name": "Massa corrida PVA"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "Pintor",
+              "base_qtd": 7.04,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "7d701ade-7725-49d9-9156-d45198120e9f",
+                  "_name": "Pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura_latex_2_demaos_parede",
+          "_name": "Pintura látex 2 demãos parede",
+          "quantity": 35.2,
+          "material_categories": [
+            {
+              "material_category_id": "pintura",
+              "_name": "Pintura",
+              "base_qtd": 35.2,
+              "base_unit": "m²",
+              "materials": [
+                {
+                  "material_id": "919caca4-4e74-4d6b-b644-666ce2b151c7",
+                  "_name": "Tinta acrílica premium"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "Pintor",
+              "base_qtd": 10.56,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "1e7e90a4-8264-47a5-8491-1796e29aee4d",
+                  "_name": "Pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura_latex_teto",
+          "_name": "Pintura látex teto",
+          "quantity": 12.0,
+          "material_categories": [
+            {
+              "material_category_id": "pintura",
+              "_name": "Pintura",
+              "base_qtd": 12.0,
+              "base_unit": "m²",
+              "materials": [
+                {
+                  "material_id": "1e3998c3-a1d0-490f-b075-e4e2e0f47483",
+                  "_name": "Tinta acrílica premium"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "Pintor",
+              "base_qtd": 3.6,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "7b0dee1b-1651-4d0f-a586-07c2152e7ab1",
+                  "_name": "Pintor"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "space_id": "ebf2ddf8-f038-4b4f-bbb2-8e3f2854599c",
+      "_name": "Quarto 2",
+      "area": 12,
+      "height": 2.6,
+      "services": [
+        {
+          "service_id": "lixamento_de_paredes",
+          "_name": "Lixamento de paredes",
+          "quantity": 31.2,
+          "material_categories": [],
+          "labor_categories": []
+        },
+        {
+          "service_id": "massa_corrida_pva",
+          "_name": "Massa corrida PVA",
+          "quantity": 31.2,
+          "material_categories": [
+            {
+              "material_category_id": "pintura",
+              "_name": "Pintura",
+              "base_qtd": 31.2,
+              "base_unit": "m²",
+              "materials": [
+                {
+                  "material_id": "bb8e3cd3-017b-49e6-bd85-104657ee79f2",
+                  "_name": "Massa corrida PVA"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "Pintor",
+              "base_qtd": 6.24,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "c4bb1254-2a8b-4920-b260-51362c225bab",
+                  "_name": "Pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura_latex_2_demaos_parede",
+          "_name": "Pintura látex 2 demãos parede",
+          "quantity": 31.2,
+          "material_categories": [
+            {
+              "material_category_id": "pintura",
+              "_name": "Pintura",
+              "base_qtd": 31.2,
+              "base_unit": "m²",
+              "materials": [
+                {
+                  "material_id": "3ffdee71-cce5-4da4-ad3f-08d00665bb54",
+                  "_name": "Tinta acrílica premium"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "Pintor",
+              "base_qtd": 9.36,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "b1962283-c572-4ddf-a4c0-99d33e4da11e",
+                  "_name": "Pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura_latex_teto",
+          "_name": "Pintura látex teto",
+          "quantity": 10.0,
+          "material_categories": [
+            {
+              "material_category_id": "pintura",
+              "_name": "Pintura",
+              "base_qtd": 10.0,
+              "base_unit": "m²",
+              "materials": [
+                {
+                  "material_id": "fe7d45a2-d8f4-4320-a954-f6bfb71bf6cc",
+                  "_name": "Tinta acrílica premium"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "Pintor",
+              "base_qtd": 3.0,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "0b0272da-3d23-46ef-a1c6-9e0a970ff306",
+                  "_name": "Pintor"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "space_id": "fdc2cbf4-d9ef-4289-a691-65c80b940279",
+      "_name": "Cozinha",
+      "area": 10,
+      "height": 2.6,
+      "services": [
+        {
+          "service_id": "pintura_acrilica_lavavel_parede",
+          "_name": "Pintura acrílica lavável parede",
+          "quantity": 15.6,
+          "material_categories": [
+            {
+              "material_category_id": "pintura",
+              "_name": "Pintura",
+              "base_qtd": 15.6,
+              "base_unit": "m²",
+              "materials": [
+                {
+                  "material_id": "c78de617-6522-4473-ba05-185c25693f47",
+                  "_name": "Tinta acrílica premium"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "Pintor",
+              "base_qtd": 4.68,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "159de8c7-417c-4dbe-8159-234b4f574cee",
+                  "_name": "Pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura_acrilica_teto",
+          "_name": "Pintura acrílica teto",
+          "quantity": 8.0,
+          "material_categories": [
+            {
+              "material_category_id": "pintura",
+              "_name": "Pintura",
+              "base_qtd": 8.0,
+              "base_unit": "m²",
+              "materials": [
+                {
+                  "material_id": "6ad41b74-4a94-473e-8e57-d80d7f4ed2bf",
+                  "_name": "Tinta acrílica premium"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "Pintor",
+              "base_qtd": 2.4,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "9ccee0e5-4a00-4668-8b50-53e1d4f62ced",
+                  "_name": "Pintor"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "space_id": "82fb8d23-dbe4-4e93-8a97-47acdcc59971",
+      "_name": "Banheiro",
+      "area": 5,
+      "height": 2.6,
+      "services": [
+        {
+          "service_id": "pintura_acrilica_antimofo_teto",
+          "_name": "Pintura acrílica antimofo teto",
+          "quantity": 4.0,
+          "material_categories": [
+            {
+              "material_category_id": "pintura",
+              "_name": "Pintura",
+              "base_qtd": 4.0,
+              "base_unit": "m²",
+              "materials": [
+                {
+                  "material_id": "f56d3ed5-d522-472a-ba3e-388c62d6b260",
+                  "_name": "Tinta acrílica premium"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "Pintor",
+              "base_qtd": 1.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "714cfc12-ce10-4617-bafb-0ac26357e879",
+                  "_name": "Pintor"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "space_id": "f784c43f-455f-498d-9e13-ff3cdba13339",
+      "_name": "Corredor",
+      "area": 10,
+      "height": 2.6,
+      "services": [
+        {
+          "service_id": "massa_corrida_pva",
+          "_name": "Massa corrida PVA",
+          "quantity": 12.0,
+          "material_categories": [
+            {
+              "material_category_id": "pintura",
+              "_name": "Pintura",
+              "base_qtd": 12.0,
+              "base_unit": "m²",
+              "materials": [
+                {
+                  "material_id": "1b453636-e3d2-409f-9e83-d5d64c2d4e14",
+                  "_name": "Massa corrida PVA"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "Pintor",
+              "base_qtd": 2.4,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "27f4fe57-28f0-4d13-b19e-9d2eabc7856c",
+                  "_name": "Pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura_latex_2_demaos_parede",
+          "_name": "Pintura látex 2 demãos parede",
+          "quantity": 12.0,
+          "material_categories": [
+            {
+              "material_category_id": "pintura",
+              "_name": "Pintura",
+              "base_qtd": 12.0,
+              "base_unit": "m²",
+              "materials": [
+                {
+                  "material_id": "8a0d5463-a5f5-49b7-afc5-163d79a753b3",
+                  "_name": "Tinta acrílica premium"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "Pintor",
+              "base_qtd": 3.6,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "7c45d999-4357-45a8-bc54-0921a72e8292",
+                  "_name": "Pintor"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "space_id": "1e7b2fb4-1777-41cc-b76f-eebe92f503d6",
+      "_name": "Geral",
+      "area": 10,
+      "height": 2.6,
+      "services": [
+        {
+          "service_id": "pintura_de_portas",
+          "_name": "Pintura de portas",
+          "quantity": 6.0,
+          "material_categories": [
+            {
+              "material_category_id": "pintura",
+              "_name": "Pintura",
+              "base_qtd": 6.0,
+              "base_unit": "un",
+              "materials": [
+                {
+                  "material_id": "9ab4190d-2245-43c1-a1f4-3e8fc71fad68",
+                  "_name": "Tinta acrílica premium"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "Pintor",
+              "base_qtd": 1.8,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "cd5a5f05-77cb-4d1e-977d-8805a04315e7",
+                  "_name": "Pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura_de_guarnicoes",
+          "_name": "Pintura de guarnições",
+          "quantity": 36.0,
+          "material_categories": [
+            {
+              "material_category_id": "pintura",
+              "_name": "Pintura",
+              "base_qtd": 36.0,
+              "base_unit": "m",
+              "materials": [
+                {
+                  "material_id": "5fa0a3e2-dd80-45f2-a372-e9f6e3fa8500",
+                  "_name": "Tinta acrílica premium"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "Pintor",
+              "base_qtd": 10.8,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "98905ac6-a96c-474b-bb98-eeef7487541b",
+                  "_name": "Pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "limpeza_final",
+          "_name": "Limpeza final",
+          "quantity": 65.0,
+          "material_categories": [],
+          "labor_categories": []
+        }
+      ]
+    }
+  ]
+}
