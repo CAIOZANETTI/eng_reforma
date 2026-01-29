@@ -1,0 +1,11 @@
+id,tipo,área (ambiente),area_m2,qtd_imovel (padrão 2Q+1B),acabamento (popular / médio / luxo / comercial),descrição da reforma (sem ampliação)
+1,Casa,Lavabo,4.0,3Q+2B,Médio,"Reforma completa: pintura, troca de pisos áreas sociais, reforma de lavabo de banheiros, marcenaria de cozinha"
+2,Casa,Quintal,45.0,2Q+2B,Popular,"Reforma rápida: pintura geral, troca de luminárias, revisão elétrica, pequenos reparos"
+3,Casa,Garagem,44.0,1Q+1B,Médio,"Reforma completa: pintura, troca de pisos áreas sociais, reforma de garagem de banheiros, marcenaria de cozinha"
+4,Casa,Quarto,24.0,2Q+1B,Popular,"Quarto básico: pintura, piso vinílico sobreposto, rodapé, luminárias novas"
+5,Apto,Sala,32.0,2Q+2B,Médio,"Sala moderna: piso laminado/porcelanato, forro com iluminação embutida, painel de TV, pintura de destaque"
+6,Casa,Varanda,18.0,2Q+2B,Médio,"Reforma completa: pintura, troca de pisos áreas sociais, reforma de varanda de banheiros, marcenaria de cozinha"
+7,Apto,Cozinha americana,22.0,4Q+3B,Médio,"Reforma completa: pintura, troca de pisos áreas sociais, reforma de cozinha americana de banheiros, marcenaria de cozinha"
+8,Casa,Varanda,10.0,2Q+1B,Médio,"Reforma completa: pintura, troca de pisos áreas sociais, reforma de varanda de banheiros, marcenaria de cozinha"
+9,Apto,Cozinha,14.0,2Q+1B,Popular,"Cozinha funcional: pintura lavável, revestimento básico área molhada, bancada granito, cuba/torneira simples"
+10,Apto,Cozinha americana,13.0,2Q+2B,Luxo,"Retrofit completo: demolição, novo projeto de interiores, materiais premium, automação residencial"
