@@ -1,0 +1,12 @@
+item,ambiente,servico,descricao,codigo_sinapi,unidade,quantidade,preco_unitario,preco_parcial
+1,Cozinha,Demolição de revestimentos,Demolição de revestimentos - Cozinha,97622,m²,40.91,44.75,1830.72
+2,Cozinha,Contrapiso,Contrapiso - Cozinha,94990,m²,18.0,62.5,1125.0
+3,Cozinha,Revestimento piso,Revestimento piso - Cozinha,87878,m²,19.8,178.75,3539.25
+4,Cozinha,Revestimento parede,Revestimento parede - Cozinha,87878,m²,50.4,178.75,9009.0
+5,Cozinha,Rejunte,Rejunte - Cozinha,88485,m²,63.82,16.62,1060.69
+6,Cozinha,Bancada quartzo,Bancada quartzo - Cozinha,89357,m,6.93,1212.5,8402.62
+7,Cozinha,Cuba dupla,Cuba dupla - Cozinha,86911,un,1.0,656.25,656.25
+8,Cozinha,Torneira gourmet,Torneira gourmet - Cozinha,86942,un,1.0,781.25,781.25
+9,Cozinha,Marcenaria sob medida,Marcenaria sob medida - Cozinha,87878,m,10.39,178.75,1857.21
+10,Cozinha,Iluminação de bancada,Iluminação de bancada - Cozinha,93281,m,6.93,137.5,952.88
+,,TOTAL GERAL,,,,,,29214.87

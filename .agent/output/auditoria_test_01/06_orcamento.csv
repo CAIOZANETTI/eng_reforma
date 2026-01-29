@@ -1,0 +1,6 @@
+item,ambiente,servico,descricao,codigo_sinapi,unidade,quantidade,preco_unitario,preco_parcial
+1,Salão,Preparo de superfície,Preparo de superfície - Salão,88627,m²,186.41,23.0,4287.43
+2,Salão,Massa corrida,Massa corrida - Salão,88627,m²,186.41,23.0,4287.43
+3,Salão,Selador,Selador - Salão,88628,m²,186.41,15.62,2911.72
+4,Salão,Pintura 2 demãos,Pintura 2 demãos - Salão,88625,m²,186.41,38.12,7105.95
+,,TOTAL GERAL,,,,,,18592.53

@@ -1,0 +1,290 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-29T23:47:36.569005Z",
+  "template": {
+    "title": "Cozinha Luxo 18m2",
+    "description": "Reforma completa de cozinha padrão Luxo",
+    "language_code": "pt-BR",
+    "property_type": "apto",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Cozinha Luxo 18m2",
+    "total_area": 16.36
+  },
+  "spaces": [
+    {
+      "space_id": "dcda6448-d488-4d63-b08f-ee8d878a4206",
+      "_name": "Cozinha",
+      "area": 16.36,
+      "height": 2.6,
+      "services": [
+        {
+          "service_id": "demolicao_de_revestimentos",
+          "_name": "Demolição de revestimentos",
+          "quantity": 40.91,
+          "material_categories": [],
+          "labor_categories": [
+            {
+              "labor_category_id": "servente",
+              "_name": "Servente",
+              "base_qtd": 20.45,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "5807503d-8b2b-4a89-97b4-2b907cfa60fc",
+                  "_name": "Servente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "contrapiso",
+          "_name": "Contrapiso",
+          "quantity": 18.0,
+          "material_categories": [],
+          "labor_categories": [
+            {
+              "labor_category_id": "pedreiro",
+              "_name": "Pedreiro",
+              "base_qtd": 14.4,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "2ee97a50-24ad-4bd7-9c72-3a7f8b29ac09",
+                  "_name": "Pedreiro"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "revestimento_piso",
+          "_name": "Revestimento piso",
+          "quantity": 19.8,
+          "material_categories": [
+            {
+              "material_category_id": "revestimento",
+              "_name": "Revestimento",
+              "base_qtd": 19.8,
+              "base_unit": "m²",
+              "materials": [
+                {
+                  "material_id": "206a300d-de36-436b-b478-bfcd22cf27d8",
+                  "_name": "Porcelanato 60x60"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "azulejista",
+              "_name": "Azulejista",
+              "base_qtd": 19.8,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "a6a3e89e-1858-47b8-8be1-91440b611377",
+                  "_name": "Azulejista"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "revestimento_parede",
+          "_name": "Revestimento parede",
+          "quantity": 50.4,
+          "material_categories": [
+            {
+              "material_category_id": "revestimento",
+              "_name": "Revestimento",
+              "base_qtd": 50.4,
+              "base_unit": "m²",
+              "materials": [
+                {
+                  "material_id": "786b8f76-53e9-41d1-a426-9d0af21d81d8",
+                  "_name": "Porcelanato 60x60"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "azulejista",
+              "_name": "Azulejista",
+              "base_qtd": 50.4,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "d784a326-48a8-4ebe-bcc9-46e600fa4365",
+                  "_name": "Azulejista"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "rejunte",
+          "_name": "Rejunte",
+          "quantity": 63.82,
+          "material_categories": [
+            {
+              "material_category_id": "acessorios",
+              "_name": "Acessórios",
+              "base_qtd": 63.82,
+              "base_unit": "m²",
+              "materials": [
+                {
+                  "material_id": "a8e38060-c4dd-426a-b253-e053d70ad8b7",
+                  "_name": "Rejunte comum"
+                }
+              ]
+            }
+          ],
+          "labor_categories": []
+        },
+        {
+          "service_id": "bancada_quartzo",
+          "_name": "Bancada quartzo",
+          "quantity": 6.93,
+          "material_categories": [
+            {
+              "material_category_id": "bancadas",
+              "_name": "Bancadas",
+              "base_qtd": 6.93,
+              "base_unit": "m",
+              "materials": [
+                {
+                  "material_id": "16acebb6-7bef-45ff-8ac6-9b379076984f",
+                  "_name": "Bancada quartzo"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "marmorista",
+              "_name": "Marmorista",
+              "base_qtd": 10.39,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "122b18e4-5ad8-447f-a339-779680aa1dcc",
+                  "_name": "Marmorista"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "cuba_dupla",
+          "_name": "Cuba dupla",
+          "quantity": 1.0,
+          "material_categories": [
+            {
+              "material_category_id": "loucas",
+              "_name": "Louças",
+              "base_qtd": 1.0,
+              "base_unit": "un",
+              "materials": [
+                {
+                  "material_id": "d9554490-aa55-49d0-a115-f9a190b88ff5",
+                  "_name": "Cuba de apoio"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "encanador",
+              "_name": "Encanador",
+              "base_qtd": 1.0,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "fe8eccd4-3b62-45e1-80c7-65409a911eca",
+                  "_name": "Encanador"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "torneira_gourmet",
+          "_name": "Torneira gourmet",
+          "quantity": 1.0,
+          "material_categories": [
+            {
+              "material_category_id": "metais",
+              "_name": "Metais",
+              "base_qtd": 1.0,
+              "base_unit": "un",
+              "materials": [
+                {
+                  "material_id": "7930c0b0-1813-4969-9056-0b33a44f8421",
+                  "_name": "Torneira monocomando"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "encanador",
+              "_name": "Encanador",
+              "base_qtd": 0.5,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "07d1ffea-2b45-4f33-8505-17cce2e77920",
+                  "_name": "Encanador"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "marcenaria_sob_medida",
+          "_name": "Marcenaria sob medida",
+          "quantity": 10.39,
+          "material_categories": [],
+          "labor_categories": []
+        },
+        {
+          "service_id": "iluminacao_de_bancada",
+          "_name": "Iluminação de bancada",
+          "quantity": 6.93,
+          "material_categories": [
+            {
+              "material_category_id": "bancadas",
+              "_name": "Bancadas",
+              "base_qtd": 6.93,
+              "base_unit": "m",
+              "materials": [
+                {
+                  "material_id": "56bd111d-ae6c-419e-95a4-51e3b050dcbf",
+                  "_name": "Bancada quartzo"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "marmorista",
+              "_name": "Marmorista",
+              "base_qtd": 10.39,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "b921b844-55ef-4470-8633-8b58f02e6177",
+                  "_name": "Marmorista"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
