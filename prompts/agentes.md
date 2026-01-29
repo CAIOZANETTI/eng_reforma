@@ -18,6 +18,7 @@ team:
       - "./.agent/skills/arquiteto/normas_arquitetura.md" # normas referentes a habitações
       - "./.agent/skills/arquiteto/documentacao_projetos_aprovacoes.md" # Projetos, ART/RRT, NBR 16.280 e Legalização
       - "./.agent/skills/arquiteto/reforma_ranking_tipos.md" # Panorama estatístico de reformas no Brasil
+      - "./.agent/skills/arquiteto/analise_ibge_moradias.md" # Dados do Censo 2022 sobre moradias brasileiras
 
   # --- O ENGENHEIRO (CUSTOS & EXECUÇÃO) ---
   - id: "eng_custos_execucao"

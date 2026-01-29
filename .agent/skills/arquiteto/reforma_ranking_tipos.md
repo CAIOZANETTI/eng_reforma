@@ -346,7 +346,7 @@ Baseado em pesquisas de mercado e déficit setorial:
 
 ## 11. Base de Dados de Tipos de Reforma
 
-Com base nas estatísticas deste documento, foi criada a base de dados `lista_reforma_ranking.csv` com **150 tipos de reforma únicos**, projetada para cobrir aproximadamente **90% da demanda do mercado brasileiro**.
+Com base nas estatísticas deste documento, foi criada a base de dados `lista_reforma_ranking.csv` com **150 tipos de reforma únicos**, projetada para cobrir aproximadamente **60% da demanda do mercado brasileiro** (conforme análise combinatória na seção 11.5).
 
 ### 11.1 Cobertura por Categoria
 
@@ -372,12 +372,20 @@ Com base nas estatísticas deste documento, foi criada a base de dados `lista_re
 
 ### 11.2 Cobertura por Tipo de Imóvel
 
-| Tipo de Imóvel | Variações | Configurações |
-|----------------|-----------|---------------|
-| **Apartamentos** | ~50% | 1Q+1B, 2Q+1B, 2Q+2B, 3Q+2B |
-| **Casas** | ~35% | 2Q+1B, 3Q+2B, 4Q+3B |
-| **Escritórios** | ~10% | 0Q+1B, 0Q+2B, 0Q+4B |
-| **Outros Comerciais** | ~5% | Loja, Clínica, Restaurante |
+*Nota: Embora casas representem 84,8% dos domicílios (IBGE 2022), apartamentos têm maior taxa de reforma proporcional (21% das reformas realizadas, segundo AGP Research). A proporção no CSV reflete a demanda de reformas, não a distribuição habitacional.*
+
+| Tipo de Imóvel | Variações no CSV | Proporção Habitacional (IBGE) | Proporção de Reformas (AGP) |
+|----------------|-----------------|------------------------------|----------------------------|
+| **Casas** | ~55% | 84,8% | 77% |
+| **Apartamentos** | ~30% | 12,5% | 21% |
+| **Escritórios** | ~10% | — | — |
+| **Outros Comerciais** | ~5% | — | — |
+
+**Configurações mais relevantes (baseadas no Censo 2022):**
+- **3Q+2B**: Configuração mais comum (~35% dos domicílios) ← prioridade
+- **2Q+1B**: Segunda mais comum (~25%)
+- **4Q+3B+**: Famílias maiores e alto padrão (~22%)
+- **1Q+1B**: Studios e compactos (~3%)
 
 ### 11.3 Cobertura por Nível de Acabamento
 
@@ -398,6 +406,8 @@ obra_ninja/csv/lista_reforma/lista_reforma_ranking.csv
 ```
 id, tipo, área (ambiente), area_m2, qtd_imovel, acabamento, descrição da reforma
 ```
+
+**Referência cruzada:** Para validação dos dados habitacionais, consulte `analise_ibge_moradias.md` no mesmo diretório, que contém estatísticas oficiais do Censo 2022 sobre tipos de domicílios, configurações, materiais e saneamento.
 
 ### 11.5 Plano de Expansão de Cobertura
 
