@@ -1,6 +1,10 @@
 seguinte quero organizar a estrutura dos agentes
 
-agent/rules ( usar codigo em python, pensar somente em reforma sem ampliação)
+agent/rules/reforma_sem_ampliacao.md
+agent/rules/uso_python_obrigatorio.md
+agent/rules/uso_python_obrigatorio.md
+
+workflows/json_refoma.md ( utilizar as skill para criar um json de reforma valido padrão obra ninja)
 
 agent/skills/imoveis_brasil/skill.md  (rastrear tipo de moradia no brasil, tipo )
 agent/skills/imoveis_brasil/scripts/  ()
