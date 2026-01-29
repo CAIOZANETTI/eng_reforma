@@ -1,3 +1,7 @@
+---
+trigger: always_on
+---
+
 # Regra: Seguir Template Obra Ninja
 
 ## Descrição
@@ -75,34 +79,8 @@ Todos os JSONs gerados devem seguir estritamente o schema **Obra Ninja V1**. Mat
 
 ## Listas de Referência
 
-### Ambientes Válidos (`lista_ambientes.csv`)
-- Banheiro
-- Banheiro social
-- Lavabo
-- Quarto
-- Quarto solteiro
-- Quarto hóspedes
-- Suíte
-- Suíte master
-- Cozinha
-- Cozinha americana
-- Sala
-- Sala + cozinha integradas
-- Lavanderia
-- Varanda
-- Varanda gourmet
-- Home office
-- Área gourmet
-- Garagem
-- Quintal
-- Fachada
-- Telhado
-- Piscina
-- Edícula
-- Recepção
-- Open space
-- Consultório
-- Copa
+### Ambientes Válidos (`ambientes-29012026.csv`)
+### Materiais Válidos (`materials-29012026.csv`)
 
 ### Unidades Válidas
 | Código | Descrição |
