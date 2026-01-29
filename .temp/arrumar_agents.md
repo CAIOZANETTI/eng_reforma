@@ -2,14 +2,16 @@ seguinte quero organizar a estrutura dos agentes
 
 agent/rules/reforma_sem_ampliacao.md
 agent/rules/uso_python_obrigatorio.md
-agent/rules/uso_python_obrigatorio.md
+agent/rules/seguir_template_obra_ninja.md (lista material id e comodos não pode incluir materiais ou ambientes que não esteja em nosso escopo)
 
 workflows/json_refoma.md ( utilizar as skill para criar um json de reforma valido padrão obra ninja)
+workflows/ranking_ibge_json.md ( para cada linha reforma_ibge_ranking_50.csv salvar o arquivo json, utilizadno o workflows/json_refoma.md )
 
 agent/skills/imoveis_brasil/skill.md  (rastrear tipo de moradia no brasil, tipo )
-agent/skills/imoveis_brasil/scripts/  ()
+agent/skills/imoveis_brasil/scripts/  (criar opçoes refoma baseado ranking ibge)
 agent/skills/imoveis_brasil/exemplos/ (tabelas de areas de moradias, apto, casa, escritorios)
-agent/skills/imoveis_brasil/exemplos/ (ranking das moradias no brasil qual tipo tem mais)
+agent/skills/imoveis_brasil/exemplos/ (ranking das moradias no brasil qual tipo tem mais,reforma_ibge_ranking_50.csv, reforma_ibge_ranking_100.csv)
+agent/skills/imoveis_brasil/exemplos/ (reforma_ibge_ranking_200.csv,reforma_ibge_ranking_500.csv,reforma_ibge_ranking_1000.csv,reforma_ibge_ranking_5000.csv)
 agent/skills/imoveis_brasil/resource/ (dados de ibge)
 agent/skills/imoveis_brasil/resource/ (dados reais de imoveis no brasil seconci )
 
@@ -29,6 +31,7 @@ agent/skills/projeto_reformas/resource/ (padrão de acabamento popular, medio, l
 agent/skills/quantificar_reforma/skill.md  (com base na area e tipo do imovel, quantificar os serviços, area piso, parede, janela porta)
 agent/skills/quantificar_reforma/scripts/  (criar um codigo python com entrada do imovel retorna area dos ambientes e quantidades)
 agent/skills/quantificar_reforma/exemplos/ (exomplo de planlha do script)
+agent/skills/quantificar_reforma/exemplos/ (exemplo planilha de reforma quantidades)
 agent/skills/quantificar_reforma/resource/ (normas e conceitos de para deteminar area dos ambientes e altura pe direito)
 
 agent/skills/escopo_reforma/skill.md  (com base na area e tipo do imovel, quantificar os serviços, area piso, parede, janela porta)
