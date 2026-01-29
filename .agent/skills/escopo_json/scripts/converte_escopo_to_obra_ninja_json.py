@@ -16,8 +16,8 @@ from pathlib import Path
 
 # Diretório base
 SCRIPT_DIR = Path(__file__).parent.parent
-AMBIENTES_CSV = SCRIPT_DIR / "resources" / "lista_ambientes.csv"
-MATERIAIS_CSV = SCRIPT_DIR / "resources" / "lista_materiais.csv"
+AMBIENTES_CSV = SCRIPT_DIR / "resources" / "ambientes-29012026.csv"
+MATERIAIS_CSV = SCRIPT_DIR / "resources" / "materials-29012026.csv"
 
 
 def gerar_uuid():
@@ -39,7 +39,10 @@ def normalizar_slug(texto):
 
 
 def carregar_materiais(filepath):
-    """Carrega lista de materiais para mapeamento."""
+    """
+    Carrega lista de materiais para mapeamento.
+    Suporta formato antigo e novo formato Obra Ninja (ID,Name).
+    """
     materiais = {}
     if not os.path.exists(filepath):
         return materiais
@@ -47,14 +50,50 @@ def carregar_materiais(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
-            nome = row.get("nome", "").lower()
-            materiais[nome] = {
-                "material_id": row.get("material_id", gerar_uuid()),
-                "nome": row.get("nome", ""),
-                "categoria": row.get("categoria", ""),
-                "unidade": row.get("unidade", "un"),
-            }
+            # Novo formato: ID,Name
+            if "Name" in row:
+                nome = row.get("Name", "").strip().lower()
+                uuid_id = row.get("ID", "").strip()
+                if nome:
+                    materiais[nome] = {
+                        "material_id": uuid_id if uuid_id else gerar_uuid(),
+                        "nome": row.get("Name", "").strip(),
+                        "categoria": "",
+                        "unidade": "un",
+                    }
+            # Formato antigo: nome
+            elif "nome" in row:
+                nome = row.get("nome", "").lower()
+                materiais[nome] = {
+                    "material_id": row.get("material_id", gerar_uuid()),
+                    "nome": row.get("nome", ""),
+                    "categoria": row.get("categoria", ""),
+                    "unidade": row.get("unidade", "un"),
+                }
     return materiais
+
+
+def carregar_ambientes(filepath):
+    """
+    Carrega lista de ambientes com UUIDs oficiais.
+    Retorna dict: nome_lower -> {id, nome}
+    """
+    ambientes = {}
+    if not os.path.exists(filepath):
+        return ambientes
+    
+    with open(filepath, 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            if "Name" in row:
+                nome = row.get("Name", "").strip()
+                uuid_id = row.get("ID", "").strip()
+                if nome:
+                    ambientes[nome.lower()] = {
+                        "id": uuid_id,
+                        "nome": nome
+                    }
+    return ambientes
 
 
 def inferir_tipo_imovel(ambientes):

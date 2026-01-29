@@ -16,23 +16,39 @@ from datetime import datetime
 
 # Diretório base
 SCRIPT_DIR = Path(__file__).parent.parent
-AMBIENTES_CSV = SCRIPT_DIR / "resources" / "lista_ambientes.csv"
-MATERIAIS_CSV = SCRIPT_DIR / "resources" / "lista_materiais.csv"
+AMBIENTES_CSV = SCRIPT_DIR / "resources" / "ambientes-29012026.csv"
+MATERIAIS_CSV = SCRIPT_DIR / "resources" / "materials-29012026.csv"
 
 
 def carregar_lista_valida(filepath):
-    """Carrega lista de nomes válidos de um CSV."""
+    """
+    Carrega lista de nomes válidos de um CSV.
+    Suporta formato antigo (nome) e novo formato Obra Ninja (ID,Name).
+    """
     nomes = set()
+    ids = {}  # Mapeia nome -> UUID
+    
     if not os.path.exists(filepath):
-        return nomes
+        return nomes, ids
     
     with open(filepath, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
-            nome = row.get("nome", "").strip()
-            if nome:
-                nomes.add(nome.lower())
-    return nomes
+            # Novo formato: ID,Name
+            if "Name" in row:
+                nome = row.get("Name", "").strip()
+                uuid_id = row.get("ID", "").strip()
+                if nome:
+                    nomes.add(nome.lower())
+                    if uuid_id:
+                        ids[nome.lower()] = uuid_id
+            # Formato antigo: nome
+            elif "nome" in row:
+                nome = row.get("nome", "").strip()
+                if nome:
+                    nomes.add(nome.lower())
+    
+    return nomes, ids
 
 
 def validar_uuid(valor):
@@ -210,8 +226,9 @@ def validar_json(data, ambientes_csv=None, materiais_csv=None):
     
     # Carregar listas de validação
     ambientes_validos = set()
+    ambientes_ids = {}
     if ambientes_csv and os.path.exists(ambientes_csv):
-        ambientes_validos = carregar_lista_valida(ambientes_csv)
+        ambientes_validos, ambientes_ids = carregar_lista_valida(ambientes_csv)
     
     # Validar estrutura raiz
     erros, warnings = validar_estrutura_raiz(data)

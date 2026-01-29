@@ -96,8 +96,8 @@ Todos os JSONs gerados devem seguir estritamente o schema **Obra Ninja V1**. Mat
 ## Validação Obrigatória
 Antes de exportar qualquer JSON:
 1. Validar contra `obra_ninja_schema.json`
-2. Verificar se todos os `_name` de spaces estão em `lista_ambientes.csv`
-3. Verificar se todos os `_name` de materials estão em `lista_materiais.csv`
+2. Verificar se todos os `_name` de spaces estão em `ambientes-29012026.csv`
+3. Verificar se todos os `_name` de materials estão em `materials-29012026.csv`
 4. Garantir que `total_area` = soma das áreas dos spaces
 
 ## Consequências de Violação
