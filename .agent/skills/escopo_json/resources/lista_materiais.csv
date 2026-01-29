@@ -1,0 +1,101 @@
+material_id,nome,categoria,unidade,padrao,preco_ref
+MAT-001,Porcelanato 60x60,Revestimento,m²,Médio,95.00
+MAT-002,Porcelanato 90x90,Revestimento,m²,Luxo,180.00
+MAT-003,Porcelanato grande formato 1.20x2.40,Revestimento,m²,Luxo,280.00
+MAT-004,Cerâmica 45x45,Revestimento,m²,Popular,45.00
+MAT-005,Cerâmica 60x60,Revestimento,m²,Popular,55.00
+MAT-006,Piso vinílico clicado,Revestimento,m²,Popular,65.00
+MAT-007,Piso vinílico premium,Revestimento,m²,Médio,110.00
+MAT-008,Piso laminado econômico,Revestimento,m²,Popular,45.00
+MAT-009,Piso laminado qualidade,Revestimento,m²,Médio,85.00
+MAT-010,Piso de madeira maciça,Revestimento,m²,Luxo,350.00
+MAT-011,Piso de madeira engenheirada,Revestimento,m²,Luxo,280.00
+MAT-012,Porcelanato madeirado,Revestimento,m²,Médio,120.00
+MAT-013,Piso intertravado,Revestimento,m²,Popular,75.00
+MAT-014,Piso cerâmico externo,Revestimento,m²,Popular,55.00
+MAT-015,Tinta acrílica standard,Pintura,l,Popular,85.00
+MAT-016,Tinta acrílica premium,Pintura,l,Médio,180.00
+MAT-017,Tinta texturizada,Pintura,l,Médio,95.00
+MAT-018,Tinta epóxi piso,Pintura,l,Comercial,220.00
+MAT-019,Massa corrida PVA,Pintura,kg,Popular,8.00
+MAT-020,Selador acrílico,Pintura,l,Popular,45.00
+MAT-021,Vaso sanitário econômico,Louças,un,Popular,280.00
+MAT-022,Vaso sanitário Deca,Louças,un,Médio,650.00
+MAT-023,Vaso sanitário design,Louças,un,Luxo,1800.00
+MAT-024,Cuba de apoio,Louças,un,Médio,320.00
+MAT-025,Cuba esculpida,Louças,un,Luxo,1200.00
+MAT-026,Cuba inox simples,Louças,un,Popular,180.00
+MAT-027,Cuba inox dupla,Louças,un,Médio,450.00
+MAT-028,Torneira básica,Metais,un,Popular,85.00
+MAT-029,Torneira monocomando,Metais,un,Médio,280.00
+MAT-030,Torneira gourmet,Metais,un,Médio,550.00
+MAT-031,Torneira design,Metais,un,Luxo,1500.00
+MAT-032,Ducha higiênica,Metais,un,Médio,180.00
+MAT-033,Chuveiro elétrico,Metais,un,Popular,120.00
+MAT-034,Ducha com cromoterapia,Metais,un,Luxo,2500.00
+MAT-035,Bancada granito cinza,Bancadas,m,Popular,350.00
+MAT-036,Bancada quartzo,Bancadas,m,Médio,850.00
+MAT-037,Bancada mármore,Bancadas,m,Luxo,1200.00
+MAT-038,Bancada Silestone,Bancadas,m,Luxo,1500.00
+MAT-039,Box acrílico,Box,m²,Popular,180.00
+MAT-040,Box vidro temperado 8mm,Box,m²,Médio,450.00
+MAT-041,Box vidro 10mm até teto,Box,m²,Luxo,680.00
+MAT-042,Manta asfáltica 3mm,Impermeabilização,m²,Médio,45.00
+MAT-043,Manta asfáltica aluminizada,Impermeabilização,m²,Médio,65.00
+MAT-044,Membrana acrílica,Impermeabilização,m²,Popular,35.00
+MAT-045,Gesso acartonado ST,Forro,m²,Médio,55.00
+MAT-046,Gesso acartonado RU,Forro,m²,Médio,75.00
+MAT-047,Moldura de gesso,Forro,m,Médio,25.00
+MAT-048,Sanca de gesso,Forro,m,Médio,85.00
+MAT-049,Luminária LED embutida,Iluminação,un,Médio,45.00
+MAT-050,Spot LED,Iluminação,un,Médio,35.00
+MAT-051,Perfil LED,Iluminação,m,Luxo,120.00
+MAT-052,Fita LED,Iluminação,m,Médio,25.00
+MAT-053,Lustre/Pendente,Iluminação,un,Médio,350.00
+MAT-054,Lustre design,Iluminação,un,Luxo,1500.00
+MAT-055,Armário MDP,Marcenaria,m²,Popular,450.00
+MAT-056,Armário MDF melamínico,Marcenaria,m²,Médio,650.00
+MAT-057,Armário MDF laqueado,Marcenaria,m²,Luxo,950.00
+MAT-058,Ferragens Blum,Marcenaria,un,Luxo,85.00
+MAT-059,Ferragens Hettich,Marcenaria,un,Luxo,75.00
+MAT-060,Telha cerâmica,Telhado,un,Popular,2.50
+MAT-061,Telha concreto,Telhado,un,Médio,4.50
+MAT-062,Telha fibrocimento,Telhado,m²,Popular,35.00
+MAT-063,Calha alumínio,Telhado,m,Médio,65.00
+MAT-064,Condutor alumínio,Telhado,m,Médio,45.00
+MAT-065,Janela alumínio,Esquadrias,m²,Médio,550.00
+MAT-066,Janela alumínio vidro duplo,Esquadrias,m²,Luxo,850.00
+MAT-067,Porta semi-oca,Portas,un,Popular,280.00
+MAT-068,Porta maciça,Portas,un,Médio,650.00
+MAT-069,Porta acústica,Portas,un,Luxo,1800.00
+MAT-070,Fechadura comum,Portas,un,Popular,45.00
+MAT-071,Fechadura digital,Portas,un,Luxo,850.00
+MAT-072,Motor portão,Automação,un,Médio,850.00
+MAT-073,Interruptor inteligente,Automação,un,Luxo,180.00
+MAT-074,Persiana motorizada,Automação,un,Luxo,1200.00
+MAT-075,Ar-condicionado split 9000,Climatização,un,Médio,1800.00
+MAT-076,Ar-condicionado split 12000,Climatização,un,Médio,2200.00
+MAT-077,Aquecedor a gás,Aquecimento,un,Médio,1500.00
+MAT-078,Placa solar térmica,Aquecimento,un,Luxo,2500.00
+MAT-079,Boiler 200L,Aquecimento,un,Luxo,1800.00
+MAT-080,Rejunte comum,Acessórios,kg,Popular,12.00
+MAT-081,Rejunte epóxi,Acessórios,kg,Médio,85.00
+MAT-082,Argamassa ACII,Acessórios,kg,Médio,18.00
+MAT-083,Argamassa ACIII,Acessórios,kg,Luxo,35.00
+MAT-084,Rodapé cerâmico,Acessórios,m,Popular,18.00
+MAT-085,Rodapé MDF,Acessórios,m,Médio,25.00
+MAT-086,Rodapé embutido,Acessórios,m,Luxo,65.00
+MAT-087,Churrasqueira pré-moldada,Área gourmet,un,Médio,2500.00
+MAT-088,Churrasqueira argentina,Área gourmet,un,Luxo,5500.00
+MAT-089,Cooktop 4 bocas,Cozinha,un,Médio,850.00
+MAT-090,Coifa,Cozinha,un,Médio,1200.00
+MAT-091,Cortina de vidro,Varanda,m²,Médio,650.00
+MAT-092,Câmera de segurança,Segurança,un,Médio,350.00
+MAT-093,Cerca elétrica,Segurança,m,Médio,45.00
+MAT-094,Alarme monitorado,Segurança,un,Médio,1500.00
+MAT-095,Pastilha de piscina,Piscina,m²,Médio,180.00
+MAT-096,Vinil de piscina,Piscina,m²,Popular,120.00
+MAT-097,Bomba de piscina,Piscina,un,Médio,1200.00
+MAT-098,Barras de apoio inox,Acessibilidade,un,Médio,180.00
+MAT-099,Bacia elevada PNE,Acessibilidade,un,Médio,850.00
+MAT-100,Espelho inclinado,Acessibilidade,un,Médio,350.00

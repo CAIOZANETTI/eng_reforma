@@ -1,0 +1,79 @@
+ambiente_id,nome,tipo_imovel,area_min,area_max,altura_padrao
+AMB-001,Banheiro,todos,2.5,12,2.6
+AMB-002,Banheiro social,apto,3,8,2.6
+AMB-003,Lavabo,todos,1.5,4,2.6
+AMB-004,Quarto,todos,8,25,2.6
+AMB-005,Quarto solteiro,todos,6,15,2.6
+AMB-006,Quarto hóspedes,todos,8,18,2.6
+AMB-007,Suíte,todos,12,30,2.6
+AMB-008,Suíte master,casa,16,50,2.8
+AMB-009,Cozinha,todos,4,30,2.6
+AMB-010,Cozinha americana,apto,10,25,2.6
+AMB-011,Copa,casa,6,15,2.6
+AMB-012,Sala,todos,12,80,2.6
+AMB-013,Sala + cozinha integradas,todos,25,60,2.6
+AMB-014,Living integrado,casa,40,100,3.0
+AMB-015,Lavanderia,todos,2,15,2.6
+AMB-016,Varanda,todos,4,20,2.6
+AMB-017,Varanda gourmet,apto,8,25,2.6
+AMB-018,Home office,todos,4,20,2.6
+AMB-019,Área gourmet,casa,15,50,2.8
+AMB-020,Garagem,casa,20,60,2.8
+AMB-021,Quintal,casa,20,200,0
+AMB-022,Quintal/jardim,casa,30,300,0
+AMB-023,Fachada,todos,30,150,0
+AMB-024,Muros e portão,casa,20,100,0
+AMB-025,Escada,casa,6,20,0
+AMB-026,Telhado,casa,50,300,0
+AMB-027,Piscina,casa,15,80,0
+AMB-028,Edícula,casa,15,50,2.6
+AMB-029,Corredor + hall,todos,6,25,2.6
+AMB-030,Despensa,todos,2,10,2.6
+AMB-031,Despensa/adega,casa,4,15,2.6
+AMB-032,Área técnica,todos,2,8,2.4
+AMB-033,Casa de máquinas,casa,4,12,2.4
+AMB-034,Geral,todos,30,300,2.6
+AMB-035,Elétrica geral,todos,30,200,0
+AMB-036,Hidráulica geral,todos,30,200,0
+AMB-037,Aquecimento,casa,0,0,0
+AMB-038,Aquecimento solar,casa,0,0,0
+AMB-039,Pintura completa,todos,30,200,0
+AMB-040,Troca de pisos,todos,30,200,0
+AMB-041,Forro de gesso,todos,30,200,0
+AMB-042,Iluminação,todos,30,150,0
+AMB-043,Automação,todos,30,200,0
+AMB-044,Marcenaria cozinha,todos,6,25,0
+AMB-045,Marcenaria quarto,todos,10,25,0
+AMB-046,Marcenaria geral,casa,30,150,0
+AMB-047,Adequação acessibilidade,todos,30,150,0
+AMB-048,Banheiro PNE,todos,4,8,2.6
+AMB-049,Impermeabilização,todos,3,100,0
+AMB-050,Instalações elétricas,todos,20,150,0
+AMB-051,Instalações hidráulicas,todos,5,50,0
+AMB-052,Ar-condicionado,todos,20,150,0
+AMB-053,Central de gás,casa,0,0,0
+AMB-054,Esquadrias,todos,20,100,0
+AMB-055,Portão,casa,0,0,0
+AMB-056,Box de vidro,todos,3,10,0
+AMB-057,Troca de portas,todos,20,100,0
+AMB-058,Segurança,todos,20,150,0
+AMB-059,Tratamento acústico,todos,20,150,0
+AMB-060,Cisterna,casa,0,0,0
+AMB-061,Fossa séptica,casa,0,0,0
+AMB-062,Recepção,comercial,15,60,2.8
+AMB-063,Open space,escritorio,50,300,2.8
+AMB-064,Sala de reunião,escritorio,12,50,2.8
+AMB-065,Sala de diretoria,escritorio,15,40,2.8
+AMB-066,Área técnica TI,escritorio,20,80,2.8
+AMB-067,Infra elétrica/dados,escritorio,50,200,0
+AMB-068,Consultório,clinica,10,25,2.8
+AMB-069,Salão de vendas,loja,40,200,3.0
+AMB-070,Fachada comercial,comercial,10,50,0
+AMB-071,Salão restaurante,restaurante,50,200,3.0
+AMB-072,Cozinha industrial,restaurante,20,100,3.0
+AMB-073,Quarto infantil,todos,8,18,2.6
+AMB-074,Quarto empregada,casa,6,12,2.6
+AMB-075,Integração ambientes,apto,25,60,2.6
+AMB-076,Dormitório + closet,apto,14,30,2.6
+AMB-077,Banheiro + closet,apto,10,25,2.6
+AMB-078,Telhado manta,casa,50,200,0
