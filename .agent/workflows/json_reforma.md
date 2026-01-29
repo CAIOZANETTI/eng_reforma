@@ -28,6 +28,15 @@ Apenas dois arquivos são gerados como output final:
         └── escopo_custeado.csv
 ```
 
+## Skills Utilizadas
+
+| Skill | Diretório | Função |
+|-------|-----------|--------|
+| Quantificar | `.agent/skills/quantificar` | Calcular áreas e quantidades |
+| Escopo | `.agent/skills/escopo` | Gerar escopo detalhado |
+| Custo Reforma | `.agent/skills/custo_reforma` | Custear com SINAPI |
+| JSON | `.agent/skills/json` | Converter para Obra Ninja |
+
 ## Pré-requisitos
 - Dados do imóvel (tipo, área, acabamento)
 - Escopo de reforma definido (ambientes e serviços)
@@ -47,18 +56,18 @@ New-Item -ItemType Directory -Force -Path ".agent/.temp/{uuid}"
 tipos_validos = ["apto", "casa", "escritório", "loja", "clínica", "restaurante"]
 ```
 
-### 3. Executar Skill: Quantificar Reforma
+### 3. Executar Skill: Quantificar
 // turbo
 ```bash
-python .agent/skills/quantificar_reforma/scripts/quantificar.py \
+python .agent/skills/quantificar/scripts/quantificar.py \
   --input .agent/.temp/{uuid}/imovel_input.json \
   --output .agent/.temp/{uuid}/quantidades.csv
 ```
 
-### 4. Executar Skill: Escopo Reforma  
+### 4. Executar Skill: Escopo
 // turbo
 ```bash
-python .agent/skills/escopo_reforma/scripts/gerar_escopo.py \
+python .agent/skills/escopo/scripts/gerar_escopo.py \
   --input .agent/.temp/{uuid}/quantidades.csv \
   --output .agent/.temp/{uuid}/escopo.csv
 ```
@@ -72,10 +81,10 @@ python .agent/skills/custo_reforma/scripts/custear_reforma.py \
   --sintetico .agent/output/{nome_projeto}.md
 ```
 
-### 6. Executar Skill: Escopo JSON
+### 6. Executar Skill: JSON
 // turbo
 ```bash
-python .agent/skills/escopo_json/scripts/converte_escopo_to_obra_ninja_json.py \
+python .agent/skills/json/scripts/converte_escopo_to_obra_ninja_json.py \
   --input .agent/.temp/{uuid}/escopo_custeado.csv \
   --output .agent/output/{nome_projeto}.json \
   --nome "{Título do Projeto}" \
@@ -85,7 +94,7 @@ python .agent/skills/escopo_json/scripts/converte_escopo_to_obra_ninja_json.py \
 ### 7. Validar JSON
 // turbo
 ```bash
-python .agent/skills/escopo_json/scripts/validar_json.py \
+python .agent/skills/json/scripts/validar_json.py \
   --input .agent/output/{nome_projeto}.json
 ```
 

@@ -7,6 +7,13 @@ description: Workflow para gerar JSONs em lote a partir do ranking IBGE de refor
 ## Objetivo
 Para cada linha do arquivo `reforma_ibge_ranking_XX.csv`, gerar um arquivo JSON válido utilizando o workflow `json_reforma.md`.
 
+## Skills Utilizadas
+
+| Skill | Diretório | Função |
+|-------|-----------|--------|
+| IBGE | `.agent/skills/ibge` | Gerar ranking de reformas |
+| JSON | `.agent/skills/json` | Converter e validar JSONs |
+
 ## Pré-requisitos
 - Arquivo CSV de ranking (ex: `reforma_ibge_ranking_50.csv`)
 - Estrutura de diretórios `.agent/skills/` configurada
@@ -14,7 +21,7 @@ Para cada linha do arquivo `reforma_ibge_ranking_XX.csv`, gerar um arquivo JSON 
 
 ## Entrada
 ```
-.agent/skills/imoveis_brasil/examples/reforma_ibge_ranking_50.csv
+.agent/skills/ibge/examples/reforma_ibge_ranking_50.csv
 ```
 
 ## Saída
@@ -33,7 +40,7 @@ ranking_test_ott/
 ```bash
 python -c "
 import csv
-with open('.agent/skills/imoveis_brasil/examples/reforma_ibge_ranking_50.csv', 'r', encoding='utf-8') as f:
+with open('.agent/skills/ibge/examples/reforma_ibge_ranking_50.csv', 'r', encoding='utf-8') as f:
     reader = csv.DictReader(f)
     for row in reader:
         print(f\"ID: {row['id']} - {row['tipo']} - {row['área (ambiente)']}\")
@@ -64,19 +71,19 @@ for row in ranking_csv:
 ### 3. Executar Script de Geração em Lote
 // turbo
 ```bash
-python .agent/skills/imoveis_brasil/scripts/gerar_ranking_jsons.py --input reforma_ibge_ranking_50.csv --output ranking_test_ott/
+python .agent/skills/ibge/scripts/gerar_ranking_jsons.py --input reforma_ibge_ranking_50.csv --output ranking_test_ott/
 ```
 
 ### 4. Validar Todos os JSONs Gerados
 // turbo
 ```bash
-python .agent/skills/escopo_json/scripts/validar_lote.py --dir ranking_test_ott/
+python .agent/skills/json/scripts/validar_json.py --dir ranking_test_ott/
 ```
 
 ### 5. Gerar Relatório de Processamento
 // turbo
 ```bash
-python .agent/skills/imoveis_brasil/scripts/gerar_relatorio.py --dir ranking_test_ott/ --output relatorio_geracao.md
+python .agent/skills/ibge/scripts/gerar_relatorio.py --dir ranking_test_ott/ --output relatorio_geracao.md
 ```
 
 ## Parâmetros de Execução
@@ -92,7 +99,7 @@ python .agent/skills/imoveis_brasil/scripts/gerar_relatorio.py --dir ranking_tes
 
 ```bash
 # Gerar ranking de 50 itens com validação e relatório
-python .agent/skills/imoveis_brasil/scripts/gerar_ranking_jsons.py \
+python .agent/skills/ibge/scripts/gerar_ranking_jsons.py \
   --ranking 50 \
   --output ranking_test_ott/ \
   --validate true \
