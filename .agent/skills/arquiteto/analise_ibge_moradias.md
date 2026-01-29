@@ -321,27 +321,144 @@ Com base na média de cômodos e moradores:
 
 ---
 
-## 10. Referências e Fontes
+## 10. Catálogo de Fontes de Dados sobre Habitação no Brasil
 
-### 10.1 Fontes Primárias
+O mapeamento completo das condições de moradia no Brasil requer a consulta de múltiplas fontes de dados oficiais e privadas. Este catálogo organiza as principais fontes por categoria.
 
-| Fonte | Publicação | Acesso |
-|-------|------------|--------|
-| **IBGE** | Censo Demográfico 2022 | [ibge.gov.br/censo2022](https://censo2022.ibge.gov.br) |
-| **IBGE** | PNAD Contínua 2023 | [ibge.gov.br/pnad](https://www.ibge.gov.br/estatisticas/sociais/trabalho/17270-pnad-continua.html) |
-| **IBGE** | Sistema SIDRA | [sidra.ibge.gov.br](https://sidra.ibge.gov.br) |
-| **FGV Social** | Mapa da Nova Pobreza | [cps.fgv.br](https://cps.fgv.br) |
-| **Trata Brasil** | Ranking Saneamento | [tratabrasil.org.br](https://www.tratabrasil.org.br) |
+---
 
-### 10.2 Tabelas SIDRA Consultadas
+### 10.1 Fontes Governamentais / Oficiais
 
-| Código | Descrição |
-|--------|-----------|
-| 4714 | Domicílios por tipo |
-| 4715 | Domicílios por material das paredes |
-| 4716 | Domicílios por número de cômodos |
-| 4720 | Domicílios por tipo de esgotamento |
-| 4721 | Domicílios por abastecimento de água |
+#### IBGE - Instituto Brasileiro de Geografia e Estatística
+
+| Pesquisa/Sistema | Descrição | Periodicidade | Dados Relevantes | Acesso |
+|-----------------|-----------|---------------|------------------|--------|
+| **Censo Demográfico** | Recenseamento completo da população e domicílios | 10 anos (último: 2022) | Tipo de domicílio, material, cômodos, saneamento, moradores | [censo2022.ibge.gov.br](https://censo2022.ibge.gov.br) |
+| **PNAD Contínua** | Pesquisa por amostra domiciliar | Trimestral/Anual | Renda, emprego, condições de vida | [ibge.gov.br/pnad](https://www.ibge.gov.br/estatisticas/sociais/trabalho/17270-pnad-continua.html) |
+| **Sistema SIDRA** | Banco de dados agregados do IBGE | Contínuo | Tabelas detalhadas por UF/município | [sidra.ibge.gov.br](https://sidra.ibge.gov.br) |
+| **Síntese de Indicadores Sociais** | Compilação de condições de vida | Anual | Pobreza, desigualdade, moradia | [ibge.gov.br/sis](https://www.ibge.gov.br/estatisticas/sociais/trabalho/9221-sintese-de-indicadores-sociais.html) |
+| **SINAPI** | Custos e índices da construção civil | Mensal | Preços de materiais, mão de obra, CUB | [ibge.gov.br/sinapi](https://www.ibge.gov.br/estatisticas/economicas/precos-e-custos/9270-sistema-nacional-de-pesquisa-de-custos-e-indices-da-construcao-civil.html) |
+
+#### Ministério das Cidades / Governo Federal
+
+| Sistema/Programa | Descrição | Dados Relevantes | Acesso |
+|-----------------|-----------|------------------|--------|
+| **SNIS/SINISA** | Sistema Nacional de Informações sobre Saneamento | Água, esgoto, resíduos por município | [snis.gov.br](https://www.snis.gov.br) |
+| **CadÚnico** | Cadastro Único de Famílias de Baixa Renda | Perfil habitacional de famílias carentes | [mds.gov.br/cadunico](https://www.mds.gov.br/cadunico/) |
+| **MCMV - Minha Casa Minha Vida** | Programa habitacional federal | Unidades entregues, déficit | [caixa.gov.br/mcmv](https://www.caixa.gov.br/voce/habitacao/minha-casa-minha-vida/Paginas/default.aspx) |
+| **Planhab 2040** | Plano Nacional de Habitação | Projeções de déficit e políticas | [gov.br/cidades](https://www.gov.br/cidades/pt-br) |
+
+#### Caixa Econômica Federal
+
+| Sistema | Descrição | Dados Relevantes | Acesso |
+|---------|-----------|------------------|--------|
+| **SINAPI (parceria com IBGE)** | Custos de construção civil | Preços de insumos, composições de serviços | [caixa.gov.br/sinapi](https://www.caixa.gov.br/poder-publico/modernizacao-gestao/sinapi/Paginas/default.aspx) |
+| **Relatórios de Crédito Imobiliário** | Financiamentos habitacionais | Volume de crédito, inadimplência | [caixa.gov.br](https://www.caixa.gov.br) |
+
+---
+
+### 10.2 Fontes de Pesquisa / Academia
+
+| Instituição | Publicação | Dados Relevantes | Acesso |
+|-------------|-----------|------------------|--------|
+| **FJP - Fundação João Pinheiro** | Déficit Habitacional no Brasil | Déficit quantitativo e qualitativo, inadequação | [fjp.mg.gov.br](http://www.fjp.mg.gov.br/index.php/produtos-e-servicos1/2742-deficit-habitacional-no-brasil-3) |
+| **IPEA** | Estudos e pesquisas habitacionais | Políticas públicas, análises regionais | [ipea.gov.br](https://www.ipea.gov.br) |
+| **FGV Social** | Mapa da Nova Pobreza | Classes sociais, renda domiciliar | [cps.fgv.br](https://cps.fgv.br) |
+| **FGV/IBRE** | INCC - Índice Nacional de Custo da Construção | Variação de custos de construção | [portal.fgv.br](https://portal.fgv.br/noticias/incc) |
+| **Observatório das Metrópoles** | Estudos urbanos | Ocupação urbana, favelas | [observatoriodasmetropoles.net.br](https://www.observatoriodasmetropoles.net.br) |
+
+#### Dados de Déficit Habitacional (FJP 2023)
+
+| Componente | Quantidade | % do Total |
+|------------|-----------|------------|
+| Habitação precária | 0,9 milhão | 15,3% |
+| Coabitação familiar | 1,9 milhões | 32,2% |
+| Ônus excessivo com aluguel | 2,9 milhões | 49,2% |
+| Adensamento excessivo (locação) | 0,2 milhão | 3,4% |
+| **DÉFICIT TOTAL (2023)** | **5,9 milhões** | **8,1% dos domicílios** |
+
+---
+
+### 10.3 Fontes Setoriais / Indústria
+
+#### Construção Civil
+
+| Entidade | Dados Disponíveis | Periodicidade | Acesso |
+|----------|------------------|---------------|--------|
+| **CBIC** - Câmara Brasileira da Indústria da Construção | PIB do setor, lançamentos, vendas, CUB | Mensal/Trimestral | [cbic.org.br](https://cbic.org.br) / [cbicdados.com.br](https://cbicdados.com.br) |
+| **ABRAINC** - Associação Brasileira de Incorporadoras | Indicadores imobiliários nacionais | Trimestral | [abrainc.org.br](https://www.abrainc.org.br) |
+| **SECOVI-SP** | Mercado imobiliário São Paulo | Mensal | [secovi.com.br](https://www.secovi.com.br) |
+| **Sinduscon** (estaduais) | CUB regional, indicadores locais | Mensal | Sindicatos estaduais |
+
+#### Varejo de Materiais de Construção
+
+| Entidade | Dados Disponíveis | Periodicidade | Acesso |
+|----------|------------------|---------------|--------|
+| **ANAMACO** - Assoc. Nacional dos Com. de Material | Pesquisa de varejo, perfil de lojas, tendências | Anual/Trimestral | [anamaco.com.br](https://www.anamaco.com.br) |
+| **Termômetro do Varejo** | Desempenho de vendas de materiais | Mensal | ANAMACO/Juntos Somos Mais |
+
+#### Dados do Varejo (ANAMACO 2022)
+
+| Indicador | Valor |
+|-----------|-------|
+| Lojas de materiais de construção no Brasil | 152.960 |
+| Crescimento vs. 2021 | +12,38% |
+| Lojas de pequeno porte (até 4 funcionários) | 67,1% |
+
+---
+
+### 10.4 Fontes de Pesquisa de Mercado
+
+| Empresa/Instituto | Tipo de Pesquisa | Dados Relevantes | Acesso |
+|-------------------|-----------------|------------------|--------|
+| **AGP Research** | Comportamento do consumidor de reformas | Intenção de reforma, cômodos, materiais | Pesquisas encomendadas |
+| **Opinion Box** | Pesquisas de mercado | Intenção de compra, satisfação | [opinionbox.com](https://www.opinionbox.com) |
+| **Brain Inteligência Estratégica** | Mercado imobiliário (parceria CBIC) | Lançamentos, vendas, preços | [braininc.com.br](https://www.braininc.com.br) |
+| **Datafolha** | Pesquisas de opinião | Moradia, habitação | Pesquisas públicas |
+| **FIPE** | Índices de preços | FipeZap (preços de imóveis) | [fipe.org.br](https://www.fipe.org.br) |
+
+---
+
+### 10.5 Outras Fontes Relevantes
+
+| Fonte | Área | Dados | Acesso |
+|-------|------|-------|--------|
+| **Trata Brasil** | Saneamento básico | Ranking de saneamento por cidade | [tratabrasil.org.br](https://www.tratabrasil.org.br) |
+| **ABNT** | Normas técnicas | NBRs de construção e reforma | [abnt.org.br](https://www.abnt.org.br) |
+| **CONFEA/CREA** | Registros profissionais | ARTs emitidas, profissionais | [confea.org.br](https://www.confea.org.br) |
+| **CAU Brasil** | Registros de arquitetos | RRTs emitidas | [caubr.gov.br](https://www.caubr.gov.br) |
+| **Receita Federal** | Informações tributárias | CNAE de construção, empresas ativas | [gov.br/receitafederal](https://www.gov.br/receitafederal) |
+| **RAIS/CAGED** | Emprego formal | Trabalhadores da construção | [pdet.mte.gov.br](http://pdet.mte.gov.br) |
+
+---
+
+### 10.6 Tabelas SIDRA Consultadas (IBGE)
+
+| Código | Descrição | Uso |
+|--------|-----------|-----|
+| 4714 | Domicílios por tipo | Casas vs. apartamentos |
+| 4715 | Domicílios por material das paredes | Alvenaria, madeira, taipa |
+| 4716 | Domicílios por número de cômodos | Configurações típicas |
+| 4720 | Domicílios por tipo de esgotamento | Rede, fossa, inadequado |
+| 4721 | Domicílios por abastecimento de água | Rede, poço, cisterna |
+| 4719 | Domicílios por destino do lixo | Coleta, queima, descarte |
+| 4722 | Domicílios por existência de banheiro | Sanitários disponíveis |
+
+---
+
+### 10.7 Resumo: Fontes por Necessidade de Dados
+
+| Necessidade | Fonte Principal | Fonte Complementar |
+|-------------|----------------|-------------------|
+| **Quantos domicílios existem?** | Censo IBGE 2022 | PNAD Contínua |
+| **Como são os domicílios?** | Censo IBGE (SIDRA) | Déficit FJP |
+| **Qual a condição de saneamento?** | Censo IBGE | SNIS/Trata Brasil |
+| **Qual o perfil econômico?** | PNAD Contínua | FGV Social |
+| **Qual o déficit habitacional?** | FJP + IPEA | CadÚnico |
+| **Quanto custa construir/reformar?** | SINAPI | CUB/CBIC/INCC |
+| **Como está o mercado imobiliário?** | ABRAINC/SECOVI | CBIC |
+| **Como está o varejo de materiais?** | ANAMACO | Pesquisas AGP |
+| **Quais as tendências de reforma?** | AGP Research | Opinion Box |
 
 ---
 
@@ -367,4 +484,4 @@ Com base na média de cômodos e moradores:
 
 ---
 
-*Documento elaborado com dados oficiais do IBGE (Censo 2022 e PNAD Contínua 2023). Última atualização: Janeiro/2026.*
+*Documento elaborado com dados oficiais do IBGE (Censo 2022 e PNAD Contínua 2023) e fontes setoriais verificadas. Última atualização: Janeiro/2026.*
