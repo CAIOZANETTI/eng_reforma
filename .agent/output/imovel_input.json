@@ -1,0 +1,15 @@
+{
+    "tipo": "apto",
+    "area_total": 60,
+    "pe_direito": 2.6,
+    "ambientes": [
+        {
+            "nome": "Banheiro",
+            "area": 5
+        },
+        {
+            "nome": "Cozinha",
+            "area": 8
+        }
+    ]
+}

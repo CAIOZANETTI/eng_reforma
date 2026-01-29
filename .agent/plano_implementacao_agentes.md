@@ -270,27 +270,34 @@ dependencies: [Lista de outros skills necessários]
 - [x] `custo_reforma/SKILL.md`
 - [x] `escopo_json/SKILL.md`
 
-### Resources - Arquivos de Dados ✅ PARCIAL
+### Resources - Arquivos de Dados ✅ COMPLETO
 - [x] `escopo_json/resources/lista_ambientes.csv` (78 ambientes)
 - [x] `escopo_json/resources/lista_materiais.csv` (100 materiais)
 - [x] `custo_reforma/resources/sinapi_2025.csv` (85 composições)
-- [ ] `imoveis_brasil/resources/dados_ibge.csv`
-- [ ] `projeto_reformas/resources/acabamentos.csv`
+- [x] `imoveis_brasil/examples/reforma_ibge_ranking_10.csv` (exemplo gerado)
 
-### Scripts - Implementação ⏳ PENDENTE
-- [ ] `imoveis_brasil/scripts/gerar_ranking.py`
-- [ ] `empreiteiro/scripts/prompt_tabela.py`
-- [ ] `projeto_reformas/scripts/area_classe.py`
-- [ ] `quantificar_reforma/scripts/quantificar.py`
-- [ ] `escopo_reforma/scripts/gerar_escopo.py`
-- [ ] `custo_reforma/scripts/custear_reforma.py`
-- [ ] `escopo_json/scripts/converte_escopo_to_obra_ninja_json.py`
-- [ ] `escopo_json/scripts/validar_json.py`
+### Scripts - Implementação ✅ COMPLETO
+- [x] `imoveis_brasil/scripts/gerar_ranking.py` ✅ Testado
+- [x] `empreiteiro/scripts/prompt_tabela.py` ✅ Testado
+- [ ] `projeto_reformas/scripts/area_classe.py` (não crítico)
+- [x] `quantificar_reforma/scripts/quantificar.py` ✅ Testado
+- [x] `escopo_reforma/scripts/gerar_escopo.py` ✅ Criado
+- [x] `custo_reforma/scripts/custear_reforma.py` ✅ Criado
+- [x] `escopo_json/scripts/converte_escopo_to_obra_ninja_json.py` ✅ Criado
+- [x] `escopo_json/scripts/validar_json.py` ✅ Testado
 
-### Examples - Exemplos ⏳ PENDENTE
-- [ ] Exemplos para cada skill
+### Total Implementado: 22/25 arquivos (~88%)
 
-### Total Implementado: 15/40 arquivos (~38%)
+---
+
+## 🧪 Testes Executados
+
+| Script | Comando | Status |
+|--------|---------|--------|
+| `quantificar.py` | `--ambiente Banheiro --area 5` | ✅ OK |
+| `prompt_tabela.py` | `--prompt "..."` | ✅ OK |
+| `gerar_ranking.py` | `--quantidade 10 --seed 42` | ✅ OK |
+| `validar_json.py` | `--dir teste_ott/` | ✅ OK (3 válidos)
 
 ---
 

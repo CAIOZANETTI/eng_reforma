@@ -309,18 +309,18 @@ def main():
         # Validar arquivo único
         resultado = validar_arquivo(args.input, args.ambientes, args.materiais)
         
-        print(f"\nValidação de: {args.input}")
-        print(f"Válido: {'✅ SIM' if resultado['is_valid'] else '❌ NÃO'}")
+        print(f"\nValidacao de: {args.input}")
+        print(f"Valido: {'[OK] SIM' if resultado['is_valid'] else '[ERRO] NAO'}")
         print(f"Erros: {resultado['total_errors']}")
         print(f"Avisos: {resultado['total_warnings']}")
         
         if resultado['errors']:
-            print("\n❌ ERROS:")
+            print("\n[ERRO] ERROS:")
             for erro in resultado['errors']:
                 print(f"  - {erro}")
         
         if resultado['warnings']:
-            print("\n⚠️ AVISOS:")
+            print("\n[!] AVISOS:")
             for aviso in resultado['warnings']:
                 print(f"  - {aviso}")
         
@@ -332,15 +332,15 @@ def main():
         # Validar lote
         resultado = validar_lote(args.dir, args.ambientes, args.materiais)
         
-        print(f"\nValidação em lote: {args.dir}")
+        print(f"\nValidacao em lote: {args.dir}")
         print(f"Total de arquivos: {resultado['total_arquivos']}")
-        print(f"✅ Válidos: {resultado['validos']}")
-        print(f"❌ Inválidos: {resultado['invalidos']}")
+        print(f"[OK] Validos: {resultado['validos']}")
+        print(f"[ERRO] Invalidos: {resultado['invalidos']}")
         
         # Mostrar arquivos inválidos
         invalidos = [r for r in resultado['detalhes'] if not r['is_valid']]
         if invalidos:
-            print("\n❌ Arquivos com erros:")
+            print("\n[ERRO] Arquivos com erros:")
             for inv in invalidos[:10]:  # Mostrar primeiros 10
                 print(f"  - {inv['arquivo']}: {inv['total_errors']} erros")
         

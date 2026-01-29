@@ -1,0 +1,26 @@
+item,ambiente,servico,descricao,unidade,quantidade
+1,Banheiro,Demolição de revestimentos,Demolição de revestimentos - Banheiro,m²,26.7
+2,Banheiro,Impermeabilização premium,Impermeabilização premium - Banheiro,m²,7.5
+3,Banheiro,Contrapiso com caimento,Contrapiso com caimento - Banheiro,m²,5.0
+4,Banheiro,Porcelanato grande formato piso,Porcelanato grande formato piso - Banheiro,m²,5.75
+5,Banheiro,Porcelanato grande formato parede,Porcelanato grande formato parede - Banheiro,m²,24.95
+6,Banheiro,Rejunte epóxi,Rejunte epóxi - Banheiro,m²,26.7
+7,Banheiro,Vaso sanitário design,Vaso sanitário design - Banheiro,un,1
+8,Banheiro,Cuba esculpida,Cuba esculpida - Banheiro,un,1
+9,Banheiro,Torneira de design,Torneira de design - Banheiro,un,1
+10,Banheiro,Ducha com cromoterapia,Ducha com cromoterapia - Banheiro,un,1
+11,Banheiro,Ducha higiênica,Ducha higiênica - Banheiro,un,1
+12,Banheiro,Box vidro 10mm até teto,Box vidro 10mm até teto - Banheiro,m²,4.0
+13,Banheiro,Nicho iluminado,Nicho iluminado - Banheiro,un,2
+14,Banheiro,Forro de gesso,Forro de gesso - Banheiro,m²,5.0
+15,Banheiro,Iluminação LED,Iluminação LED - Banheiro,un,4
+16,Cozinha,Demolição de revestimentos,Demolição de revestimentos - Cozinha,m²,21.68
+17,Cozinha,Contrapiso,Contrapiso - Cozinha,m²,8.0
+18,Cozinha,Revestimento piso,Revestimento piso - Cozinha,m²,8.8
+19,Cozinha,Revestimento parede,Revestimento parede - Cozinha,m²,30.09
+20,Cozinha,Rejunte,Rejunte - Cozinha,m²,35.35
+21,Cozinha,Bancada quartzo,Bancada quartzo - Cozinha,m,4.62
+22,Cozinha,Cuba dupla,Cuba dupla - Cozinha,un,1
+23,Cozinha,Torneira gourmet,Torneira gourmet - Cozinha,un,1
+24,Cozinha,Marcenaria sob medida,Marcenaria sob medida - Cozinha,m,6.93
+25,Cozinha,Iluminação de bancada,Iluminação de bancada - Cozinha,m,4.62

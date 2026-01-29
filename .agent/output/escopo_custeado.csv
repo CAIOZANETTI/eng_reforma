@@ -1,0 +1,27 @@
+item,ambiente,servico,descricao,codigo_sinapi,unidade,quantidade,preco_unitario,preco_parcial
+1,Banheiro,Demolição de revestimentos,Demolição de revestimentos - Banheiro,97622,m²,26.7,44.75,1194.83
+2,Banheiro,Impermeabilização premium,Impermeabilização premium - Banheiro,98557,m²,7.5,133.75,1003.12
+3,Banheiro,Contrapiso com caimento,Contrapiso com caimento - Banheiro,94991,m²,5.0,78.75,393.75
+4,Banheiro,Porcelanato grande formato piso,Porcelanato grande formato piso - Banheiro,87880,m²,5.75,456.25,2623.44
+5,Banheiro,Porcelanato grande formato parede,Porcelanato grande formato parede - Banheiro,87880,m²,24.95,456.25,11383.44
+6,Banheiro,Rejunte epóxi,Rejunte epóxi - Banheiro,88486,m²,26.7,61.25,1635.38
+7,Banheiro,Vaso sanitário design,Vaso sanitário design - Banheiro,86893,un,1.0,2400.0,2400.0
+8,Banheiro,Cuba esculpida,Cuba esculpida - Banheiro,86901,un,1.0,1618.75,1618.75
+9,Banheiro,Torneira de design,Torneira de design - Banheiro,86943,un,1.0,1993.75,1993.75
+10,Banheiro,Ducha com cromoterapia,Ducha com cromoterapia - Banheiro,86951,un,1.0,218.75,218.75
+11,Banheiro,Ducha higiênica,Ducha higiênica - Banheiro,86950,un,1.0,281.25,281.25
+12,Banheiro,Box vidro 10mm até teto,Box vidro 10mm até teto - Banheiro,89367,m²,4.0,1000.0,4000.0
+13,Banheiro,Nicho iluminado,Nicho iluminado - Banheiro,93281,un,2.0,137.5,275.0
+14,Banheiro,Forro de gesso,Forro de gesso - Banheiro,96113,m²,5.0,112.5,562.5
+15,Banheiro,Iluminação LED,Iluminação LED - Banheiro,93281,un,4.0,137.5,550.0
+16,Cozinha,Demolição de revestimentos,Demolição de revestimentos - Cozinha,97622,m²,21.68,44.75,970.18
+17,Cozinha,Contrapiso,Contrapiso - Cozinha,94990,m²,8.0,62.5,500.0
+18,Cozinha,Revestimento piso,Revestimento piso - Cozinha,87878,m²,8.8,178.75,1573.0
+19,Cozinha,Revestimento parede,Revestimento parede - Cozinha,87878,m²,30.09,178.75,5378.59
+20,Cozinha,Rejunte,Rejunte - Cozinha,88485,m²,35.35,16.62,587.52
+21,Cozinha,Bancada quartzo,Bancada quartzo - Cozinha,89357,m,4.62,1212.5,5601.75
+22,Cozinha,Cuba dupla,Cuba dupla - Cozinha,86911,un,1.0,656.25,656.25
+23,Cozinha,Torneira gourmet,Torneira gourmet - Cozinha,86942,un,1.0,781.25,781.25
+24,Cozinha,Marcenaria sob medida,Marcenaria sob medida - Cozinha,87878,m,6.93,178.75,1238.74
+25,Cozinha,Iluminação de bancada,Iluminação de bancada - Cozinha,93281,m,4.62,137.5,635.25
+,,TOTAL GERAL,,,,,,48056.48999999999

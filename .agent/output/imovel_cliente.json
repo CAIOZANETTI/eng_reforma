@@ -1,0 +1,41 @@
+{
+  "tipo": "apto",
+  "area_total": 60.0,
+  "configuracao": null,
+  "acabamento": "Luxo",
+  "ambientes": [
+    {
+      "nome": "Banheiro",
+      "area_estimada": 4.8,
+      "servicos": [
+        "louças"
+      ]
+    },
+    {
+      "nome": "Cozinha",
+      "area_estimada": 7.2,
+      "servicos": [
+        "louças"
+      ]
+    },
+    {
+      "nome": "Quarto",
+      "area_estimada": 9.0,
+      "servicos": [
+        "louças"
+      ]
+    },
+    {
+      "nome": "Geral",
+      "area_estimada": 60.0,
+      "servicos": [
+        "reforma completa"
+      ]
+    }
+  ],
+  "servicos_gerais": [
+    "louças"
+  ],
+  "prompt_original": "Quero reformar o banheiro e cozinha do meu apartamento de 2 quartos, cerca de 60m2. Gostaria de usar porcelanato Portobello e loucas Deca, acabamento de qualidade",
+  "confianca": 0.7
+}
