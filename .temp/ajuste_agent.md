@@ -19,3 +19,5 @@ ajuste o workflow geral do sistema é :
 
 workflow
 uma_reforma_aleatoria_json_obra_ninja >  1,2,3,4,5,6 ( gerar um json e .md) explicando o processo
+
+atualizar o plano_implementacao_agentes.md
