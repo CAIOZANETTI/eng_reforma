@@ -1,0 +1,492 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-31T14:03:08.912Z",
+  "template": {
+    "title": "reforma cozinha americana",
+    "description": "quebrar duas paredes e integrar o espaco",
+    "language_code": "pt-BR",
+    "property_type": "apartamento",
+    "status": "ready"
+  },
+  "project": {
+    "name": "reforma cozinha american",
+    "total_area": 9
+  },
+  "spaces": [
+    {
+      "space_id": "1e8ccf2b-c74a-42ce-b6a8-160fdf0d7135",
+      "_name": "cozinha",
+      "area": 9,
+      "height": 2.7,
+      "services": [
+        {
+          "service_id": "demolicao_parede_alvenaria",
+          "_name": "demolicação parede alvenaria",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "cacamba_entulho",
+              "_name": "caçambas de entulho",
+              "base_qtd": 1,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "f9e12b81-be31-4b81-9a02-db0465e91c7e",
+                  "_name": "cacamba_entulho_media"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "servente",
+              "_name": "servente",
+              "base_qtd": 3,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "a27fcd0c-493b-4d40-a26b-2055c57df710",
+                  "_name": "servente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "demolicao_piso_ceramico",
+          "_name": "demolição de piso ceramico",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "cacamba_entulho",
+              "_name": "caçambas de entulho",
+              "base_qtd": 1,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "f9e12b81-be31-4b81-9a02-db0465e91c7e",
+                  "_name": "cacamba_entulho_media"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "servente",
+              "_name": "servente",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "a27fcd0c-493b-4d40-a26b-2055c57df710",
+                  "_name": "servente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "trocar_tomada",
+          "_name": "trocar tomada existente",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "ponto_eletrica",
+              "_name": "ponto de eletrica",
+              "base_qtd": 1,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "6bf59b0a-8c20-4d91-8978-9d90aaf9b8a3",
+                  "_name": "tomada_completa_10A"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "eletricista",
+              "_name": "eletricista",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "f4d3532b-9f93-4367-b5a6-0fd3726781f0",
+                  "_name": "eletricista"
+                },
+                {
+                  "labor_id": "943fe5a9-0b31-4f77-a5de-eb4d5448842c",
+                  "_name": "eletricista"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "porcelanato-polido",
+          "_name": "porcelanato polido",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "porcelanato_polido",
+              "_name": "porcelanato polido",
+              "base_qtd": 1.05,
+              "base_unit": "m",
+              "materials": [
+                {
+                  "material_id": "560aece5-793a-4174-9557-fcadaf2a3309",
+                  "_name": "porcelanato polido"
+                }
+              ]
+            },
+            {
+              "material_category_id": "argamassa_base_cimento",
+              "_name": "argamassa base cimento",
+              "base_qtd": 1,
+              "base_unit": "m2",
+              "materials": [
+                {
+                  "material_id": "ea0d1bc1-f6e9-4d7a-af77-69825e5575c7",
+                  "_name": "argamssa cimenticola AC1"
+                }
+              ]
+            },
+            {
+              "material_category_id": "rejunte",
+              "_name": "rejunte",
+              "base_qtd": 1,
+              "base_unit": "kg",
+              "materials": [
+                {
+                  "material_id": "0da7a8b3-234d-4b09-b282-f688c6fde6ab",
+                  "_name": "rejunte"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pedreiro",
+              "_name": "pedreiro",
+              "base_qtd": 0.8,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "e7b6a945-06bb-4ff6-9308-cf57b6d1e3d5",
+                  "_name": "pedreiro"
+                },
+                {
+                  "labor_id": "f93b46c5-3df1-4545-b6af-f0baf8466365",
+                  "_name": "pedreiro"
+                }
+              ]
+            },
+            {
+              "labor_category_id": "servente",
+              "_name": "servente",
+              "base_qtd": 0.5,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "a27fcd0c-493b-4d40-a26b-2055c57df710",
+                  "_name": "servente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "revestimento_ceramico_parede",
+          "_name": "revestimento ceramico na parede",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "argamassa_base_cimento",
+              "_name": "argamassa base cimento",
+              "base_qtd": 7,
+              "base_unit": "kg",
+              "materials": [
+                {
+                  "material_id": "ea0d1bc1-f6e9-4d7a-af77-69825e5575c7",
+                  "_name": "argamssa cimenticola AC1"
+                }
+              ]
+            },
+            {
+              "material_category_id": "rejunte",
+              "_name": "rejunte",
+              "base_qtd": 0.25,
+              "base_unit": "kg",
+              "materials": [
+                {
+                  "material_id": "0da7a8b3-234d-4b09-b282-f688c6fde6ab",
+                  "_name": "rejunte"
+                }
+              ]
+            },
+            {
+              "material_category_id": "ceramic-tiles",
+              "_name": "Ceramic and Tiles",
+              "base_qtd": 1.05,
+              "base_unit": "m2",
+              "materials": [
+                {
+                  "material_id": "e8e76c73-5a6b-4bce-8ec0-adfa0785b585",
+                  "_name": "revestimento ceramico 40x40"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "servente",
+              "_name": "servente",
+              "base_qtd": 0.5,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "a27fcd0c-493b-4d40-a26b-2055c57df710",
+                  "_name": "servente"
+                }
+              ]
+            },
+            {
+              "labor_category_id": "pedreiro",
+              "_name": "pedreiro",
+              "base_qtd": 0.5,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "e7b6a945-06bb-4ff6-9308-cf57b6d1e3d5",
+                  "_name": "pedreiro"
+                },
+                {
+                  "labor_id": "f93b46c5-3df1-4545-b6af-f0baf8466365",
+                  "_name": "pedreiro"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura_teto_branco",
+          "_name": "pintura teto branco",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta-latex-branca",
+              "_name": "tinta latex branca",
+              "base_qtd": 0.4,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "42d12444-758d-4842-9458-3af05c8515cb",
+                  "_name": "tinta-latex-branca"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "piso_ceramico_interno",
+          "_name": "piso ceramico interno",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "argamassa_base_cimento",
+              "_name": "argamassa base cimento",
+              "base_qtd": 7,
+              "base_unit": "kg",
+              "materials": [
+                {
+                  "material_id": "ea0d1bc1-f6e9-4d7a-af77-69825e5575c7",
+                  "_name": "argamssa cimenticola AC1"
+                }
+              ]
+            },
+            {
+              "material_category_id": "rejunte",
+              "_name": "rejunte",
+              "base_qtd": 0.3,
+              "base_unit": "kg",
+              "materials": [
+                {
+                  "material_id": "0da7a8b3-234d-4b09-b282-f688c6fde6ab",
+                  "_name": "rejunte"
+                }
+              ]
+            },
+            {
+              "material_category_id": "piso_ceramico_interno",
+              "_name": "piso ceramico interno",
+              "base_qtd": 0.5,
+              "base_unit": "m2",
+              "materials": [
+                {
+                  "material_id": "78067174-6048-4772-ba43-e7faa2ebd4f5",
+                  "_name": "piso ceramico "
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pedreiro",
+              "_name": "pedreiro",
+              "base_qtd": 0.5,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "e7b6a945-06bb-4ff6-9308-cf57b6d1e3d5",
+                  "_name": "pedreiro"
+                },
+                {
+                  "labor_id": "f93b46c5-3df1-4545-b6af-f0baf8466365",
+                  "_name": "pedreiro"
+                }
+              ]
+            },
+            {
+              "labor_category_id": "servente",
+              "_name": "servente",
+              "base_qtd": 0.5,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "a27fcd0c-493b-4d40-a26b-2055c57df710",
+                  "_name": "servente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "trocar_tomada",
+          "_name": "trocar tomada existente",
+          "quantity": 5,
+          "material_categories": [
+            {
+              "material_category_id": "ponto_eletrica",
+              "_name": "ponto de eletrica",
+              "base_qtd": 1,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "6bf59b0a-8c20-4d91-8978-9d90aaf9b8a3",
+                  "_name": "tomada_completa_10A"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "eletricista",
+              "_name": "eletricista",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "f4d3532b-9f93-4367-b5a6-0fd3726781f0",
+                  "_name": "eletricista"
+                },
+                {
+                  "labor_id": "943fe5a9-0b31-4f77-a5de-eb4d5448842c",
+                  "_name": "eletricista"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "tampo_cuba_torneira_cozinha",
+          "_name": "tampo cuba torneira da cozinha",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tampo_granito_cozinha",
+              "_name": "tampo granito cozinha",
+              "base_qtd": 1.8,
+              "base_unit": "m2",
+              "materials": [
+                {
+                  "material_id": "428ae463-8701-4707-a092-802cdb8e58cc",
+                  "_name": "tampo_granito_preto"
+                }
+              ]
+            },
+            {
+              "material_category_id": "cuba_cozinhacu",
+              "_name": "cuba cozinha",
+              "base_qtd": 1,
+              "base_unit": "pack",
+              "materials": []
+            },
+            {
+              "material_category_id": "torneira_quente_fria_cozinha",
+              "_name": "torneira cozinha",
+              "base_qtd": 1,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "3b556d0c-6c99-42c5-b245-f81207491d5f",
+                  "_name": "torneira_quente_fria_cozinha"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "encanador",
+              "_name": "encanador",
+              "base_qtd": 2,
+              "base_unit": "h",
+              "labors": []
+            },
+            {
+              "labor_category_id": "servente",
+              "_name": "servente",
+              "base_qtd": 2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "a27fcd0c-493b-4d40-a26b-2055c57df710",
+                  "_name": "servente"
+                }
+              ]
+            },
+            {
+              "labor_category_id": "pedreiro",
+              "_name": "pedreiro",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "e7b6a945-06bb-4ff6-9308-cf57b6d1e3d5",
+                  "_name": "pedreiro"
+                },
+                {
+                  "labor_id": "f93b46c5-3df1-4545-b6af-f0baf8466365",
+                  "_name": "pedreiro"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

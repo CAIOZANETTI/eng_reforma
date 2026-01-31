@@ -1,0 +1,254 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-31T14:03:28.122Z",
+  "template": {
+    "title": "quarto em sala de jantar",
+    "description": "converter quarto em sala de jantar",
+    "language_code": "pt-BR",
+    "property_type": "apartamento",
+    "status": "ready"
+  },
+  "project": {
+    "name": "quarto em sala de jantar",
+    "total_area": 12
+  },
+  "spaces": [
+    {
+      "space_id": "ab5bb375-61d7-4901-bcfb-ea54a86fcc62",
+      "_name": "quarto",
+      "area": 12,
+      "height": 2.6,
+      "services": [
+        {
+          "service_id": "demolicao_parede_alvenaria",
+          "_name": "demolicação parede alvenaria",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "cacamba_entulho",
+              "_name": "caçambas de entulho",
+              "base_qtd": 1,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "f9e12b81-be31-4b81-9a02-db0465e91c7e",
+                  "_name": "cacamba_entulho_media"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "servente",
+              "_name": "servente",
+              "base_qtd": 3,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "a27fcd0c-493b-4d40-a26b-2055c57df710",
+                  "_name": "servente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura_teto_branco",
+          "_name": "pintura teto branco",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta-latex-branca",
+              "_name": "tinta latex branca",
+              "base_qtd": 0.4,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "42d12444-758d-4842-9458-3af05c8515cb",
+                  "_name": "tinta-latex-branca"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura-parede",
+          "_name": "pintura de parede",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta-latex-branca",
+              "_name": "tinta latex branca",
+              "base_qtd": 0.3,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "42d12444-758d-4842-9458-3af05c8515cb",
+                  "_name": "tinta-latex-branca"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "piso_laminado",
+          "_name": "piso laminado ou capete de madeira",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "piso_laminado",
+              "_name": "piso laminado",
+              "base_qtd": 1,
+              "base_unit": "m2",
+              "materials": [
+                {
+                  "material_id": "685bd083-2e2e-456f-a951-90488893fc0d",
+                  "_name": "piso laminado "
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "montador_dry-wall",
+              "_name": "montador",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "space_id": "c3f4ab0e-df16-4386-8923-ccb7d1747b74",
+      "_name": "sala de estar",
+      "area": 12,
+      "height": 2.6,
+      "services": [
+        {
+          "service_id": "pintura_teto_branco",
+          "_name": "pintura teto branco",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta-latex-branca",
+              "_name": "tinta latex branca",
+              "base_qtd": 0.4,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "42d12444-758d-4842-9458-3af05c8515cb",
+                  "_name": "tinta-latex-branca"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "piso_laminado",
+          "_name": "piso laminado ou capete de madeira",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "piso_laminado",
+              "_name": "piso laminado",
+              "base_qtd": 1,
+              "base_unit": "m2",
+              "materials": [
+                {
+                  "material_id": "685bd083-2e2e-456f-a951-90488893fc0d",
+                  "_name": "piso laminado "
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "montador_dry-wall",
+              "_name": "montador",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": []
+            }
+          ]
+        },
+        {
+          "service_id": "pintura-parede",
+          "_name": "pintura de parede",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta-latex-branca",
+              "_name": "tinta latex branca",
+              "base_qtd": 0.3,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "42d12444-758d-4842-9458-3af05c8515cb",
+                  "_name": "tinta-latex-branca"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

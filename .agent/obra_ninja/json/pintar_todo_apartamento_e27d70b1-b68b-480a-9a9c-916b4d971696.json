@@ -1,0 +1,700 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-31T14:03:05.041Z",
+  "template": {
+    "title": "pintar todo apartamento",
+    "description": "pintar todo apartamento de 1 quarto 1 banheiro incluindo a pintura das parede internas e pintura do teto de todos os ambientes e portas das portas ",
+    "language_code": "pt-BR",
+    "property_type": "apartamento",
+    "status": "ready"
+  },
+  "project": {
+    "name": "pintar todo apartamento",
+    "total_area": 60
+  },
+  "spaces": [
+    {
+      "space_id": "5043ad33-2251-446b-adaf-3a060f981cc6",
+      "_name": "corredor",
+      "area": 3,
+      "height": 2.7,
+      "services": [
+        {
+          "service_id": "pintura-parede",
+          "_name": "pintura de parede",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta-latex-branca",
+              "_name": "tinta latex branca",
+              "base_qtd": 0.3,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "42d12444-758d-4842-9458-3af05c8515cb",
+                  "_name": "tinta-latex-branca"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura_teto_branco",
+          "_name": "pintura teto branco",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta-latex-branca",
+              "_name": "tinta latex branca",
+              "base_qtd": 0.4,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "42d12444-758d-4842-9458-3af05c8515cb",
+                  "_name": "tinta-latex-branca"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "space_id": "1e8ccf2b-c74a-42ce-b6a8-160fdf0d7135",
+      "_name": "cozinha",
+      "area": 8,
+      "height": 2.7,
+      "services": [
+        {
+          "service_id": "pintura_teto_branco",
+          "_name": "pintura teto branco",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta-latex-branca",
+              "_name": "tinta latex branca",
+              "base_qtd": 0.4,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "42d12444-758d-4842-9458-3af05c8515cb",
+                  "_name": "tinta-latex-branca"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura_porta_branca",
+          "_name": "pintura porta branca",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta_esmalte",
+              "_name": "tinta esmalte",
+              "base_qtd": 2,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "b157f29d-d012-45e8-bc68-053253eab8b5",
+                  "_name": "tinta_esmalte_branco"
+                }
+              ]
+            },
+            {
+              "material_category_id": "solvente",
+              "_name": "solvente",
+              "base_qtd": 1,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "4d2daad7-1ef0-4ade-86b6-7d74be75dfb9",
+                  "_name": "tiner"
+                },
+                {
+                  "material_id": "ccc8dc4c-7720-4f81-89fe-c3a65d1d7399",
+                  "_name": "aguarraz"
+                }
+              ]
+            },
+            {
+              "material_category_id": "lixa_massa",
+              "_name": "lixa massa",
+              "base_qtd": 2,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "e026d8b2-5da4-471f-9d61-739b56fb1e30",
+                  "_name": "lixa"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "space_id": "c3f4ab0e-df16-4386-8923-ccb7d1747b74",
+      "_name": "sala de estar",
+      "area": 14,
+      "height": 2.7,
+      "services": [
+        {
+          "service_id": "pintura-parede",
+          "_name": "pintura de parede",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta-latex-branca",
+              "_name": "tinta latex branca",
+              "base_qtd": 0.3,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "42d12444-758d-4842-9458-3af05c8515cb",
+                  "_name": "tinta-latex-branca"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura_teto_branco",
+          "_name": "pintura teto branco",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta-latex-branca",
+              "_name": "tinta latex branca",
+              "base_qtd": 0.4,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "42d12444-758d-4842-9458-3af05c8515cb",
+                  "_name": "tinta-latex-branca"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura_porta_branca",
+          "_name": "pintura porta branca",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta_esmalte",
+              "_name": "tinta esmalte",
+              "base_qtd": 2,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "b157f29d-d012-45e8-bc68-053253eab8b5",
+                  "_name": "tinta_esmalte_branco"
+                }
+              ]
+            },
+            {
+              "material_category_id": "solvente",
+              "_name": "solvente",
+              "base_qtd": 1,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "4d2daad7-1ef0-4ade-86b6-7d74be75dfb9",
+                  "_name": "tiner"
+                },
+                {
+                  "material_id": "ccc8dc4c-7720-4f81-89fe-c3a65d1d7399",
+                  "_name": "aguarraz"
+                }
+              ]
+            },
+            {
+              "material_category_id": "lixa_massa",
+              "_name": "lixa massa",
+              "base_qtd": 2,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "e026d8b2-5da4-471f-9d61-739b56fb1e30",
+                  "_name": "lixa"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "space_id": "ab5bb375-61d7-4901-bcfb-ea54a86fcc62",
+      "_name": "quarto",
+      "area": 12,
+      "height": 2.7,
+      "services": [
+        {
+          "service_id": "pintura-parede",
+          "_name": "pintura de parede",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta-latex-branca",
+              "_name": "tinta latex branca",
+              "base_qtd": 0.3,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "42d12444-758d-4842-9458-3af05c8515cb",
+                  "_name": "tinta-latex-branca"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura_teto_branco",
+          "_name": "pintura teto branco",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta-latex-branca",
+              "_name": "tinta latex branca",
+              "base_qtd": 0.4,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "42d12444-758d-4842-9458-3af05c8515cb",
+                  "_name": "tinta-latex-branca"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura_porta_branca",
+          "_name": "pintura porta branca",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta_esmalte",
+              "_name": "tinta esmalte",
+              "base_qtd": 2,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "b157f29d-d012-45e8-bc68-053253eab8b5",
+                  "_name": "tinta_esmalte_branco"
+                }
+              ]
+            },
+            {
+              "material_category_id": "solvente",
+              "_name": "solvente",
+              "base_qtd": 1,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "4d2daad7-1ef0-4ade-86b6-7d74be75dfb9",
+                  "_name": "tiner"
+                },
+                {
+                  "material_id": "ccc8dc4c-7720-4f81-89fe-c3a65d1d7399",
+                  "_name": "aguarraz"
+                }
+              ]
+            },
+            {
+              "material_category_id": "lixa_massa",
+              "_name": "lixa massa",
+              "base_qtd": 2,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "e026d8b2-5da4-471f-9d61-739b56fb1e30",
+                  "_name": "lixa"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "space_id": "11f57bde-ff0e-415c-93cb-d71af5db0dfc",
+      "_name": "sala de jantar",
+      "area": 8,
+      "height": 2.7,
+      "services": [
+        {
+          "service_id": "pintura-parede",
+          "_name": "pintura de parede",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta-latex-branca",
+              "_name": "tinta latex branca",
+              "base_qtd": 0.3,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "42d12444-758d-4842-9458-3af05c8515cb",
+                  "_name": "tinta-latex-branca"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura_teto_branco",
+          "_name": "pintura teto branco",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta-latex-branca",
+              "_name": "tinta latex branca",
+              "base_qtd": 0.4,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "42d12444-758d-4842-9458-3af05c8515cb",
+                  "_name": "tinta-latex-branca"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura_porta_branca",
+          "_name": "pintura porta branca",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta_esmalte",
+              "_name": "tinta esmalte",
+              "base_qtd": 2,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "b157f29d-d012-45e8-bc68-053253eab8b5",
+                  "_name": "tinta_esmalte_branco"
+                }
+              ]
+            },
+            {
+              "material_category_id": "solvente",
+              "_name": "solvente",
+              "base_qtd": 1,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "4d2daad7-1ef0-4ade-86b6-7d74be75dfb9",
+                  "_name": "tiner"
+                },
+                {
+                  "material_id": "ccc8dc4c-7720-4f81-89fe-c3a65d1d7399",
+                  "_name": "aguarraz"
+                }
+              ]
+            },
+            {
+              "material_category_id": "lixa_massa",
+              "_name": "lixa massa",
+              "base_qtd": 2,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "e026d8b2-5da4-471f-9d61-739b56fb1e30",
+                  "_name": "lixa"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "space_id": "92763d3d-18cf-4cb7-8cc0-078db26073bf",
+      "_name": "banheiro",
+      "area": 5,
+      "height": 2.7,
+      "services": [
+        {
+          "service_id": "pintura_porta_branca",
+          "_name": "pintura porta branca",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta_esmalte",
+              "_name": "tinta esmalte",
+              "base_qtd": 2,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "b157f29d-d012-45e8-bc68-053253eab8b5",
+                  "_name": "tinta_esmalte_branco"
+                }
+              ]
+            },
+            {
+              "material_category_id": "solvente",
+              "_name": "solvente",
+              "base_qtd": 1,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "4d2daad7-1ef0-4ade-86b6-7d74be75dfb9",
+                  "_name": "tiner"
+                },
+                {
+                  "material_id": "ccc8dc4c-7720-4f81-89fe-c3a65d1d7399",
+                  "_name": "aguarraz"
+                }
+              ]
+            },
+            {
+              "material_category_id": "lixa_massa",
+              "_name": "lixa massa",
+              "base_qtd": 2,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "e026d8b2-5da4-471f-9d61-739b56fb1e30",
+                  "_name": "lixa"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura_teto_branco",
+          "_name": "pintura teto branco",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta-latex-branca",
+              "_name": "tinta latex branca",
+              "base_qtd": 0.4,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "42d12444-758d-4842-9458-3af05c8515cb",
+                  "_name": "tinta-latex-branca"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

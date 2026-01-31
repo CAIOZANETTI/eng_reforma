@@ -1,0 +1,648 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-31T14:03:18.207Z",
+  "template": {
+    "title": "reforma banheiro",
+    "description": "reforma completa de banheiro de apto dos anos 70, apto de 2q de 80m2 ",
+    "language_code": "pt-BR",
+    "property_type": "apartamento",
+    "status": "ready"
+  },
+  "project": {
+    "name": "reforma banheiro",
+    "total_area": 4
+  },
+  "spaces": [
+    {
+      "space_id": "92763d3d-18cf-4cb7-8cc0-078db26073bf",
+      "_name": "banheiro",
+      "area": 4,
+      "height": 2.5,
+      "services": [
+        {
+          "service_id": "demolicao_piso_ceramico",
+          "_name": "demolição de piso ceramico",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "cacamba_entulho",
+              "_name": "caçambas de entulho",
+              "base_qtd": 1,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "f9e12b81-be31-4b81-9a02-db0465e91c7e",
+                  "_name": "cacamba_entulho_media"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "servente",
+              "_name": "servente",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "a27fcd0c-493b-4d40-a26b-2055c57df710",
+                  "_name": "servente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "demolicao_revestimento_ceramico",
+          "_name": "demolição revestimento ceramico parede",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "cacamba_entulho",
+              "_name": "caçambas de entulho",
+              "base_qtd": 0.5,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "f9e12b81-be31-4b81-9a02-db0465e91c7e",
+                  "_name": "cacamba_entulho_media"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "servente",
+              "_name": "servente",
+              "base_qtd": 2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "a27fcd0c-493b-4d40-a26b-2055c57df710",
+                  "_name": "servente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "manta_asfaltica",
+          "_name": "manta impermeabilização asfaltica",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "manta_impermeabilizacao",
+              "_name": "manta impermeabilização",
+              "base_qtd": 1.2,
+              "base_unit": "m2",
+              "materials": [
+                {
+                  "material_id": "7b66a6ca-cf8a-4e76-ba19-ce7e30fd7bb3",
+                  "_name": "manta_asfaltica"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pedreiro",
+              "_name": "pedreiro",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "e7b6a945-06bb-4ff6-9308-cf57b6d1e3d5",
+                  "_name": "pedreiro"
+                },
+                {
+                  "labor_id": "f93b46c5-3df1-4545-b6af-f0baf8466365",
+                  "_name": "pedreiro"
+                }
+              ]
+            },
+            {
+              "labor_category_id": "servente",
+              "_name": "servente",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "a27fcd0c-493b-4d40-a26b-2055c57df710",
+                  "_name": "servente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "porta_madeira_interna_completa",
+          "_name": "porta madeira completa",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "porta_madeira",
+              "_name": "porta madeira",
+              "base_qtd": 1,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "8e47bf66-850b-4dc7-9d8b-fa715c3458bc",
+                  "_name": "porta_madeira_interna"
+                }
+              ]
+            },
+            {
+              "material_category_id": "fechadura",
+              "_name": "fechadura porta",
+              "base_qtd": 1,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "85733acd-1c1d-4178-b37c-2e5c84383590",
+                  "_name": "fechadura_interna"
+                }
+              ]
+            },
+            {
+              "material_category_id": "dobradica_porta",
+              "_name": "dobradiça de porta",
+              "base_qtd": 3,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "e1ad693a-a53f-47cd-a812-d8b0d06eb744",
+                  "_name": "dobradica_porta"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "servente",
+              "_name": "servente",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "a27fcd0c-493b-4d40-a26b-2055c57df710",
+                  "_name": "servente"
+                }
+              ]
+            },
+            {
+              "labor_category_id": "carpinteiro",
+              "_name": "carpinteiro",
+              "base_qtd": 2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "084cb3f6-7a4f-4022-93ea-397051a22bd0",
+                  "_name": "carpinteiro"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "porcelanato-polido",
+          "_name": "porcelanato polido",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "porcelanato_polido",
+              "_name": "porcelanato polido",
+              "base_qtd": 1.05,
+              "base_unit": "m",
+              "materials": [
+                {
+                  "material_id": "560aece5-793a-4174-9557-fcadaf2a3309",
+                  "_name": "porcelanato polido"
+                }
+              ]
+            },
+            {
+              "material_category_id": "argamassa_base_cimento",
+              "_name": "argamassa base cimento",
+              "base_qtd": 1,
+              "base_unit": "m2",
+              "materials": [
+                {
+                  "material_id": "ea0d1bc1-f6e9-4d7a-af77-69825e5575c7",
+                  "_name": "argamssa cimenticola AC1"
+                }
+              ]
+            },
+            {
+              "material_category_id": "rejunte",
+              "_name": "rejunte",
+              "base_qtd": 1,
+              "base_unit": "kg",
+              "materials": [
+                {
+                  "material_id": "0da7a8b3-234d-4b09-b282-f688c6fde6ab",
+                  "_name": "rejunte"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pedreiro",
+              "_name": "pedreiro",
+              "base_qtd": 0.8,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "e7b6a945-06bb-4ff6-9308-cf57b6d1e3d5",
+                  "_name": "pedreiro"
+                },
+                {
+                  "labor_id": "f93b46c5-3df1-4545-b6af-f0baf8466365",
+                  "_name": "pedreiro"
+                }
+              ]
+            },
+            {
+              "labor_category_id": "servente",
+              "_name": "servente",
+              "base_qtd": 0.5,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "a27fcd0c-493b-4d40-a26b-2055c57df710",
+                  "_name": "servente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "revestimento_ceramico_parede",
+          "_name": "revestimento ceramico na parede",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "argamassa_base_cimento",
+              "_name": "argamassa base cimento",
+              "base_qtd": 7,
+              "base_unit": "kg",
+              "materials": [
+                {
+                  "material_id": "ea0d1bc1-f6e9-4d7a-af77-69825e5575c7",
+                  "_name": "argamssa cimenticola AC1"
+                }
+              ]
+            },
+            {
+              "material_category_id": "rejunte",
+              "_name": "rejunte",
+              "base_qtd": 0.25,
+              "base_unit": "kg",
+              "materials": [
+                {
+                  "material_id": "0da7a8b3-234d-4b09-b282-f688c6fde6ab",
+                  "_name": "rejunte"
+                }
+              ]
+            },
+            {
+              "material_category_id": "ceramic-tiles",
+              "_name": "Ceramic and Tiles",
+              "base_qtd": 1.05,
+              "base_unit": "m2",
+              "materials": [
+                {
+                  "material_id": "e8e76c73-5a6b-4bce-8ec0-adfa0785b585",
+                  "_name": "revestimento ceramico 40x40"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "servente",
+              "_name": "servente",
+              "base_qtd": 0.5,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "a27fcd0c-493b-4d40-a26b-2055c57df710",
+                  "_name": "servente"
+                }
+              ]
+            },
+            {
+              "labor_category_id": "pedreiro",
+              "_name": "pedreiro",
+              "base_qtd": 0.5,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "e7b6a945-06bb-4ff6-9308-cf57b6d1e3d5",
+                  "_name": "pedreiro"
+                },
+                {
+                  "labor_id": "f93b46c5-3df1-4545-b6af-f0baf8466365",
+                  "_name": "pedreiro"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "retirada_loucas_metais",
+          "_name": "retirada de aparelhos sanitarios",
+          "quantity": 1,
+          "material_categories": [],
+          "labor_categories": [
+            {
+              "labor_category_id": "servente",
+              "_name": "servente",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "a27fcd0c-493b-4d40-a26b-2055c57df710",
+                  "_name": "servente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "bacia_sanitaria_cx_acoplada",
+          "_name": "bacia sanitaria caixa acoplada",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "bacia_sanitaria",
+              "_name": "bacia sanitaria",
+              "base_qtd": 1,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "f460f0b6-60a0-4330-815b-4eed444b02b9",
+                  "_name": "bacia_sanitaria_cx_acoplada"
+                }
+              ]
+            },
+            {
+              "material_category_id": "tubo_agua_fria",
+              "_name": "tubo agua fria",
+              "base_qtd": 1.5,
+              "base_unit": "m",
+              "materials": [
+                {
+                  "material_id": "304ae912-c5e3-4558-94b3-918541aa7f1e",
+                  "_name": "tubo_pvc_agua_fria_25"
+                }
+              ]
+            },
+            {
+              "material_category_id": "tubulacao_esgoto",
+              "_name": "tubulação de  esgoto",
+              "base_qtd": 0.8,
+              "base_unit": "m",
+              "materials": [
+                {
+                  "material_id": "44f8b267-b486-4c2d-97c3-eeebbfdd17aa",
+                  "_name": "tubo_pvc_esgoto_100"
+                }
+              ]
+            },
+            {
+              "material_category_id": "engate_flexivel_agua",
+              "_name": "engate flexivel agua",
+              "base_qtd": 1,
+              "base_unit": "m",
+              "materials": [
+                {
+                  "material_id": "20ef337c-66c9-4db0-b20e-1c23612cadda",
+                  "_name": "engate_flexivel_agua"
+                }
+              ]
+            },
+            {
+              "material_category_id": "registro_agua",
+              "_name": "registro de água",
+              "base_qtd": 1,
+              "base_unit": "m",
+              "materials": [
+                {
+                  "material_id": "87382c73-0f06-4d0f-a632-22f6181ca1cf",
+                  "_name": "registro_agua_bronze"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "servente",
+              "_name": "servente",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "a27fcd0c-493b-4d40-a26b-2055c57df710",
+                  "_name": "servente"
+                }
+              ]
+            },
+            {
+              "labor_category_id": "encanador",
+              "_name": "encanador",
+              "base_qtd": 2,
+              "base_unit": "h",
+              "labors": []
+            }
+          ]
+        },
+        {
+          "service_id": "lavatorio_banheiro_fria_quente",
+          "_name": "lavatorio banheiro",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "cuba_lavatorio",
+              "_name": "cuba de lavatório",
+              "base_qtd": 1,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "dee4e7b5-4202-4c03-b625-4c67f8223e73",
+                  "_name": "cuba_lavatorio_embutir"
+                }
+              ]
+            },
+            {
+              "material_category_id": "torneira_banheiro",
+              "_name": "torneira banheiro",
+              "base_qtd": 1,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "ef4af8b2-e5c8-424a-865f-ff72aa71fa0a",
+                  "_name": "torneira_lavatorio_fria_quente"
+                }
+              ]
+            },
+            {
+              "material_category_id": "tampo_lavatorio",
+              "_name": "tampo lavatório",
+              "base_qtd": 0.8,
+              "base_unit": "m2",
+              "materials": [
+                {
+                  "material_id": "5adafd95-9f5f-4039-99ee-561b50d2b3ce",
+                  "_name": "tampo_granito_lavatorio"
+                }
+              ]
+            },
+            {
+              "material_category_id": "sifao_lavatorio",
+              "_name": "sifão de lavatório",
+              "base_qtd": 1,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "591db19f-ccf1-45e0-862e-d55c483af959",
+                  "_name": "sifao_pvc_flexivel_lavatorio"
+                }
+              ]
+            },
+            {
+              "material_category_id": "engate_flexivel_agua",
+              "_name": "engate flexivel agua",
+              "base_qtd": 2,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "20ef337c-66c9-4db0-b20e-1c23612cadda",
+                  "_name": "engate_flexivel_agua"
+                }
+              ]
+            },
+            {
+              "material_category_id": "tubo_agua_fria",
+              "_name": "tubo agua fria",
+              "base_qtd": 1,
+              "base_unit": "m",
+              "materials": [
+                {
+                  "material_id": "304ae912-c5e3-4558-94b3-918541aa7f1e",
+                  "_name": "tubo_pvc_agua_fria_25"
+                }
+              ]
+            },
+            {
+              "material_category_id": "tubo_agua_quente",
+              "_name": "tubo agua quente",
+              "base_qtd": 1,
+              "base_unit": "m",
+              "materials": [
+                {
+                  "material_id": "7f579858-dcad-409b-b839-63a824f0d4b0",
+                  "_name": "tubo pead agua quente para lavatorio"
+                }
+              ]
+            },
+            {
+              "material_category_id": "tubulacao_esgoto",
+              "_name": "tubulação de  esgoto",
+              "base_qtd": 1,
+              "base_unit": "m",
+              "materials": [
+                {
+                  "material_id": "44f8b267-b486-4c2d-97c3-eeebbfdd17aa",
+                  "_name": "tubo_pvc_esgoto_100"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "servente",
+              "_name": "servente",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "a27fcd0c-493b-4d40-a26b-2055c57df710",
+                  "_name": "servente"
+                }
+              ]
+            },
+            {
+              "labor_category_id": "encanador",
+              "_name": "encanador",
+              "base_qtd": 4,
+              "base_unit": "h",
+              "labors": []
+            }
+          ]
+        },
+        {
+          "service_id": "pintura_teto_branco",
+          "_name": "pintura teto branco",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta-latex-branca",
+              "_name": "tinta latex branca",
+              "base_qtd": 0.4,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "42d12444-758d-4842-9458-3af05c8515cb",
+                  "_name": "tinta-latex-branca"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "registro_agua_pressao",
+          "_name": "registro agua pressão",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "registro_agua",
+              "_name": "registro de água",
+              "base_qtd": 1,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "87382c73-0f06-4d0f-a632-22f6181ca1cf",
+                  "_name": "registro_agua_bronze"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "encanador",
+              "_name": "encanador",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

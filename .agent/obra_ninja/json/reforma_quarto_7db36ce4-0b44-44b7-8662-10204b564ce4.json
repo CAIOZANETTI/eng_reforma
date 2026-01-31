@@ -1,0 +1,287 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-31T14:03:16.043Z",
+  "template": {
+    "title": "reforma_quarto",
+    "description": "revitalizar o quarto, troca de piso, tomadas, pintura parede, pintura de teto e pintura porta",
+    "language_code": "pt-BR",
+    "property_type": "apartamento",
+    "status": "ready"
+  },
+  "project": {
+    "name": "reforma_quarto",
+    "total_area": 8
+  },
+  "spaces": [
+    {
+      "space_id": "ab5bb375-61d7-4901-bcfb-ea54a86fcc62",
+      "_name": "quarto",
+      "area": 8,
+      "height": 2.7,
+      "services": [
+        {
+          "service_id": "demolicao_piso_ceramico",
+          "_name": "demolição de piso ceramico",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "cacamba_entulho",
+              "_name": "caçambas de entulho",
+              "base_qtd": 1,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "f9e12b81-be31-4b81-9a02-db0465e91c7e",
+                  "_name": "cacamba_entulho_media"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "servente",
+              "_name": "servente",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "a27fcd0c-493b-4d40-a26b-2055c57df710",
+                  "_name": "servente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura_teto_branco",
+          "_name": "pintura teto branco",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta-latex-branca",
+              "_name": "tinta latex branca",
+              "base_qtd": 0.4,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "42d12444-758d-4842-9458-3af05c8515cb",
+                  "_name": "tinta-latex-branca"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura_porta_branca",
+          "_name": "pintura porta branca",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta_esmalte",
+              "_name": "tinta esmalte",
+              "base_qtd": 2,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "b157f29d-d012-45e8-bc68-053253eab8b5",
+                  "_name": "tinta_esmalte_branco"
+                }
+              ]
+            },
+            {
+              "material_category_id": "solvente",
+              "_name": "solvente",
+              "base_qtd": 1,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "4d2daad7-1ef0-4ade-86b6-7d74be75dfb9",
+                  "_name": "tiner"
+                },
+                {
+                  "material_id": "ccc8dc4c-7720-4f81-89fe-c3a65d1d7399",
+                  "_name": "aguarraz"
+                }
+              ]
+            },
+            {
+              "material_category_id": "lixa_massa",
+              "_name": "lixa massa",
+              "base_qtd": 2,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "e026d8b2-5da4-471f-9d61-739b56fb1e30",
+                  "_name": "lixa"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura-parede",
+          "_name": "pintura de parede",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "tinta-latex-branca",
+              "_name": "tinta latex branca",
+              "base_qtd": 0.3,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "42d12444-758d-4842-9458-3af05c8515cb",
+                  "_name": "tinta-latex-branca"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "piso_laminado",
+          "_name": "piso laminado ou capete de madeira",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "piso_laminado",
+              "_name": "piso laminado",
+              "base_qtd": 1,
+              "base_unit": "m2",
+              "materials": [
+                {
+                  "material_id": "685bd083-2e2e-456f-a951-90488893fc0d",
+                  "_name": "piso laminado "
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "montador_dry-wall",
+              "_name": "montador",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": []
+            }
+          ]
+        },
+        {
+          "service_id": "trocar_cabo_tomada_10a",
+          "_name": "trocar condutor tomada",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "cabo_eletrico",
+              "_name": "cabo eletrico",
+              "base_qtd": 3,
+              "base_unit": "m",
+              "materials": [
+                {
+                  "material_id": "1492653f-e573-4e15-8b01-980b9c34f6ad",
+                  "_name": "cabo_eletrico_2.5"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "eletricista",
+              "_name": "eletricista",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "f4d3532b-9f93-4367-b5a6-0fd3726781f0",
+                  "_name": "eletricista"
+                },
+                {
+                  "labor_id": "943fe5a9-0b31-4f77-a5de-eb4d5448842c",
+                  "_name": "eletricista"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "trocar_tomada",
+          "_name": "trocar tomada existente",
+          "quantity": 1,
+          "material_categories": [
+            {
+              "material_category_id": "ponto_eletrica",
+              "_name": "ponto de eletrica",
+              "base_qtd": 1,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "6bf59b0a-8c20-4d91-8978-9d90aaf9b8a3",
+                  "_name": "tomada_completa_10A"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "eletricista",
+              "_name": "eletricista",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "f4d3532b-9f93-4367-b5a6-0fd3726781f0",
+                  "_name": "eletricista"
+                },
+                {
+                  "labor_id": "943fe5a9-0b31-4f77-a5de-eb4d5448842c",
+                  "_name": "eletricista"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
