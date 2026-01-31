@@ -1,11 +1,11 @@
 ---
-name: Projeto de Reformas
+name: Projetar
 description: Sugerir opções de reforma para tipos de imóveis baseado em tendências e normas
 version: 1.0
-dependencies: [imoveis_brasil]
+dependencies: [mapear_imoveis]
 ---
 
-# Skill: Projeto de Reformas
+# Skill: Projetar
 
 ## Objetivo
 Fornecer opções de reforma personalizadas com base no tipo de imóvel, padrão de acabamento e tendências de mercado.
@@ -132,5 +132,5 @@ Guia de iluminação por ambiente (lux recomendado, tipos de luminárias).
 ## Uso no Pipeline
 
 ```
-empreiteiro → projeto_reformas → quantificar_reforma
+empreitar \u2192 projetar \u2192 quantificar
 ```

@@ -1,14 +1,14 @@
 ---
-name: Imóveis Brasil
-description: Rastrear tipos de moradia no Brasil e criar opções de reforma baseadas em ranking IBGE
+name: Mapeamento Imobiliário
+description: Rastrear tipos de moradia no Brasil e criar base de dados para projetos
 version: 1.0
 dependencies: []
 ---
 
-# Skill: Imóveis Brasil
+# Skill: Mapeamento Imobiliário
 
 ## Objetivo
-Fornecer dados demográficos e estatísticos sobre imóveis no Brasil, permitindo a criação de opções de reforma baseadas em rankings do IBGE.
+Fornecer dados demográficos e estatísticos sobre imóveis no Brasil, permitindo a criação de projetos baseadas em rankings de tipos de moradia do IBGE.
 
 ## Entradas
 - Tipo de consulta (ranking por quantidade, por região, por tipo)
@@ -23,10 +23,10 @@ Fornecer dados demográficos e estatísticos sobre imóveis no Brasil, permitind
 ## Scripts Disponíveis
 
 ### `scripts/gerar_ranking.py`
-Gera ranking de tipos de reforma mais comuns baseado em dados IBGE.
+Gera ranking de tipos de imóveis mais comuns baseado em dados IBGE.
 
 ```bash
-python gerar_ranking.py --quantidade 50 --output reforma_ibge_ranking_50.csv
+python gerar_ranking.py --quantidade 50 --output imoveis_ibge_ranking_50.csv
 ```
 
 ### `scripts/gerar_ranking_jsons.py`
@@ -48,12 +48,12 @@ python gerar_relatorio.py --dir ranking_test_ott/ --output relatorio.md
 | Arquivo | Descrição |
 |---------|-----------|
 | `examples/areas_moradias.csv` | Áreas médias por tipo de imóvel |
-| `examples/reforma_ibge_ranking_50.csv` | Top 50 tipos de reforma |
-| `examples/reforma_ibge_ranking_100.csv` | Top 100 tipos de reforma |
-| `examples/reforma_ibge_ranking_200.csv` | Top 200 tipos de reforma |
-| `examples/reforma_ibge_ranking_500.csv` | Top 500 tipos de reforma |
-| `examples/reforma_ibge_ranking_1000.csv` | Top 1000 tipos de reforma |
-| `examples/reforma_ibge_ranking_5000.csv` | Top 5000 tipos de reforma |
+| `examples/imoveis_ibge_ranking_50.csv` | Top 50 tipos de imóveis |
+| `examples/imoveis_ibge_ranking_100.csv` | Top 100 tipos de imóveis |
+| `examples/imoveis_ibge_ranking_200.csv` | Top 200 tipos de imóveis |
+| `examples/imoveis_ibge_ranking_500.csv` | Top 500 tipos de imóveis |
+| `examples/imoveis_ibge_ranking_1000.csv` | Top 1000 tipos de imóveis |
+| `examples/imoveis_ibge_ranking_5000.csv` | Top 5000 tipos de imóveis |
 
 ## Recursos Disponíveis
 
@@ -106,5 +106,5 @@ id,tipo,área (ambiente),area_m2,qtd_imovel,acabamento,descrição
 Este skill é tipicamente o primeiro a ser executado, fornecendo a base de dados para os demais skills processarem.
 
 ```
-imoveis_brasil → empreiteiro → projeto_reformas → quantificar_reforma → escopo_reforma → custo_reforma → escopo_json
+mapear_imoveis \u2192 projetar \u2192 detalhar \u2192 quantificar \u2192 custear \u2192 exportar
 ```

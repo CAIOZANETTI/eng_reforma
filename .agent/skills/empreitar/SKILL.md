@@ -1,11 +1,11 @@
 ---
-name: Empreiteiro
+name: Empreitar
 description: Interface para receber prompts do cliente e converter em tabela estruturada
 version: 1.0
 dependencies: []
 ---
 
-# Skill: Empreiteiro
+# Skill: Empreitar
 
 ## Objetivo
 Processar prompts em linguagem natural do cliente (empreiteiro) e converter para uma estrutura de dados tabular que pode ser processada pelos demais skills.
@@ -137,5 +137,5 @@ Quando o prompt for ambíguo, o script deve:
 ## Uso no Pipeline
 
 ```
-[Prompt do Usuário] → empreiteiro → [Tabela Estruturada] → próximo skill
+[Prompt do Usuário] \u2192 empreitar \u2192 [Tabela Estruturada] \u2192 projetar
 ```

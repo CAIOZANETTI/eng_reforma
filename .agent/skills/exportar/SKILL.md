@@ -1,11 +1,11 @@
 ---
-name: Escopo JSON
+name: Exportar
 description: Converter escopo de reforma para JSON no padrão Obra Ninja
 version: 1.0
-dependencies: [custo_reforma]
+dependencies: [custear]
 ---
 
-# Skill: Escopo JSON
+# Skill: Exportar
 
 ## Objetivo
 Converter o escopo de reforma custeado para o formato JSON padrão Obra Ninja, validando IDs de materiais e ambientes.
@@ -180,7 +180,7 @@ if is_valid:
 ## Uso no Pipeline (Final)
 
 ```
-custo_reforma → escopo_json → [JSON Obra Ninja]
+custear \u2192 exportar \u2192 [JSON Obra Ninja]
 ```
 
 Este é o skill final do pipeline, responsável por gerar a saída que será consumida pelo sistema Obra Ninja.

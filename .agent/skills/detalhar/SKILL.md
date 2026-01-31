@@ -1,11 +1,11 @@
 ---
-name: Escopo Reforma
+name: Detalhar
 description: Gerar escopo detalhado de reforma com base nas quantidades calculadas
 version: 1.0
-dependencies: [quantificar_reforma]
+dependencies: [quantificar]
 ---
 
-# Skill: Escopo Reforma
+# Skill: Detalhar
 
 ## Objetivo
 Com base nas quantidades calculadas, gerar um escopo detalhado de serviços para a reforma, definindo o que será feito em cada ambiente.
@@ -133,5 +133,5 @@ templates/
 ## Uso no Pipeline
 
 ```
-quantificar_reforma → escopo_reforma → custo_reforma
+quantificar \u2192 detalhar \u2192 custear
 ```

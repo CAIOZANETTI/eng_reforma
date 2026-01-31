@@ -1,11 +1,11 @@
 ---
-name: Custo Reforma
+name: Custear
 description: Custear reforma com base nos preços SINAPI
 version: 1.0
-dependencies: [escopo_reforma]
+dependencies: [detalhar]
 ---
 
-# Skill: Custo Reforma
+# Skill: Custear
 
 ## Objetivo
 Adicionar preços unitários (baseados na tabela SINAPI) ao escopo de reforma, calculando custo parcial e total.
@@ -145,5 +145,5 @@ preco_total = sum(todos_precos_parciais)
 ## Uso no Pipeline
 
 ```
-escopo_reforma → custo_reforma → escopo_json
+detalhar \u2192 custear \u2192 exportar
 ```

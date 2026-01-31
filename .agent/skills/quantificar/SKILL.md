@@ -1,11 +1,11 @@
 ---
-name: Quantificar Reforma
+name: Quantificar
 description: Calcular quantidades de serviços baseado na área e tipo do imóvel
 version: 1.0
-dependencies: [projeto_reformas]
+dependencies: [projetar]
 ---
 
-# Skill: Quantificar Reforma
+# Skill: Quantificar
 
 ## Objetivo
 Com base na área e tipo do imóvel, calcular as quantidades de cada serviço: área de piso, parede, perímetro, janelas, portas, etc.
@@ -142,5 +142,5 @@ area_parede_liquida = area_parede_bruta - (n_portas * 1.6) - (n_janelas * area_j
 ## Uso no Pipeline
 
 ```
-projeto_reformas → quantificar_reforma → escopo_reforma
+projetar \u2192 quantificar \u2192 detalhar
 ```
