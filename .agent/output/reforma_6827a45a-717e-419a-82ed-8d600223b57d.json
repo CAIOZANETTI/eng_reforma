@@ -1,0 +1,88 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-31T12:02:43.557554Z",
+  "template": {
+    "title": "Reforma completa de banheiro com pintura de teto e troca de piso por porcelanato",
+    "description": "Gerado a partir de: Reforma completa de banheiro com pintura de teto e troca de piso por porcelanato",
+    "language_code": "pt-BR",
+    "property_type": "apartamento",
+    "status": "ready"
+  },
+  "project": {
+    "name": "Reforma completa de banheiro com pintura de teto e troca de piso por porcelanato",
+    "total_area": 0
+  },
+  "spaces": [
+    {
+      "space_id": "957916a3-73b3-40d8-b47b-ab809573a4fa",
+      "_name": "Ambiente Principal",
+      "area": 0,
+      "height": 2.6,
+      "services": [
+        {
+          "service_id": "pintura-parede",
+          "_name": "pintura de parede",
+          "quantity": 1.0,
+          "material_categories": [],
+          "labor_categories": []
+        },
+        {
+          "service_id": "pintura_teto_branco",
+          "_name": "pintura teto branco",
+          "quantity": 1.0,
+          "material_categories": [],
+          "labor_categories": []
+        },
+        {
+          "service_id": "pintura_porta_branca",
+          "_name": "pintura porta branca",
+          "quantity": 1.0,
+          "material_categories": [],
+          "labor_categories": []
+        },
+        {
+          "service_id": "demolicao_revestimento_ceramico",
+          "_name": "demolição revestimento ceramico parede",
+          "quantity": 1.0,
+          "material_categories": [],
+          "labor_categories": []
+        },
+        {
+          "service_id": "porcelanato-polido",
+          "_name": "porcelanato polido",
+          "quantity": 1.0,
+          "material_categories": [],
+          "labor_categories": []
+        },
+        {
+          "service_id": "revestimento_ceramico_parede",
+          "_name": "revestimento ceramico na parede",
+          "quantity": 1.0,
+          "material_categories": [],
+          "labor_categories": []
+        },
+        {
+          "service_id": "bacia_sanitaria_cx_acoplada",
+          "_name": "bacia sanitaria caixa acoplada",
+          "quantity": 1.0,
+          "material_categories": [],
+          "labor_categories": []
+        },
+        {
+          "service_id": "lavatorio_banheiro_fria_quente",
+          "_name": "lavatorio banheiro",
+          "quantity": 1.0,
+          "material_categories": [],
+          "labor_categories": []
+        },
+        {
+          "service_id": "piso_porcelanato_regua",
+          "_name": "piso porcelanato regua madeira",
+          "quantity": 1.0,
+          "material_categories": [],
+          "labor_categories": []
+        }
+      ]
+    }
+  ]
+}
