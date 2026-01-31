@@ -42,6 +42,7 @@ Gerar novos arquivos `.json` que sejam **clones estruturais variáveis** dos pro
 ### 2. Rules (Regras Globais)
 - `regras/imutabilidade_relacional.md`: Proíbe criação de novos UUIDs para insumos/serviços.
 - `regras/proporcionalidade.md`: Define como recalcular quantidades baseadas em área.
+- `regras/protecao_modelos.md`: **CRÍTICO**. O diretório `obra_ninja/json` é somente leitura (Read-Only). Jamais escrever nele.
 
 ### 3. Workflows (Fluxos)
 - `workflow_geracao_projeto.md`:
