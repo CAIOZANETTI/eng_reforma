@@ -1,6 +1,0 @@
-# Arquivos temporários do workflow
-.temp/
-
-# Cache Python
-__pycache__/
-*.pyc
