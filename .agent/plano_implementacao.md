@@ -50,7 +50,7 @@ Gerar novos arquivos `.json` que sejam **clones estruturais variáveis** dos pro
     2.  **Gerar**: Criar n variações de um projeto base.
     3.  **Validar (Eng)**: Aprovar tecnicamente.
     4.  **Validar (Dev)**: Aprovar estruturalmente.
-    5.  **Salvar**: Gravar na pasta de saída.
+    5.  **Salvar**: Gravar na pasta de saída (`output/`).
 
 ## 📋 Passo a Passo de Implementação
 

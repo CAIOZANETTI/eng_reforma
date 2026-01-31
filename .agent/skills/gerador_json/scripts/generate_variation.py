@@ -30,14 +30,21 @@ def generate_variation(template_path, scale_factor, output_dir):
         
         # Scale Services
         for svc in space.get('services', []):
-            # Scale Logic:
-            # If unit is m2 or generally area-based, scale by factor.
-            # Ideally we check the unit, but here we assume linear scaling for simplicity as requested by "Variar áreas... recalcular quantity"
+            # Check for non-scalable units in materials/labor
+            is_scalable = True
+            for cat in svc.get('material_categories', []) + svc.get('labor_categories', []):
+                unit = cat.get('base_unit', '').lower()
+                if unit in ['un', 'cj', 'kit', 'pç', 'pc']:
+                    is_scalable = False
+                    break
             
-            # Simple Heuristic: If quantity > 0, scale it. 
-            # (Exceptions like 'un' for toilet might be wrong here, requires the Rule 'Proporcionalidade' check in validator)
             original_qtd = svc.get('quantity', 0)
-            svc['quantity'] = round(original_qtd * scale_factor, 2)
+            
+            if is_scalable:
+                svc['quantity'] = round(original_qtd * scale_factor, 2)
+            else:
+                # Keep original quantity for countable items
+                svc['quantity'] = original_qtd
             
             # Note: We DO NOT touch service_id, material_id, etc.
             
