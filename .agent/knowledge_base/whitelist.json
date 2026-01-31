@@ -1,0 +1,17 @@
+{
+  "service_ids": [
+    "pintura_teto_branco"
+  ],
+  "material_ids": [
+    "42d12444-758d-4842-9458-3af05c8515cb"
+  ],
+  "material_category_ids": [
+    "tinta-latex-branca"
+  ],
+  "labor_ids": [
+    "885c4881-d79e-4170-8ce5-851aa61a6493"
+  ],
+  "labor_category_ids": [
+    "pintor"
+  ]
+}

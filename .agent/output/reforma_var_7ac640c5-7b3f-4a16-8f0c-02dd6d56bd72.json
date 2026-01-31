@@ -1,0 +1,58 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-31T13:23:08.096100Z",
+  "template": {
+    "title": "banheiro empregada em lavabo",
+    "description": "transformar o banheiro de empregada em lavabo em um apartamento, ou apto (Variação Escala x1.5)",
+    "language_code": "pt-BR",
+    "property_type": "apartamento",
+    "status": "ready"
+  },
+  "project": {
+    "name": "apartamento 2 quartos 2 banheiros",
+    "total_area": 6.0
+  },
+  "spaces": [
+    {
+      "space_id": "2ef8eebe-9cc7-4c3e-992f-843229b00b88",
+      "_name": "banheiro (V)",
+      "area": 6.0,
+      "height": 2.5,
+      "services": [
+        {
+          "service_id": "pintura_teto_branco",
+          "_name": "pintura teto branco",
+          "quantity": 1.5,
+          "material_categories": [
+            {
+              "material_category_id": "tinta-latex-branca",
+              "_name": "tinta latex branca",
+              "base_qtd": 0.4,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "42d12444-758d-4842-9458-3af05c8515cb",
+                  "_name": "tinta-latex-branca"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
