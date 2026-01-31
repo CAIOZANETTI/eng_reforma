@@ -1,0 +1,189 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-31T16:08:56.684Z",
+  "template": {
+    "title": "reforma telhado",
+    "description": "reformar o telhado de uma casa terrea ",
+    "language_code": "pt-BR",
+    "property_type": "casa",
+    "status": "ready"
+  },
+  "project": {
+    "name": "reforma telhado",
+    "total_area": 150
+  },
+  "spaces": [
+    {
+      "space_id": "f5edff34-47e7-470d-9ff8-52b6168ce6d4",
+      "_name": "cobertura",
+      "area": 150,
+      "height": 2.7,
+      "services": [
+        {
+          "service_id": "telha_ceramica_mat_mo",
+          "_name": "telha ceramica",
+          "quantity": 50,
+          "material_categories": [
+            {
+              "material_category_id": "telha_ceramica",
+              "_name": "telha ceramica",
+              "base_qtd": 1,
+              "base_unit": "m2",
+              "materials": [
+                {
+                  "material_id": "d61d4b17-5840-4744-965a-977197119d27",
+                  "_name": "telha_ceramica_romana"
+                },
+                {
+                  "material_id": "172e6deb-09f1-4d90-a510-bbfc79ac792b",
+                  "_name": "cumeeira_ceramica"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "carpinteiro",
+              "_name": "carpinteiro",
+              "base_qtd": 0.4,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "084cb3f6-7a4f-4022-93ea-397051a22bd0",
+                  "_name": "carpinteiro"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "telha_concreto_mat_mo",
+          "_name": "telha concreto",
+          "quantity": 50,
+          "material_categories": [
+            {
+              "material_category_id": "telha_concreto",
+              "_name": "telha concreto",
+              "base_qtd": 1,
+              "base_unit": "m2",
+              "materials": [
+                {
+                  "material_id": "b7aff76d-e5be-4da2-9149-9cf8444cb51c",
+                  "_name": "telha_concreto_classica"
+                },
+                {
+                  "material_id": "22d63bb0-ef98-489f-b28f-89bccce9af68",
+                  "_name": "cumeeira_concreto"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "carpinteiro",
+              "_name": "carpinteiro",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "084cb3f6-7a4f-4022-93ea-397051a22bd0",
+                  "_name": "carpinteiro"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "telha_fibrocimento_mat_mo",
+          "_name": "telha_fibrocimento_6mm",
+          "quantity": 50,
+          "material_categories": [
+            {
+              "material_category_id": "telha_fibrocimento",
+              "_name": "telha fibrocimento",
+              "base_qtd": 1,
+              "base_unit": "m2",
+              "materials": [
+                {
+                  "material_id": "76bd31e8-db61-487e-9187-d655fb1f6c24",
+                  "_name": "telha_fibrocimento_6mm"
+                },
+                {
+                  "material_id": "0359f425-c00b-4078-a888-61f5e3ac518a",
+                  "_name": "cumeeira_fibrocimento"
+                },
+                {
+                  "material_id": "a0eb26ef-2ad7-4f51-8bd9-c7c7ee0af519",
+                  "_name": "parafuso_zincado_5/16\""
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "carpinteiro",
+              "_name": "carpinteiro",
+              "base_qtd": 0.3,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "084cb3f6-7a4f-4022-93ea-397051a22bd0",
+                  "_name": "carpinteiro"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "madeira_cobertura_mat_mo",
+          "_name": "madeiramento para cobertura",
+          "quantity": 150,
+          "material_categories": [
+            {
+              "material_category_id": "madeira_cobertura",
+              "_name": "madeira cobertura",
+              "base_qtd": 3,
+              "base_unit": "m",
+              "materials": [
+                {
+                  "material_id": "d706b066-54d7-4f34-98b6-da58b303ba3a",
+                  "_name": "viga_madeira_serrada_6x12"
+                },
+                {
+                  "material_id": "debdddc6-03ad-4340-81f2-991f175449ae",
+                  "_name": "caibro_madeira_serrada_6x6"
+                },
+                {
+                  "material_id": "86fcb904-e501-4630-bfc0-b736f37e99cf",
+                  "_name": "ripa_madeira_serrada_1x2,5"
+                },
+                {
+                  "material_id": "820ba285-4762-4f4e-b862-0a87fbb25895",
+                  "_name": "pontalete_madeira_serrada_7,5x7,5"
+                },
+                {
+                  "material_id": "0aa2a5e2-45ef-4cd9-9bb1-6f113220f404",
+                  "_name": "prego_18x27"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "carpinteiro",
+              "_name": "carpinteiro",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "084cb3f6-7a4f-4022-93ea-397051a22bd0",
+                  "_name": "carpinteiro"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

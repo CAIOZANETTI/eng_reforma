@@ -1,0 +1,160 @@
+{
+  "version": "1.0",
+  "exportedAt": "2026-01-31T16:09:05.889Z",
+  "template": {
+    "title": "reforma de eletrica",
+    "description": "trocar tomadas na churrasqueira da chacara",
+    "language_code": "pt-BR",
+    "property_type": "chacara",
+    "status": "ready"
+  },
+  "project": {
+    "name": "reforma de eletrica",
+    "total_area": 15
+  },
+  "spaces": [
+    {
+      "space_id": "f350e03d-3b91-4fed-bf2a-23447e2c6b1f",
+      "_name": "churrasqueira",
+      "area": 15,
+      "height": 2.7,
+      "services": [
+        {
+          "service_id": "trocar_cabo_tomada_10a",
+          "_name": "trocar condutor tomada",
+          "quantity": 10,
+          "material_categories": [
+            {
+              "material_category_id": "cabo_eletrico",
+              "_name": "cabo eletrico",
+              "base_qtd": 3,
+              "base_unit": "m",
+              "materials": [
+                {
+                  "material_id": "1492653f-e573-4e15-8b01-980b9c34f6ad",
+                  "_name": "cabo_eletrico_2.5"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "eletricista",
+              "_name": "eletricista",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "f4d3532b-9f93-4367-b5a6-0fd3726781f0",
+                  "_name": "eletricista"
+                },
+                {
+                  "labor_id": "943fe5a9-0b31-4f77-a5de-eb4d5448842c",
+                  "_name": "eletricista"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "trocar_tomada",
+          "_name": "trocar tomada existente",
+          "quantity": 5,
+          "material_categories": [
+            {
+              "material_category_id": "ponto_eletrica",
+              "_name": "ponto de eletrica",
+              "base_qtd": 1,
+              "base_unit": "pack",
+              "materials": [
+                {
+                  "material_id": "6bf59b0a-8c20-4d91-8978-9d90aaf9b8a3",
+                  "_name": "tomada_completa_10A"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "eletricista",
+              "_name": "eletricista",
+              "base_qtd": 1,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "f4d3532b-9f93-4367-b5a6-0fd3726781f0",
+                  "_name": "eletricista"
+                },
+                {
+                  "labor_id": "943fe5a9-0b31-4f77-a5de-eb4d5448842c",
+                  "_name": "eletricista"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "massa_corrida_parede",
+          "_name": "massa corrida parede",
+          "quantity": 15,
+          "material_categories": [
+            {
+              "material_category_id": "massa_corrida",
+              "_name": "massa corrida",
+              "base_qtd": 0.4,
+              "base_unit": "m2",
+              "materials": []
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.5,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "service_id": "pintura-parede",
+          "_name": "pintura de parede",
+          "quantity": 15,
+          "material_categories": [
+            {
+              "material_category_id": "tinta-latex-branca",
+              "_name": "tinta latex branca",
+              "base_qtd": 0.3,
+              "base_unit": "l",
+              "materials": [
+                {
+                  "material_id": "42d12444-758d-4842-9458-3af05c8515cb",
+                  "_name": "tinta-latex-branca"
+                }
+              ]
+            }
+          ],
+          "labor_categories": [
+            {
+              "labor_category_id": "pintor",
+              "_name": "pintor",
+              "base_qtd": 0.2,
+              "base_unit": "h",
+              "labors": [
+                {
+                  "labor_id": "885c4881-d79e-4170-8ce5-851aa61a6493",
+                  "_name": "pintor"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
